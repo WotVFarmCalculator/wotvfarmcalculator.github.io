@@ -206,9 +206,11 @@ uniqueMaterials.sort();
    */
   function calculate() {
     if (!materialsList.length) {
-      $('.story-quest-list').html('<div class="alert alert-danger" role="alert">Add materials first.</div>');
+      $('.feedback').html('<div class="alert alert-danger" role="alert">Add materials first.</div>');
       return;
     }
+
+    $('.feedback').html('');
 
     matchedStories = {};
 
