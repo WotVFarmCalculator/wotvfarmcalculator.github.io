@@ -1,14 +1,81 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>War of the Visions Farming Story Materials Calculator</title>
-	</head>
-	<body>
-		<div class="container">
-    		<div class="header">
-          <h1>War of the Visions Farming Story Materials Calculator</h1>
-				  <p>@todo: Calculator here.</p>
-    		</div>
-		</div>
-	</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/accessible-autocomplete.min.css"/>
+    <link href="styles.css" rel="stylesheet">
+
+    <title>War of the Visions Farming Story Materials Calculator</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <h1 class="navbar-brand">War of the Visions Farming Story Materials
+        Calculator</h1>
+    </nav>
+
+    <main role="main" class="container">
+      <div>
+        <form>
+          <label for="materials">Enter the name of the materials needed one at a
+            time and then click submit.</label>
+          <div class="row mb-3">
+            <div class="autocomplete-wrapper col-md-6">
+              <select name="materials" id="materials">
+                <option value="">Select a material</option>
+                <option value="something">Test</option>
+                <option value="something2">Test2</option>
+                <option value="something3">Test3</option>
+              </select>
+            </div>
+
+            <div class="col-md-6">
+              <button type="button" class="btn btn-outline-primary btn-add">Add Material</button>
+            </div>
+          </div>
+
+          <div class="row materials-list mb-3">
+
+          </div>
+
+          <button type="button" class="btn btn-primary btn-lg btn-calculate">Load Story Quest List</button>
+        </form>
+      </div>
+
+      <hr class="mb-4">
+
+      <div class="story-quest-list table-responsive">
+
+        <table class="table table-striped table-hover table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Story Name</th>
+              <th scope="col">Matching Materials</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1:1:2 The Name of the Chapter</td>
+              <td>Item 1, Item 2, Item 3</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+    </main><!-- /.container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lib/accessible-autocomplete.min.js"></script>
+
+    <script src="scripts.js"></script>
+  </body>
 </html>

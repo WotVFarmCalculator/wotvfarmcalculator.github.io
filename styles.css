@@ -1,0 +1,8 @@
+body {
+  padding-top: 5rem;
+}
+
+.autocomplete__input--focused {
+  outline: initial;
+  box-shadow: none;
+}
