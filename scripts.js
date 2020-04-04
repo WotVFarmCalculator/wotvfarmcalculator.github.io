@@ -235,14 +235,19 @@ uniqueMaterials.sort();
     sortedMatchedStories.forEach(function (matchedStory) {
       var storyName = matchedStory['key'];
       var storyMaterials = matchedStory['value'];
+      var allMats = stories[storyName].join('<br> ');
 
       var tableRow = '<tr>\n' +
         '              <td>' + storyName + '</td>\n' +
+        '              <td>' + storyMaterials.length + '</td>\n' +
         '              <td>' + storyMaterials.join(', ') + '</td>\n' +
+        '              <td><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" data-placement="left" title="' + allMats + '">hover</button></td>\n' +
         '            </tr>';
 
       $('.story-quest-list tbody').append(tableRow);
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
   }
 
   $(document).ready(function () {
