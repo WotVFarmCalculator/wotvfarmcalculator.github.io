@@ -1,3 +1,216 @@
+var itemImageMap = {
+  "Black Mage's Memory (Blue)": "it_jb_mm_blm.png",
+  "Black Mage's Memory (Green)": "",
+  "Black Mage's Memory (Purple)": "",
+  "Black Mage's Memory (Yellow)": "",
+  "Blue Spiritsand": "it_af_mat_sand_02.png",
+  "Bow Azurite": "it_jb_bow_02.png",
+  "Bow Charoite": "it_jb_bow_03.png",
+  "Bow Citrine": "it_jb_bow_04.png",
+  "Bow Jadeite": "it_jb_bow_01.png",
+  "Capella Crafting Recipe": "",
+  "Circlet Crafting Recipe": "",
+  "Claymore Crafting Recipe": "",
+  "Clear Sap": "it_af_mat_sap_02.png",
+  "Cleric's Memory (Blue)": "it_jb_mm_clr.png",
+  "Cleric's Memory (Green)": "",
+  "Cleric's Memory (Purple)": "",
+  "Cleric's Memory (Yellow)": "",
+  "Cloudy Sap": "it_af_mat_sap_01.png",
+  "Dagger Azurite": "it_jb_ssword_02.png",
+  "Dagger Charoite": "it_jb_ssword_03.png",
+  "Dagger Citrine": "it_jb_ssword_04.png",
+  "Dagger Crafting Recipe": "",
+  "Dagger Jadeite": "it_jb_ssword_01.png",
+  "Dark Alcryst (Blue)": "it_jb_em_dark_2.png",
+  "Dark Alcryst (Green)": "it_jb_em_dark_1.png",
+  "Dark Alcryst (Purple)": "it_jb_em_dark_3.png",
+  "Dark Alcryst (Yellow)": "it_jb_em_dark_4.png",
+  "Dragoon's Memory (Blue)": "it_jb_mm_drg.png",
+  "Dragoon's Memory (Green)": "",
+  "Dragoon's Memory (Purple)": "",
+  "Dragoon's Memory (Yellow)": "",
+  "Earth Alcryst (Blue)": "it_jb_em_soil_2.png",
+  "Earth Alcryst (Green)": "it_jb_em_soil_1.png",
+  "Earth Alcryst (Purple)": "it_jb_em_soil_3.png",
+  "Earth Alcryst (Yellow)": "it_jb_em_soil_4.png",
+  "Faint Memory (Blue)": "it_jb_mm_all_2.png",
+  "Faint Memory (Green)": "it_jb_mm_all.png",
+  "Faint Memory (Purple)": "it_jb_mm_all_3.png",
+  "Faint Memory (Yellow)": "it_jb_mm_all_4.png",
+  "Fairy Ring Crafting Recipe": "",
+  "Fire Alcryst (Blue)": "it_jb_em_fire_2.png",
+  "Fire Alcryst (Green)": "it_jb_em_fire_1.png",
+  "Fire Alcryst (Purple)": "it_jb_em_fire_3.png",
+  "Fire Alcryst (Yellow)": "it_jb_em_fire_4.png",
+  "Fists Azurite": "it_jb_fist_02.png",
+  "Fists Charoite": "it_jb_fist_03.png",
+  "Fists Citrine": "it_jb_fist_04.png",
+  "Fists Jadeite": "it_jb_fist_01.png",
+  "Great Bow Crafting Recipe": "",
+  "Greatsword Azurite": "it_jb_lsword_02.png",
+  "Greatsword Charoite": "it_jb_lsword_03.png",
+  "Greatsword Citrine": "it_jb_lsword_04.png",
+  "Greatsword Jadeite": "it_jb_lsword_01.png",
+  "Green Mage's Memory (Blue)": "it_jb_mm_grm.png",
+  "Green Mage's Memory (Green)": "",
+  "Green Mage's Memory (Purple)": "",
+  "Green Mage's Memory (Yellow)": "",
+  "Grey Spiritsand": "it_af_mat_sand_01.png",
+  "Gun Azurite": "it_jb_gun_02.png",
+  "Gun Charoite": "it_jb_gun_03.png",
+  "Gun Citrine": "it_jb_gun_04.png",
+  "Gun Jadeite": "it_jb_gun_01.png",
+  "Gunner's Memory (Blue)": "it_jb_mm_gun.png",
+  "Gunner's Memory (Green)": "",
+  "Gunner's Memory (Purple)": "",
+  "Gunner's Memory (Yellow)": "",
+  "Hero's Ring Crafting Recipe": "",
+  "Ice Alcryst (Blue)": "it_jb_em_ice_2.png",
+  "Ice Alcryst (Green)": "it_jb_em_ice_1.png",
+  "Ice Alcryst (Purple)": "it_jb_em_ice_3.png",
+  "Ice Alcryst (Yellow)": "it_jb_em_ice_4.png",
+  "Iron Helm Crafting Recipe": "",
+  "Iron Mace Crafting Recipe": "",
+  "Iron Plate Crafting Recipe": "",
+  "Iron Rod Crafting Recipe": "",
+  "Katana Azurite": "it_jb_jsword_02.png",
+  "Katana Charoite": "it_jb_jsword_03.png",
+  "Katana Citrine": "it_jb_jsword_04.png",
+  "Katana Jadeite": "it_jb_jsword_01.png",
+  "Kiku-ichimonji Crafting Recipe": "",
+  "Knight's Memory (Blue)": "it_jb_mm_knt.png",
+  "Knight's Memory (Green)": "",
+  "Knight's Memory (Purple)": "",
+  "Knight's Memory (Yellow)": "",
+  "Kodachi Crafting Recipe": "",
+  "Kotetsu Crafting Recipe": "",
+  "Kunai Crafting Recipe": "",
+  "Lancer's Memory (Blue)": "it_jb_mm_lan.png",
+  "Lancer's Memory (Green)": "",
+  "Lancer's Memory (Purple)": "",
+  "Lancer's Memory (Yellow)": "",
+  "Light Alcryst (Blue)": "it_jb_em_shine_2.png",
+  "Light Alcryst (Green)": "it_jb_em_shine_1.png",
+  "Light Alcryst (Purple)": "it_jb_em_shine_3.png",
+  "Light Alcryst (Yellow)": "it_jb_em_shine_4.png",
+  "Lightning Alcryst (Blue)": "it_jb_em_thunder_2.png",
+  "Lightning Alcryst (Green)": "it_jb_em_thunder_1.png",
+  "Lightning Alcryst (Purple)": "it_jb_em_thunder_3.png",
+  "Lightning Alcryst (Yellow)": "it_jb_em_thunder_4.png",
+  "Long Bow Crafting Recipe": "",
+  "Longsword Crafting Recipe": "",
+  "Mace Azurite": "it_jb_mace_02.png",
+  "Mace Charoite": "it_jb_mace_03.png",
+  "Mace Citrine": "it_jb_mace_04.png",
+  "Mace Jadeite": "it_jb_mace_01.png",
+  "Metal Knuckles Crafting Recipe": "",
+  "Mirage Vest Crafting Recipe": "",
+  "Monk's Memory (Blue)": "it_jb_mm_mnk.png",
+  "Monk's Memory (Green)": "",
+  "Monk's Memory (Purple)": "",
+  "Monk's Memory (Yellow)": "",
+  "Murky Fluid": "it_af_mat_liquid_01.png",
+  "Mythril Armor Crafting Recipe": "",
+  "Mythril Claws Crafting Recipe": "",
+  "Mythril Dagger Crafting Recipe": "",
+  "Mythril Helm Crafting Recipe": "",
+  "Mythril Mace Crafting Recipe": "",
+  "Mythril Saber Crafting Recipe": "",
+  "Mythril Spear Crafting Recipe": "",
+  "Mythril Sword Crafting Recipe": "",
+  "Ninja Blade Azurite": "it_jb_kunai_02.png",
+  "Ninja Blade Charoite": "it_jb_kunai_03.png",
+  "Ninja Blade Citrine": "it_jb_kunai_04.png",
+  "Ninja Blade Jadeite": "it_jb_kunai_01.png",
+  "Ninja's Memory (Blue)": "it_jb_mm_nin.png",
+  "Ninja's Memory (Green)": "",
+  "Ninja's Memory (Purple)": "",
+  "Ninja's Memory (Yellow)": "",
+  "Paladin's Memory (Blue)": "it_jb_mm_pld.png",
+  "Paladin's Memory (Green)": "",
+  "Paladin's Memory (Purple)": "",
+  "Paladin's Memory (Yellow)": "",
+  "Partisan Crafting Recipe": "",
+  "Platinum Rod Crafting Recipe": "",
+  "Praying Angel Statue (Blue)": "it_jb_im_angel_2.png",
+  "Praying Angel Statue (Green)": "it_jb_im_angel_1.png",
+  "Praying Angel Statue (Purple)": "it_jb_im_angel_3.png",
+  "Praying Angel Statue (Yellow)": "it_jb_im_angel_4.png",
+  "Prowling Wyvern Statue (Blue)": "it_jb_im_dragon_2.png",
+  "Prowling Wyvern Statue (Green)": "it_jb_im_dragon_1.png",
+  "Prowling Wyvern Statue (Purple)": "it_jb_im_dragon_3.png",
+  "Prowling Wyvern Statue (Yellow)": "it_jb_im_dragon_4.png",
+  "Raging Heart": "it_af_mat_heart_02.png",
+  "Ranger's Memory (Blue)": "it_jb_mm_hun.png",
+  "Ranger's Memory (Green)": "",
+  "Ranger's Memory (Purple)": "",
+  "Ranger's Memory (Yellow)": "",
+  "Red Mage's Memory (Blue)": "it_jb_mm_rdm.png",
+  "Red Mage's Memory (Green)": "",
+  "Red Mage's Memory (Purple)": "",
+  "Red Mage's Memory (Yellow)": "",
+  "Samurai's Memory (Blue)": "it_jb_mm_sam.png",
+  "Samurai's Memory (Green)": "",
+  "Samurai's Memory (Purple)": "",
+  "Samurai's Memory (Yellow)": "",
+  "Scholar Robe Crafting Recipe": "",
+  "Soldier's Memory (Blue)": "it_jb_mm_swn.png",
+  "Soldier's Memory (Green)": "",
+  "Soldier's Memory (Purple)": "",
+  "Soldier's Memory (Yellow)": "",
+  "Sorrowful Heart": "it_af_mat_heart_01.png",
+  "Spear Azurite": "it_jb_spear_02.png",
+  "Spear Charoite": "it_jb_spear_03.png",
+  "Spear Citrine": "it_jb_spear_04.png",
+  "Spear Jadeite": "it_jb_spear_01.png",
+  "Spellblade's Memory (Blue)": "it_jb_mm_mgk.png",
+  "Spellblade's Memory (Green)": "",
+  "Spellblade's Memory (Purple)": "",
+  "Spellblade's Memory (Yellow)": "",
+  "Staff Azurite": "it_jb_staff_02.png",
+  "Staff Charoite": "it_jb_staff_03.png",
+  "Staff Citrine": "it_jb_staff_04.png",
+  "Staff Jadeite": "it_jb_staff_01.png",
+  "Sticky Fluid": "it_af_mat_liquid_02.png",
+  "Sword Azurite": "it_jb_sword_02.png",
+  "Sword Charoite": "it_jb_sword_03.png",
+  "Sword Citrine": "it_jb_sword_04.png",
+  "Sword Jadeite": "it_jb_sword_01.png",
+  "Thief's Memory (Blue)": "it_jb_mm_thi.png",
+  "Thief's Memory (Green)": "",
+  "Thief's Memory (Purple)": "",
+  "Thief's Memory (Yellow)": "",
+  "Time Mage's Memory (Blue)": "it_jb_mm_tim.png",
+  "Time Mage's Memory (Green)": "",
+  "Time Mage's Memory (Purple)": "",
+  "Time Mage's Memory (Yellow)": "",
+  "Vega Crafting Recipe": "",
+  "Warrior's Memory (Blue)": "it_jb_mm_war.png",
+  "Warrior's Memory (Green)": "",
+  "Warrior's Memory (Purple)": "",
+  "Warrior's Memory (Yellow)": "",
+  "Water Alcryst (Blue)": "it_jb_em_water_2.png",
+  "Water Alcryst (Green)": "it_jb_em_water_1.png",
+  "Water Alcryst (Purple)": "it_jb_em_water_3.png",
+  "Water Alcryst (Yellow)": "it_jb_em_water_4.png",
+  "White Mage's Memory (Blue)": "it_jb_mm_whm.png",
+  "White Mage's Memory (Green)": "",
+  "White Mage's Memory (Purple)": "",
+  "White Mage's Memory (Yellow)": "",
+  "Wind Alcryst (Blue)": "it_jb_em_wind_2.png",
+  "Wind Alcryst (Green)": "it_jb_em_wind_1.png",
+  "Wind Alcryst (Purple)": "it_jb_em_wind_3.png",
+  "Wind Alcryst (Yellow)": "it_jb_em_wind_4.png",
+  "Winged One's Memory (Blue)": "it_jb_mm_lw_glms.png",
+  "Winged One's Memory (Green)": "",
+  "Winged One's Memory (Purple)": "",
+  "Winged One's Memory (Yellow)": "",
+  "Wizard's Hat Crafting Recipe": ""
+
+};
+
+
 var rawCsv = "1:1:1 Twin Princes,Faint Memory (Green),Sword Jadeite,Bow Jadeite,Earth Alcryst (Green),Ranger's Memory (Green),Warrior's Memory (Green),Praying Angel Statue (Green),Sorrowful Heart,Murky Fluid,\n" +
   "1:1:2 Premonition of Blood and Ruin,Faint Memory (Green),Greatsword Jadeite,Gun Jadeite,Ice Alcryst (Green),Knight's Memory (Green),Gunner's Memory (Green),Prowling Wyvern Statue (Green),Grey Spiritsand,Murky Fluid,\n" +
   "1:1:3 United Front,Faint Memory (Green),Katana Jadeite,Staff Jadeite,Wind Alcryst (Green),Paladin's Memory (Green),White Mage's Memory (Green),Praying Angel Statue (Green),Sorrowful Heart,Murky Fluid,\n" +
@@ -149,7 +362,6 @@ rawCsv.forEach(function (value) {
 
 uniqueMaterials.sort();
 
-
 (function ($) {
 
   uniqueMaterials.forEach(function (material) {
@@ -187,8 +399,32 @@ uniqueMaterials.sort();
     }
 
     // Add DOM element to list.
-    var materialItem = '<div class="input-group col-md-4" data-material="' + material + '"><div class="input-group-prepend"><span class="input-group-text btn btn-close">✕</span></div><div class="form-control">' + material + '</div></div>'
+    var materialItem = '<div class="input-group col-md-4" data-material="' + material + '"><div class="input-group-prepend"><span class="input-group-text btn btn-close">✕</span></div><div class="form-control">' + getMaterialImageOrLabel(material, true) + '</div></div>'
     $('.materials-list').append(materialItem);
+  }
+
+  /**
+   * Gets the material's img element or a text label if no image available.
+   *
+   * @param material
+   */
+  function getMaterialImageOrLabel(material, includeText) {
+    if (!itemImageMap.hasOwnProperty(material)) {
+      return material;
+    }
+
+    // We don't have images for all materials, so return the label if empty.
+    if (!itemImageMap[material]) {
+      return material;
+    }
+
+    var html = '<img src="img/' + itemImageMap[material] + '" class="material-icon" alt="' + material + '" title="' + material + '">';
+
+    if (includeText) {
+      html += ' <span>' + material + '</span>';
+    }
+
+    return html;
   }
 
   /**
@@ -235,13 +471,24 @@ uniqueMaterials.sort();
     sortedMatchedStories.forEach(function (matchedStory) {
       var storyName = matchedStory['key'];
       var storyMaterials = matchedStory['value'];
-      var allMats = stories[storyName].join('<br> ');
+      var allMats = stories[storyName];
+
+      var storyMaterialIcons = [];
+      storyMaterials.forEach(function (storyMaterial) {
+        storyMaterialIcons.push(getMaterialImageOrLabel(storyMaterial));
+      });
+
+      var allMatsLabels = [];
+      allMats.forEach(function (storyMaterial) {
+        var escaped = getMaterialImageOrLabel(storyMaterial, true).replace(/"/g, "&quot;");
+        allMatsLabels.push(escaped);
+      });
 
       var tableRow = '<tr>\n' +
         '              <td>' + storyName + '</td>\n' +
         '              <td>' + storyMaterials.length + '</td>\n' +
-        '              <td>' + storyMaterials.join(', ') + '</td>\n' +
-        '              <td><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" data-placement="left" title="' + allMats + '">hover</button></td>\n' +
+        '              <td>' + storyMaterialIcons.join(', ') + '</td>\n' +
+        '              <td><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" data-placement="auto" title="' + allMatsLabels.join('<br>') + '">hover</button></td>\n' +
         '            </tr>';
 
       $('.story-quest-list tbody').append(tableRow);

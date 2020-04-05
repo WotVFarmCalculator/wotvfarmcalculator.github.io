@@ -9,4 +9,22 @@ body {
 
 .tooltip-inner {
   max-width: 400px;
+  min-width: 400px;
+}
+
+.material-icon {
+  height: 100%;
+  max-height: 3rem;
+}
+
+.tooltip-inner .material-icon {
+  max-height: 2rem;
+}
+
+.materials-list .form-control span {
+  font-size: .8rem;
+}
+
+.story-quest-list {
+  margin-bottom: 200px;
 }
