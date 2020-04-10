@@ -397,16 +397,24 @@ uniqueMaterials.sort();
    * Add material to array and DOM.
    */
   function addMaterial() {
-    var material = $('#materials').val();
-    $('#materials').val('');
+    var $materials = $('#materials');
+    var material = $materials.val();
+    $materials.focus();
+
+    // For some reason the value won't clear on the same frame, so we offset 1ms.
+    setTimeout(function() {
+      $materials.val('');
+    }, 1);
 
     if (!material) {
       return;
     }
 
-    if (!materialsList.includes(material)) {
-      materialsList.push(material);
+    if (materialsList.includes(material)) {
+      return;
     }
+
+    materialsList.push(material);
 
     // Add DOM element to list.
     var materialItem = '<div class="input-group col-md-4" data-material="' + material + '"><div class="input-group-prepend"><span class="input-group-text btn btn-close">✕</span></div><div class="form-control">' + getMaterialImageOrLabel(material, true) + '</div></div>'
@@ -511,6 +519,17 @@ uniqueMaterials.sort();
     $('body').on('click', '.btn-add', addMaterial);
     $('body').on('click', '.materials-list .btn-close', deleteMaterial);
     $('body').on('click', '.btn-calculate', calculate);
+
+    // On enter press, don't submit form but instead add material.
+    $('body').on('keypress', '#materials', function (e) {
+      if (e.keyCode != 13) {
+        return;
+      }
+
+      e.preventDefault();
+      addMaterial();
+      calculate();
+    });
   });
 
 }(jQuery));
