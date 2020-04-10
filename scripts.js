@@ -399,7 +399,11 @@ uniqueMaterials.sort();
    */
   function addMaterial() {
     var $materials = $('#materials');
+
     var material = $materials.val();
+    material = material.trim();
+    material = material.replace(/(<([^>]+)>)/ig,"");
+
     $materials.focus();
 
     // For some reason the value won't clear on the same frame, so we offset 1ms.
@@ -566,14 +570,51 @@ uniqueMaterials.sort();
     calculate();
   }
 
+  /**
+   * Parses the list of materials and adds them as materials to search on.
+   */
+  function doImport() {
+    var importList = $('#import').val();
+    if (!importList) {
+      return;
+    }
+
+    importList = importList.split(',');
+    importList.forEach(function(importMaterial) {
+      importMaterial = importMaterial.trim();
+      importMaterial = importMaterial.replace(/(<([^>]+)>)/ig,"");
+      materialsList.push(importMaterial);
+      addMaterialToDom(importMaterial);
+    });
+  }
+
+
   $(document).ready(function () {
-    $('body').on('click', '.btn-add', addMaterial);
-    $('body').on('click', '.materials-list .btn-close', deleteMaterial);
-    $('body').on('click', '.btn-calculate', calculate);
-    $('body').on('click', '.btn-clear-all', clearAll);
+    var $body = $('body');
+    $body.on('click', '.btn-add', addMaterial);
+    $body.on('click', '.materials-list .btn-close', deleteMaterial);
+    $body.on('click', '.btn-calculate', calculate);
+    $body.on('click', '.btn-clear-all', clearAll);
+
+    $body.on('click', '.btn-import-toggle', function(e) {
+      $('.mode-autocomplete').hide();
+      $('.mode-import').show();
+    });
+
+    $body.on('click', '.btn-import-cancel', function(e) {
+      $('.mode-autocomplete').show();
+      $('.mode-import').hide();
+    });
+
+    $body.on('click', '.btn-import', function(e) {
+      doImport();
+      calculate();
+      $('.mode-autocomplete').show();
+      $('.mode-import').hide();
+    });
 
     // On enter press, don't submit form but instead add material.
-    $('body').on('keypress', '#materials', function (e) {
+    $body.on('keypress', '#materials', function (e) {
       if (e.keyCode != 13) {
         return;
       }

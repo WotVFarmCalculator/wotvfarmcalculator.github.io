@@ -26,8 +26,8 @@
     </nav>
 
     <main role="main" class="container">
-      <div>
-        <form>
+      <form>
+        <div class="mode-autocomplete">
           <label for="materials">Enter the name of the materials needed one at a
             time and then click submit.</label>
           <div class="row mb-3">
@@ -38,7 +38,9 @@
             </div>
 
             <div class="col-md-6 col-sm-6 col-6">
-              <button type="button" class="btn btn-outline-primary btn-add">Add Material</button>
+              <button type="button" class="btn btn-outline-primary btn-add">
+                Add Material
+              </button>
             </div>
           </div>
 
@@ -46,14 +48,49 @@
 
           <div class="row">
             <div class="col-md-6 col-sm-6 col-6">
-              <button type="button" class="btn btn-primary btn-lg btn-calculate">Load Story Quests</button>
+              <button type="button" class="btn btn-primary btn-lg btn-calculate">
+                Load Story Quests
+              </button>
             </div>
             <div class="col-md-6 col-sm-6 col-6">
-              <button type="button" class="btn btn-primary btn-clear-all">Clear All Selected</button>
+              <button type="button" class="btn btn-outline-danger btn-clear-all">
+                Clear All Selected
+              </button>
+              <button type="button" class="btn btn-outline-info btn-import-toggle">
+                Import from External Source
+              </button>
             </div>
           </div>
-        </form>
-      </div>
+
+        </div>
+
+        <div class="mode-import">
+          <div class="row">
+            <div class="col-md-12">
+              <label for="import" class="">Enter a comma-delimited list of
+                materials. Ex:
+                "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite"</label>
+            </div>
+
+            <div class="col-md-12">
+              <textarea name="import" id="import" class="mb-3" cols="50"></textarea>
+            </div>
+
+            <div class="col-md-6">
+              <button type="button" class="btn btn-primary btn-import">Import
+                from External Source
+              </button>
+            </div>
+
+            <div class="col-md-6">
+              <button type="button" class="btn btn-outline-primary btn-import-cancel">
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </form>
 
       <hr class="mb-4">
 

@@ -70,3 +70,11 @@ body {
 .story-quest-list {
   margin-bottom: 200px;
 }
+
+.mode-import {
+  display: none;
+}
+
+textarea {
+  width: 100%;
+}
