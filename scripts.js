@@ -387,14 +387,15 @@ uniqueMaterials.sort();
     defaultValue: "",
     minLength: 3,
     selectElement: selectEl
-    //,onConfirm: addMaterial
   });
 
   var materialsList = [];
   var matchedStories = {};
 
+  loadFromLocalStorage();
+
   /**
-   * Add material to array and DOM.
+   * Adds material in text input to array and DOM.
    */
   function addMaterial() {
     var $materials = $('#materials');
@@ -416,7 +417,16 @@ uniqueMaterials.sort();
 
     materialsList.push(material);
 
-    // Add DOM element to list.
+    addMaterialToDom(material);
+    updateLocalStorage();
+  }
+
+  /**
+   * Updates the DOM to show the passed material.
+   *
+   * @param material
+   */
+  function addMaterialToDom(material) {
     var materialItem = '<div class="input-group col-md-4" data-material="' + material + '"><div class="input-group-prepend"><span class="input-group-text btn btn-close">✕</span></div><div class="form-control">' + getMaterialImageOrLabel(material, true) + '</div></div>'
     $('.materials-list').append(materialItem);
   }
@@ -453,6 +463,7 @@ uniqueMaterials.sort();
     var material = $parent.data('material');
     $parent.remove();
     materialsList.splice(materialsList.findIndex(a => a === material), 1);
+    updateLocalStorage();
   }
 
   /**
@@ -515,10 +526,51 @@ uniqueMaterials.sort();
     $('[data-toggle="tooltip"]').tooltip();
   }
 
+  /**
+   * Clear all selected materials from array, localStorage, and DOM.
+   */
+  function clearAll() {
+    if (!confirm('Are you sure you want to clear all selected materials?')) {
+      return;
+    }
+
+    $('.materials-list').html('');
+    materialsList = [];
+    $('.story-quest-list tbody').html('');
+
+    updateLocalStorage();
+  }
+
+  /**
+   * Store the selected materials in local storage.
+   */
+  function updateLocalStorage() {
+    localStorage.setItem('selectedMaterials', JSON.stringify(materialsList));
+  }
+
+  /**
+   * Load the selected materials from local storage.
+   */
+  function loadFromLocalStorage() {
+    var savedMaterials = localStorage.getItem('selectedMaterials');
+    if (!savedMaterials) {
+      return;
+    }
+
+    materialsList = JSON.parse(savedMaterials);
+    if (!materialsList.length) {
+      return;
+    }
+
+    materialsList.forEach(addMaterialToDom);
+    calculate();
+  }
+
   $(document).ready(function () {
     $('body').on('click', '.btn-add', addMaterial);
     $('body').on('click', '.materials-list .btn-close', deleteMaterial);
     $('body').on('click', '.btn-calculate', calculate);
+    $('body').on('click', '.btn-clear-all', clearAll);
 
     // On enter press, don't submit form but instead add material.
     $('body').on('keypress', '#materials', function (e) {
