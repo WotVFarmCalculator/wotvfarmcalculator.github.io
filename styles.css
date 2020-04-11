@@ -74,9 +74,14 @@ body {
   position: static;
 }
 
-.material-icon:nth-child(2) {
+.material-icon-job {
   transform-origin: center;
   transform: scale(1.5);
+}
+
+.material-icon-gear {
+  transform: scale(.65);
+  transform-origin: 43% 68%;
 }
 
 .tooltip-inner .material-icon,

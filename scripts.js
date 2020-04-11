@@ -24,28 +24,64 @@ var itemImageMap = {
   "Bow Charoite": "it_jb_bow_03.png",
   "Bow Citrine": "it_jb_bow_04.png",
   "Bow Jadeite": "it_jb_bow_01.png",
-  "Capella Crafting Recipe": "",
-  "Circlet Crafting Recipe": "",
-  "Claymore Crafting Recipe": "",
+  "Capella Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_gun_001.png"
+  ],
+  "Circlet Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_hat_003.png"
+  ],
+  "Claymore Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_bsw_001.png"
+  ],
   "Clear Sap": "it_af_mat_sap_02.png",
-  "Cleric's Memory (Blue)": "it_jb_mm_clr.png",
-  "Cleric's Memory (Green)": "",
-  "Cleric's Memory (Purple)": "",
-  "Cleric's Memory (Yellow)": "",
+  "Cleric's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/clr_item.png"
+  ],
+  "Cleric's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/clr_item.png"
+  ],
+  "Cleric's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/clr_item.png"
+  ],
+  "Cleric's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/clr_item.png"
+  ],
   "Cloudy Sap": "it_af_mat_sap_01.png",
   "Dagger Azurite": "it_jb_ssword_02.png",
   "Dagger Charoite": "it_jb_ssword_03.png",
   "Dagger Citrine": "it_jb_ssword_04.png",
-  "Dagger Crafting Recipe": "",
+  "Dagger Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_dag_001.png"
+  ],
   "Dagger Jadeite": "it_jb_ssword_01.png",
   "Dark Alcryst (Blue)": "it_jb_em_dark_2.png",
   "Dark Alcryst (Green)": "it_jb_em_dark_1.png",
   "Dark Alcryst (Purple)": "it_jb_em_dark_3.png",
   "Dark Alcryst (Yellow)": "it_jb_em_dark_4.png",
-  "Dragoon's Memory (Blue)": "it_jb_mm_drg.png",
-  "Dragoon's Memory (Green)": "",
-  "Dragoon's Memory (Purple)": "",
-  "Dragoon's Memory (Yellow)": "",
+  "Dragoon's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/drg_item.png"
+  ],
+  "Dragoon's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/drg_item.png"
+  ],
+  "Dragoon's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/drg_item.png"
+  ],
+  "Dragoon's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/drg_item.png"
+  ],
   "Earth Alcryst (Blue)": "it_jb_em_soil_2.png",
   "Earth Alcryst (Green)": "it_jb_em_soil_1.png",
   "Earth Alcryst (Purple)": "it_jb_em_soil_3.png",
@@ -54,7 +90,10 @@ var itemImageMap = {
   "Faint Memory (Green)": "it_jb_mm_all.png",
   "Faint Memory (Purple)": "it_jb_mm_all_3.png",
   "Faint Memory (Yellow)": "it_jb_mm_all_4.png",
-  "Fairy Ring Crafting Recipe": "",
+  "Fairy Ring Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_rng_003.png"
+  ],
   "Fire Alcryst (Blue)": "it_jb_em_fire_2.png",
   "Fire Alcryst (Green)": "it_jb_em_fire_1.png",
   "Fire Alcryst (Purple)": "it_jb_em_fire_3.png",
@@ -63,49 +102,127 @@ var itemImageMap = {
   "Fists Charoite": "it_jb_fist_03.png",
   "Fists Citrine": "it_jb_fist_04.png",
   "Fists Jadeite": "it_jb_fist_01.png",
-  "Great Bow Crafting Recipe": "",
+  "Great Bow Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_bow_002.png"
+  ],
   "Greatsword Azurite": "it_jb_lsword_02.png",
   "Greatsword Charoite": "it_jb_lsword_03.png",
   "Greatsword Citrine": "it_jb_lsword_04.png",
   "Greatsword Jadeite": "it_jb_lsword_01.png",
-  "Green Mage's Memory (Blue)": "it_jb_mm_grm.png",
-  "Green Mage's Memory (Green)": "",
-  "Green Mage's Memory (Purple)": "",
-  "Green Mage's Memory (Yellow)": "",
+  "Green Mage's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/grm_item.png"
+  ],
+  "Green Mage's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/grm_item.png"
+  ],
+  "Green Mage's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/grm_item.png"
+  ],
+  "Green Mage's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/grm_item.png"
+  ],
   "Grey Spiritsand": "it_af_mat_sand_01.png",
   "Gun Azurite": "it_jb_gun_02.png",
   "Gun Charoite": "it_jb_gun_03.png",
   "Gun Citrine": "it_jb_gun_04.png",
   "Gun Jadeite": "it_jb_gun_01.png",
-  "Gunner's Memory (Blue)": "it_jb_mm_gun.png",
-  "Gunner's Memory (Green)": "",
-  "Gunner's Memory (Purple)": "",
-  "Gunner's Memory (Yellow)": "",
-  "Hero's Ring Crafting Recipe": "",
+  "Gunner's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/gun_item.png"
+  ],
+  "Gunner's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/gun_item.png"
+  ],
+  "Gunner's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/gun_item.png"
+  ],
+  "Gunner's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/gun_item.png"
+  ],
+  "Hero's Ring Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_rng_002.png"
+  ],
   "Ice Alcryst (Blue)": "it_jb_em_ice_2.png",
   "Ice Alcryst (Green)": "it_jb_em_ice_1.png",
   "Ice Alcryst (Purple)": "it_jb_em_ice_3.png",
   "Ice Alcryst (Yellow)": "it_jb_em_ice_4.png",
-  "Iron Helm Crafting Recipe": "",
-  "Iron Mace Crafting Recipe": "",
-  "Iron Plate Crafting Recipe": "",
-  "Iron Rod Crafting Recipe": "",
+  "Iron Helm Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_hlm_002.png"
+  ],
+  "Iron Mace Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_mac_001.png"
+  ],
+  "Iron Plate Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_arm_002.png"
+  ],
+  "Iron Rod Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_rod_002.png"
+  ],
   "Katana Azurite": "it_jb_jsword_02.png",
   "Katana Charoite": "it_jb_jsword_03.png",
   "Katana Citrine": "it_jb_jsword_04.png",
   "Katana Jadeite": "it_jb_jsword_01.png",
-  "Kiku-ichimonji Crafting Recipe": "",
-  "Knight's Memory (Blue)": "it_jb_mm_knt.png",
-  "Knight's Memory (Green)": "",
-  "Knight's Memory (Purple)": "",
-  "Knight's Memory (Yellow)": "",
-  "Kodachi Crafting Recipe": "",
-  "Kotetsu Crafting Recipe": "",
-  "Kunai Crafting Recipe": "",
-  "Lancer's Memory (Blue)": "it_jb_mm_lan.png",
-  "Lancer's Memory (Green)": "",
-  "Lancer's Memory (Purple)": "",
-  "Lancer's Memory (Yellow)": "",
+  "Kiku-ichimonji Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_kat_002.png"
+  ],
+  "Knight's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/knt_item.png"
+  ],
+  "Knight's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/knt_item.png"
+  ],
+  "Knight's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/knt_item.png"
+  ],
+  "Knight's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/knt_item.png"
+  ],
+  "Kodachi Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_nkn_002.png"
+  ],
+  "Kotetsu Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_kat_001.png"
+  ],
+  "Kunai Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_nkn_001.png"
+  ],
+  "Lancer's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/lan_item.png"
+  ],
+  "Lancer's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/lan_item.png"
+  ],
+  "Lancer's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/lan_item.png"
+  ],
+  "Lancer's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/lan_item.png"
+  ],
   "Light Alcryst (Blue)": "it_jb_em_shine_2.png",
   "Light Alcryst (Green)": "it_jb_em_shine_1.png",
   "Light Alcryst (Purple)": "it_jb_em_shine_3.png",
@@ -114,41 +231,119 @@ var itemImageMap = {
   "Lightning Alcryst (Green)": "it_jb_em_thunder_1.png",
   "Lightning Alcryst (Purple)": "it_jb_em_thunder_3.png",
   "Lightning Alcryst (Yellow)": "it_jb_em_thunder_4.png",
-  "Long Bow Crafting Recipe": "",
-  "Longsword Crafting Recipe": "",
+  "Long Bow Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_bow_001.png"
+  ],
+  "Longsword Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_swo_001.png"
+  ],
   "Mace Azurite": "it_jb_mace_02.png",
   "Mace Charoite": "it_jb_mace_03.png",
   "Mace Citrine": "it_jb_mace_04.png",
   "Mace Jadeite": "it_jb_mace_01.png",
-  "Metal Knuckles Crafting Recipe": "",
-  "Mirage Vest Crafting Recipe": "",
-  "Monk's Memory (Blue)": "it_jb_mm_mnk.png",
-  "Monk's Memory (Green)": "",
-  "Monk's Memory (Purple)": "",
-  "Monk's Memory (Yellow)": "",
+  "Metal Knuckles Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_fis_001.png"
+  ],
+  "Mirage Vest Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_clt_003.png"
+  ],
+  "Monk's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/mnk_item.png"
+  ],
+  "Monk's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/mnk_item.png"
+  ],
+  "Monk's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/mnk_item.png"
+  ],
+  "Monk's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/mnk_item.png"
+  ],
   "Murky Fluid": "it_af_mat_liquid_01.png",
-  "Mythril Armor Crafting Recipe": "",
-  "Mythril Claws Crafting Recipe": "",
-  "Mythril Dagger Crafting Recipe": "",
-  "Mythril Helm Crafting Recipe": "",
-  "Mythril Mace Crafting Recipe": "",
-  "Mythril Saber Crafting Recipe": "",
-  "Mythril Spear Crafting Recipe": "",
-  "Mythril Sword Crafting Recipe": "",
+  "Mythril Armor Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_arm_003.png"
+  ],
+  "Mythril Claws Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_fis_002.png"
+  ],
+  "Mythril Dagger Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_dag_002.png"
+  ],
+  "Mythril Helm Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_hlm_003.png"
+  ],
+  "Mythril Mace Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_mac_002.png"
+  ],
+  "Mythril Saber Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_bsw_002.png"
+  ],
+  "Mythril Spear Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_spe_002.png"
+  ],
+  "Mythril Sword Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_swo_002.png"
+  ],
   "Ninja Blade Azurite": "it_jb_kunai_02.png",
   "Ninja Blade Charoite": "it_jb_kunai_03.png",
   "Ninja Blade Citrine": "it_jb_kunai_04.png",
   "Ninja Blade Jadeite": "it_jb_kunai_01.png",
-  "Ninja's Memory (Blue)": "it_jb_mm_nin.png",
-  "Ninja's Memory (Green)": "",
-  "Ninja's Memory (Purple)": "",
-  "Ninja's Memory (Yellow)": "",
-  "Paladin's Memory (Blue)": "it_jb_mm_pld.png",
-  "Paladin's Memory (Green)": "",
-  "Paladin's Memory (Purple)": "",
-  "Paladin's Memory (Yellow)": "",
-  "Partisan Crafting Recipe": "",
-  "Platinum Rod Crafting Recipe": "",
+  "Ninja's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/nin_item.png"
+  ],
+  "Ninja's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/nin_item.png"
+  ],
+  "Ninja's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/nin_item.png"
+  ],
+  "Ninja's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/nin_item.png"
+  ],
+  "Paladin's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/pld_item.png"
+  ],
+  "Paladin's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/pld_item.png"
+  ],
+  "Paladin's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/pld_item.png"
+  ],
+  "Paladin's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/pld_item.png"
+  ],
+  "Partisan Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_spe_001.png"
+  ],
+  "Platinum Rod Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_rod_005.png"
+  ],
   "Praying Angel Statue (Blue)": "it_jb_im_angel_2.png",
   "Praying Angel Statue (Green)": "it_jb_im_angel_1.png",
   "Praying Angel Statue (Purple)": "it_jb_im_angel_3.png",
@@ -158,32 +353,95 @@ var itemImageMap = {
   "Prowling Wyvern Statue (Purple)": "it_jb_im_dragon_3.png",
   "Prowling Wyvern Statue (Yellow)": "it_jb_im_dragon_4.png",
   "Raging Heart": "it_af_mat_heart_02.png",
-  "Ranger's Memory (Blue)": "it_jb_mm_hun.png",
-  "Ranger's Memory (Green)": "",
-  "Ranger's Memory (Purple)": "",
-  "Ranger's Memory (Yellow)": "",
-  "Red Mage's Memory (Blue)": "it_jb_mm_rdm.png",
-  "Red Mage's Memory (Green)": "",
-  "Red Mage's Memory (Purple)": "",
-  "Red Mage's Memory (Yellow)": "",
-  "Samurai's Memory (Blue)": "it_jb_mm_sam.png",
-  "Samurai's Memory (Green)": "",
-  "Samurai's Memory (Purple)": "",
-  "Samurai's Memory (Yellow)": "",
-  "Scholar Robe Crafting Recipe": "",
-  "Soldier's Memory (Blue)": "it_jb_mm_swn.png",
-  "Soldier's Memory (Green)": "",
-  "Soldier's Memory (Purple)": "",
-  "Soldier's Memory (Yellow)": "",
+  "Ranger's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/hun_item.png"
+  ],
+  "Ranger's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/hun_item.png"
+  ],
+  "Ranger's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/hun_item.png"
+  ],
+  "Ranger's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/hun_item.png"
+  ],
+  "Red Mage's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/rdm_item.png"
+  ],
+  "Red Mage's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/rdm_item.png"
+  ],
+  "Red Mage's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/rdm_item.png"
+  ],
+  "Red Mage's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/rdm_item.png"
+  ],
+  "Samurai's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/sam_item.png"
+  ],
+  "Samurai's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/sam_item.png"
+  ],
+  "Samurai's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/sam_item.png"
+  ],
+  "Samurai's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/sam_item.png"
+  ],
+  "Scholar Robe Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_clt_002.png"
+  ],
+  "Soldier's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/swn_item.png"
+  ],
+  "Soldier's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/swn_item.png"
+  ],
+  "Soldier's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/swn_item.png"
+  ],
+  "Soldier's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/swn_item.png"
+  ],
   "Sorrowful Heart": "it_af_mat_heart_01.png",
   "Spear Azurite": "it_jb_spear_02.png",
   "Spear Charoite": "it_jb_spear_03.png",
   "Spear Citrine": "it_jb_spear_04.png",
   "Spear Jadeite": "it_jb_spear_01.png",
-  "Spellblade's Memory (Blue)": "it_jb_mm_mgk.png",
-  "Spellblade's Memory (Green)": "",
-  "Spellblade's Memory (Purple)": "",
-  "Spellblade's Memory (Yellow)": "",
+  "Spellblade's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/mgk_item.png"
+  ],
+  "Spellblade's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/mgk_item.png"
+  ],
+  "Spellblade's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/mgk_item.png"
+  ],
+  "Spellblade's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/mgk_item.png"
+  ],
   "Staff Azurite": "it_jb_staff_02.png",
   "Staff Charoite": "it_jb_staff_03.png",
   "Staff Citrine": "it_jb_staff_04.png",
@@ -193,42 +451,126 @@ var itemImageMap = {
   "Sword Charoite": "it_jb_sword_03.png",
   "Sword Citrine": "it_jb_sword_04.png",
   "Sword Jadeite": "it_jb_sword_01.png",
-  "Thief's Memory (Blue)": "it_jb_mm_thi.png",
-  "Thief's Memory (Green)": "",
-  "Thief's Memory (Purple)": "",
-  "Thief's Memory (Yellow)": "",
-  "Time Mage's Memory (Blue)": "it_jb_mm_tim.png",
-  "Time Mage's Memory (Green)": "",
-  "Time Mage's Memory (Purple)": "",
-  "Time Mage's Memory (Yellow)": "",
-  "Viking's Memory (Blue)": "",
-  "Viking's Memory (Green)": "",
-  "Viking's Memory (Purple)": "",
-  "Viking's Memory (Yellow)": "",
-  "Vega Crafting Recipe": "",
-  "Warrior's Memory (Blue)": "it_jb_mm_war.png",
-  "Warrior's Memory (Green)": "",
-  "Warrior's Memory (Purple)": "",
-  "Warrior's Memory (Yellow)": "",
+  "Thief's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/thi_item.png"
+  ],
+  "Thief's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/thi_item.png"
+  ],
+  "Thief's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/thi_item.png"
+  ],
+  "Thief's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/thi_item.png"
+  ],
+  "Time Mage's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/tim_item.png"
+  ],
+  "Time Mage's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/tim_item.png"
+  ],
+  "Time Mage's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/tim_item.png"
+  ],
+  "Time Mage's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/tim_item.png"
+  ],
+  "Viking's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/vik_item.png"
+  ],
+  "Viking's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/vik_item.png"
+  ],
+  "Viking's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/vik_item.png"
+  ],
+  "Viking's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/vik_item.png"
+  ],
+  "Vega Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_gun_002.png"
+  ],
+  "Warrior's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/war_item.png"
+  ],
+  "Warrior's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/war_item.png"
+  ],
+  "Warrior's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/war_item.png"
+  ],
+  "Warrior's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/war_item.png"
+  ],
   "Water Alcryst (Blue)": "it_jb_em_water_2.png",
   "Water Alcryst (Green)": "it_jb_em_water_1.png",
   "Water Alcryst (Purple)": "it_jb_em_water_3.png",
   "Water Alcryst (Yellow)": "it_jb_em_water_4.png",
-  "White Mage's Memory (Blue)": "it_jb_mm_whm.png",
-  "White Mage's Memory (Green)": "",
-  "White Mage's Memory (Purple)": "",
-  "White Mage's Memory (Yellow)": "",
+  "White Mage's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/whm_item.png"
+  ],
+  "White Mage's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/whm_item.png"
+  ],
+  "White Mage's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/whm_item.png"
+  ],
+  "White Mage's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/whm_item.png"
+  ],
   "Wind Alcryst (Blue)": "it_jb_em_wind_2.png",
   "Wind Alcryst (Green)": "it_jb_em_wind_1.png",
   "Wind Alcryst (Purple)": "it_jb_em_wind_3.png",
   "Wind Alcryst (Yellow)": "it_jb_em_wind_4.png",
-  "Winged One's Memory (Blue)": "it_jb_mm_lw_glms.png",
-  "Winged One's Memory (Green)": "",
-  "Winged One's Memory (Purple)": "",
-  "Winged One's Memory (Yellow)": "",
-  "Wizard's Hat Crafting Recipe": "",
-  "Ogrekiller Crafting Recipe": "",
-  "Mythril Axe Crafting Recipe": ""
+  "Winged One's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/lapsglms_item.png"
+  ],
+  "Winged One's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/lapsglms_item.png"
+  ],
+  "Winged One's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/lapsglms_item.png"
+  ],
+  "Winged One's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/lapsglms_item.png"
+  ],
+  "Wizard's Hat Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_hat_002.png"
+  ],
+  "Ogrekiller Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_axe_001.png"
+  ],
+  "Mythril Axe Crafting Recipe": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_axe_002.png"
+  ]
 
 };
 
@@ -414,7 +756,7 @@ uniqueMaterials.sort();
 
     var material = $materials.val();
     material = material.trim();
-    material = material.replace(/(<([^>]+)>)/ig,"");
+    material = material.replace(/(<([^>]+)>)/ig, "");
 
     $materials.focus();
 
@@ -490,7 +832,15 @@ uniqueMaterials.sort();
    * @returns {string}
    */
   function getMaterialSingleImageHtml(material, image) {
-    return '<img src="img/' + image + '" class="material-icon" alt="' + material + '" title="' + material + '">'
+    var typeClass = '';
+    if (image.indexOf('job/') >= 0) {
+      typeClass = 'material-icon-job';
+    }
+    if (image.indexOf('gear/') >= 0) {
+      typeClass = 'material-icon-gear';
+    }
+
+    return '<img src="img/' + image + '" class="material-icon ' + typeClass + '" alt="' + material + '" title="' + material + '">'
   }
 
   /**
@@ -554,7 +904,7 @@ uniqueMaterials.sort();
       var tableRow = '<tr>\n' +
         '              <td>' + storyName + '</td>\n' +
         '              <td>' + storyMaterials.length + '</td>\n' +
-        '              <td>' + storyMaterialIcons.join(', ') + '</td>\n' +
+        '              <td>' + storyMaterialIcons.join(' ') + '</td>\n' +
         '              <td><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" data-placement="auto" title="' + allMatsLabels.join('<br>') + '">hover</button></td>\n' +
         '            </tr>';
 
