@@ -3,13 +3,22 @@ var itemImageMap = {
   "Axe Charoite": "it_jb_axe_03.png",
   "Axe Citrine": "it_jb_axe_04.png",
   "Axe Jadeite": "it_jb_axe_01.png",
-  "Black Mage's Memory (Blue)": "it_jb_mm_blm.png",
+  "Black Mage's Memory (Blue)": [
+    "itemicon_job_02.png",
+    "job/blm_item.png"
+  ],
   "Black Mage's Memory (Green)": [
     "itemicon_job_01.png",
     "job/blm_item.png"
   ],
-  "Black Mage's Memory (Purple)": "",
-  "Black Mage's Memory (Yellow)": "",
+  "Black Mage's Memory (Purple)": [
+    "itemicon_job_03.png",
+    "job/blm_item.png"
+  ],
+  "Black Mage's Memory (Yellow)": [
+    "itemicon_job_04.png",
+    "job/blm_item.png"
+  ],
   "Blue Spiritsand": "it_af_mat_sand_02.png",
   "Bow Azurite": "it_jb_bow_02.png",
   "Bow Charoite": "it_jb_bow_03.png",
