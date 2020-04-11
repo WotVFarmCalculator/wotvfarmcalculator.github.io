@@ -4,7 +4,10 @@ var itemImageMap = {
   "Axe Citrine": "it_jb_axe_04.png",
   "Axe Jadeite": "it_jb_axe_01.png",
   "Black Mage's Memory (Blue)": "it_jb_mm_blm.png",
-  "Black Mage's Memory (Green)": "",
+  "Black Mage's Memory (Green)": [
+    "itemicon_job_01.png",
+    "job/blm_item.png"
+  ],
   "Black Mage's Memory (Purple)": "",
   "Black Mage's Memory (Yellow)": "",
   "Blue Spiritsand": "it_af_mat_sand_02.png",
@@ -439,6 +442,7 @@ uniqueMaterials.sort();
    * Gets the material's img element or a text label if no image available.
    *
    * @param material
+   * @param includeText
    */
   function getMaterialImageOrLabel(material, includeText) {
     if (!itemImageMap.hasOwnProperty(material)) {
@@ -450,13 +454,34 @@ uniqueMaterials.sort();
       return material;
     }
 
-    var html = '<img src="img/' + itemImageMap[material] + '" class="material-icon" alt="' + material + '" title="' + material + '">';
+    // Coerce the image layers to be uniformly arrays.
+    var layers = itemImageMap[material];
+    if (!Array.isArray(itemImageMap[material])) {
+      layers = [itemImageMap[material]];
+    }
+
+    var html = '<div class="material-icon-wrapper">';
+    layers.forEach(function (layer) {
+      html += getMaterialSingleImageHtml(material, layer);
+    });
+    html += '</div>';
 
     if (includeText) {
       html += ' <span>' + material + '</span>';
     }
 
     return html;
+  }
+
+  /**
+   * Defines a utility function to build a single material icon layer.
+   *
+   * @param material
+   * @param image
+   * @returns {string}
+   */
+  function getMaterialSingleImageHtml(material, image) {
+    return '<img src="img/' + image + '" class="material-icon" alt="' + material + '" title="' + material + '">'
   }
 
   /**

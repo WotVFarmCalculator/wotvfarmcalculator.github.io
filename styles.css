@@ -54,9 +54,30 @@ body {
   min-width: 400px;
 }
 
+.material-icon-wrapper {
+  height: 100%;
+  max-height: 3rem;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
 .material-icon {
   height: 100%;
   max-height: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.material-icon:first-child {
+  position: static;
+}
+
+.material-icon:nth-child(2) {
+  transform-origin: center;
+  transform: scale(1.5);
 }
 
 .tooltip-inner .material-icon {
