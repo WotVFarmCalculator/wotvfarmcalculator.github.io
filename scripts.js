@@ -839,6 +839,9 @@ uniqueMaterials.sort();
     if (image.indexOf('gear/') >= 0) {
       typeClass = 'material-icon-gear';
     }
+    if (image.indexOf('itemicon_job_') >= 0) {
+      typeClass = 'material-icon-memory';
+    }
 
     return '<img src="img/' + image + '" class="material-icon ' + typeClass + '" alt="' + material + '" title="' + material + '">'
   }

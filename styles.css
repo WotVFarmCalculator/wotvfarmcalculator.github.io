@@ -75,13 +75,17 @@ body {
 }
 
 .material-icon-job {
-  transform-origin: center;
-  transform: scale(1.5);
+
 }
 
 .material-icon-gear {
-  transform: scale(.65);
   transform-origin: 43% 68%;
+  transform: scale(.65);
+}
+
+.material-icon-memory {
+  transform-origin: center;
+  transform: scale(.7);
 }
 
 .tooltip-inner .material-icon,
