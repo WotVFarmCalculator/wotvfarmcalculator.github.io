@@ -777,6 +777,7 @@ uniqueMaterials.sort();
 
     addMaterialToDom(material);
     updateLocalStorage();
+    calculate();
   }
 
   /**
@@ -785,7 +786,11 @@ uniqueMaterials.sort();
    * @param material
    */
   function addMaterialToDom(material) {
-    var materialItem = '<div class="input-group col-md-4" data-material="' + material + '"><div class="input-group-prepend"><span class="input-group-text btn btn-close">✕</span></div><div class="form-control">' + getMaterialImageOrLabel(material, true) + '</div></div>'
+    var materialItem = applyTemplate('template-material-item', {
+      'material': material,
+      'materialLabel': getMaterialImageOrLabel(material, true),
+    });
+
     $('.materials-list').append(materialItem);
   }
 
@@ -811,15 +816,15 @@ uniqueMaterials.sort();
       layers = [itemImageMap[material]];
     }
 
-    var html = '<div class="material-icon-wrapper">';
+    var layerHtml = '';
     layers.forEach(function (layer) {
-      html += getMaterialSingleImageHtml(material, layer);
+      layerHtml += getMaterialSingleImageHtml(material, layer);
     });
-    html += '</div>';
 
-    if (includeText) {
-      html += ' <span>' + material + '</span>';
-    }
+    var html = applyTemplate('template-material-icon-wrapper', {
+      'layers': layerHtml,
+      'includedText': includeText ? material : ''
+    });
 
     return html;
   }
@@ -843,7 +848,11 @@ uniqueMaterials.sort();
       typeClass = 'material-icon-memory';
     }
 
-    return '<img src="img/' + image + '" class="material-icon ' + typeClass + '" alt="' + material + '" title="' + material + '">'
+    return applyTemplate('template-material-icon-single', {
+      'image': image,
+      'typeClass': typeClass,
+      'material': material
+    });
   }
 
   /**
@@ -855,6 +864,7 @@ uniqueMaterials.sort();
     $parent.remove();
     materialsList.splice(materialsList.findIndex(a => a === material), 1);
     updateLocalStorage();
+    calculate();
   }
 
   /**
@@ -904,12 +914,12 @@ uniqueMaterials.sort();
         allMatsLabels.push(escaped);
       });
 
-      var tableRow = '<tr>\n' +
-        '              <td>' + storyName + '</td>\n' +
-        '              <td>' + storyMaterials.length + '</td>\n' +
-        '              <td>' + storyMaterialIcons.join(' ') + '</td>\n' +
-        '              <td><button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" data-placement="auto" title="' + allMatsLabels.join('<br>') + '">hover</button></td>\n' +
-        '            </tr>';
+      var tableRow = applyTemplate('template-material-table-row', {
+        'storyName': storyName,
+        'storyMaterialsLength': storyMaterials.length,
+        'storyMaterialIcons': storyMaterialIcons.join(' '),
+        'allMatsLabels': allMatsLabels.join('<br>'),
+      });
 
       $('.story-quest-list tbody').append(tableRow);
     });
@@ -967,30 +977,109 @@ uniqueMaterials.sort();
     }
 
     importList = importList.split(',');
-    importList.forEach(function(importMaterial) {
+    importList.forEach(function (importMaterial) {
       importMaterial = importMaterial.trim();
-      importMaterial = importMaterial.replace(/(<([^>]+)>)/ig,"");
+      importMaterial = importMaterial.replace(/(<([^>]+)>)/ig, "");
+      if (materialsList.includes(importMaterial)) {
+        return;
+      }
+
       materialsList.push(importMaterial);
       addMaterialToDom(importMaterial);
     });
   }
 
+  /**
+   * Populates the export textarea with current list of materials.
+   */
+  function populateExport() {
+    $('#export').text(materialsList.join(','));
+  }
+
+
+  /**
+   * For a given template, populate the template then return the HTML to be
+   * inserted.
+   *
+   * @param templateClass
+   * @param replacements
+   * @returns {*}
+   */
+  function applyTemplate(templateClass, replacements) {
+    var $template = $('.' + templateClass);
+    var templateHtml = $template.html();
+
+    for (let [key, value] of Object.entries(replacements)) {
+      key = '{{' + key + '}}';
+      var re = new RegExp(key.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1"), "g");
+      templateHtml = templateHtml.replace(re, value);
+    }
+
+    return templateHtml;
+  }
+
 
   $(document).ready(function () {
     var $body = $('body');
-    $body.on('click', '.btn-add', addMaterial);
-    $body.on('click', '.materials-list .btn-close', deleteMaterial);
-    $body.on('click', '.btn-calculate', calculate);
-    $body.on('click', '.btn-clear-all', clearAll);
 
-    $body.on('click', '.btn-import-toggle', function(e) {
-      $('.mode-autocomplete').hide();
-      $('.mode-import').show();
+    $body.on('click', '.nav-main a', function(e) {
+      e.preventDefault();
+      $('.nav-main a').removeClass('active');
+      $(this).addClass('active');
     });
 
-    $body.on('click', '.btn-import-cancel', function(e) {
+    $body.on('click', '.toggle-dark-mode', function(e) {
+      $('.toggle-dark-mode').hide();
+      $('.toggle-light-mode').show();
+      $('body').addClass('dark-mode');
+      localStorage.setItem('darkMode', '1');
+    });
+
+    $body.on('click', '.toggle-light-mode', function(e) {
+      $('.toggle-dark-mode').show();
+      $('.toggle-light-mode').hide();
+      $('body').removeClass('dark-mode');
+      localStorage.setItem('darkMode', '');
+    });
+
+    if (localStorage.getItem('darkMode') === '1') {
+      $('.toggle-dark-mode').hide();
+      $('.toggle-light-mode').show();
+      $('body').addClass('dark-mode');
+    }
+
+    $body.on('click', '.btn-add', addMaterial);
+    $body.on('click', '.materials-list .btn-close', deleteMaterial);
+    $body.on('click', '.btn-clear-all', clearAll);
+    $body.on('click', '.btn-export', populateExport);
+
+    $body.on('click', '.nav-search', function (e) {
+      $('.mode').hide();
       $('.mode-autocomplete').show();
-      $('.mode-import').hide();
+      $('.autocomplete__input').focus();
+    });
+
+    $body.on('click', '.nav-import', function (e) {
+      $('.mode').hide();
+      $('.mode-import').show();
+      $('#import').focus();
+    });
+
+    $body.on('click', '.nav-export', function (e) {
+      $('.mode').hide();
+      $('.mode-export').show();
+      populateExport();
+      var exportString = $('#export').focus().select().text();
+      navigator.clipboard.writeText(exportString);
+    });
+
+    $body.on('click', '.btn-mode-cancel', function(e) {
+      e.preventDefault();
+      $('.mode').hide();
+      $('.mode-autocomplete').show();
+      $('.nav-main a').removeClass('active');
+      $('.nav-main a:first-child').addClass('active');
+      $('.autocomplete__input').focus();
     });
 
     $body.on('click', '.btn-import', function(e) {
