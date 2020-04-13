@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="lib/accessible-autocomplete.min.css"/>
     <link href="styles.css" rel="stylesheet">
@@ -15,19 +14,30 @@
     <title>War of the Visions Farming Story Materials Calculator</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top d-flex flex-column flex-md-row align-items-center px-md-4">
-      <h1 class="navbar-brand mr-md-auto">War of the Visions Farming Story
-        Materials Calculator</h1>
+    <nav class="navbar navbar-dark bg-dark fixed-top d-flex flex-row align-items-center px-md-4 flex-nowrap">
+      <h1 class="navbar-brand">WotV Story Mats Calculator</h1>
 
-      <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/WotVCalculator">
-        <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-        <span style="margin-left:15px;font-size:19px !important;">Buy me <strike>a coffee</strike> Visiore</span>
+      <button type="button" class="btn btn-primary btn-dark-mode">
+        <img src="img/ui/element_icon_dark.png" class="toggle-dark-mode" alt="Toggle Dark Mode" title="Toggle Dark Mode" data-toggle="tooltip" data-placement="auto">
+        <img src="img/ui/element_icon_shine.png" class="toggle-light-mode" alt="Toggle Light Mode" title="Toggle Light Mode" data-toggle="tooltip" data-placement="auto">
+      </button>
+
+      <a class="bmc-button ml-md-auto" target="_blank" href="https://www.buymeacoffee.com/WotVCalculator">
+        <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" class="bmac-cup" alt="Buy me a coffee">
+        <img src="img/othericon_lapis_s.png" class="coffee-visiore-icon" alt="Buy me Visiore">
+        <span>Buy me <strike>a coffee</strike> Visiore</span>
       </a>
+    </nav>
+
+    <nav class="nav nav-main nav-pills nav-fill container mb-4">
+      <a class="nav-item nav-link active nav-search" href="#">Search</a>
+      <a class="nav-item nav-link nav-import" href="#">Import</a>
+      <a class="nav-item nav-link nav-export" href="#">Export</a>
     </nav>
 
     <main role="main" class="container">
       <form>
-        <div class="mode-autocomplete">
+        <div class="mode mode-autocomplete">
           <label for="materials">Enter the name of the materials needed one at a
             time and then click submit.</label>
           <div class="row mb-3">
@@ -36,35 +46,25 @@
                 <option value="">Select a material</option>
               </select>
             </div>
+          </div>
 
+          <div class="row mb-5">
             <div class="col-md-6 col-sm-6 col-6">
-              <button type="button" class="btn btn-outline-primary btn-add">
+              <button type="button" class="btn btn-primary btn-add">
                 Add Material
               </button>
             </div>
-          </div>
-
-          <div class="row materials-list mb-3"></div>
-
-          <div class="row">
             <div class="col-md-6 col-sm-6 col-6">
-              <button type="button" class="btn btn-primary btn-lg btn-calculate">
-                Load Story Quests
-              </button>
-            </div>
-            <div class="col-md-6 col-sm-6 col-6">
-              <button type="button" class="btn btn-outline-danger btn-clear-all">
-                Clear All Selected
-              </button>
-              <button type="button" class="btn btn-outline-info btn-import-toggle">
-                Import from External Source
+              <button type="button" class="btn btn-danger btn-clear-all">
+                Clear All
               </button>
             </div>
           </div>
 
+          <div class="row materials-list mb-5"></div>
         </div>
 
-        <div class="mode-import">
+        <div class="mode mode-import">
           <div class="row">
             <div class="col-md-12">
               <label for="import" class="">Enter a comma-delimited list of
@@ -77,13 +77,38 @@
             </div>
 
             <div class="col-md-6">
-              <button type="button" class="btn btn-primary btn-import">Import
-                from External Source
+              <button type="button" class="btn btn-primary btn-import">
+                Import
               </button>
             </div>
 
             <div class="col-md-6">
-              <button type="button" class="btn btn-outline-primary btn-import-cancel">
+              <button type="button" class="btn btn-danger btn-mode-cancel">
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mode mode-export">
+          <div class="row">
+            <div class="col-md-12">
+              <label for="export" class="">The data below has been copied to
+                your clipboard. Paste this into other sites that
+                support this method or save for import later.</label>
+            </div>
+
+            <div class="col-md-12">
+              <textarea name="export" id="export" class="mb-3" cols="50"></textarea>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+
+            <div class="col-md-6">
+              <button type="button" class="btn btn-danger btn-mode-cancel">
                 Cancel
               </button>
             </div>
@@ -115,6 +140,40 @@
       </div>
 
     </main><!-- /.container -->
+
+
+    <template class="template template-material-item">
+      <div class="input-group col-lg-4 col-md-6 mb-2" data-material="{{material}}">
+        <div class="input-group-prepend">
+      <span class="input-group-text">
+      <img src="img/ui/cmn_btn_close_01.png" alt="Delete Material" title="Delete Material" class="btn btn-close">
+      </span>
+        </div>
+        <div class="form-control">{{materialLabel}}</div>
+      </div>
+    </template>
+
+    <template class="template template-material-icon-single">
+      <img src="img/{{image}}" class="material-icon {{typeClass}}" alt="{{material}}" title="{{material}}">
+    </template>
+
+    <template class="template template-material-icon-wrapper">
+      <div class="material-icon-wrapper">
+        {{layers}}
+      </div>
+      <span>{{includedText}}</span>
+    </template>
+
+    <template class="template template-material-table-row">
+      <tr>
+        <td>{{storyName}}</td>
+        <td>{{storyMaterialsLength}}</td>
+        <td>{{storyMaterialIcons}}</td>
+        <td>
+          <img src="img/ui/cmn_btn_detail_03.png" class="btn" data-toggle="tooltip" data-html="true" data-placement="auto" title="{{allMatsLabels}}" alt="Hover to show all items">
+        </td>
+      </tr>
+    </template>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
