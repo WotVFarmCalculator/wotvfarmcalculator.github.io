@@ -38,8 +38,11 @@
     <main role="main" class="container">
       <form>
         <div class="mode mode-autocomplete">
-          <label for="materials">Enter the name of the materials needed one at a
-            time and then click submit.</label>
+          <label for="materials">Enter the name of the material, character name,
+            job name, or equipment needed. Character names will load all
+            elemental and job related materials. Job names will load the
+            statues, job memories, and weapon jewels. Equipment names will load
+            the recipe and required crafting materials.</label>
           <div class="row mb-3">
             <div class="autocomplete-wrapper col-md-6 col-sm-6 col-6">
               <select name="materials" id="materials">
@@ -117,8 +120,6 @@
 
       </form>
 
-      <hr class="mb-4">
-
       <div class="feedback"></div>
 
       <div class="story-quest-list table-responsive">
@@ -140,6 +141,19 @@
       </div>
 
     </main><!-- /.container -->
+
+    <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io" target="_blank">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io/commits/master" target="_blank">Changelog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
 
     <template class="template template-material-item">
