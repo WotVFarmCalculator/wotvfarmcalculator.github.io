@@ -574,6 +574,202 @@ var itemImageMap = {
 
 };
 
+var weaponTierNames = [
+  'Jadeite',
+  'Azurite',
+  'Charoite',
+  'Citrine',
+  //'Spinel',
+];
+
+var colorTierNames = [
+  'Green',
+  'Blue',
+  'Purple',
+  'Yellow',
+  //'Red',
+];
+
+var elements = [
+  'Dark',
+  'Earth',
+  'Fire',
+  'Ice',
+  'Light',
+  'Lightning',
+  'Water',
+  'Wind',
+];
+
+var elementMap = {};
+elements.forEach(function (element) {
+  elementMap[element] = [];
+  colorTierNames.forEach(function (colorTier) {
+    elementMap[element].push(element + ' Alcryst (' + colorTier + ')');
+  });
+});
+
+
+var jobMaterialTypeMap = {
+  'Black Mage': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Staff',
+    'job': 'Black Mage',
+  },
+  'Cleric': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Mace',
+    'job': 'Cleric',
+  },
+  'Dark Knight': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Sword',
+    'job': 'Dark Knight',
+  },
+  'Dragoon': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Spear',
+    'job': 'Dragoon',
+  },
+  'Green Mage': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Staff',
+    'job': 'Green Mage',
+  },
+  'Gunbreaker': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Sword',
+    'job': 'Gunbreaker',
+  },
+  'Gunner': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Gun',
+    'job': 'Gunner',
+  },
+  'Ranger': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Bow',
+    'job': 'Ranger',
+  },
+  'Knight': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Sword',
+    'job': 'Knight',
+  },
+  'Lancer': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Spear',
+    'job': 'Lancer',
+  },
+  'Lord': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Sword',
+    'job': 'Warrior',
+  },
+  'Monk': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Fists',
+    'job': 'Monk',
+  },
+  'Ninja': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Ninja Blade',
+    'job': 'Ninja',
+  },
+  'Paladin': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Sword',
+    'job': 'Paladin',
+  },
+  'Red Mage': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Sword',
+    'job': 'Red Mage',
+  },
+  'Samurai': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Katana',
+    'job': 'Samurai',
+  },
+  'Squire': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Sword',
+    'job': 'Squire',
+  },
+  'Soldier': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Greatsword',
+    'job': 'Soldier',
+  },
+  'Sorceress': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Staff',
+    'job': 'Sorceress',
+  },
+  'Spellblade': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Sword',
+    'job': 'Spellblade',
+  },
+  'Sword Saint': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Sword',
+    'job': 'Sword Saint',
+  },
+  'Thief': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Dagger',
+    'job': 'Thief',
+  },
+  'Time Mage': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Staff',
+    'job': 'Time Mage',
+  },
+  'Viking': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Axe',
+    'job': 'Viking',
+  },
+  'Warrior': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Sword',
+    'job': 'Warrior',
+  },
+  'White Mage': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Staff',
+    'job': 'White Mage',
+  },
+  'White Mage of Lapis': {
+    'statue': 'Praying Angel Statue',
+    'weapon': 'Bow',
+    'job': 'White Mage',
+  },
+  'Winged One': {
+    'statue': 'Prowling Wyvern Statue',
+    'weapon': 'Sword',
+    'job': 'Winged One',
+  },
+};
+
+// Convert the flat mapping to the full item names as an array.
+var jobMats = {};
+for (let [jobName, jobMatTypes] of Object.entries(jobMaterialTypeMap)) {
+  jobMats[jobName] = [];
+
+  colorTierNames.forEach(function (colorTier) {
+    jobMats[jobName].push(jobMatTypes['statue'] + ' (' + colorTier + ')');
+  });
+
+  colorTierNames.forEach(function (colorTier) {
+    jobMats[jobName].push(jobMatTypes['job'] + '\'s Memory (' + colorTier + ')');
+  });
+
+  weaponTierNames.forEach(function (weaponTier) {
+    jobMats[jobName].push(jobMatTypes['weapon'] + ' ' + weaponTier);
+  });
+}
 
 var rawCsv = "1:1:1 Twin Princes,Faint Memory (Green),Sword Jadeite,Bow Jadeite,Earth Alcryst (Green),Ranger's Memory (Green),Warrior's Memory (Green),Praying Angel Statue (Green),Sorrowful Heart,Murky Fluid,\n" +
   "1:1:2 Premonition of Blood and Ruin,Faint Memory (Green),Greatsword Jadeite,Gun Jadeite,Ice Alcryst (Green),Knight's Memory (Green),Gunner's Memory (Green),Prowling Wyvern Statue (Green),Grey Spiritsand,Murky Fluid,\n" +
@@ -726,12 +922,242 @@ rawCsv.forEach(function (value) {
 
 uniqueMaterials.sort();
 
-(function ($) {
+var charJobCsv = 'Lorenzo,Earth,Dragoon,Lancer,Time Mage\n' +
+  'Mont Leonis,Earth,Lord,Paladin,Knight\n' +
+  'Etre,Earth,Monk,Cleric,Knight\n' +
+  'Baelo,Earth,Knight,Warrior,Paladin\n' +
+  'Murmur,Earth,Red Mage,Black Mage,Lancer\n' +
+  'Vadim,Earth,Thief,Warrior,Samurai\n' +
+  'Aileen,Earth,Lancer,Warrior,Soldier\n' +
+  'Lilyth,Fire,Knight,Soldier,Hunter\n' +
+  'Margritte,Fire,Time Mage,Black Mage,Red Mage\n' +
+  'Yshtola,Fire,Sorceress,White Mage,Gree Mage\n' +
+  'Miche,Fire,Black Mage,Thief,Hunter\n' +
+  'Naiah,Fire,White Mage,Cleric,Red Mage\n' +
+  'Oelde Leonis,Fire,Lancer,Monk,Samurai\n' +
+  'Khury Wezette,Ice,Hunter,Dragoon,Gree Mage\n' +
+  'Nasha,Ice,Paladin,White Mage,Dragoon\n' +
+  'Vallaide,Ice,Green Mage,White Mage,Red Mage\n' +
+  'Serjes,Ice,Lancer,Paladin,Cleric\n' +
+  'Mediena,Ice,Black Mage,Green Mage,Ninja\n' +
+  'Gilgamesh,Ice,Winged One,Time Mage,Soldier\n' +
+  'Vistralle,Light,Thief,Red Mage,Soldier\n' +
+  'Grace,Light,White Mage,Green Mage,Lancer\n' +
+  'Fina,Light,White Mage of Lapis,Gunner,Cleric\n' +
+  'Phoebe,Light,Time Mage,Dragoon,White Mage\n' +
+  'Macherie Hourne,Light,Cleric,Monk,Black Mage\n' +
+  'Thancred,Light,Gunbreaker,Dragoon,Red Mage\n' +
+  'Engelbert,Light,Paladin,Knight,Monk\n' +
+  'Robb Hourne,Light,Samurai,Soldier,Lancer\n' +
+  'Rairyuu,Dark,Gunner,Thief,Red Mage\n' +
+  'Shadowlynx,Dark,Ninja,Dragoon,Samurai\n' +
+  'Little Leela,Dark,Spellblade,Knight,White Mage\n' +
+  'Xiza,Dark,Monk,Thief,Lancer\n' +
+  'Sterne Leonis,Dark,Soldier,Dragoon,Ninja\n' +
+  'Meriluke,Thunder,Monk,Knight,Gree Mage\n' +
+  'Owe,Thunder,Samurai,Warrior,Ninja\n' +
+  'Schuzelt,Thunder,Soldier,Knight,Hunter\n' +
+  'Learte,Thunder,Hunter,Lancer,White Mage\n' +
+  'Frederika,Thunder,Gunner,Ninja,Hunter\n' +
+  'Ramada,Water,Lancer,Spellblade,Thief\n' +
+  'Zazan,Water,Warrior,Knight,Thief\n' +
+  'Severo,Water,Black Mage,Red Mage,Monk\n' +
+  'Yuni,Water,Hunter,Black Mage,Spellblade\n' +
+  'Cadia,Wind,Cleric,White Mage,Spellblade\n' +
+  'Helena Leonis,Wind,Green Mage,Time Mage,White Mage\n' +
+  'Mia,Wind,Thief,Cleric,Spellblade\n' +
+  'Sosha,Wind,Dragoon,Warrior,Hunter\n' +
+  'Yerma,Wind,Viking,Knight,Thief\n' +
+  'Ayaka,Wind,White Mage,Green Mage,Time Mage';
 
+var charPropMap = {};
+charJobCsv = charJobCsv.split("\n");
+charJobCsv.sort();
+charJobCsv.forEach(function (value) {
+  var charProps = value.split(',');
+  var charName = charProps.shift();
+  charPropMap[charName] = charProps;
+});
+
+
+var itemRecipeMap = {
+  'Capella': [
+    'Capella Crafting Recipe',
+    'Grey Spiritsand'
+  ],
+  'Circlet': [
+    'Circlet Crafting Recipe',
+    'Murky Fluid',
+    'Sticky Fluid'
+  ],
+  'Claymore': [
+    'Claymore Crafting Recipe',
+    'Cloudy Sap'
+  ],
+  'Dagger': [
+    'Dagger Crafting Recipe',
+    'Sorrowful Heart'
+  ],
+  'Fairy Ring': [
+    'Fairy Ring Crafting Recipe',
+    'Sorrowful Heart',
+    'Raging Heart'
+  ],
+  'Great Bow': [
+    'Great Bow Crafting Recipe',
+    'Murky Fluid',
+    'Sticky Fluid'
+  ],
+  'Hero\'s Ring': [
+    'Hero\'s Ring Crafting Recipe',
+    'Sorrowful Heart'
+  ],
+  'Iron Helm': [
+    'Iron Helm Crafting Recipe',
+    'Murky Fluid'
+  ],
+  'Iron Mace': [
+    'Iron Mace Crafting Recipe',
+    'Cloudy Sap'
+  ],
+  'Iron Plate': [
+    'Iron Plate Crafting Recipe',
+    'Sorrowful Heart'
+  ],
+  'Iron Rod': [
+    'Iron Rod Crafting Recipe',
+    'Murky Fluid'
+  ],
+  'Kiku-ichimonji': [
+    'Kiku-ichimonji Crafting Recipe',
+    'Cloudy Sap',
+    'Clear Sap'
+  ],
+  'Kodachi': [
+    'Kodachi Crafting Recipe',
+    'Cloudy Sap',
+    'Clear Sap'
+  ],
+  'Kotetsu': [
+    'Kotetsu Crafting Recipe',
+    'Cloudy Sap'
+  ],
+  'Kunai': [
+    'Kunai Crafting Recipe',
+    'Cloudy Sap'
+  ],
+  'Long Bow': [
+    'Long Bow Crafting Recipe',
+    'Murky Fluid'
+  ],
+  'Longsword': [
+    'Longsword Crafting Recipe',
+    'Sorrowful Heart'
+  ],
+  'Metal Knuckles': [
+    'Metal Knuckles Crafting Recipe',
+    'Grey Spiritsand'
+  ],
+  'Mirage Vest': [
+    'Mirage Vest Crafting Recipe',
+    'Grey Spiritsand',
+    'Blue Spiritsand'
+  ],
+  'Mythril Armor': [
+    'Mythril Armor Crafting Recipe',
+    'Sorrowful Heart',
+    'Raging Heart'
+  ],
+  'Mythril Axe': [
+    'Mythril Axe Crafting Recipe',
+    'Cloudy Sap',
+    'Clear Sap'
+  ],
+  'Mythril Claws': [
+    'Mythril Claws Crafting Recipe',
+    'Grey Spiritsand',
+    'Blue Spiritsand'
+  ],
+  'Mythril Dagger': [
+    'Mythril Dagger Crafting Recipe',
+    'Sorrowful Heart',
+    'Raging Heart'
+  ],
+  'Mythril Helm': [
+    'Mythril Helm Crafting Recipe',
+    'Murky Fluid',
+    'Sticky Fluid'
+  ],
+  'Mythril Mace': [
+    'Mythril Mace Crafting Recipe',
+    'Cloudy Sap',
+    'Clear Sap'
+  ],
+  'Mythril Saber': [
+    'Mythril Saber Crafting Recipe',
+    'Cloudy Sap',
+    'Clear Sap'
+  ],
+  'Mythril Spear': [
+    'Mythril Spear Crafting Recipe',
+    'Murky Fluid',
+    'Sticky Fluid'
+  ],
+  'Mythril Sword': [
+    'Mythril Sword Crafting Recipe',
+    'Sorrowful Heart',
+    'Raging Heart'
+  ],
+  'Ogrekiller': [
+    'Ogrekiller Crafting Recipe',
+    'Cloudy Sap'
+  ],
+  'Partisan': [
+    'Partisan Crafting Recipe',
+    'Murky Fluid'
+  ],
+  'Platinum Rod': [
+    'Platinum Rod Crafting Recipe',
+    'Velvety Fluid',
+    'Malboro Tentacle',
+    'Void Cryst',
+  ],
+  'Scholar Robe': [
+    'Scholar Robe Crafting Recipe',
+    'Grey Spiritsand'
+  ],
+  'Vega': [
+    'Vega Crafting Recipe',
+    'Grey Spiritsand',
+    'Blue Spiritsand'
+  ],
+  'Wizard\'s Hat': [
+    'Wizard\'s Hat Crafting Recipe',
+    'Murky Fluid'
+  ],
+};
+
+// Handle on document ready.
+(function ($) {
   uniqueMaterials.forEach(function (material) {
     var option = '<option value="' + material + '">' + material + '</option>';
     $('#materials').append(option);
   });
+
+  for (let [jobName, jobNameMats] of Object.entries(jobMats)) {
+    var option = '<option value="' + jobName + '">Job: ' + jobName + '</option>';
+    $('#materials').append(option);
+  }
+
+  for (let [charName, charProps] of Object.entries(charPropMap)) {
+    var option = '<option value="' + charName + '">Character: ' + charName + '</option>';
+    $('#materials').append(option);
+  }
+
+  for (let [itemName, charProps] of Object.entries(itemRecipeMap)) {
+    var option = '<option value="' + itemName + '">Equip: ' + itemName + '</option>';
+    $('#materials').append(option);
+  }
 
   var selectEl = document.querySelector('#materials');
   accessibleAutocomplete.enhanceSelectElement({
@@ -751,17 +1177,16 @@ uniqueMaterials.sort();
   /**
    * Adds material in text input to array and DOM.
    */
-  function addMaterial() {
+  function addMaterialFromInput() {
     var $materials = $('#materials');
 
     var material = $materials.val();
-    material = material.trim();
-    material = material.replace(/(<([^>]+)>)/ig, "");
+    material = cleanMaterialName(material);
 
     $materials.focus();
 
     // For some reason the value won't clear on the same frame, so we offset 1ms.
-    setTimeout(function() {
+    setTimeout(function () {
       $materials.val('');
     }, 1);
 
@@ -769,15 +1194,115 @@ uniqueMaterials.sort();
       return;
     }
 
+    // Check to see if this is a job, character, or item and do a batch-add.
+    if (material.indexOf('Job: ') === 0) {
+      material = material.replace('Job: ', '');
+      addJobMaterials(material);
+      return;
+    }
+
+    if (material.indexOf('Character: ') === 0) {
+      material = material.replace('Character: ', '');
+      addCharacterMaterials(material);
+      return;
+    }
+
+    if (material.indexOf('Equip: ') === 0) {
+      material = material.replace('Equip: ', '');
+      addItemMaterials(material);
+      return;
+    }
+
+    addMaterial(material);
+  }
+
+  /**
+   * Sanitize and standarize material name.
+   *
+   * @param material
+   * @returns {string}
+   */
+  function cleanMaterialName(material) {
+    material = material.trim();
+    material = material.replace(/(<([^>]+)>)/ig, "");
+    return material;
+  }
+
+  /**
+   * Put a material on the materials list and add to DOM.
+   *
+   * @param material
+   */
+  function addMaterial(material) {
+    material = cleanMaterialName(material);
     if (materialsList.includes(material)) {
       return;
     }
 
     materialsList.push(material);
-
     addMaterialToDom(material);
     updateLocalStorage();
     calculate();
+  }
+
+  /**
+   * Add all materials related to a job name.
+   *
+   * @param jobName
+   */
+  function addJobMaterials(jobName) {
+    if (!jobMats.hasOwnProperty(jobName)) {
+      return;
+    }
+
+    jobMats[jobName].forEach(addMaterial);
+  }
+
+  /**
+   * Add all materials related to a character name.
+   *
+   * @param charName
+   */
+  function addCharacterMaterials(charName) {
+    if (!charPropMap.hasOwnProperty(charName)) {
+      return;
+    }
+
+    // Duplicate property array to make it easier to work with.
+    var charProps = charPropMap[charName].slice();
+
+    // First prop is the character element.
+    var element = charProps.shift();
+    addElementMaterials(element);
+
+    // Rest of the props are job names.
+    charProps.forEach(addJobMaterials);
+  }
+
+  /**
+   * Add all materials related to an element.
+   *
+   * @param elementName
+   */
+  function addElementMaterials(elementName) {
+    if (!elementMap.hasOwnProperty(elementName)) {
+      return;
+    }
+
+    elementMap[elementName].forEach(addMaterial);
+  }
+
+  /**
+   * Add all materials related to an item name.
+   *
+   * @param itemName
+   */
+  function addItemMaterials(itemName) {
+    if (!itemRecipeMap.hasOwnProperty(itemName)) {
+      return;
+    }
+
+    itemRecipeMap[itemName].forEach(addMaterial);
   }
 
   /**
@@ -978,15 +1503,10 @@ uniqueMaterials.sort();
 
     importList = importList.split(',');
     importList.forEach(function (importMaterial) {
-      importMaterial = importMaterial.trim();
-      importMaterial = importMaterial.replace(/(<([^>]+)>)/ig, "");
-      if (materialsList.includes(importMaterial)) {
-        return;
-      }
-
-      materialsList.push(importMaterial);
-      addMaterialToDom(importMaterial);
+      addMaterial(importMaterial);
     });
+
+    updateLocalStorage();
   }
 
   /**
@@ -1048,7 +1568,7 @@ uniqueMaterials.sort();
       $('body').addClass('dark-mode');
     }
 
-    $body.on('click', '.btn-add', addMaterial);
+    $body.on('click', '.btn-add', addMaterialFromInput);
     $body.on('click', '.materials-list .btn-close', deleteMaterial);
     $body.on('click', '.btn-clear-all', clearAll);
     $body.on('click', '.btn-export', populateExport);
@@ -1096,7 +1616,7 @@ uniqueMaterials.sort();
       }
 
       e.preventDefault();
-      addMaterial();
+      addMaterialFromInput();
       calculate();
     });
   });

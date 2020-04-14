@@ -70,6 +70,17 @@ body {
   margin: 0;
 }
 
+.navbar.fixed-bottom {
+  padding: 0;
+  margin: 0;
+  font-size: .7rem;
+}
+
+.navbar.fixed-bottom .nav-link {
+  padding: .2rem;
+  margin-left: 2rem;
+}
+
 @media (max-width: 768px) {
   .navbar-brand {
     font-size: 12px;
