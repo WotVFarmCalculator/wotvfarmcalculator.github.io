@@ -63,6 +63,10 @@ body {
   padding-bottom: 0;
 }
 
+.bg-dark {
+  color: #fff;
+}
+
 .navbar-brand {
   max-width: 28%;
   white-space: pre-wrap;
