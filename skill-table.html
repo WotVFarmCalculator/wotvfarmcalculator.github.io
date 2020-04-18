@@ -14,15 +14,27 @@
 
       .table-skill-range {
         border-collapse: collapse;
+        background-color: #4C443F;
+        padding: 12px;
+        border: 5px solid #4C443F;
       }
 
       .table-skill-range td {
         padding: 0;
         margin: 0;
-        border: 0;
         width: 14px;
         height: 14px;
-        background: url("skill/cmn_range_icon_none.png") top left no-repeat;
+        background-color: #635C50;
+        border: 0;
+        box-shadow: inset 1px 1px 1px 1px #4C443F;
+      }
+
+      .table-skill-range tr:nth-child(9) td:nth-child(9):after {
+        content: ' ';
+        display: block;
+        width: 14px;
+        height: 14px;
+        background: url("skill/cmn_range_icon_self.png") 1px 1px no-repeat;
       }
 
       .table-skill-range.table-skill-range-1 tr:nth-child(9) td:nth-child(9),
@@ -38,11 +50,48 @@
       .table-skill-range.table-skill-range-2 tr:nth-child(11) td:nth-child(9),
       .table-skill-range.table-skill-range-2 tr:nth-child(10) td:nth-child(8),
       .table-skill-range.table-skill-range-2 tr:nth-child(9) td:nth-child(7),
-      .table-skill-range.table-skill-range-2 tr:nth-child(8) td:nth-child(8) {
-        background: url("skill/cmn_range_icon_range.png") top left no-repeat;
+      .table-skill-range.table-skill-range-2 tr:nth-child(8) td:nth-child(8),
+
+      .table-skill-range.table-skill-range-3 tr:nth-child(6) td:nth-child(9),
+      .table-skill-range.table-skill-range-3 tr:nth-child(7) td:nth-child(10),
+      .table-skill-range.table-skill-range-3 tr:nth-child(8) td:nth-child(11),
+      .table-skill-range.table-skill-range-3 tr:nth-child(9) td:nth-child(12),
+      .table-skill-range.table-skill-range-3 tr:nth-child(10) td:nth-child(11),
+      .table-skill-range.table-skill-range-3 tr:nth-child(11) td:nth-child(10),
+      .table-skill-range.table-skill-range-3 tr:nth-child(12) td:nth-child(9),
+      .table-skill-range.table-skill-range-3 tr:nth-child(11) td:nth-child(8),
+      .table-skill-range.table-skill-range-3 tr:nth-child(10) td:nth-child(7),
+      .table-skill-range.table-skill-range-3 tr:nth-child(9) td:nth-child(6),
+      .table-skill-range.table-skill-range-3 tr:nth-child(8) td:nth-child(7),
+      .table-skill-range.table-skill-range-3 tr:nth-child(7) td:nth-child(8) {
+        background-image: url("skill/cmn_range_icon_range_trans.png");
+        background-position: 1px 1px;
+        background-repeat: no-repeat;
       }
 
+      .table-skill-target-3 tr:nth-child(6) td:nth-child(9):after {
+        content: ' ';
+        display: block;
+        width: 14px;
+        height: 14px;
+        background: url("skill/cmn_range_icon_target.png") 1px 1px no-repeat;
+      }
 
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(6) td:nth-child(9),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(7) td:nth-child(9),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(5) td:nth-child(9),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(4) td:nth-child(9),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(8) td:nth-child(9),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(6) td:nth-child(8),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(6) td:nth-child(7),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(6) td:nth-child(10),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(6) td:nth-child(11),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(7) td:nth-child(8),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(5) td:nth-child(10),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(5) td:nth-child(8),
+      .table-skill-range.table-skill-range-3.table-skill-aoe-2 tr:nth-child(7) td:nth-child(10) {
+        background-color: #E8A024;
+      }
 
     </style>
 
@@ -50,7 +99,7 @@
   </head>
   <body>
 
-    <table class="table-skill-range table-skill-range-1 table-skill-range-2">
+    <table class="table-skill-range table-skill-range-1 table-skill-range-2 table-skill-range-3 table-skill-target-3 table-skill-aoe-2">
       <tbody>
         <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
         <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
