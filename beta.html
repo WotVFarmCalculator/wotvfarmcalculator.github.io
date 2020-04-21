@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="beta.css" rel="stylesheet">
+
+    <title>War of the Visions Farming Story Materials Calculator</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top d-flex flex-row align-items-center px-md-4 flex-nowrap">
+      <h1 class="navbar-brand">WotV Story Mats Calculator</h1>
+
+      <button type="button" class="btn btn-primary btn-dark-mode">
+        <img src="img/ui/element_icon_dark.png" class="toggle-dark-mode" alt="Toggle Dark Mode" title="Toggle Dark Mode" data-toggle="tooltip" data-placement="auto">
+        <img src="img/ui/element_icon_shine.png" class="toggle-light-mode" alt="Toggle Light Mode" title="Toggle Light Mode" data-toggle="tooltip" data-placement="auto">
+      </button>
+
+      <a class="bmc-button ml-md-auto" target="_blank" href="https://www.buymeacoffee.com/WotVCalculator">
+        <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" class="bmac-cup" alt="Buy me a coffee">
+        <img src="img/othericon_lapis_s.png" class="coffee-visiore-icon" alt="Buy me Visiore">
+        <span>Buy me <strike>a coffee</strike> Visiore</span>
+      </a>
+    </nav>
+
+    <!--<nav class="nav nav-main nav-pills nav-fill container mb-4">
+      <a class="nav-item nav-link active nav-search" href="#">Search</a>
+      <a class="nav-item nav-link nav-import" href="#">Import</a>
+      <a class="nav-item nav-link nav-export" href="#">Export</a>
+    </nav>-->
+
+    <main role="main" class="container">
+      <form>
+        <div class="mode mode-autocomplete">
+
+          <div class="row mb-3">
+            <div class="autocomplete-wrapper col-md-12 col-sm-12 col-12">
+              <div class="form-group">
+                <label for="autocomplete">Enter the name of the material, character name,
+                  job name, or equipment needed. Character names will load all elemental
+                  and job related materials. Job names will load the statues, job memories,
+                  and weapon jewels. Equipment names will load the recipe and required
+                  crafting materials.</label>
+                <input id="autocomplete" class="typeahead form-control" type="text" placeholder="Enter the name of the material, job, recipe, or character">
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-md-6 col-sm-6 col-6">
+              <button type="button" class="btn btn-primary btn-add">
+                Add Material
+              </button>
+            </div>
+            <div class="col-md-6 col-sm-6 col-6">
+              <button type="button" class="btn btn-danger btn-clear-all">
+                Clear All
+              </button>
+            </div>
+          </div>
+
+          <div class="row materials-list mb-5"></div>
+        </div>
+
+        <div class="mode mode-import">
+          <div class="row">
+            <div class="col-md-12">
+              <label for="import" class="">Enter a comma-delimited list of
+                materials. Ex:
+                "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite"</label>
+            </div>
+
+            <div class="col-md-12">
+              <textarea name="import" id="import" class="mb-3" cols="50"></textarea>
+            </div>
+
+            <div class="col-md-6">
+              <button type="button" class="btn btn-primary btn-import">
+                Import
+              </button>
+            </div>
+
+            <div class="col-md-6">
+              <button type="button" class="btn btn-danger btn-mode-cancel">
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mode mode-export">
+          <div class="row">
+            <div class="col-md-12">
+              <label for="export" class="">The data below has been copied to
+                your clipboard. Paste this into other sites that
+                support this method or save for import later.</label>
+            </div>
+
+            <div class="col-md-12">
+              <textarea name="export" id="export" class="mb-3" cols="50"></textarea>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+
+            <div class="col-md-6">
+              <button type="button" class="btn btn-danger btn-mode-cancel">
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </form>
+
+      <div class="feedback"></div>
+
+      <div class="story-quest-list container">
+
+        <table class="table table-hover table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Story Name</th>
+              <th scope="col">Enemies</th>
+              <th scope="col">Matching</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>[EXPAND ICON] {{{storyName}}}</td>
+              <td>{{numEnemies}}</td>
+              <td>{{{storyMaterialIcons}}}</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="p-0">
+                <div class="container">
+                  <div class="row drop-table-header">
+                    <div class="col-gutter">
+
+                    </div>
+                    <div class="col">
+                      [EXPAND ICON] Drop Table 1
+                    </div>
+                  </div>
+                  <div class="row drop-table-data">
+                    <div class="col-gutter"></div>
+                    <div class="col-gutter"></div>
+                    <div class="col">
+                      Materials list here.....
+                    </div>
+                  </div>
+
+                </div>
+
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+
+      </div>
+
+    </main><!-- /.container -->
+
+    <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io" target="_blank">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io/commits/master" target="_blank">Changelog</a>
+          </li>
+          <li class="nav-item flex-row d-flex">
+            <span class="nav-link">Report an Error:</span>
+            <a class="nav-link" href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io/issues/new" target="_blank">On
+              Github</a>
+            <a class="nav-link" href="https://www.reddit.com/message/compose/?to=BrandonIsABadass&subject=Error%20Report" target="_blank">On
+              Reddit</a>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link latest-update">
+              Latest update: Apr 16: Fixed Chapter 1 Scene 3 Axe Azurite drop.
+            </span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <template class="template template-material-typeahead">
+      <div>
+        {{{materialLabel}}}
+      </div>
+    </template>
+
+    <template class="template template-material-item">
+      <div class="input-group col-lg-4 col-md-6 mb-2" data-material="{{material}}">
+        <div class="input-group-prepend">
+      <span class="input-group-text">
+      <img src="img/ui/cmn_btn_close_01.png" alt="Delete Material" title="Delete Material" class="btn btn-close">
+      </span>
+        </div>
+        <div class="form-control">{{{materialLabel}}}</div>
+      </div>
+    </template>
+
+    <template class="template template-material-icon-layer">
+      <img src="img/{{image}}" class="material-icon {{typeClass}}" alt="{{material}}" title="{{material}}">
+    </template>
+
+    <template class="template template-material-icon-wrapper">
+      <div class="material-icon-wrapper">
+        {{{layers}}}
+      </div>
+      <span>{{includedText}}</span>
+    </template>
+
+    <template class="template template-material-table-row">
+      <tr>
+        <td>{{storyName}}</td>
+        <td>{{storyMaterialsLength}}</td>
+        <td>{{storyMaterialIcons}}</td>
+        <td>
+          <img src="img/ui/cmn_btn_detail_03.png" class="btn" data-toggle="tooltip" data-html="true" data-placement="auto" title="{{allMatsLabels}}" alt="Hover to show all items">
+        </td>
+      </tr>
+    </template>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="lib/typeahead.bundle.min.js"></script>
+
+
+    <script src="beta.js"></script>
+  </body>
+</html>
