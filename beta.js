@@ -375,7 +375,6 @@ function calculate() {
 
   $('.feedback').html('');
 
-
   // First, get all quest inames for all item inames (taking counts for in-common materials)
   var inCommon = {};
   materialsList.forEach(function (materialListItem) {
@@ -453,7 +452,6 @@ function calculate() {
         storyRowExpandedVM.enemies.push({name: enemyData.name});
       }
 
-
       storyRowExpandedVM.materialDropBoxes = "";
       for (let [itemIName, itemData] of Object.entries(setData.drops)) {
         var matchedItemVM = {};
@@ -471,41 +469,7 @@ function calculate() {
 
       $tbody.append(applyTemplate('StoryRowExpanded', storyRowExpandedVM));
     }
-
-
   }
-
-  // @todo: finish this.
-  return;
-
-
-  sortedMatchedStories.forEach(function (matchedStory) {
-    var storyName = matchedStory['key'];
-    var storyMaterials = matchedStory['value'];
-    var allMats = stories[storyName];
-
-    var storyMaterialIcons = [];
-    storyMaterials.forEach(function (storyMaterial) {
-      storyMaterialIcons.push(getMaterialImageOrLabel(storyMaterial));
-    });
-
-    var allMatsLabels = [];
-    allMats.forEach(function (storyMaterial) {
-      var escaped = getMaterialImageOrLabel(storyMaterial, true).replace(/"/g, "&quot;");
-      allMatsLabels.push(escaped);
-    });
-
-    var tableRow = applyTemplate('MaterialTableRow', {
-      'storyName': storyName,
-      'storyMaterialsLength': storyMaterials.length,
-      'storyMaterialIcons': storyMaterialIcons.join(' '),
-      'allMatsLabels': allMatsLabels.join('<br>'),
-    });
-
-    $('.story-quest-list tbody').append(tableRow);
-  });
-
-  $('[data-toggle="tooltip"]').tooltip();
 }
 
 /**
@@ -554,6 +518,7 @@ function loadFromLocalStorage() {
  * Parses the list of materials and adds them as materials to search on.
  */
 function doImport() {
+  // @todo: Update/add back to beta
   var importList = $('#import').val();
   if (!importList) {
     return;
@@ -571,6 +536,7 @@ function doImport() {
  * Populates the export textarea with current list of materials.
  */
 function populateExport() {
+  // @todo: Update/add back to beta
   $('#export').text(materialsList.join(','));
 }
 
@@ -633,121 +599,3 @@ function initTemplates() {
     templates[key] = Handlebars.compile($template.html());
   }
 }
-
-
-// Handle on document ready.
-//(function ($) {
-/*uniqueMaterials.forEach(function (material) {
-  var option = '<option value="' + material + '">' + material + '</option>';
-  $('#materials').append(option);
-});
-
-for (let [jobName, jobNameMats] of Object.entries(jobMats)) {
-  var option = '<option value="' + jobName + '">Job: ' + jobName + '</option>';
-  $('#materials').append(option);
-}
-
-for (let [charName, charProps] of Object.entries(charPropMap)) {
-  var option = '<option value="' + charName + '">Character: ' + charName + '</option>';
-  $('#materials').append(option);
-}
-
-for (let [itemName, charProps] of Object.entries(itemRecipeMap)) {
-  var option = '<option value="' + itemName + '">Equip: ' + itemName + '</option>';
-  $('#materials').append(option);
-}
-
-var selectEl = document.querySelector('#materials');
-accessibleAutocomplete.enhanceSelectElement({
-  autoselect: true,
-  confirmOnBlur: false,
-  displayMenu: 'overlay',
-  defaultValue: "",
-  minLength: 3,
-  selectElement: selectEl
-});*/
-
-
-/*$(document).ready(function () {
-  var $body = $('body');
-
-  $body.on('click', '.nav-main a', function (e) {
-    e.preventDefault();
-    $('.nav-main a').removeClass('active');
-    $(this).addClass('active');
-  });
-
-  $body.on('click', '.toggle-dark-mode', function (e) {
-    $('.toggle-dark-mode').hide();
-    $('.toggle-light-mode').show();
-    $('body').addClass('dark-mode');
-    localStorage.setItem('darkMode', '1');
-  });
-
-  $body.on('click', '.toggle-light-mode', function (e) {
-    $('.toggle-dark-mode').show();
-    $('.toggle-light-mode').hide();
-    $('body').removeClass('dark-mode');
-    localStorage.setItem('darkMode', '');
-  });
-
-  if (localStorage.getItem('darkMode') === '1') {
-    $('.toggle-dark-mode').hide();
-    $('.toggle-light-mode').show();
-    $('body').addClass('dark-mode');
-  }
-
-  $body.on('click', '.btn-add', addMaterialFromInput);
-  $body.on('click', '.materials-list .btn-close', deleteMaterial);
-  $body.on('click', '.btn-clear-all', clearAll);
-  $body.on('click', '.btn-export', populateExport);
-
-  $body.on('click', '.nav-search', function (e) {
-    $('.mode').hide();
-    $('.mode-autocomplete').show();
-    $('.autocomplete__input').focus();
-  });
-
-  $body.on('click', '.nav-import', function (e) {
-    $('.mode').hide();
-    $('.mode-import').show();
-    $('#import').focus();
-  });
-
-  $body.on('click', '.nav-export', function (e) {
-    $('.mode').hide();
-    $('.mode-export').show();
-    populateExport();
-    var exportString = $('#export').focus().select().text();
-    navigator.clipboard.writeText(exportString);
-  });
-
-  $body.on('click', '.btn-mode-cancel', function (e) {
-    e.preventDefault();
-    $('.mode').hide();
-    $('.mode-autocomplete').show();
-    $('.nav-main a').removeClass('active');
-    $('.nav-main a:first-child').addClass('active');
-    $('.autocomplete__input').focus();
-  });
-
-  $body.on('click', '.btn-import', function (e) {
-    doImport();
-    calculate();
-    $('.mode-autocomplete').show();
-    $('.mode-import').hide();
-  });
-
-  // On enter press, don't submit form but instead add material.
-  $body.on('keypress', '#materials', function (e) {
-    if (e.keyCode != 13) {
-      return;
-    }
-
-    e.preventDefault();
-    addMaterialFromInput();
-    calculate();
-  });
-});*/
-
-//}(jQuery));
