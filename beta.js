@@ -7,11 +7,12 @@ var fileList = {
   'ItemAtLeastOne': 'data/ItemAtLeastOne.json',
   'ItemChance': 'data/ItemChance.json',
   'ItemQuests': 'data/ItemQuests.json',
-  'Quests': 'data/Quests.json',
+  'QuestsByIName': 'data/QuestsByIName.json',
   'ElementalItems': 'data/ElementalItems.json',
   'JobMaterials': 'data/JobMaterials.json',
   'Characters': 'data/Characters.json',
   'ItemRecipes': 'data/ItemRecipes.json',
+  'QuestAtLeastOne': 'data/QuestAtLeastOne.json',
 };
 
 var loadedData = {};
@@ -19,7 +20,6 @@ var loadedData = {};
 for (let [key, url] of Object.entries(fileList)) {
   fetch(url)
     .then((response) => {
-      console.log(url);
       return response.json();
     })
     .then((data) => {
@@ -37,7 +37,6 @@ $(document).ready(function () {
 });
 
 var materialsList = [];
-var matchedStories = {};
 var autocompleteData = [];
 var translation = {};
 var templates = {};
@@ -127,7 +126,33 @@ function start() {
   $body.on('click', '.materials-list .btn-close', deleteMaterial);
   $body.on('click', '.btn-clear-all', clearAll);
 
+  // Toggle showing drop tables.
+  $body.on('click', '.accordion-toggle-story-name', function () {
+    var questIName = $(this).data('quest');
+    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
+      $('.story-row-expanded-' + questIName).show();
+    } else {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
+      $('.story-row-expanded-' + questIName).hide();
+    }
+  });
+
+  // Toggle showing individual drop table.
+  $body.on('click', '.accordion-toggle-drop-table', function () {
+    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
+      $(this).parent().siblings('.drop-table-data').show();
+    } else {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
+      $(this).parent().siblings('.drop-table-data').hide();
+    }
+  });
+
   loadFromLocalStorage();
+
+  $('.loading').hide();
+  $('.main').show();
 }
 
 
@@ -162,7 +187,7 @@ function handleCallback(e, suggestion) {
  *
  * @param material
  */
-function addMaterial(material) {
+function addMaterial(material, dontCalculate) {
   // Normalize structure.
   if (typeof material === 'string') {
     material = {
@@ -179,7 +204,9 @@ function addMaterial(material) {
   addMaterialToDom(material);
 
   updateLocalStorage();
-  calculate();
+  if (!dontCalculate) {
+    calculate();
+  }
 }
 
 
@@ -311,6 +338,9 @@ function getMaterialLayerImageHtml(material, image) {
   if (image.indexOf('gear/') >= 0) {
     typeClass = 'material-icon-gear';
   }
+  if (image.indexOf('_recipe') >= 0) {
+    typeClass = 'material-icon-recipe';
+  }
   if (image.indexOf('itemicon_job_') >= 0) {
     typeClass = 'material-icon-memory';
   }
@@ -345,29 +375,110 @@ function calculate() {
 
   $('.feedback').html('');
 
+
+  // First, get all quest inames for all item inames (taking counts for in-common materials)
+  var inCommon = {};
+  materialsList.forEach(function (materialListItem) {
+    if (!loadedData['ItemQuests'].hasOwnProperty(materialListItem)) {
+      console.warn("Missing itemQuests for material: ", materialListItem);
+      return;
+    }
+
+    var itemQuests = loadedData['ItemQuests'][materialListItem];
+
+    itemQuests.forEach(function (itemQuest) {
+      if (!inCommon.hasOwnProperty(itemQuest)) {
+        inCommon[itemQuest] = [];
+      }
+      inCommon[itemQuest].push(materialListItem);
+    });
+  });
+
+  // Second, sort quest inames by # of in-common materials
+  var inCommonSorted = {};
+  let sortedKeys = Object.keys(inCommon).sort(function (a, b) {
+    return inCommon[b].length - inCommon[a].length;
+  });
+  sortedKeys.forEach(function (key) {
+    inCommonSorted[key] = inCommon[key];
+  });
+  inCommon = inCommonSorted;
+
+  var $tbody = $('.story-quest-list tbody');
+  $tbody.html('');
+
+  for (let [questIName, matchedItems] of Object.entries(inCommon)) {
+    var storyRowVM = {};
+
+    var quest = loadedData['QuestsByIName'][questIName];
+    if (!quest) {
+      console.error("Unable to find quest for quest iname: ", questIName, quest);
+      break;
+    }
+
+    storyRowVM.iname = questIName;
+    storyRowVM.type = quest.type;
+    storyRowVM.designation = quest.designation;
+    storyRowVM.title = quest.title;
+    storyRowVM.numEnemies = quest.numEnemies;
+    storyRowVM.numChests = quest.numChests;
+    storyRowVM.nrg = quest.nrg;
+    storyRowVM.xp = quest.unitXp;
+    storyRowVM.jp = quest.jp;
+    storyRowVM.gold = quest.gold;
+
+    storyRowVM.materialDropBoxes = "";
+    matchedItems.forEach(function (matchedItem) {
+      var matchedItemVM = {};
+      // @todo: There can be multiple drop chances here - how to flatten?
+      // @todo: For now just take the first which is the highest.
+      matchedItemVM.dropChance = loadedData['QuestAtLeastOne'][questIName][matchedItem][0];
+      var entry = {
+        'iname': matchedItem,
+        'value': translation['ItemName'][matchedItem],
+        'type': 'item',
+      };
+      matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false);
+      storyRowVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
+    });
+
+    $tbody.append(applyTemplate('StoryRow', storyRowVM));
+
+    for (let [dropKey, setData] of Object.entries(quest.drop)) {
+      var storyRowExpandedVM = {};
+      storyRowExpandedVM.iname = questIName;
+
+      storyRowExpandedVM.enemies = [];
+      for (let [enemyKey, enemyData] of Object.entries(setData.enemies)) {
+        storyRowExpandedVM.enemies.push({name: enemyData.name});
+      }
+
+
+      storyRowExpandedVM.materialDropBoxes = "";
+      for (let [itemIName, itemData] of Object.entries(setData.drops)) {
+        var matchedItemVM = {};
+        matchedItemVM.dropChance = itemData.chance + "%";
+        var entry = {
+          'iname': itemIName === "NOTHING" ? applyTemplate('NoDrop', {}) : itemIName,
+          'value': itemData.name,
+          'num': itemData.num,
+          'type': 'item',
+        };
+
+        matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false);
+        storyRowExpandedVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
+      }
+
+      $tbody.append(applyTemplate('StoryRowExpanded', storyRowExpandedVM));
+    }
+
+
+  }
+
   // @todo: finish this.
   return;
 
-  matchedStories = {};
 
-  for (let [storyName, storyMaterials] of Object.entries(stories)) {
-    let matchedMaterials = storyMaterials.filter(x => materialsList.includes(x));
-    if (!matchedMaterials.length) {
-      continue;
-    }
-
-    matchedStories[storyName] = matchedMaterials;
-  }
-
-  var sortedMatchedStories = Object.keys(matchedStories)
-    .map(function (k) {
-      return {key: k, value: matchedStories[k]};
-    })
-    .sort(function (a, b) {
-      return b.value.length - a.value.length;
-    });
-
-  $('.story-quest-list tbody').html('');
   sortedMatchedStories.forEach(function (matchedStory) {
     var storyName = matchedStory['key'];
     var storyMaterials = matchedStory['value'];
@@ -433,7 +544,9 @@ function loadFromLocalStorage() {
     return;
   }
 
-  list.forEach(addMaterial);
+  list.forEach(function (listItem) {
+    addMaterial(listItem, true);
+  });
   calculate();
 }
 
@@ -509,6 +622,10 @@ function initTemplates() {
     'MaterialIconWrapper': '.template-material-icon-wrapper',
     'MaterialTableRow': '.template-material-table-row',
     'MaterialTypeahead': '.template-material-typeahead',
+    'MaterialDropBox': '.template-material-drop-box',
+    'StoryRow': '.template-story-row',
+    'StoryRowExpanded': '.template-story-row-expanded',
+    'NoDrop': '.template-no-drop',
   };
 
   for (let [key, selector] of Object.entries(templateSelectors)) {

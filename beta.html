@@ -15,12 +15,14 @@
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark fixed-top d-flex flex-row align-items-center px-md-4 flex-nowrap">
-      <h1 class="navbar-brand">WotV Story Mats Calculator</h1>
+      <h1 class="navbar-brand">WotV Farming Calculator</h1>
 
+      <!-- @todo: Add dark mode back
       <button type="button" class="btn btn-primary btn-dark-mode">
         <img src="img/ui/element_icon_dark.png" class="toggle-dark-mode" alt="Toggle Dark Mode" title="Toggle Dark Mode" data-toggle="tooltip" data-placement="auto">
         <img src="img/ui/element_icon_shine.png" class="toggle-light-mode" alt="Toggle Light Mode" title="Toggle Light Mode" data-toggle="tooltip" data-placement="auto">
       </button>
+      -->
 
       <a class="bmc-button ml-md-auto" target="_blank" href="https://www.buymeacoffee.com/WotVCalculator">
         <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" class="bmac-cup" alt="Buy me a coffee">
@@ -35,7 +37,13 @@
       <a class="nav-item nav-link nav-export" href="#">Export</a>
     </nav>-->
 
-    <main role="main" class="container">
+    <div class="jumbotron loading">
+      <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      <h1 class="display-4">Loading data and crunching numbers.. please wait.</h1>
+    </div>
+
+
+    <main role="main" class="main container">
       <form>
         <div class="mode mode-autocomplete">
 
@@ -52,20 +60,15 @@
             </div>
           </div>
 
+          <div class="row materials-list mb-5"></div>
+
           <div class="row mb-5">
-            <div class="col-md-6 col-sm-6 col-6">
-              <button type="button" class="btn btn-primary btn-add">
-                Add Material
-              </button>
-            </div>
             <div class="col-md-6 col-sm-6 col-6">
               <button type="button" class="btn btn-danger btn-clear-all">
                 Clear All
               </button>
             </div>
           </div>
-
-          <div class="row materials-list mb-5"></div>
         </div>
 
         <div class="mode mode-import">
@@ -125,43 +128,14 @@
 
       <div class="story-quest-list container">
 
-        <table class="table table-hover table-sm">
-          <thead>
+        <table class="table table-sm">
+          <thead class="thead-dark">
             <tr>
               <th scope="col">Story Name</th>
-              <th scope="col">Enemies</th>
-              <th scope="col">Matching</th>
+              <th scope="col">Materials (Chance for <strong>at least one</strong> per embark)</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>[EXPAND ICON] {{{storyName}}}</td>
-              <td>{{numEnemies}}</td>
-              <td>{{{storyMaterialIcons}}}</td>
-            </tr>
-            <tr>
-              <td colspan="3" class="p-0">
-                <div class="container">
-                  <div class="row drop-table-header">
-                    <div class="col-gutter">
-
-                    </div>
-                    <div class="col">
-                      [EXPAND ICON] Drop Table 1
-                    </div>
-                  </div>
-                  <div class="row drop-table-data">
-                    <div class="col-gutter"></div>
-                    <div class="col-gutter"></div>
-                    <div class="col">
-                      Materials list here.....
-                    </div>
-                  </div>
-
-                </div>
-
-              </td>
-            </tr>
 
           </tbody>
         </table>
@@ -188,7 +162,7 @@
           </li>
           <li class="nav-item">
             <span class="nav-link latest-update">
-              Latest update: Apr 16: Fixed Chapter 1 Scene 3 Axe Azurite drop.
+              Latest update: Apr 22: NEW VERSION BETA!!.
             </span>
           </li>
         </ul>
@@ -213,15 +187,15 @@
       </div>
     </template>
 
-    <template class="template template-material-icon-layer">
-      <img src="img/{{image}}" class="material-icon {{typeClass}}" alt="{{material}}" title="{{material}}">
-    </template>
-
     <template class="template template-material-icon-wrapper">
       <div class="material-icon-wrapper">
         {{{layers}}}
       </div>
       <span>{{includedText}}</span>
+    </template>
+
+    <template class="template template-material-icon-layer">
+      <img src="img/{{image}}" class="material-icon {{typeClass}}" alt="{{material}}" title="{{material}}">
     </template>
 
     <template class="template template-material-table-row">
@@ -235,6 +209,74 @@
       </tr>
     </template>
 
+    <template class="template template-story-row">
+      <tr class="story-row">
+        <td>
+          <div class="container">
+            <div class="row">
+              <img src="img/ui/cmn_btn_acordion_off.png" data-quest="{{iname}}" class="accordion-toggle accordion-toggle-story-name mr-2" alt="Click to expand/collapse" title="Click to expand/collapse">
+              <div class="col">
+                <div class="row">
+                  ({{type}}) {{designation}} {{title}}
+                </div>
+                <div class="row">
+                  <span class="story-substat">Enemies: {{numEnemies}}</span>
+                  <span class="story-substat">Chests: {{numChests}}</span>
+                  <span class="story-substat">NRG: {{nrg}}</span>
+                  <span class="story-substat">XP: {{xp}}</span>
+                  <span class="story-substat">JP: {{jp}}</span>
+                  <span class="story-substat">GOLD: {{gold}}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          {{{materialDropBoxes}}}
+        </td>
+      </tr>
+    </template>
+
+    <template class="template template-material-drop-box">
+      <div class="material-icon-drop-box">
+        {{{materialLabel}}}
+        <div class="material-icon-drop-percent">
+          {{dropChance}}
+        </div>
+      </div>
+    </template>
+
+
+    <template class="template template-story-row-expanded">
+      <tr class="story-row-expanded story-row-expanded-{{iname}} gutter-1">
+        <td colspan="3">
+          <div class="container">
+            <div class="row drop-table-header">
+              <img src="img/ui/cmn_btn_acordion_on.png" class="accordion-toggle accordion-toggle-drop-table mr-2">
+              <div class="col">
+                <div class="row">
+                  {{#each enemies}}
+                  <span class="story-substat">{{name}}</span>
+                  {{/each}}
+                </div>
+              </div>
+            </div>
+            <div class="row drop-table-data gutter-2">
+              <div class="col">
+                <h6>Chance per enemy killed/chest opened:</h6>
+                {{{materialDropBoxes}}}
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </template>
+
+    <template class="template template-no-drop">
+      <div class="no-drop">
+        NO<br>DROP
+      </div>
+    </template>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
