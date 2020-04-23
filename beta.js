@@ -293,8 +293,9 @@ function addMaterialToDom(material) {
  *
  * @param material
  * @param includeText
+ * @param includeQuantity
  */
-function getMaterialImageOrLabel(material, includeText) {
+function getMaterialImageOrLabel(material, includeText, includeQuantity) {
   if (!loadedData['ItemImageMap'].hasOwnProperty(material.iname)) {
     return material.iname;
   }
@@ -314,6 +315,13 @@ function getMaterialImageOrLabel(material, includeText) {
   layers.forEach(function (layer) {
     layerHtml += getMaterialLayerImageHtml(material, layer);
   });
+
+  if (includeQuantity) {
+    layerHtml += applyTemplate('MaterialQuantityLayer', {
+      'material': material.value,
+      'quantity': material.quantity,
+    });
+  }
 
   var html = applyTemplate('MaterialIconWrapper', {
     'layers': layerHtml,
@@ -436,6 +444,9 @@ function calculate() {
         'iname': matchedItem,
         'value': translation['ItemName'][matchedItem],
         'type': 'item',
+
+        // @todo: show quantity here?
+        //'quantity':
       };
       matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false);
       storyRowVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
@@ -459,11 +470,11 @@ function calculate() {
         var entry = {
           'iname': itemIName === "NOTHING" ? applyTemplate('NoDrop', {}) : itemIName,
           'value': itemData.name,
-          'num': itemData.num,
+          'quantity': itemData.num,
           'type': 'item',
         };
 
-        matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false);
+        matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true);
         storyRowExpandedVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
       }
 
@@ -592,6 +603,7 @@ function initTemplates() {
     'StoryRow': '.template-story-row',
     'StoryRowExpanded': '.template-story-row-expanded',
     'NoDrop': '.template-no-drop',
+    'MaterialQuantityLayer': '.template-material-quantity-layer',
   };
 
   for (let [key, selector] of Object.entries(templateSelectors)) {

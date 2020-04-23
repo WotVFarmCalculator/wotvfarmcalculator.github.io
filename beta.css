@@ -508,6 +508,20 @@ body {
   height: 1.5rem;
 }
 
+.material-icon-quantity {
+  background: #fff;
+  height: auto;
+  top: auto;
+  left: auto;
+  right: 2px;
+  bottom: 2px;
+  font-size: .6rem;
+  padding: 0 1px 0 2px;
+  border-radius: 5px 0 0 0;
+  border: 1px solid #555;
+  line-height: .7rem;
+}
+
 .materials-list .form-control {
   border-left: none;
   padding-top: 4px;
