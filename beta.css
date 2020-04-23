@@ -548,6 +548,41 @@ body {
   margin-bottom: 200px;
 }
 
+.quest-type {
+  background: #eee;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border: 1px solid #333;
+  font-size: .6rem;
+  display: inline-block;
+  line-height: .8rem;
+  height: .85rem;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-top: .35rem;
+  padding: 0 3px;
+}
+
+.quest-type-story {
+  background: #00aaff;
+}
+
+.quest-type-event {
+  background: #E8A024;
+}
+
+.quest-type-multiplayer {
+  background: #ee4444;
+}
+
+.quest-type-character {
+  background: #00cc88;
+}
+
+.quest-type-beast-den {
+  background: #ff6600;
+}
+
 .mode-import,
 .mode-export {
   display: none;

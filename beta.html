@@ -202,17 +202,6 @@
       <div class="material-icon material-icon-quantity" title="{{material}}">x{{quantity}}</div>
     </template>
 
-    <template class="template template-material-table-row">
-      <tr>
-        <td>{{storyName}}</td>
-        <td>{{storyMaterialsLength}}</td>
-        <td>{{storyMaterialIcons}}</td>
-        <td>
-          <img src="img/ui/cmn_btn_detail_03.png" class="btn" data-toggle="tooltip" data-html="true" data-placement="auto" title="{{allMatsLabels}}" alt="Hover to show all items">
-        </td>
-      </tr>
-    </template>
-
     <template class="template template-story-row">
       <tr class="story-row">
         <td>
@@ -221,7 +210,7 @@
               <img src="img/ui/cmn_btn_acordion_off.png" data-quest="{{iname}}" class="accordion-toggle accordion-toggle-story-name mr-2" alt="Click to expand/collapse" title="Click to expand/collapse">
               <div class="col">
                 <div class="row">
-                  ({{type}}) {{designation}} {{title}}
+                  <span class="quest-type quest-type-{{cssclass type}}">{{type}}</span> {{designation}} {{title}}
                 </div>
                 <div class="row">
                   <span class="story-substat">Enemies: {{numEnemies}}</span>

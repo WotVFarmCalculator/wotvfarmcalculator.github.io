@@ -562,7 +562,7 @@ function applyTemplate(template, data) {
 }
 
 /**
- *
+ * Initialize the autocomplete functionality.
  */
 function initTypeAhead() {
   var autocompleteBH = new Bloodhound({
@@ -590,14 +590,17 @@ function initTypeAhead() {
 }
 
 /**
- *
+ * Initialize the various templates that are used.
  */
 function initTemplates() {
+  Handlebars.registerHelper('cssclass', function (aString) {
+    return aString.toLowerCase().replace(' ', '-').replace('\'', '');
+  });
+
   var templateSelectors = {
     'MaterialItem': '.template-material-item',
     'MaterialIconLayer': '.template-material-icon-layer',
     'MaterialIconWrapper': '.template-material-icon-wrapper',
-    'MaterialTableRow': '.template-material-table-row',
     'MaterialTypeahead': '.template-material-typeahead',
     'MaterialDropBox': '.template-material-drop-box',
     'StoryRow': '.template-story-row',
@@ -610,4 +613,6 @@ function initTemplates() {
     var $template = $(selector);
     templates[key] = Handlebars.compile($template.html());
   }
+
+
 }
