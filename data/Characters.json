@@ -63,6 +63,14 @@
       "Hunter"
     ]
   },
+  "Gaffgarion": {
+    "element": "Dark",
+    "jobs": [
+      "Fell Knight",
+      "Warrior",
+      "Monk"
+    ]
+  },
   "Gilgamesh": {
     "element": "Ice",
     "jobs": [
@@ -215,6 +223,14 @@
       "Samurai"
     ]
   },
+  "Orlandeau": {
+    "element": "Lightning",
+    "jobs": [
+      "Sword Saint",
+      "Samurai",
+      "Knight"
+    ]
+  },
   "Owe": {
     "element": "Thunder",
     "jobs": [
@@ -245,6 +261,14 @@
       "Lancer",
       "Spellblade",
       "Thief"
+    ]
+  },
+  "Ramza": {
+    "element": "Light",
+    "jobs": [
+      "Squire",
+      "Spellblade",
+      "Ninja"
     ]
   },
   "Robb Hourne": {
@@ -356,7 +380,7 @@
     "jobs": [
       "Sorceress",
       "White Mage",
-      "Gree Mage"
+      "Green Mage"
     ]
   },
   "Yuni": {

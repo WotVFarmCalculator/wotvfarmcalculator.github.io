@@ -3,43 +3,13 @@
     "80.00%": [
       "QE_EV_UNITEXP_01",
       "QE_EV_UNITEXP_02",
-      "QE_EV_UNITEXP_03",
-      "QE_EV_ETRE_01"
+      "QE_EV_UNITEXP_03"
     ],
     "60.25%": [
       "QE_EV_UNITEXP_02"
     ],
-    "60.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03",
-      "QE_EV_AFEXP_03"
-    ],
     "44.25%": [
-      "QE_EV_UNITEXP_01",
-      "QE_EV_ETRE_01"
-    ],
-    "40.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
+      "QE_EV_UNITEXP_01"
     ],
     "14.12%": [
       "QE_EV_ANV_19_10"
@@ -49,371 +19,79 @@
     ],
     "10.00%": [
       "QE_EV_UNITEXP_01",
-      "QE_EV_UNITEXP_01",
       "QE_EV_UNITEXP_02",
-      "QE_EV_UNITEXP_02",
-      "QE_EV_UNITEXP_03",
-      "QE_EV_UNITEXP_03",
-      "QE_EV_ETRE_01",
-      "QE_EV_ETRE_01"
+      "QE_EV_UNITEXP_03"
     ]
   },
   "IT_US_EXP_02": {
     "41.75%": [
       "QE_EV_UNITEXP_03"
     ],
-    "25.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
     "16.75%": [
       "QE_EV_UNITEXP_02"
     ],
-    "10.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
     "5.88%": [
       "QE_EV_ANV_19_10"
+    ],
+    "3.50%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
     ]
   },
   "IT_US_EXP_03": {
     "3.60%": [
       "QE_EV_UNITEXP_03"
+    ],
+    "1.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
     ]
   },
   "IT_CG_01": {
     "58.00%": [
       "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
+      "QE_EV_GIL_01"
     ],
     "50.00%": [
       "QE_EV_GIL_D2",
       "QE_EV_GIL_D3",
-      "QE_EV_GIL_D3",
       "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03",
-      "QE_EV_AFEXP_03"
+      "QE_EV_GIL_03"
     ],
     "14.12%": [
       "QE_EV_ANV_19_10"
     ]
   },
-  "IT_UN_AW_SOIL_R2": {
-    "50.00%": [
-      "QE_EV_AW_EAR_01",
-      "QE_MU_AW_EAR_01"
-    ],
-    "40.00%": [
-      "QE_EV_AW_EAR_01",
-      "QE_MU_AW_EAR_01"
-    ],
-    "25.00%": [
-      "QE_EV_AW_EAR_01",
-      "QE_MU_AW_EAR_01"
-    ],
-    "20.00%": [
-      "QE_EV_AW_EAR_02"
-    ],
-    "10.00%": [
-      "QE_EV_AW_EAR_01",
-      "QE_EV_AW_EAR_02",
-      "QE_MU_AW_EAR_01"
-    ],
-    "4.00%": [
-      "QE_EV_AW_EAR_02"
-    ],
-    "0.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ]
-  },
-  "IT_UN_AW_SOIL_R3": {
-    "70.00%": [
-      "QE_EV_AW_EAR_03",
-      "QE_MU_AW_EAR_03"
-    ],
-    "50.00%": [
-      "QE_EV_AW_EAR_02"
-    ],
-    "30.00%": [
-      "QE_EV_AW_EAR_02"
-    ],
-    "15.00%": [
-      "QE_EV_AW_EAR_02",
-      "QE_EV_AW_EAR_02"
-    ],
-    "14.00%": [
-      "QE_EV_AW_EAR_03",
-      "QE_MU_AW_EAR_03"
-    ],
-    "10.00%": [
-      "QE_EV_AW_EAR_02"
-    ],
-    "0.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ]
-  },
-  "IT_UN_AW_SOIL_R4": {
-    "70.00%": [
-      "QE_EV_AW_EAR_04"
-    ],
-    "50.00%": [
-      "QE_EV_AW_EAR_03",
-      "QE_MU_AW_EAR_03"
-    ],
-    "30.00%": [
-      "QE_EV_AW_EAR_03",
-      "QE_MU_AW_EAR_03"
-    ],
-    "15.00%": [
-      "QE_EV_AW_EAR_03",
-      "QE_MU_AW_EAR_03"
-    ],
-    "10.00%": [
-      "QE_EV_AW_EAR_04"
-    ],
-    "5.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ]
-  },
-  "IT_UN_AW_SOIL_R5": {
-    "70.00%": [
-      "QE_EV_AW_EAR_05",
-      "QE_MU_AW_EAR_05"
-    ],
-    "50.00%": [
-      "QE_EV_AW_EAR_04"
-    ],
-    "40.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
-    "30.00%": [
-      "QE_EV_AW_EAR_04"
-    ],
-    "8.00%": [
-      "QE_EV_AW_EAR_04"
-    ],
-    "3.00%": [
-      "QE_EV_AW_EAR_05",
-      "QE_MU_AW_EAR_05"
-    ]
-  },
-  "IT_UN_AW_SOIL_R6": {
-    "50.00%": [
-      "QE_EV_AW_EAR_05",
-      "QE_MU_AW_EAR_05"
-    ],
-    "30.00%": [
-      "QE_EV_AW_EAR_05",
-      "QE_MU_AW_EAR_05"
-    ],
-    "10.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
-    "3.00%": [
-      "QE_EV_AW_EAR_05",
-      "QE_MU_AW_EAR_05"
-    ]
-  },
-  "IT_JB_MM_ALL": {
-    "20.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
-    "15.00%": [
-      "QE_EV_01_01"
-    ],
-    "12.50%": [
-      "QE_EV_01_02"
-    ],
-    "12.00%": [
-      "QE_ST_01010102",
-      "QE_EV_FF14_01",
-      "QE_EV_FF14_02"
-    ],
-    "11.00%": [
-      "QE_ST_01010101"
-    ],
-    "10.72%": [
-      "QE_EV_ETRE_01"
-    ],
-    "10.00%": [
-      "QE_ST_01010103",
-      "QE_ST_01010105",
-      "QE_ST_01010106",
-      "QE_ST_01010107",
-      "QE_ST_01010201",
-      "QE_ST_01010202",
-      "QE_ST_01010203",
-      "QE_ST_01010204",
-      "QE_ST_01010207",
-      "QE_ST_01010209"
-    ],
-    "8.50%": [
-      "QE_ST_01010104",
-      "QE_ST_01010108",
-      "QE_ST_01010110",
-      "QE_ST_01010206",
-      "QE_ST_01010208"
-    ],
-    "7.40%": [
-      "QE_ST_01010205"
-    ],
-    "6.50%": [
-      "QE_ST_01010109",
-      "QE_ST_01010210"
-    ],
-    "2.00%": [
-      "QE_EV_01_01"
-    ],
-    "1.67%": [
-      "QE_EV_01_02"
-    ],
-    "1.43%": [
-      "QE_EV_ETRE_01"
-    ]
-  },
-  "IT_JB_KUNAI_01": {
-    "20.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
-    "18.90%": [
-      "QE_ST_01010107"
-    ],
-    "18.65%": [
-      "QE_ST_01010201"
-    ],
-    "16.05%": [
-      "QE_ST_01010208"
-    ]
-  },
-  "IT_JB_BOW_01": {
-    "20.00%": [
-      "QE_EV_GIL_D1",
-      "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_01",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03",
-      "QE_ST_01010101"
-    ],
-    "18.85%": [
-      "QE_ST_01010209"
-    ],
-    "18.65%": [
-      "QE_ST_01010202"
-    ],
-    "16.05%": [
-      "QE_ST_01010108"
-    ]
-  },
   "IT_CG_02": {
     "44.00%": [
       "QE_EV_GIL_D3",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
+      "QE_EV_GIL_03"
     ],
     "17.00%": [
       "QE_EV_GIL_D2",
-      "QE_EV_GIL_D3",
-      "QE_EV_GIL_02",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
+      "QE_EV_GIL_02"
     ],
     "5.88%": [
       "QE_EV_ANV_19_10"
     ]
   },
   "IT_CG_03": {
+    "100.00%": [
+      "QE_EV_GL_3M_DL"
+    ],
     "6.00%": [
       "QE_EV_GIL_D3",
-      "QE_EV_GIL_03",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
+      "QE_EV_GIL_03"
     ]
   },
   "IT_AF_EXP_01": {
     "90.00%": [
       "QE_EV_AFEXP_D1",
-      "QE_EV_AFEXP_D1",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_01",
-      "QE_EV_AFEXP_01",
-      "QE_EV_AFEXP_03"
+      "QE_EV_AFEXP_01"
     ],
     "67.50%": [
       "QE_EV_ART_CRF_01"
@@ -450,10 +128,6 @@
       "QE_EV_AFEXP_D2",
       "QE_EV_AFEXP_02"
     ],
-    "40.00%": [
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
     "35.00%": [
       "QE_EV_ART_CRF_03"
     ],
@@ -468,6 +142,12 @@
     "21.00%": [
       "QE_MU_EV_01_EX2"
     ],
+    "20.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
+    ],
     "17.50%": [
       "QE_EV_01_EX1",
       "QE_EV_ETRE_EX1",
@@ -478,11 +158,7 @@
     ],
     "10.00%": [
       "QE_EV_AFEXP_D1",
-      "QE_EV_AFEXP_D1",
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_01",
-      "QE_EV_AFEXP_01",
-      "QE_EV_AFEXP_03"
+      "QE_EV_AFEXP_01"
     ],
     "7.50%": [
       "QE_EV_ART_CRF_01"
@@ -504,6 +180,12 @@
       "QE_MU_EV_ET_EX1",
       "QE_MU_EV_ET_EX2"
     ],
+    "20.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
+    ],
     "18.00%": [
       "QE_EV_01_EX2",
       "QE_MU_EV_01_EX2"
@@ -517,17 +199,12 @@
       "QE_EV_AFEXP_D2",
       "QE_EV_AFEXP_02"
     ],
-    "10.00%": [
-      "QE_EV_AFEXP_D3",
-      "QE_EV_AFEXP_03"
-    ],
     "7.50%": [
       "QE_EV_ART_CRF_02"
     ]
   },
   "IT_VC_EXP_01": {
     "85.00%": [
-      "QE_EV_VCEXP_01",
       "QE_EV_VCEXP_01"
     ],
     "10.59%": [
@@ -548,11 +225,16 @@
       "QE_EV_VCEXP_03"
     ],
     "15.00%": [
-      "QE_EV_VCEXP_01",
       "QE_EV_VCEXP_01"
     ],
     "5.88%": [
       "QE_EV_ANV_19_10"
+    ],
+    "5.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
     ]
   },
   "IT_VC_EXP_03": {
@@ -567,11 +249,16 @@
     ],
     "8.00%": [
       "QE_EV_VCEXP_02"
+    ],
+    "5.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
     ]
   },
   "IT_WA_EXP_01": {
     "50.00%": [
-      "QE_EV_WAEXP_01",
       "QE_EV_WAEXP_01",
       "QE_EV_WAEXP_02",
       "QE_EV_WAEXP_03"
@@ -659,6 +346,21 @@
       "QE_ST_01050103",
       "QE_ST_01050107",
       "QE_ST_01050201"
+    ],
+    "5.00%": [
+      "QE_HA_LW_MDNA",
+      "QE_HA_LW_MACR"
+    ],
+    "4.00%": [
+      "QE_HA_LW_FINA",
+      "QE_HA_LW_NASR",
+      "QE_HA_LW_AYKA"
+    ],
+    "3.50%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_AILN",
+      "QE_HA_LW_GLMS",
+      "QE_HA_LW_YERM"
     ]
   },
   "IT_JB_SWORD_04": {
@@ -672,6 +374,15 @@
     "14.50%": [
       "QE_ST_01040301",
       "QE_ST_01050109"
+    ],
+    "12.00%": [
+      "QE_HA_LW_NASR"
+    ],
+    "10.00%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_AILN",
+      "QE_HA_LW_GLMS",
+      "QE_HA_LW_YERM"
     ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
@@ -690,6 +401,11 @@
     "13.00%": [
       "QE_ST_01050103"
     ],
+    "10.00%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_AILN",
+      "QE_HA_LW_GLMS"
+    ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -699,6 +415,9 @@
     "20.00%": [
       "QE_ST_01050101",
       "QE_ST_01050105"
+    ],
+    "15.00%": [
+      "QE_HA_LW_MACR"
     ],
     "14.50%": [
       "QE_ST_01040304"
@@ -725,6 +444,12 @@
     "14.50%": [
       "QE_ST_01040301"
     ],
+    "12.00%": [
+      "QE_HA_LW_NASR"
+    ],
+    "10.00%": [
+      "QE_HA_LW_AILN"
+    ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -739,9 +464,15 @@
     "17.00%": [
       "QE_ST_01040307"
     ],
+    "15.00%": [
+      "QE_HA_LW_MDNA"
+    ],
     "13.50%": [
       "QE_ST_01050104",
       "QE_ST_01050210"
+    ],
+    "10.00%": [
+      "QE_HA_LW_YERM"
     ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
@@ -759,6 +490,12 @@
     "14.50%": [
       "QE_ST_01040304",
       "QE_ST_01050109"
+    ],
+    "12.00%": [
+      "QE_HA_LW_FINA"
+    ],
+    "10.00%": [
+      "QE_HA_LW_SZRT"
     ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
@@ -779,17 +516,29 @@
     "13.50%": [
       "QE_ST_01050207"
     ],
+    "12.00%": [
+      "QE_HA_LW_FINA"
+    ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
     ]
   },
   "IT_JB_STAFF_04": {
+    "36.00%": [
+      "QE_HA_LW_AYKA"
+    ],
+    "30.00%": [
+      "QE_HA_LW_MDNA"
+    ],
     "20.00%": [
       "QE_ST_01040310"
     ],
     "17.00%": [
       "QE_ST_01050208"
+    ],
+    "15.00%": [
+      "QE_HA_LW_MACR"
     ],
     "14.50%": [
       "QE_ST_01040306"
@@ -797,6 +546,12 @@
     "13.00%": [
       "QE_ST_01050107",
       "QE_ST_01050201"
+    ],
+    "12.00%": [
+      "QE_HA_LW_NASR"
+    ],
+    "10.00%": [
+      "QE_HA_LW_GLMS"
     ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
@@ -812,8 +567,14 @@
       "QE_ST_01040307",
       "QE_ST_01050209"
     ],
+    "15.00%": [
+      "QE_HA_LW_MACR"
+    ],
     "13.50%": [
       "QE_ST_01050202"
+    ],
+    "12.00%": [
+      "QE_HA_LW_FINA"
     ],
     "4.10%": [
       "QE_EV_AW_HIGH_01",
@@ -865,6 +626,9 @@
     "0.66%": [
       "QE_ST_01050210"
     ],
+    "0.50%": [
+      "QE_HA_LW_AILN"
+    ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -880,6 +644,10 @@
     "0.59%": [
       "QE_ST_01050201"
     ],
+    "0.50%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_YERM"
+    ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -892,6 +660,9 @@
     ],
     "0.66%": [
       "QE_ST_01050202"
+    ],
+    "0.60%": [
+      "QE_HA_LW_NASR"
     ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
@@ -908,6 +679,11 @@
     "0.59%": [
       "QE_ST_01050103"
     ],
+    "0.50%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_AILN",
+      "QE_HA_LW_GLMS"
+    ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -916,6 +692,9 @@
   "IT_JB_MM_MNK_4": {
     "0.85%": [
       "QE_ST_01050204"
+    ],
+    "0.75%": [
+      "QE_HA_LW_MACR"
     ],
     "0.74%": [
       "QE_ST_01040304"
@@ -951,6 +730,9 @@
     "0.74%": [
       "QE_ST_01040306"
     ],
+    "0.50%": [
+      "QE_HA_LW_AILN"
+    ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -962,6 +744,9 @@
     ],
     "0.66%": [
       "QE_ST_01050207"
+    ],
+    "0.60%": [
+      "QE_HA_LW_NASR"
     ],
     "0.59%": [
       "QE_ST_01050107"
@@ -979,6 +764,9 @@
       "QE_ST_01040308",
       "QE_ST_01050208"
     ],
+    "0.50%": [
+      "QE_HA_LW_YERM"
+    ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -987,6 +775,9 @@
   "IT_JB_MM_NIN_4": {
     "0.85%": [
       "QE_ST_01050209"
+    ],
+    "0.75%": [
+      "QE_HA_LW_MDNA"
     ],
     "0.74%": [
       "QE_ST_01040309",
@@ -1011,6 +802,9 @@
     "0.66%": [
       "QE_ST_01050210"
     ],
+    "0.50%": [
+      "QE_HA_LW_SZRT"
+    ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
@@ -1020,6 +814,9 @@
     "1.00%": [
       "QE_ST_01040302",
       "QE_ST_01050102"
+    ],
+    "0.60%": [
+      "QE_HA_LW_FINA"
     ],
     "0.59%": [
       "QE_ST_01050201"
@@ -1036,6 +833,11 @@
     "0.66%": [
       "QE_ST_01050202"
     ],
+    "0.60%": [
+      "QE_HA_LW_FINA",
+      "QE_HA_LW_NASR",
+      "QE_HA_LW_AYKA"
+    ],
     "0.59%": [
       "QE_ST_01050103"
     ],
@@ -1047,6 +849,10 @@
   "IT_JB_MM_BLM_4": {
     "0.85%": [
       "QE_ST_01050203"
+    ],
+    "0.75%": [
+      "QE_HA_LW_MDNA",
+      "QE_HA_LW_MACR"
     ],
     "0.74%": [
       "QE_ST_01040304"
@@ -1079,8 +885,14 @@
     "0.85%": [
       "QE_ST_01050106"
     ],
+    "0.75%": [
+      "QE_HA_LW_MDNA"
+    ],
     "0.74%": [
       "QE_ST_01040306"
+    ],
+    "0.60%": [
+      "QE_HA_LW_AYKA"
     ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
@@ -1094,8 +906,14 @@
     "0.85%": [
       "QE_ST_01040307"
     ],
+    "0.60%": [
+      "QE_HA_LW_AYKA"
+    ],
     "0.59%": [
       "QE_ST_01050107"
+    ],
+    "0.50%": [
+      "QE_HA_LW_GLMS"
     ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
@@ -1106,9 +924,15 @@
     "0.85%": [
       "QE_ST_01050208"
     ],
+    "0.75%": [
+      "QE_HA_LW_MACR"
+    ],
     "0.74%": [
       "QE_ST_01040309",
       "QE_ST_01050109"
+    ],
+    "0.60%": [
+      "QE_HA_LW_FINA"
     ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
@@ -1122,6 +946,9 @@
     ],
     "0.66%": [
       "QE_ST_01050210"
+    ],
+    "0.50%": [
+      "QE_HA_LW_GLMS"
     ],
     "0.11%": [
       "QE_EV_AW_HIGH_01",
@@ -1149,7 +976,8 @@
       "QE_ST_01040305",
       "QE_ST_01050101",
       "QE_ST_01050105",
-      "QE_ST_01050205"
+      "QE_ST_01050205",
+      "QE_HA_LW_MACR"
     ],
     "3.50%": [
       "QE_ST_01040307",
@@ -1161,8 +989,19 @@
       "QE_ST_01040309",
       "QE_ST_01050109"
     ],
+    "3.00%": [
+      "QE_HA_LW_FINA",
+      "QE_HA_LW_NASR",
+      "QE_HA_LW_AYKA"
+    ],
     "2.80%": [
       "QE_ST_01050207"
+    ],
+    "2.70%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_AILN",
+      "QE_HA_LW_GLMS",
+      "QE_HA_LW_YERM"
     ],
     "2.50%": [
       "QE_ST_01050103",
@@ -1170,8 +1009,10 @@
       "QE_ST_01050201"
     ],
     "1.10%": [
-      "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
+    ],
+    "1.00%": [
+      "QE_EV_AW_HIGH_01"
     ]
   },
   "IT_JB_IM_DRAGON_4": {
@@ -1179,7 +1020,8 @@
       "QE_ST_01040302",
       "QE_ST_01050102",
       "QE_ST_01050108",
-      "QE_ST_01050206"
+      "QE_ST_01050206",
+      "QE_HA_LW_MDNA"
     ],
     "3.50%": [
       "QE_ST_01040308",
@@ -1201,8 +1043,44 @@
       "QE_ST_01050210"
     ],
     "1.10%": [
-      "QE_EV_AW_HIGH_01",
       "QE_MU_AW_HIGH_01"
+    ],
+    "1.00%": [
+      "QE_EV_AW_HIGH_01"
+    ]
+  },
+  "IT_JB_AXE_04": {
+    "17.00%": [
+      "QE_ST_01050203"
+    ],
+    "14.50%": [
+      "QE_ST_01040304",
+      "QE_ST_01040309"
+    ],
+    "13.50%": [
+      "QE_ST_01050104",
+      "QE_ST_01050210"
+    ],
+    "10.00%": [
+      "QE_HA_LW_YERM"
+    ],
+    "4.10%": [
+      "QE_EV_AW_HIGH_01"
+    ]
+  },
+  "IT_JB_MM_VIK_4": {
+    "1.00%": [
+      "QE_ST_01040305",
+      "QE_ST_01050105"
+    ],
+    "0.85%": [
+      "QE_ST_01050209"
+    ],
+    "0.50%": [
+      "QE_HA_LW_YERM"
+    ],
+    "0.11%": [
+      "QE_EV_AW_HIGH_01"
     ]
   },
   "IT_JB_MM_ALL_5": {
@@ -1399,14 +1277,28 @@
   },
   "IT_JB_IM_ANGEL_5": {
     "1.10%": [
-      "QE_EV_AW_HIGH_03",
       "QE_MU_AW_HIGH_03"
+    ],
+    "1.00%": [
+      "QE_EV_AW_HIGH_03"
     ]
   },
   "IT_JB_IM_DRAGON_5": {
     "1.10%": [
-      "QE_EV_AW_HIGH_03",
       "QE_MU_AW_HIGH_03"
+    ],
+    "1.00%": [
+      "QE_EV_AW_HIGH_03"
+    ]
+  },
+  "IT_JB_MM_VIK_5": {
+    "0.11%": [
+      "QE_EV_AW_HIGH_03"
+    ]
+  },
+  "IT_JB_AXE_05": {
+    "4.10%": [
+      "QE_EV_AW_HIGH_03"
     ]
   },
   "IT_JB_EM_FIRE_1": {
@@ -1441,8 +1333,6 @@
     ],
     "5.00%": [
       "QE_EV_AW_FIRE_01",
-      "QE_EV_AW_FIRE_01",
-      "QE_MU_AW_FIRE_01",
       "QE_MU_AW_FIRE_01"
     ]
   },
@@ -1460,9 +1350,7 @@
     ],
     "10.00%": [
       "QE_EV_AW_FIRE_01",
-      "QE_EV_AW_FIRE_01",
       "QE_EV_AW_FIRE_02",
-      "QE_MU_AW_FIRE_01",
       "QE_MU_AW_FIRE_01"
     ]
   },
@@ -1481,6 +1369,10 @@
     ],
     "16.00%": [
       "QE_EV_FF14_03"
+    ],
+    "15.00%": [
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_NAIA"
     ],
     "14.50%": [
       "QE_ST_01020107",
@@ -1512,7 +1404,6 @@
       "QE_EV_AW_FIRE_02"
     ],
     "15.00%": [
-      "QE_EV_AW_FIRE_02",
       "QE_EV_AW_FIRE_02"
     ],
     "10.00%": [
@@ -1541,6 +1432,7 @@
     ],
     "15.00%": [
       "QE_EV_AW_FIRE_03",
+      "QE_HA_LW_MGRT",
       "QE_MU_AW_FIRE_03"
     ],
     "14.50%": [
@@ -1555,11 +1447,15 @@
       "QE_CH_LW_NAIA"
     ],
     "10.00%": [
-      "QE_EV_AW_FIRE_04"
+      "QE_EV_AW_FIRE_04",
+      "QE_HA_LW_ELDE"
     ],
     "9.00%": [
       "QE_CH_LW_MICE",
       "QE_CH_LW_LILS"
+    ],
+    "8.60%": [
+      "QE_HA_LW_LILS"
     ],
     "7.30%": [
       "QE_CH_LW_ELDE",
@@ -1719,6 +1615,8 @@
     ],
     "15.00%": [
       "QE_EV_AW_WIND_03",
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_SCIA",
       "QE_MU_AW_WIND_03"
     ],
     "13.50%": [
@@ -1746,7 +1644,6 @@
       "QE_EV_AW_WIND_02"
     ],
     "15.00%": [
-      "QE_EV_AW_WIND_02",
       "QE_EV_AW_WIND_02"
     ],
     "11.00%": [
@@ -1772,6 +1669,9 @@
       "QE_ST_01040102",
       "QE_ST_01040208"
     ],
+    "15.00%": [
+      "QE_HA_LW_KADI"
+    ],
     "14.50%": [
       "QE_ST_01020310",
       "QE_ST_01040203"
@@ -1793,6 +1693,9 @@
     "9.00%": [
       "QE_CH_LW_MIIA",
       "QE_CH_LW_SCIA"
+    ],
+    "8.60%": [
+      "QE_HA_LW_HLNA"
     ],
     "8.00%": [
       "QE_CH_LW_AYKA"
@@ -1829,8 +1732,14 @@
     "17.00%": [
       "QE_ST_01050203"
     ],
+    "12.00%": [
+      "QE_HA_LW_AYKA"
+    ],
     "11.00%": [
       "QE_EV_AW_WIND_04"
+    ],
+    "10.00%": [
+      "QE_HA_LW_YERM"
     ],
     "4.00%": [
       "QE_EV_AW_WIND_05",
@@ -1891,9 +1800,6 @@
       "QE_ST_01010204",
       "QE_MU_AW_WTR_01"
     ],
-    "16.67%": [
-      "QE_EV_01_02"
-    ],
     "15.00%": [
       "QE_EV_AW_WTR_01",
       "QE_MU_AW_WTR_01"
@@ -1951,13 +1857,12 @@
       "QE_EV_AW_WTR_03",
       "QE_MU_AW_WTR_03"
     ],
+    "18.00%": [
+      "QE_HA_LW_ZZAN"
+    ],
     "17.00%": [
       "QE_ST_01020109",
       "QE_ST_01020207"
-    ],
-    "16.67%": [
-      "QE_EV_01_03",
-      "QE_EV_01_06"
     ],
     "10.00%": [
       "QE_EV_AW_WTR_02"
@@ -2008,6 +1913,9 @@
       "QE_ST_01020305",
       "QE_ST_01030103"
     ],
+    "15.00%": [
+      "QE_HA_LW_SEVR"
+    ],
     "13.50%": [
       "QE_ST_01030307"
     ],
@@ -2018,11 +1926,14 @@
       "QE_EV_AW_WTR_04"
     ],
     "10.00%": [
-      "QE_EV_01_09"
+      "QE_HA_LW_UNII"
     ],
     "9.00%": [
       "QE_CH_LW_UNII",
       "QE_CH_LW_RAMD"
+    ],
+    "8.60%": [
+      "QE_HA_LW_RAMD"
     ],
     "7.30%": [
       "QE_CH_LW_ZZAN"
@@ -2196,10 +2107,14 @@
     ],
     "15.00%": [
       "QE_EV_AW_ICE_03",
+      "QE_HA_LW_VRID",
       "QE_MU_AW_ICE_03"
     ],
     "13.00%": [
       "QE_EV_AW_ICE_02"
+    ],
+    "12.00%": [
+      "QE_HA_LW_SRJS"
     ],
     "5.00%": [
       "QE_EV_AW_ICE_02"
@@ -2217,7 +2132,6 @@
       "QE_EV_AW_ICE_02"
     ],
     "15.00%": [
-      "QE_EV_AW_ICE_02",
       "QE_EV_AW_ICE_02"
     ],
     "11.00%": [
@@ -2257,7 +2171,8 @@
       "QE_EV_01_10"
     ],
     "12.00%": [
-      "QE_ST_01030310"
+      "QE_ST_01030310",
+      "QE_HA_LW_CLEY"
     ],
     "11.00%": [
       "QE_CH_LW_CLEY"
@@ -2298,6 +2213,9 @@
     "50.00%": [
       "QE_EV_AW_ICE_04"
     ],
+    "15.00%": [
+      "QE_HA_LW_MDNA"
+    ],
     "14.50%": [
       "QE_ST_01040306"
     ],
@@ -2306,8 +2224,14 @@
       "QE_ST_01050202",
       "QE_ST_01050210"
     ],
+    "12.00%": [
+      "QE_HA_LW_NASR"
+    ],
     "11.00%": [
       "QE_EV_AW_ICE_04"
+    ],
+    "10.00%": [
+      "QE_HA_LW_GLMS"
     ],
     "4.00%": [
       "QE_EV_AW_ICE_05",
@@ -2394,6 +2318,31 @@
       "QE_MU_AW_EAR_01"
     ]
   },
+  "IT_UN_AW_SOIL_R2": {
+    "50.00%": [
+      "QE_EV_AW_EAR_01",
+      "QE_MU_AW_EAR_01"
+    ],
+    "40.00%": [
+      "QE_EV_AW_EAR_01",
+      "QE_MU_AW_EAR_01"
+    ],
+    "25.00%": [
+      "QE_EV_AW_EAR_01",
+      "QE_MU_AW_EAR_01"
+    ],
+    "20.00%": [
+      "QE_EV_AW_EAR_02"
+    ],
+    "10.00%": [
+      "QE_EV_AW_EAR_01",
+      "QE_EV_AW_EAR_02",
+      "QE_MU_AW_EAR_01"
+    ],
+    "4.00%": [
+      "QE_EV_AW_EAR_02"
+    ]
+  },
   "IT_JB_EM_SOIL_2": {
     "35.00%": [
       "QE_EV_AW_EAR_02"
@@ -2409,6 +2358,10 @@
       "QE_EV_AW_EAR_03",
       "QE_MU_AW_EAR_03"
     ],
+    "15.00%": [
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_MONT"
+    ],
     "13.50%": [
       "QE_ST_01020210"
     ],
@@ -2416,6 +2369,28 @@
       "QE_EV_AW_EAR_02"
     ],
     "5.00%": [
+      "QE_EV_AW_EAR_02"
+    ]
+  },
+  "IT_UN_AW_SOIL_R3": {
+    "70.00%": [
+      "QE_EV_AW_EAR_03",
+      "QE_MU_AW_EAR_03"
+    ],
+    "50.00%": [
+      "QE_EV_AW_EAR_02"
+    ],
+    "30.00%": [
+      "QE_EV_AW_EAR_02"
+    ],
+    "15.00%": [
+      "QE_EV_AW_EAR_02"
+    ],
+    "14.00%": [
+      "QE_EV_AW_EAR_03",
+      "QE_MU_AW_EAR_03"
+    ],
+    "10.00%": [
       "QE_EV_AW_EAR_02"
     ]
   },
@@ -2449,6 +2424,10 @@
     "12.50%": [
       "QE_EV_ETRE_04"
     ],
+    "12.00%": [
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_LRNZ"
+    ],
     "10.00%": [
       "QE_CH_LW_ETRE"
     ],
@@ -2460,6 +2439,26 @@
       "QE_CH_LW_MURM",
       "QE_CH_LW_MONT",
       "QE_CH_LW_AILN"
+    ]
+  },
+  "IT_UN_AW_SOIL_R4": {
+    "70.00%": [
+      "QE_EV_AW_EAR_04"
+    ],
+    "50.00%": [
+      "QE_EV_AW_EAR_03",
+      "QE_MU_AW_EAR_03"
+    ],
+    "30.00%": [
+      "QE_EV_AW_EAR_03",
+      "QE_MU_AW_EAR_03"
+    ],
+    "15.00%": [
+      "QE_EV_AW_EAR_03",
+      "QE_MU_AW_EAR_03"
+    ],
+    "10.00%": [
+      "QE_EV_AW_EAR_04"
     ]
   },
   "IT_JB_EM_SOIL_4": {
@@ -2477,7 +2476,29 @@
       "QE_ST_01050103",
       "QE_ST_01050201"
     ],
+    "10.00%": [
+      "QE_HA_LW_AILN"
+    ],
     "4.00%": [
+      "QE_EV_AW_EAR_05",
+      "QE_MU_AW_EAR_05"
+    ]
+  },
+  "IT_UN_AW_SOIL_R5": {
+    "70.00%": [
+      "QE_EV_AW_EAR_05",
+      "QE_MU_AW_EAR_05"
+    ],
+    "50.00%": [
+      "QE_EV_AW_EAR_04"
+    ],
+    "30.00%": [
+      "QE_EV_AW_EAR_04"
+    ],
+    "8.00%": [
+      "QE_EV_AW_EAR_04"
+    ],
+    "3.00%": [
       "QE_EV_AW_EAR_05",
       "QE_MU_AW_EAR_05"
     ]
@@ -2488,6 +2509,20 @@
       "QE_MU_AW_EAR_05"
     ],
     "5.00%": [
+      "QE_EV_AW_EAR_05",
+      "QE_MU_AW_EAR_05"
+    ]
+  },
+  "IT_UN_AW_SOIL_R6": {
+    "50.00%": [
+      "QE_EV_AW_EAR_05",
+      "QE_MU_AW_EAR_05"
+    ],
+    "30.00%": [
+      "QE_EV_AW_EAR_05",
+      "QE_MU_AW_EAR_05"
+    ],
+    "3.00%": [
       "QE_EV_AW_EAR_05",
       "QE_MU_AW_EAR_05"
     ]
@@ -2505,6 +2540,9 @@
       "QE_ST_01010108",
       "QE_ST_01010206"
     ],
+    "16.67%": [
+      "QE_EV_01_02"
+    ],
     "15.00%": [
       "QE_EV_AW_DARK_01",
       "QE_MU_AW_DARK_01"
@@ -2513,7 +2551,9 @@
       "QE_EV_AW_DARK_02"
     ],
     "10.00%": [
-      "QE_EV_AW_DARK_02"
+      "QE_EV_AW_DARK_02",
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
     ],
     "5.00%": [
       "QE_EV_AW_DARK_01",
@@ -2557,6 +2597,10 @@
       "QE_ST_01010304",
       "QE_ST_01020201"
     ],
+    "16.67%": [
+      "QE_EV_01_03",
+      "QE_EV_01_06"
+    ],
     "14.50%": [
       "QE_ST_01020103",
       "QE_ST_01020209"
@@ -2565,6 +2609,15 @@
       "QE_EV_AW_DARK_02",
       "QE_EV_AW_DARK_03",
       "QE_MU_AW_DARK_03"
+    ],
+    "12.00%": [
+      "QE_HA_LW_RYER"
+    ],
+    "8.50%": [
+      "QE_EV_FFT_03"
+    ],
+    "7.50%": [
+      "QE_EV_FFT_04"
     ],
     "5.00%": [
       "QE_EV_AW_DARK_02"
@@ -2582,7 +2635,6 @@
       "QE_EV_AW_DARK_02"
     ],
     "15.00%": [
-      "QE_EV_AW_DARK_02",
       "QE_EV_AW_DARK_02"
     ],
     "10.00%": [
@@ -2615,8 +2667,18 @@
     "14.50%": [
       "QE_ST_01030301"
     ],
+    "12.00%": [
+      "QE_HA_LW_ZIZA"
+    ],
     "10.00%": [
-      "QE_CH_LW_SDLX"
+      "QE_HA_LW_RIRY",
+      "QE_HA_LW_SDLX",
+      "QE_CH_LW_SDLX",
+      "QE_EV_FFT_05",
+      "QE_EV_01_09"
+    ],
+    "9.00%": [
+      "QE_CH_FFT_GFGR"
     ],
     "8.00%": [
       "QE_EV_AW_DARK_04",
@@ -2625,6 +2687,9 @@
     ],
     "7.30%": [
       "QE_CH_LW_STRN"
+    ],
+    "7.00%": [
+      "QE_HA_LW_STRN"
     ],
     "6.30%": [
       "QE_CH_LW_RIRY"
@@ -2735,6 +2800,10 @@
     "11.00%": [
       "QE_EV_AW_THUN_02"
     ],
+    "10.00%": [
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
+    ],
     "5.00%": [
       "QE_EV_AW_THUN_01",
       "QE_MU_AW_THUN_01"
@@ -2791,7 +2860,14 @@
       "QE_ST_01010310"
     ],
     "10.00%": [
-      "QE_EV_AW_THUN_02"
+      "QE_EV_AW_THUN_02",
+      "QE_HA_LW_RART"
+    ],
+    "8.50%": [
+      "QE_EV_FFT_03"
+    ],
+    "7.50%": [
+      "QE_EV_FFT_04"
     ],
     "5.00%": [
       "QE_EV_AW_THUN_02"
@@ -2837,6 +2913,9 @@
       "QE_ST_01030306",
       "QE_ST_01040205"
     ],
+    "15.00%": [
+      "QE_HA_LW_MRLK"
+    ],
     "14.50%": [
       "QE_ST_01020304",
       "QE_ST_01040104",
@@ -2850,10 +2929,17 @@
     ],
     "10.00%": [
       "QE_EV_AW_THUN_04",
-      "QE_CH_LW_MRLK"
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_OOOO",
+      "QE_CH_LW_MRLK",
+      "QE_CH_FFT_ORND",
+      "QE_EV_FFT_05"
     ],
     "9.00%": [
       "QE_CH_LW_SZRT"
+    ],
+    "8.60%": [
+      "QE_HA_LW_FDRC"
     ],
     "8.00%": [
       "QE_CH_LW_VADM",
@@ -2898,6 +2984,9 @@
     ],
     "11.00%": [
       "QE_EV_AW_THUN_04"
+    ],
+    "10.00%": [
+      "QE_HA_LW_SZRT"
     ],
     "4.00%": [
       "QE_EV_AW_THUN_05",
@@ -2968,7 +3057,9 @@
       "QE_ST_01010205"
     ],
     "10.00%": [
-      "QE_EV_AW_SHIN_02"
+      "QE_EV_AW_SHIN_02",
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
     ],
     "9.00%": [
       "QE_EV_AW_SHIN_02"
@@ -3030,6 +3121,12 @@
     "9.00%": [
       "QE_EV_FF14_04"
     ],
+    "8.50%": [
+      "QE_EV_FFT_03"
+    ],
+    "7.50%": [
+      "QE_EV_FFT_04"
+    ],
     "5.00%": [
       "QE_EV_AW_SHIN_02"
     ]
@@ -3046,7 +3143,6 @@
       "QE_EV_AW_SHIN_02"
     ],
     "15.00%": [
-      "QE_EV_AW_SHIN_02",
       "QE_EV_AW_SHIN_02"
     ],
     "10.00%": [
@@ -3065,7 +3161,8 @@
     "20.00%": [
       "QE_ST_01030104",
       "QE_ST_01030202",
-      "QE_ST_01040204"
+      "QE_ST_01040204",
+      "QE_HA_LW_VSTR"
     ],
     "18.00%": [
       "QE_EV_AW_SHIN_03",
@@ -3078,6 +3175,9 @@
     "16.50%": [
       "QE_EV_FF14_EX1"
     ],
+    "15.00%": [
+      "QE_HA_LW_PHBE"
+    ],
     "14.50%": [
       "QE_ST_01030210",
       "QE_ST_01040106"
@@ -3086,15 +3186,24 @@
       "QE_CH_LW_PRAY",
       "QE_CH_LW_FINA"
     ],
+    "12.00%": [
+      "QE_HA_LW_PRAY"
+    ],
     "10.00%": [
       "QE_EV_AW_SHIN_04",
+      "QE_HA_LW_ROBB",
       "QE_CH_LW_NASR",
-      "QE_CH_LW_ENBT"
+      "QE_CH_LW_ENBT",
+      "QE_EV_FFT_05"
     ],
     "9.00%": [
       "QE_CH_LW_ROBB",
       "QE_CH_LW_MACR",
-      "QE_CH_FF14_TNCR"
+      "QE_CH_FF14_TNCR",
+      "QE_CH_FFT_RAMZ"
+    ],
+    "8.60%": [
+      "QE_HA_LW_ENBT"
     ],
     "8.00%": [
       "QE_CH_LW_VSTR"
@@ -3131,11 +3240,17 @@
       "QE_ST_01040302",
       "QE_ST_01050101"
     ],
+    "15.00%": [
+      "QE_HA_LW_MACR"
+    ],
     "14.50%": [
       "QE_ST_01050109"
     ],
     "13.50%": [
       "QE_ST_01050207"
+    ],
+    "12.00%": [
+      "QE_HA_LW_FINA"
     ],
     "11.00%": [
       "QE_EV_AW_SHIN_04"
@@ -3300,6 +3415,62 @@
       "QE_MU_SM_SHIN_01"
     ]
   },
+  "IT_JB_MM_ALL": {
+    "15.00%": [
+      "QE_EV_01_01"
+    ],
+    "12.50%": [
+      "QE_EV_01_02"
+    ],
+    "12.00%": [
+      "QE_ST_01010102",
+      "QE_EV_FF14_01",
+      "QE_EV_FF14_02"
+    ],
+    "11.00%": [
+      "QE_ST_01010101"
+    ],
+    "10.72%": [
+      "QE_EV_ETRE_01"
+    ],
+    "10.00%": [
+      "QE_ST_01010103",
+      "QE_ST_01010105",
+      "QE_ST_01010106",
+      "QE_ST_01010107",
+      "QE_ST_01010201",
+      "QE_ST_01010202",
+      "QE_ST_01010203",
+      "QE_ST_01010204",
+      "QE_ST_01010207",
+      "QE_ST_01010209",
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
+    ],
+    "8.50%": [
+      "QE_ST_01010104",
+      "QE_ST_01010108",
+      "QE_ST_01010110",
+      "QE_ST_01010206",
+      "QE_ST_01010208"
+    ],
+    "7.40%": [
+      "QE_ST_01010205"
+    ],
+    "6.50%": [
+      "QE_ST_01010109",
+      "QE_ST_01010210"
+    ],
+    "2.00%": [
+      "QE_EV_01_01"
+    ],
+    "1.67%": [
+      "QE_EV_01_02"
+    ],
+    "1.43%": [
+      "QE_EV_ETRE_01"
+    ]
+  },
   "IT_JB_MM_WAR": {
     "2.00%": [
       "QE_ST_01010101"
@@ -3323,6 +3494,10 @@
       "QE_ST_01010201",
       "QE_ST_01010202",
       "QE_ST_01010203",
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_MONT",
       "QE_EV_01_08"
     ],
     "8.00%": [
@@ -3353,7 +3528,12 @@
       "QE_ST_01030207",
       "QE_ST_01030209",
       "QE_ST_01030306",
-      "QE_ST_01030309"
+      "QE_ST_01030309",
+      "QE_HA_LW_RYER",
+      "QE_HA_LW_SRJS",
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_LRNZ",
+      "QE_HA_LW_CLEY"
     ],
     "7.50%": [
       "QE_CH_LW_PRAY",
@@ -3368,6 +3548,8 @@
       "QE_ST_01030301"
     ],
     "6.70%": [
+      "QE_HA_LW_RART",
+      "QE_HA_LW_OOOO",
       "QE_CH_LW_NAIA",
       "QE_CH_LW_CLEY"
     ],
@@ -3384,10 +3566,12 @@
       "QE_CH_LW_SDLX",
       "QE_CH_LW_NASR",
       "QE_CH_LW_ENBT",
-      "QE_CH_LW_YERM"
+      "QE_CH_LW_YERM",
+      "QE_CH_FFT_ORND"
     ],
     "5.80%": [
-      "QE_ST_01030206"
+      "QE_ST_01030206",
+      "QE_HA_LW_LILS"
     ],
     "5.50%": [
       "QE_ST_01030310"
@@ -3395,7 +3579,9 @@
     "5.30%": [
       "QE_CH_LW_MIIA",
       "QE_CH_LW_UNII",
-      "QE_CH_LW_RAMD"
+      "QE_CH_LW_RAMD",
+      "QE_CH_FFT_RAMZ",
+      "QE_CH_FFT_GFGR"
     ],
     "4.80%": [
       "QE_CH_LW_MONT",
@@ -3422,6 +3608,9 @@
     ],
     "3.50%": [
       "QE_CH_LW_MGRT"
+    ],
+    "0.50%": [
+      "QE_HA_LW_VSTR"
     ]
   },
   "IT_AF_MAT_LIQUID_01": {
@@ -3434,7 +3623,15 @@
     "10.00%": [
       "QE_ST_01010105",
       "QE_ST_01010202",
-      "QE_ST_01030102"
+      "QE_ST_01030102",
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_SCIA",
+      "QE_HA_LW_NAIA",
+      "QE_HA_LW_PHBE",
+      "QE_HA_LW_KADI",
+      "QE_HA_LW_MRLK"
     ],
     "8.00%": [
       "QE_ST_01010106",
@@ -3484,6 +3681,10 @@
       "QE_ST_01030210"
     ],
     "6.70%": [
+      "QE_HA_LW_UNII",
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_RIRY",
+      "QE_HA_LW_SDLX",
       "QE_CH_LW_NAIA",
       "QE_CH_LW_CLEY"
     ],
@@ -3506,7 +3707,9 @@
     ],
     "5.80%": [
       "QE_ST_01030108",
-      "QE_ST_01030206"
+      "QE_ST_01030206",
+      "QE_HA_LW_HLNA",
+      "QE_HA_LW_RAMD"
     ],
     "5.72%": [
       "QE_EV_ETRE_01",
@@ -3515,7 +3718,8 @@
     "5.30%": [
       "QE_CH_LW_MIIA",
       "QE_CH_LW_UNII",
-      "QE_CH_LW_RAMD"
+      "QE_CH_LW_RAMD",
+      "QE_CH_FFT_RAMZ"
     ],
     "5.00%": [
       "QE_EV_ETRE_04"
@@ -3561,9 +3765,17 @@
     ],
     "16.05%": [
       "QE_ST_01010206"
+    ],
+    "10.00%": [
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
     ]
   },
   "IT_JB_IM_ANGEL_1": {
+    "5.00%": [
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
+    ],
     "4.00%": [
       "QE_ST_01010103",
       "QE_ST_01010105",
@@ -3601,6 +3813,20 @@
       "QE_ST_01010210"
     ]
   },
+  "IT_JB_BOW_01": {
+    "20.00%": [
+      "QE_ST_01010101"
+    ],
+    "18.85%": [
+      "QE_ST_01010209"
+    ],
+    "18.65%": [
+      "QE_ST_01010202"
+    ],
+    "16.05%": [
+      "QE_ST_01010108"
+    ]
+  },
   "IT_JB_MM_KNT": {
     "3.20%": [
       "QE_ST_01010102"
@@ -3626,7 +3852,12 @@
   },
   "IT_AF_MAT_SAND_01": {
     "10.00%": [
-      "QE_ST_01030208"
+      "QE_ST_01030208",
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_MONT",
+      "QE_HA_LW_MRLK"
     ],
     "8.00%": [
       "QE_ST_01010104",
@@ -3657,6 +3888,11 @@
       "QE_ST_01030209",
       "QE_ST_01030304",
       "QE_ST_01030309",
+      "QE_HA_LW_RYER",
+      "QE_HA_LW_SRJS",
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_LRNZ",
+      "QE_HA_LW_CLEY",
       "QE_EV_ETRE_02"
     ],
     "7.50%": [
@@ -3676,6 +3912,8 @@
       "QE_ST_01030303"
     ],
     "6.70%": [
+      "QE_HA_LW_RART",
+      "QE_HA_LW_OOOO",
       "QE_CH_LW_OOOO"
     ],
     "6.50%": [
@@ -3688,6 +3926,9 @@
       "QE_CH_LW_MRLK",
       "QE_CH_LW_ETRE",
       "QE_CH_LW_MDNA"
+    ],
+    "5.80%": [
+      "QE_HA_LW_LILS"
     ],
     "5.30%": [
       "QE_CH_LW_MICE",
@@ -3719,9 +3960,16 @@
     ],
     "3.10%": [
       "QE_CH_LW_SEVR"
+    ],
+    "0.50%": [
+      "QE_HA_LW_VSTR"
     ]
   },
   "IT_JB_IM_DRAGON_1": {
+    "5.00%": [
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
+    ],
     "4.00%": [
       "QE_ST_01010102",
       "QE_ST_01010106",
@@ -3845,6 +4093,13 @@
       "QE_ST_01010203",
       "QE_ST_01030102",
       "QE_ST_01030208",
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_SCIA",
+      "QE_HA_LW_NAIA",
+      "QE_HA_LW_PHBE",
+      "QE_HA_LW_KADI",
       "QE_EV_01_04"
     ],
     "8.00%": [
@@ -3885,6 +4140,10 @@
       "QE_ST_01030303"
     ],
     "6.70%": [
+      "QE_HA_LW_UNII",
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_RIRY",
+      "QE_HA_LW_SDLX",
       "QE_CH_LW_OOOO"
     ],
     "6.67%": [
@@ -3902,10 +4161,13 @@
       "QE_CH_LW_SDLX",
       "QE_CH_LW_ETRE",
       "QE_CH_LW_MDNA",
-      "QE_CH_LW_YERM"
+      "QE_CH_LW_YERM",
+      "QE_CH_FFT_ORND"
     ],
     "5.80%": [
-      "QE_ST_01030108"
+      "QE_ST_01030108",
+      "QE_HA_LW_HLNA",
+      "QE_HA_LW_RAMD"
     ],
     "5.50%": [
       "QE_ST_01030310"
@@ -3918,7 +4180,8 @@
       "QE_CH_LW_SZRT",
       "QE_CH_LW_ROBB",
       "QE_CH_LW_MACR",
-      "QE_CH_FF14_TNCR"
+      "QE_CH_FF14_TNCR",
+      "QE_CH_FFT_GFGR"
     ],
     "5.00%": [
       "QE_EV_01_07",
@@ -3964,13 +4227,23 @@
     ]
   },
   "IT_AF_LW_SWO_001": {
+    "5.00%": [
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_MONT"
+    ],
+    "4.00%": [
+      "QE_HA_LW_RYER",
+      "QE_HA_LW_MURM"
+    ],
     "3.75%": [
       "QE_EV_01_08"
     ],
     "3.00%": [
       "QE_ST_01010207",
       "QE_ST_01020104",
-      "QE_ST_01030106"
+      "QE_ST_01030106",
+      "QE_HA_LW_LILS"
     ],
     "2.50%": [
       "QE_EV_01_02"
@@ -3980,14 +4253,17 @@
     ],
     "1.97%": [
       "QE_CH_LW_NASR",
-      "QE_CH_LW_ENBT"
+      "QE_CH_LW_ENBT",
+      "QE_CH_FFT_ORND"
     ],
     "1.85%": [
       "QE_ST_01020210",
       "QE_ST_01030302"
     ],
     "1.77%": [
-      "QE_CH_LW_LILS"
+      "QE_CH_LW_LILS",
+      "QE_CH_FFT_RAMZ",
+      "QE_CH_FFT_GFGR"
     ],
     "1.68%": [
       "QE_EV_01_05"
@@ -4002,6 +4278,19 @@
     ],
     "1.47%": [
       "QE_CH_LW_ZZAN"
+    ]
+  },
+  "IT_JB_AXE_01": {
+    "20.00%": [
+      "QE_EV_01_01"
+    ],
+    "16.05%": [
+      "QE_ST_01010104",
+      "QE_ST_01010108",
+      "QE_ST_01010208"
+    ],
+    "13.68%": [
+      "QE_ST_01010205"
     ]
   },
   "IT_JB_SPEAR_01": {
@@ -4095,6 +4384,9 @@
     ]
   },
   "IT_AF_LW_KAT_001": {
+    "3.50%": [
+      "QE_HA_LW_OOOO"
+    ],
     "3.00%": [
       "QE_ST_01010106",
       "QE_ST_01010209",
@@ -4112,6 +4404,28 @@
       "QE_ST_01030108"
     ]
   },
+  "IT_JB_MM_VIK": {
+    "2.10%": [
+      "QE_ST_01010106"
+    ],
+    "2.00%": [
+      "QE_EV_01_01"
+    ],
+    "1.57%": [
+      "QE_ST_01010205"
+    ]
+  },
+  "IT_JB_KUNAI_01": {
+    "18.90%": [
+      "QE_ST_01010107"
+    ],
+    "18.65%": [
+      "QE_ST_01010201"
+    ],
+    "16.05%": [
+      "QE_ST_01010208"
+    ]
+  },
   "IT_JB_MM_LAN": {
     "2.10%": [
       "QE_ST_01010107"
@@ -4127,6 +4441,9 @@
     ]
   },
   "IT_AF_LW_FIS_001": {
+    "5.00%": [
+      "QE_HA_LW_MRLK"
+    ],
     "3.00%": [
       "QE_ST_01010107",
       "QE_ST_01030109",
@@ -4169,6 +4486,13 @@
     ]
   },
   "IT_AF_LW_BOW_001": {
+    "4.00%": [
+      "QE_HA_LW_CLEY"
+    ],
+    "3.50%": [
+      "QE_HA_LW_RART",
+      "QE_HA_LW_UNII"
+    ],
     "3.00%": [
       "QE_ST_01010304",
       "QE_ST_01020201",
@@ -4209,6 +4533,9 @@
     ]
   },
   "IT_AF_LW_GUN_001": {
+    "3.50%": [
+      "QE_HA_LW_RIRY"
+    ],
     "3.00%": [
       "QE_ST_01010305",
       "QE_ST_01020202",
@@ -4230,6 +4557,35 @@
       "QE_CH_LW_RIRY"
     ]
   },
+  "IT_AF_LW_AXE_001": {
+    "3.75%": [
+      "QE_EV_01_04"
+    ],
+    "3.00%": [
+      "QE_EV_01_01"
+    ],
+    "2.10%": [
+      "QE_ST_01020103",
+      "QE_ST_01020310"
+    ],
+    "1.97%": [
+      "QE_CH_LW_YERM"
+    ],
+    "1.90%": [
+      "QE_ST_01010109"
+    ],
+    "1.88%": [
+      "QE_EV_01_07",
+      "QE_EV_01_10"
+    ],
+    "1.85%": [
+      "QE_ST_01010210",
+      "QE_ST_01020204"
+    ],
+    "1.65%": [
+      "QE_ST_01030206"
+    ]
+  },
   "IT_JB_MM_NIN": {
     "2.15%": [
       "QE_ST_01010209"
@@ -4247,8 +4603,16 @@
     ]
   },
   "IT_AF_LW_ROD_002": {
+    "5.00%": [
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_NAIA",
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_PHBE"
+    ],
     "3.00%": [
-      "QE_ST_01010306"
+      "QE_ST_01010306",
+      "QE_HA_LW_HLNA"
     ],
     "2.50%": [
       "QE_CH_LW_PRAY"
@@ -4286,6 +4650,9 @@
     ]
   },
   "IT_AF_LW_MAC_001": {
+    "5.00%": [
+      "QE_HA_LW_KADI"
+    ],
     "3.70%": [
       "QE_ST_01010201"
     ],
@@ -4324,11 +4691,19 @@
     ]
   },
   "IT_AF_LW_SPE_001": {
+    "5.00%": [
+      "QE_HA_LW_SCIA"
+    ],
+    "4.00%": [
+      "QE_HA_LW_SRJS",
+      "QE_HA_LW_LRNZ"
+    ],
     "3.70%": [
       "QE_ST_01010203"
     ],
     "3.00%": [
       "QE_ST_01010301",
+      "QE_HA_LW_RAMD",
       "QE_EV_ETRE_01"
     ],
     "2.30%": [
@@ -4363,6 +4738,15 @@
     ]
   },
   "IT_AF_LW_DAG_001": {
+    "7.00%": [
+      "QE_HA_LW_VSTR"
+    ],
+    "5.00%": [
+      "QE_HA_LW_MIIA"
+    ],
+    "3.50%": [
+      "QE_HA_LW_VADM"
+    ],
     "3.00%": [
       "QE_ST_01010204",
       "QE_ST_01010302",
@@ -4399,6 +4783,9 @@
     ]
   },
   "IT_AF_LW_RNG_002": {
+    "3.50%": [
+      "QE_HA_LW_GLMS"
+    ],
     "3.00%": [
       "QE_ST_01030105"
     ],
@@ -4456,10 +4843,14 @@
       "QE_ST_01020203",
       "QE_ST_01020206",
       "QE_ST_01020207",
-      "QE_EV_FF14_03"
+      "QE_EV_FF14_03",
+      "QE_EV_FFT_03"
     ],
     "8.38%": [
       "QE_EV_01_05"
+    ],
+    "7.50%": [
+      "QE_EV_FFT_04"
     ],
     "7.40%": [
       "QE_ST_01020103",
@@ -4476,7 +4867,22 @@
       "QE_ST_01020210"
     ],
     "5.00%": [
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_SCIA",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_NAIA",
+      "QE_HA_LW_MONT",
       "QE_EV_FF14_04"
+    ],
+    "4.00%": [
+      "QE_HA_LW_RYER",
+      "QE_HA_LW_SRJS"
+    ],
+    "3.50%": [
+      "QE_HA_LW_RART"
     ],
     "2.50%": [
       "QE_EV_01_04"
@@ -4496,8 +4902,18 @@
     ]
   },
   "IT_JB_SWORD_02": {
+    "45.00%": [
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_MONT"
+    ],
+    "30.00%": [
+      "QE_HA_LW_ZZAN"
+    ],
     "25.00%": [
       "QE_EV_01_04"
+    ],
+    "24.00%": [
+      "QE_HA_LW_RYER"
     ],
     "20.00%": [
       "QE_ST_01010301",
@@ -4513,14 +4929,29 @@
     "16.00%": [
       "QE_EV_FF14_03"
     ],
+    "15.00%": [
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_SCIA",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_NAIA"
+    ],
     "14.50%": [
       "QE_ST_01020107"
     ],
     "13.50%": [
       "QE_ST_01020208"
     ],
+    "12.00%": [
+      "QE_HA_LW_SRJS"
+    ],
     "9.00%": [
       "QE_EV_FF14_04"
+    ],
+    "8.50%": [
+      "QE_EV_FFT_03"
+    ],
+    "7.50%": [
+      "QE_EV_FFT_04"
     ]
   },
   "IT_JB_BOW_02": {
@@ -4531,12 +4962,19 @@
       "QE_ST_01010308",
       "QE_ST_01020109"
     ],
+    "15.00%": [
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_SCIA"
+    ],
     "14.50%": [
       "QE_ST_01020103"
     ],
     "13.50%": [
       "QE_ST_01020204",
       "QE_ST_01020210"
+    ],
+    "10.00%": [
+      "QE_HA_LW_RART"
     ]
   },
   "IT_JB_MM_WAR_2": {
@@ -4545,25 +4983,39 @@
       "QE_ST_01020101"
     ],
     "0.75%": [
-      "QE_ST_01020110"
+      "QE_ST_01020110",
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_SCIA",
+      "QE_HA_LW_MONT"
     ],
     "0.66%": [
       "QE_ST_01020210"
     ]
   },
   "IT_JB_IM_ANGEL_2": {
+    "4.20%": [
+      "QE_EV_FFT_03"
+    ],
     "4.00%": [
       "QE_ST_01010301",
       "QE_ST_01010303",
       "QE_ST_01010305",
       "QE_ST_01010307",
       "QE_ST_01020105",
-      "QE_ST_01020201"
+      "QE_ST_01020201",
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_NAIA",
+      "QE_HA_LW_MONT"
     ],
     "3.50%": [
       "QE_ST_01020109",
       "QE_ST_01020203",
-      "QE_ST_01020207"
+      "QE_ST_01020207",
+      "QE_EV_FFT_04"
     ],
     "3.10%": [
       "QE_ST_01020103",
@@ -4572,7 +5024,12 @@
       "QE_ST_01020209"
     ],
     "3.00%": [
-      "QE_ST_01020101"
+      "QE_ST_01020101",
+      "QE_HA_LW_RYER",
+      "QE_HA_LW_SRJS"
+    ],
+    "2.70%": [
+      "QE_HA_LW_RART"
     ],
     "2.50%": [
       "QE_EV_FF14_03"
@@ -4592,6 +5049,13 @@
       "QE_ST_01010301",
       "QE_ST_01020201",
       "QE_ST_01020202"
+    ],
+    "0.75%": [
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_SCIA"
+    ],
+    "0.50%": [
+      "QE_HA_LW_RART"
     ]
   },
   "IT_JB_GUN_02": {
@@ -4630,9 +5094,20 @@
       "QE_ST_01010302",
       "QE_ST_01020102",
       "QE_ST_01020201"
+    ],
+    "0.75%": [
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_MONT"
+    ],
+    "0.60%": [
+      "QE_HA_LW_RYER"
     ]
   },
   "IT_JB_IM_DRAGON_2": {
+    "4.20%": [
+      "QE_EV_FFT_03"
+    ],
     "4.00%": [
       "QE_ST_01010302",
       "QE_ST_01010304",
@@ -4640,11 +5115,14 @@
       "QE_ST_01020102",
       "QE_ST_01020104",
       "QE_ST_01020106",
-      "QE_ST_01020202"
+      "QE_ST_01020202",
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_SCIA"
     ],
     "3.50%": [
       "QE_ST_01010308",
-      "QE_ST_01020206"
+      "QE_ST_01020206",
+      "QE_EV_FFT_04"
     ],
     "3.10%": [
       "QE_ST_01020108",
@@ -4693,6 +5171,9 @@
     ]
   },
   "IT_JB_STAFF_02": {
+    "30.00%": [
+      "QE_HA_LW_VRID"
+    ],
     "20.00%": [
       "QE_ST_01010303",
       "QE_ST_01020101",
@@ -4704,6 +5185,16 @@
     ],
     "16.00%": [
       "QE_EV_FF14_03"
+    ],
+    "15.00%": [
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_NAIA"
+    ],
+    "12.00%": [
+      "QE_HA_LW_RYER"
+    ],
+    "10.00%": [
+      "QE_HA_LW_RART"
     ],
     "9.00%": [
       "QE_EV_FF14_04"
@@ -4721,7 +5212,12 @@
       "QE_ST_01020203"
     ],
     "0.75%": [
-      "QE_ST_01020103"
+      "QE_ST_01020103",
+      "QE_HA_LW_BYLO",
+      "QE_HA_LW_MONT"
+    ],
+    "0.60%": [
+      "QE_HA_LW_SRJS"
     ]
   },
   "IT_JB_MM_WHM_2": {
@@ -4732,10 +5228,21 @@
       "QE_ST_01020203"
     ],
     "0.75%": [
-      "QE_ST_01020103"
+      "QE_ST_01020103",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_NAIA"
+    ],
+    "0.60%": [
+      "QE_HA_LW_RYER"
+    ],
+    "0.50%": [
+      "QE_HA_LW_RART"
     ]
   },
   "IT_AF_LW_NKN_001": {
+    "3.50%": [
+      "QE_HA_LW_SDLX"
+    ],
     "3.00%": [
       "QE_ST_01010303",
       "QE_ST_01030202"
@@ -4773,6 +5280,13 @@
     ],
     "17.00%": [
       "QE_ST_01020207"
+    ],
+    "15.00%": [
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_NAIA"
+    ],
+    "12.00%": [
+      "QE_HA_LW_SRJS"
     ]
   },
   "IT_JB_MM_SWN_2": {
@@ -4792,6 +5306,9 @@
       "QE_ST_01010304",
       "QE_ST_01020104"
     ],
+    "0.75%": [
+      "QE_HA_LW_MICE"
+    ],
     "0.66%": [
       "QE_ST_01020204"
     ]
@@ -4805,11 +5322,20 @@
     "17.00%": [
       "QE_ST_01020207"
     ],
+    "15.00%": [
+      "QE_HA_LW_SCIA"
+    ],
     "14.29%": [
       "QE_EV_ETRE_03"
     ],
     "13.50%": [
       "QE_ST_01010310"
+    ],
+    "12.00%": [
+      "QE_HA_LW_SRJS"
+    ],
+    "10.00%": [
+      "QE_HA_LW_RART"
     ]
   },
   "IT_JB_MM_MNK_2": {
@@ -4830,7 +5356,24 @@
       "QE_ST_01020105"
     ],
     "0.75%": [
+      "QE_ST_01020205",
+      "QE_HA_LW_VRID",
+      "QE_HA_LW_NAIA"
+    ]
+  },
+  "IT_JB_MM_VIK_2": {
+    "1.00%": [
+      "QE_ST_01010305",
+      "QE_ST_01020105"
+    ],
+    "0.83%": [
+      "QE_EV_01_03"
+    ],
+    "0.75%": [
       "QE_ST_01020205"
+    ],
+    "0.56%": [
+      "QE_EV_01_05"
     ]
   },
   "IT_JB_SSWORD_02": {
@@ -4838,6 +5381,11 @@
       "QE_ST_01010306",
       "QE_ST_01020101",
       "QE_ST_01020202"
+    ],
+    "15.00%": [
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_MIIA"
     ],
     "14.50%": [
       "QE_ST_01020107"
@@ -4862,6 +5410,9 @@
     ],
     "0.85%": [
       "QE_ST_01020206"
+    ],
+    "0.75%": [
+      "QE_HA_LW_VRID"
     ]
   },
   "IT_JB_KUNAI_02": {
@@ -4886,6 +5437,12 @@
     ],
     "0.75%": [
       "QE_ST_01020107"
+    ],
+    "0.60%": [
+      "QE_HA_LW_SRJS"
+    ],
+    "0.50%": [
+      "QE_HA_LW_RART"
     ]
   },
   "IT_JB_MM_TIM_2": {
@@ -4904,10 +5461,14 @@
       "QE_ST_01010308"
     ],
     "0.75%": [
-      "QE_ST_01020108"
+      "QE_ST_01020108",
+      "QE_HA_LW_MIIA"
     ],
     "0.66%": [
       "QE_ST_01020208"
+    ],
+    "0.60%": [
+      "QE_HA_LW_RYER"
     ]
   },
   "IT_JB_MM_DRG_2": {
@@ -4915,7 +5476,8 @@
       "QE_ST_01010308"
     ],
     "0.75%": [
-      "QE_ST_01020108"
+      "QE_ST_01020108",
+      "QE_HA_LW_SCIA"
     ],
     "0.72%": [
       "QE_EV_ETRE_03"
@@ -4924,12 +5486,34 @@
       "QE_ST_01020208"
     ]
   },
+  "IT_JB_AXE_02": {
+    "17.00%": [
+      "QE_ST_01010308",
+      "QE_ST_01020207"
+    ],
+    "16.67%": [
+      "QE_EV_01_03"
+    ],
+    "14.50%": [
+      "QE_ST_01020103",
+      "QE_ST_01020110"
+    ],
+    "13.50%": [
+      "QE_ST_01010310"
+    ],
+    "11.17%": [
+      "QE_EV_01_05"
+    ]
+  },
   "IT_JB_MM_THI_2": {
     "0.85%": [
       "QE_ST_01020109"
     ],
     "0.75%": [
-      "QE_ST_01020209"
+      "QE_ST_01020209",
+      "QE_HA_LW_ZZAN",
+      "QE_HA_LW_MICE",
+      "QE_HA_LW_MIIA"
     ],
     "0.66%": [
       "QE_ST_01010310"
@@ -4940,10 +5524,15 @@
       "QE_ST_01020109"
     ],
     "0.75%": [
-      "QE_ST_01020209"
+      "QE_ST_01020209",
+      "QE_HA_LW_MIIA",
+      "QE_HA_LW_NAIA"
     ],
     "0.66%": [
       "QE_ST_01010310"
+    ],
+    "0.60%": [
+      "QE_HA_LW_SRJS"
     ]
   },
   "IT_AF_LW_HAT_002": {
@@ -5021,7 +5610,8 @@
       "QE_ST_01040202",
       "QE_ST_01040204",
       "QE_ST_01040208",
-      "QE_EV_FF14_Ex2"
+      "QE_EV_FF14_Ex2",
+      "QE_EV_FFT_05"
     ],
     "9.38%": [
       "QE_EV_01_07",
@@ -5074,6 +5664,7 @@
       "QE_ST_01040210"
     ],
     "7.00%": [
+      "QE_HA_LW_VSTR",
       "QE_CH_LW_NAIA",
       "QE_CH_LW_OOOO",
       "QE_CH_LW_CLEY"
@@ -5094,7 +5685,8 @@
       "QE_CH_LW_ETRE",
       "QE_CH_LW_ENBT",
       "QE_CH_LW_MDNA",
-      "QE_CH_LW_YERM"
+      "QE_CH_LW_YERM",
+      "QE_CH_FFT_ORND"
     ],
     "5.90%": [
       "QE_ST_01030108",
@@ -5114,7 +5706,16 @@
       "QE_CH_LW_SZRT",
       "QE_CH_LW_ROBB",
       "QE_CH_LW_MACR",
-      "QE_CH_FF14_TNCR"
+      "QE_CH_FF14_TNCR",
+      "QE_CH_FFT_RAMZ",
+      "QE_CH_FFT_GFGR"
+    ],
+    "5.00%": [
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_PHBE",
+      "QE_HA_LW_KADI",
+      "QE_HA_LW_MRLK",
+      "QE_HA_LW_MGRT"
     ],
     "4.80%": [
       "QE_CH_LW_MURM",
@@ -5133,6 +5734,11 @@
       "QE_CH_FF14_YSTL"
     ],
     "4.00%": [
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_LRNZ",
+      "QE_HA_LW_CLEY",
+      "QE_HA_LW_PRAY",
+      "QE_HA_LW_ZIZA",
       "QE_CH_LW_BYLO",
       "QE_CH_LW_RYER",
       "QE_CH_LW_VADM",
@@ -5140,12 +5746,27 @@
       "QE_CH_LW_GLMS"
     ],
     "3.50%": [
+      "QE_HA_LW_UNII",
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_OOOO",
+      "QE_HA_LW_RIRY",
+      "QE_HA_LW_SDLX",
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_ROBB",
       "QE_CH_LW_RART",
       "QE_CH_LW_RIRY",
       "QE_CH_LW_MGRT"
     ],
     "3.10%": [
       "QE_CH_LW_SEVR"
+    ],
+    "3.00%": [
+      "QE_HA_LW_HLNA",
+      "QE_HA_LW_LILS",
+      "QE_HA_LW_RAMD",
+      "QE_HA_LW_STRN",
+      "QE_HA_LW_ENBT",
+      "QE_HA_LW_FDRC"
     ],
     "2.50%": [
       "QE_EV_01_08"
@@ -5168,7 +5789,8 @@
     ],
     "21.00%": [
       "QE_CH_LW_NASR",
-      "QE_CH_LW_ENBT"
+      "QE_CH_LW_ENBT",
+      "QE_CH_FFT_ORND"
     ],
     "20.00%": [
       "QE_ST_01030102",
@@ -5179,13 +5801,19 @@
       "QE_EV_FF14_Ex2"
     ],
     "19.00%": [
+      "QE_HA_LW_VSTR",
       "QE_CH_LW_LILS",
-      "QE_CH_FF14_TNCR"
+      "QE_CH_FF14_TNCR",
+      "QE_CH_FFT_RAMZ",
+      "QE_CH_FFT_GFGR"
     ],
     "18.00%": [
       "QE_CH_LW_BYLO",
       "QE_CH_LW_RYER",
       "QE_CH_LW_GLMS"
+    ],
+    "17.20%": [
+      "QE_HA_LW_ENBT"
     ],
     "17.00%": [
       "QE_ST_01020301",
@@ -5199,6 +5827,12 @@
     "16.00%": [
       "QE_CH_LW_ZZAN"
     ],
+    "15.00%": [
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_KADI",
+      "QE_HA_LW_MRLK",
+      "QE_HA_LW_MGRT"
+    ],
     "14.50%": [
       "QE_ST_01020309",
       "QE_ST_01030301",
@@ -5210,6 +5844,20 @@
     ],
     "12.50%": [
       "QE_EV_01_10"
+    ],
+    "12.00%": [
+      "QE_HA_LW_MURM"
+    ],
+    "10.00%": [
+      "QE_HA_LW_UNII",
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_OOOO",
+      "QE_HA_LW_RIRY",
+      "QE_EV_FFT_05"
+    ],
+    "8.60%": [
+      "QE_HA_LW_LILS",
+      "QE_HA_LW_RAMD"
     ]
   },
   "IT_JB_FIST_03": {
@@ -5228,6 +5876,10 @@
       "QE_ST_01040206",
       "QE_CH_LW_ZIZA"
     ],
+    "15.00%": [
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_MRLK"
+    ],
     "14.50%": [
       "QE_ST_01020304",
       "QE_ST_01040105",
@@ -5242,6 +5894,15 @@
     ],
     "12.50%": [
       "QE_EV_ETRE_04"
+    ],
+    "12.00%": [
+      "QE_HA_LW_ZIZA"
+    ],
+    "10.00%": [
+      "QE_HA_LW_ELDE"
+    ],
+    "8.60%": [
+      "QE_HA_LW_ENBT"
     ]
   },
   "IT_JB_MM_HUN_3": {
@@ -5269,11 +5930,25 @@
     ],
     "0.65%": [
       "QE_CH_LW_RART"
+    ],
+    "0.60%": [
+      "QE_HA_LW_CLEY"
+    ],
+    "0.50%": [
+      "QE_HA_LW_UNII"
+    ],
+    "0.45%": [
+      "QE_HA_LW_LILS",
+      "QE_HA_LW_FDRC"
     ]
   },
   "IT_JB_IM_ANGEL_3": {
     "10.00%": [
       "QE_EV_FF14_05"
+    ],
+    "5.00%": [
+      "QE_HA_LW_VSTR",
+      "QE_EV_FFT_05"
     ],
     "4.00%": [
       "QE_ST_01030101",
@@ -5286,6 +5961,8 @@
       "QE_ST_01040103",
       "QE_ST_01040107",
       "QE_ST_01040201",
+      "QE_HA_LW_PHBE",
+      "QE_HA_LW_MGRT",
       "QE_EV_FF14_Ex2"
     ],
     "3.50%": [
@@ -5310,9 +5987,24 @@
       "QE_ST_01040203",
       "QE_ST_01040209"
     ],
+    "3.00%": [
+      "QE_HA_LW_CLEY",
+      "QE_HA_LW_PRAY"
+    ],
     "2.80%": [
       "QE_ST_01030305",
       "QE_ST_01030307"
+    ],
+    "2.70%": [
+      "QE_HA_LW_UNII",
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_ELDE"
+    ],
+    "2.30%": [
+      "QE_HA_LW_HLNA",
+      "QE_HA_LW_LILS",
+      "QE_HA_LW_RAMD",
+      "QE_HA_LW_ENBT"
     ],
     "1.50%": [
       "QE_CH_LW_MIIA",
@@ -5325,7 +6017,9 @@
       "QE_CH_LW_PRAY",
       "QE_CH_LW_FINA",
       "QE_CH_LW_NASR",
-      "QE_CH_LW_ENBT"
+      "QE_CH_LW_ENBT",
+      "QE_CH_FFT_RAMZ",
+      "QE_CH_FFT_ORND"
     ],
     "1.25%": [
       "QE_EV_01_08"
@@ -5372,9 +6066,16 @@
     "0.80%": [
       "QE_CH_LW_BYLO"
     ],
+    "0.75%": [
+      "QE_HA_LW_MRLK"
+    ],
     "0.66%": [
       "QE_ST_01030110",
       "QE_ST_01030302"
+    ],
+    "0.45%": [
+      "QE_HA_LW_LILS",
+      "QE_HA_LW_ENBT"
     ]
   },
   "IT_JB_LSWORD_03": {
@@ -5386,6 +6087,7 @@
       "QE_ST_01040204"
     ],
     "19.00%": [
+      "QE_HA_LW_VSTR",
       "QE_CH_LW_SZRT"
     ],
     "17.00%": [
@@ -5407,10 +6109,20 @@
       "QE_EV_01_10"
     ],
     "10.00%": [
+      "QE_HA_LW_ROBB",
       "QE_EV_01_09"
+    ],
+    "8.60%": [
+      "QE_HA_LW_LILS"
+    ],
+    "7.00%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_JB_SPEAR_03": {
+    "24.00%": [
+      "QE_HA_LW_LRNZ"
+    ],
     "21.00%": [
       "QE_CH_LW_SRJS"
     ],
@@ -5438,6 +6150,9 @@
     "16.00%": [
       "QE_CH_LW_ELDE"
     ],
+    "15.00%": [
+      "QE_HA_LW_PHBE"
+    ],
     "14.50%": [
       "QE_ST_01040106",
       "QE_ST_01040210"
@@ -5445,8 +6160,25 @@
     "13.50%": [
       "QE_ST_01030305"
     ],
+    "12.00%": [
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_CLEY",
+      "QE_HA_LW_PRAY",
+      "QE_HA_LW_ZIZA"
+    ],
     "11.11%": [
       "QE_EV_ETRE_05"
+    ],
+    "10.00%": [
+      "QE_HA_LW_SDLX",
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_ROBB"
+    ],
+    "8.60%": [
+      "QE_HA_LW_RAMD"
+    ],
+    "7.00%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_JB_MM_GUN_3": {
@@ -5467,9 +6199,19 @@
     ],
     "0.65%": [
       "QE_CH_LW_RIRY"
+    ],
+    "0.50%": [
+      "QE_HA_LW_RIRY",
+      "QE_HA_LW_SDLX"
+    ],
+    "0.45%": [
+      "QE_HA_LW_FDRC"
     ]
   },
   "IT_JB_IM_DRAGON_3": {
+    "5.00%": [
+      "QE_EV_FFT_05"
+    ],
     "4.00%": [
       "QE_ST_01020302",
       "QE_ST_01030102",
@@ -5483,7 +6225,10 @@
       "QE_ST_01040110",
       "QE_ST_01040202",
       "QE_ST_01040204",
-      "QE_ST_01040208"
+      "QE_ST_01040208",
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_KADI",
+      "QE_HA_LW_MRLK"
     ],
     "3.50%": [
       "QE_ST_01020306",
@@ -5501,6 +6246,9 @@
       "QE_ST_01040210"
     ],
     "3.00%": [
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_LRNZ",
+      "QE_HA_LW_ZIZA",
       "QE_EV_FF14_EX1"
     ],
     "2.80%": [
@@ -5508,9 +6256,18 @@
       "QE_ST_01030302",
       "QE_ST_01040108"
     ],
+    "2.70%": [
+      "QE_HA_LW_OOOO",
+      "QE_HA_LW_RIRY",
+      "QE_HA_LW_SDLX",
+      "QE_HA_LW_ROBB"
+    ],
     "2.50%": [
       "QE_ST_01030108",
       "QE_ST_01030206"
+    ],
+    "2.30%": [
+      "QE_HA_LW_FDRC"
     ],
     "2.25%": [
       "QE_ST_01030310"
@@ -5530,7 +6287,8 @@
       "QE_CH_LW_MDNA",
       "QE_CH_LW_MACR",
       "QE_CH_LW_YERM",
-      "QE_CH_FF14_TNCR"
+      "QE_CH_FF14_TNCR",
+      "QE_CH_FFT_GFGR"
     ],
     "1.00%": [
       "QE_CH_LW_BYLO",
@@ -5554,6 +6312,9 @@
     ],
     "0.50%": [
       "QE_EV_01_09"
+    ],
+    "0.18%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_JB_MM_PLD_3": {
@@ -5579,6 +6340,9 @@
     ],
     "0.55%": [
       "QE_ST_01030310"
+    ],
+    "0.45%": [
+      "QE_HA_LW_ENBT"
     ]
   },
   "IT_JB_JSWORD_03": {
@@ -5604,6 +6368,12 @@
       "QE_ST_01020303",
       "QE_ST_01030303",
       "QE_ST_01040104"
+    ],
+    "10.00%": [
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_OOOO",
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_ROBB"
     ]
   },
   "IT_JB_SSWORD_03": {
@@ -5616,6 +6386,7 @@
       "QE_ST_01040208"
     ],
     "19.00%": [
+      "QE_HA_LW_VSTR",
       "QE_CH_LW_MIIA"
     ],
     "18.00%": [
@@ -5630,6 +6401,16 @@
     ],
     "14.50%": [
       "QE_ST_01020303"
+    ],
+    "12.00%": [
+      "QE_HA_LW_ZIZA"
+    ],
+    "10.00%": [
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_RIRY"
+    ],
+    "8.60%": [
+      "QE_HA_LW_RAMD"
     ]
   },
   "IT_JB_MM_WHM_3": {
@@ -5653,10 +6434,18 @@
     ],
     "0.75%": [
       "QE_ST_01020303",
+      "QE_HA_LW_PHBE",
+      "QE_HA_LW_KADI",
       "QE_CH_FF14_YSTL"
     ],
     "0.74%": [
       "QE_ST_01030301"
+    ],
+    "0.60%": [
+      "QE_HA_LW_PRAY"
+    ],
+    "0.45%": [
+      "QE_HA_LW_HLNA"
     ]
   },
   "IT_JB_MM_SWN_3": {
@@ -5670,7 +6459,8 @@
       "QE_ST_01030104",
       "QE_ST_01030202",
       "QE_ST_01030304",
-      "QE_ST_01040204"
+      "QE_ST_01040204",
+      "QE_HA_LW_VSTR"
     ],
     "0.75%": [
       "QE_ST_01020303",
@@ -5680,7 +6470,14 @@
       "QE_EV_01_07"
     ],
     "0.50%": [
+      "QE_HA_LW_ROBB",
       "QE_EV_01_09"
+    ],
+    "0.45%": [
+      "QE_HA_LW_LILS"
+    ],
+    "0.35%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_JB_KUNAI_03": {
@@ -5709,6 +6506,16 @@
     ],
     "12.00%": [
       "QE_ST_01030310"
+    ],
+    "10.00%": [
+      "QE_HA_LW_OOOO",
+      "QE_HA_LW_SDLX"
+    ],
+    "8.60%": [
+      "QE_HA_LW_FDRC"
+    ],
+    "7.00%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_JB_MM_BLM_3": {
@@ -5724,7 +6531,9 @@
       "QE_ST_01030103"
     ],
     "0.75%": [
-      "QE_ST_01020304"
+      "QE_ST_01020304",
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_MGRT"
     ],
     "0.74%": [
       "QE_ST_01040104"
@@ -5732,8 +6541,14 @@
     "0.66%": [
       "QE_ST_01030302"
     ],
+    "0.60%": [
+      "QE_HA_LW_MURM"
+    ],
     "0.53%": [
       "QE_CH_LW_SEVR"
+    ],
+    "0.50%": [
+      "QE_HA_LW_UNII"
     ]
   },
   "IT_JB_MM_MNK_3": {
@@ -5752,13 +6567,53 @@
     ],
     "0.75%": [
       "QE_ST_01020304",
-      "QE_ST_01020310"
+      "QE_ST_01020310",
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_MRLK"
     ],
     "0.66%": [
       "QE_ST_01030305"
     ],
     "0.63%": [
       "QE_EV_ETRE_04"
+    ],
+    "0.60%": [
+      "QE_HA_LW_ZIZA"
+    ],
+    "0.50%": [
+      "QE_HA_LW_ELDE"
+    ],
+    "0.45%": [
+      "QE_HA_LW_ENBT"
+    ]
+  },
+  "IT_JB_AXE_03": {
+    "21.00%": [
+      "QE_CH_LW_YERM"
+    ],
+    "17.00%": [
+      "QE_ST_01030103",
+      "QE_ST_01030207",
+      "QE_ST_01040109",
+      "QE_ST_01040207"
+    ],
+    "14.50%": [
+      "QE_ST_01020304",
+      "QE_ST_01020310",
+      "QE_ST_01030303",
+      "QE_ST_01040105"
+    ],
+    "13.50%": [
+      "QE_ST_01030110"
+    ],
+    "12.50%": [
+      "QE_EV_01_07"
+    ],
+    "12.00%": [
+      "QE_ST_01030310"
+    ],
+    "10.00%": [
+      "QE_EV_01_09"
     ]
   },
   "IT_JB_BOW_03": {
@@ -5790,12 +6645,23 @@
     ],
     "14.00%": [
       "QE_CH_LW_RART"
+    ],
+    "12.00%": [
+      "QE_HA_LW_CLEY"
+    ],
+    "10.00%": [
+      "QE_HA_LW_UNII"
+    ],
+    "8.60%": [
+      "QE_HA_LW_LILS",
+      "QE_HA_LW_FDRC"
     ]
   },
   "IT_JB_MM_RDM_3": {
     "1.00%": [
       "QE_ST_01030104",
-      "QE_ST_01040202"
+      "QE_ST_01040202",
+      "QE_HA_LW_VSTR"
     ],
     "0.85%": [
       "QE_ST_01020305",
@@ -5804,9 +6670,19 @@
     "0.80%": [
       "QE_CH_LW_MURM"
     ],
+    "0.75%": [
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_MGRT"
+    ],
     "0.74%": [
       "QE_ST_01030303",
       "QE_ST_01040105"
+    ],
+    "0.60%": [
+      "QE_HA_LW_MURM"
+    ],
+    "0.50%": [
+      "QE_HA_LW_RIRY"
     ]
   },
   "IT_JB_MM_SAM_3": {
@@ -5828,6 +6704,35 @@
       "QE_ST_01020305",
       "QE_ST_01030306",
       "QE_ST_01040206"
+    ],
+    "0.50%": [
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_OOOO",
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_ROBB"
+    ]
+  },
+  "IT_JB_MM_VIK_3": {
+    "1.00%": [
+      "QE_ST_01030105",
+      "QE_CH_LW_YERM"
+    ],
+    "0.85%": [
+      "QE_ST_01020305",
+      "QE_ST_01030205",
+      "QE_ST_01040205"
+    ],
+    "0.74%": [
+      "QE_ST_01040105"
+    ],
+    "0.66%": [
+      "QE_ST_01030305"
+    ],
+    "0.63%": [
+      "QE_EV_01_07"
+    ],
+    "0.50%": [
+      "QE_EV_01_09"
     ]
   },
   "IT_JB_GUN_03": {
@@ -5852,6 +6757,13 @@
     ],
     "13.50%": [
       "QE_ST_01030110"
+    ],
+    "10.00%": [
+      "QE_HA_LW_RIRY",
+      "QE_HA_LW_SDLX"
+    ],
+    "8.60%": [
+      "QE_HA_LW_FDRC"
     ]
   },
   "IT_JB_MM_GRM_3": {
@@ -5864,14 +6776,22 @@
       "QE_ST_01020306"
     ],
     "0.75%": [
+      "QE_HA_LW_MRLK",
       "QE_CH_LW_VRID"
     ],
     "0.74%": [
       "QE_ST_01040106",
       "QE_ST_01040203"
     ],
+    "0.60%": [
+      "QE_HA_LW_CLEY",
+      "QE_HA_LW_PRAY"
+    ],
     "0.59%": [
       "QE_ST_01030206"
+    ],
+    "0.45%": [
+      "QE_HA_LW_HLNA"
     ]
   },
   "IT_JB_MM_LAN_3": {
@@ -5898,14 +6818,37 @@
     ],
     "0.66%": [
       "QE_ST_01030307"
+    ],
+    "0.60%": [
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_LRNZ",
+      "QE_HA_LW_PRAY",
+      "QE_HA_LW_ZIZA"
+    ],
+    "0.50%": [
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_ROBB"
+    ],
+    "0.45%": [
+      "QE_HA_LW_RAMD"
     ]
   },
   "IT_JB_STAFF_03": {
+    "30.00%": [
+      "QE_HA_LW_PHBE",
+      "QE_HA_LW_MGRT"
+    ],
     "26.00%": [
       "QE_CH_LW_PRAY"
     ],
+    "25.80%": [
+      "QE_HA_LW_HLNA"
+    ],
     "25.00%": [
       "QE_CH_LW_NAIA"
+    ],
+    "24.00%": [
+      "QE_HA_LW_PRAY"
     ],
     "21.00%": [
       "QE_CH_LW_HLNA",
@@ -5935,6 +6878,11 @@
       "QE_CH_LW_PHBE",
       "QE_CH_FF14_YSTL"
     ],
+    "15.00%": [
+      "QE_HA_LW_SEVR",
+      "QE_HA_LW_KADI",
+      "QE_HA_LW_MRLK"
+    ],
     "14.50%": [
       "QE_ST_01020310"
     ],
@@ -5947,7 +6895,13 @@
     ],
     "12.00%": [
       "QE_ST_01030310",
+      "QE_HA_LW_MURM",
+      "QE_HA_LW_LRNZ",
+      "QE_HA_LW_CLEY",
       "QE_CH_LW_SEVR"
+    ],
+    "10.00%": [
+      "QE_HA_LW_UNII"
     ]
   },
   "IT_JB_MM_TIM_3": {
@@ -5963,13 +6917,19 @@
       "QE_ST_01030207"
     ],
     "0.75%": [
+      "QE_HA_LW_PHBE",
+      "QE_HA_LW_MGRT",
       "QE_CH_LW_PHBE"
     ],
     "0.66%": [
       "QE_ST_01030305"
     ],
     "0.60%": [
+      "QE_HA_LW_LRNZ",
       "QE_CH_LW_MGRT"
+    ],
+    "0.45%": [
+      "QE_HA_LW_HLNA"
     ]
   },
   "IT_JB_MM_DRG_3": {
@@ -5985,9 +6945,16 @@
       "QE_ST_01020307",
       "QE_ST_01030308"
     ],
+    "0.75%": [
+      "QE_HA_LW_PHBE"
+    ],
     "0.74%": [
       "QE_ST_01030210",
       "QE_ST_01040105"
+    ],
+    "0.60%": [
+      "QE_HA_LW_LRNZ",
+      "QE_HA_LW_CLEY"
     ],
     "0.59%": [
       "QE_ST_01030108",
@@ -5995,6 +6962,12 @@
     ],
     "0.56%": [
       "QE_EV_ETRE_05"
+    ],
+    "0.50%": [
+      "QE_HA_LW_SDLX"
+    ],
+    "0.35%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_JB_MACE_03": {
@@ -6013,6 +6986,9 @@
     "17.00%": [
       "QE_ST_01030109",
       "QE_ST_01040205"
+    ],
+    "15.00%": [
+      "QE_HA_LW_KADI"
     ],
     "14.50%": [
       "QE_ST_01020308",
@@ -6036,15 +7012,25 @@
       "QE_CH_LW_RYER"
     ],
     "0.75%": [
-      "QE_ST_01020308"
+      "QE_ST_01020308",
+      "QE_HA_LW_KADI"
     ],
     "0.66%": [
       "QE_ST_01040108"
+    ],
+    "0.50%": [
+      "QE_HA_LW_UNII"
+    ],
+    "0.45%": [
+      "QE_HA_LW_RAMD"
     ]
   },
   "IT_JB_MM_THI_3": {
     "1.50%": [
       "QE_CH_LW_MIIA"
+    ],
+    "1.00%": [
+      "QE_HA_LW_VSTR"
     ],
     "0.85%": [
       "QE_ST_01030109",
@@ -6061,6 +7047,16 @@
     "0.74%": [
       "QE_ST_01040106",
       "QE_ST_01040209"
+    ],
+    "0.60%": [
+      "QE_HA_LW_ZIZA"
+    ],
+    "0.50%": [
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_RIRY"
+    ],
+    "0.45%": [
+      "QE_HA_LW_RAMD"
     ]
   },
   "IT_JB_MM_CLR_3": {
@@ -6078,7 +7074,8 @@
       "QE_ST_01040206"
     ],
     "0.75%": [
-      "QE_ST_01020309"
+      "QE_ST_01020309",
+      "QE_HA_LW_KADI"
     ],
     "0.66%": [
       "QE_ST_01030307"
@@ -6106,6 +7103,16 @@
     ],
     "0.55%": [
       "QE_ST_01030310"
+    ],
+    "0.50%": [
+      "QE_HA_LW_OOOO",
+      "QE_HA_LW_SDLX"
+    ],
+    "0.45%": [
+      "QE_HA_LW_FDRC"
+    ],
+    "0.35%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_JB_MM_LW_GLMS_3": {
@@ -6148,6 +7155,10 @@
     "0.74%": [
       "QE_ST_01030301",
       "QE_ST_01040210"
+    ],
+    "0.50%": [
+      "QE_HA_LW_VADM",
+      "QE_HA_LW_OOOO"
     ]
   },
   "IT_AF_MAT_HEART_02": {
@@ -6157,7 +7168,8 @@
     "10.00%": [
       "QE_ST_01040101",
       "QE_ST_01040110",
-      "QE_ST_01050205"
+      "QE_ST_01050205",
+      "QE_HA_LW_MDNA"
     ],
     "8.00%": [
       "QE_ST_01040109",
@@ -6168,7 +7180,8 @@
       "QE_ST_01050101",
       "QE_ST_01050105",
       "QE_ST_01050203",
-      "QE_ST_01050209"
+      "QE_ST_01050209",
+      "QE_HA_LW_FINA"
     ],
     "7.20%": [
       "QE_ST_01040105",
@@ -6180,6 +7193,13 @@
       "QE_ST_01040309",
       "QE_ST_01050109"
     ],
+    "6.70%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_ROBB",
+      "QE_HA_LW_GLMS",
+      "QE_HA_LW_YERM"
+    ],
     "6.50%": [
       "QE_ST_01050207"
     ],
@@ -6187,6 +7207,9 @@
       "QE_ST_01050103",
       "QE_ST_01050107",
       "QE_ST_01050201"
+    ],
+    "5.00%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_AF_MAT_SAND_02": {
@@ -6196,7 +7219,9 @@
     "10.00%": [
       "QE_ST_01040101",
       "QE_ST_01040107",
-      "QE_ST_01050205"
+      "QE_ST_01050205",
+      "QE_HA_LW_MGRT",
+      "QE_HA_LW_MDNA"
     ],
     "8.00%": [
       "QE_ST_01040103",
@@ -6209,7 +7234,10 @@
       "QE_ST_01050101",
       "QE_ST_01050105",
       "QE_ST_01050203",
-      "QE_ST_01050209"
+      "QE_ST_01050209",
+      "QE_HA_LW_NASR",
+      "QE_HA_LW_ZIZA",
+      "QE_HA_LW_AYKA"
     ],
     "7.20%": [
       "QE_ST_01040104",
@@ -6219,18 +7247,31 @@
       "QE_ST_01040309",
       "QE_ST_01050109"
     ],
+    "6.70%": [
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_ROBB",
+      "QE_HA_LW_AILN"
+    ],
     "6.50%": [
       "QE_ST_01050207"
     ],
     "5.80%": [
       "QE_ST_01050103",
       "QE_ST_01050107",
-      "QE_ST_01050201"
+      "QE_ST_01050201",
+      "QE_HA_LW_ENBT",
+      "QE_HA_LW_FDRC"
     ]
   },
   "IT_AF_LW_SWO_002": {
+    "4.00%": [
+      "QE_HA_LW_NASR"
+    ],
     "3.70%": [
       "QE_ST_01040101"
+    ],
+    "3.00%": [
+      "QE_HA_LW_ENBT"
     ],
     "2.30%": [
       "QE_ST_01040207",
@@ -6242,7 +7283,8 @@
   },
   "IT_AF_MAT_SAP_02": {
     "10.00%": [
-      "QE_ST_01040110"
+      "QE_ST_01040110",
+      "QE_HA_LW_MACR"
     ],
     "8.00%": [
       "QE_ST_01040102",
@@ -6260,12 +7302,18 @@
       "QE_ST_01050110",
       "QE_ST_01050204",
       "QE_ST_01050206",
-      "QE_ST_01050208"
+      "QE_ST_01050208",
+      "QE_HA_LW_PRAY",
+      "QE_HA_LW_FINA"
     ],
     "7.20%": [
       "QE_ST_01040106",
       "QE_ST_01040203",
       "QE_ST_01040306"
+    ],
+    "6.70%": [
+      "QE_HA_LW_SZRT",
+      "QE_HA_LW_YERM"
     ],
     "6.50%": [
       "QE_ST_01040108",
@@ -6276,7 +7324,9 @@
   },
   "IT_AF_MAT_LIQUID_02": {
     "10.00%": [
-      "QE_ST_01040107"
+      "QE_ST_01040107",
+      "QE_HA_LW_MGRT",
+      "QE_HA_LW_MACR"
     ],
     "8.00%": [
       "QE_ST_01040102",
@@ -6294,7 +7344,11 @@
       "QE_ST_01050110",
       "QE_ST_01050204",
       "QE_ST_01050206",
-      "QE_ST_01050208"
+      "QE_ST_01050208",
+      "QE_HA_LW_PRAY",
+      "QE_HA_LW_NASR",
+      "QE_HA_LW_ZIZA",
+      "QE_HA_LW_AYKA"
     ],
     "7.20%": [
       "QE_ST_01040104",
@@ -6303,17 +7357,32 @@
       "QE_ST_01040301",
       "QE_ST_01040304"
     ],
+    "6.70%": [
+      "QE_HA_LW_AILN",
+      "QE_HA_LW_GLMS"
+    ],
     "6.50%": [
       "QE_ST_01040108",
       "QE_ST_01050104",
       "QE_ST_01050202",
       "QE_ST_01050210"
+    ],
+    "5.80%": [
+      "QE_HA_LW_ENBT",
+      "QE_HA_LW_FDRC"
+    ],
+    "5.00%": [
+      "QE_HA_LW_STRN"
     ]
   },
   "IT_AF_LW_BSW_002": {
+    "3.50%": [
+      "QE_HA_LW_SZRT"
+    ],
     "3.00%": [
       "QE_ST_01040102",
-      "QE_ST_01040208"
+      "QE_ST_01040208",
+      "QE_HA_LW_STRN"
     ],
     "1.85%": [
       "QE_ST_01050104",
@@ -6321,6 +7390,9 @@
     ]
   },
   "IT_AF_LW_KAT_002": {
+    "3.50%": [
+      "QE_HA_LW_ROBB"
+    ],
     "3.00%": [
       "QE_ST_01040103",
       "QE_ST_01050105"
@@ -6330,6 +7402,9 @@
     ]
   },
   "IT_AF_LW_FIS_002": {
+    "4.00%": [
+      "QE_HA_LW_ZIZA"
+    ],
     "2.30%": [
       "QE_ST_01050106"
     ],
@@ -6338,7 +7413,26 @@
       "QE_ST_01040210"
     ]
   },
+  "IT_AF_LW_AXE_002": {
+    "3.50%": [
+      "QE_HA_LW_YERM"
+    ],
+    "2.30%": [
+      "QE_ST_01050208"
+    ],
+    "2.10%": [
+      "QE_ST_01040104",
+      "QE_ST_01040210"
+    ],
+    "1.65%": [
+      "QE_ST_01050107"
+    ]
+  },
   "IT_AF_LW_SPE_002": {
+    "3.50%": [
+      "QE_HA_LW_ELDE",
+      "QE_HA_LW_AILN"
+    ],
     "2.10%": [
       "QE_ST_01040105",
       "QE_ST_01040301"
@@ -6368,6 +7462,9 @@
     ]
   },
   "IT_AF_LW_BOW_002": {
+    "4.00%": [
+      "QE_HA_LW_FINA"
+    ],
     "3.00%": [
       "QE_ST_01050110"
     ],
@@ -6380,7 +7477,8 @@
   },
   "IT_AF_LW_GUN_002": {
     "3.00%": [
-      "QE_ST_01040305"
+      "QE_ST_01040305",
+      "QE_HA_LW_FDRC"
     ],
     "2.30%": [
       "QE_ST_01040109"
@@ -6398,6 +7496,9 @@
     ]
   },
   "IT_AF_LW_MAC_002": {
+    "5.00%": [
+      "QE_HA_LW_MACR"
+    ],
     "3.40%": [
       "QE_ST_01040201"
     ],
@@ -6455,249 +7556,363 @@
       "QE_ST_01050207"
     ]
   },
-  "IT_JB_AXE_04": {
-    "17.00%": [
-      "QE_ST_01050203"
-    ],
-    "13.50%": [
-      "QE_ST_01050210"
-    ]
-  },
-  "IT_AF_LW_AXE_002": {
-    "2.30%": [
-      "QE_ST_01050208"
-    ]
-  },
-  "IT_JB_MM_VIK_4": {
-    "0.85%": [
-      "QE_ST_01050209"
-    ]
-  },
-  "IT_JB_MM_VIK_3": {
-    "1.00%": [
-      "QE_CH_LW_YERM"
-    ],
-    "0.63%": [
-      "QE_EV_01_07"
-    ],
-    "0.50%": [
-      "QE_EV_01_09"
-    ]
-  },
-  "IT_JB_AXE_03": {
-    "21.00%": [
-      "QE_CH_LW_YERM"
-    ],
-    "12.50%": [
-      "QE_EV_01_07"
-    ],
-    "10.00%": [
-      "QE_EV_01_09"
-    ]
-  },
-  "IT_AF_LW_AXE_001": {
-    "3.75%": [
-      "QE_EV_01_04"
-    ],
-    "3.00%": [
-      "QE_EV_01_01"
-    ],
-    "1.97%": [
-      "QE_CH_LW_YERM"
-    ],
-    "1.88%": [
-      "QE_EV_01_07",
-      "QE_EV_01_10"
-    ]
-  },
-  "IT_PI_LW_ELDE": {
-    "10.00%": [
-      "QE_EV_GL_1M_FIR"
-    ]
-  },
-  "IT_PI_LW_LILS": {
-    "20.00%": [
-      "QE_EV_GL_1M_FIR"
-    ]
-  },
-  "IT_PI_LW_MGRT": {
-    "20.00%": [
-      "QE_EV_GL_1M_FIR"
-    ]
-  },
-  "IT_PI_LW_NAIA": {
-    "25.00%": [
-      "QE_EV_GL_1M_FIR"
-    ]
-  },
-  "IT_PI_LW_MICE": {
-    "25.00%": [
-      "QE_EV_GL_1M_FIR"
-    ]
-  },
-  "IT_PI_LW_MDNA": {
-    "10.00%": [
-      "QE_EV_GL_1M_ICE"
-    ]
-  },
-  "IT_PI_LW_GLMS": {
-    "10.00%": [
-      "QE_EV_GL_1M_ICE"
-    ]
-  },
-  "IT_PI_LW_CLEY": {
-    "20.00%": [
-      "QE_EV_GL_1M_ICE"
-    ]
-  },
-  "IT_PI_LW_VRID": {
-    "30.00%": [
-      "QE_EV_GL_1M_ICE"
-    ]
-  },
-  "IT_PI_LW_SRJS": {
-    "30.00%": [
-      "QE_EV_GL_1M_ICE"
-    ]
-  },
-  "IT_PI_LW_AYKA": {
-    "10.00%": [
-      "QE_EV_GL_1M_WIN"
-    ]
-  },
-  "IT_PI_LW_HLNA": {
-    "20.00%": [
-      "QE_EV_GL_1M_WIN"
-    ]
-  },
-  "IT_PI_LW_KADI": {
-    "20.00%": [
-      "QE_EV_GL_1M_WIN"
-    ]
-  },
-  "IT_PI_LW_SCIA": {
-    "25.00%": [
-      "QE_EV_GL_1M_WIN"
-    ]
-  },
-  "IT_PI_LW_MIIA": {
-    "25.00%": [
-      "QE_EV_GL_1M_WIN"
-    ]
-  },
-  "IT_PI_LW_AILN": {
-    "10.00%": [
-      "QE_EV_GL_1M_EAR"
-    ]
-  },
-  "IT_PI_LW_LRNZ": {
-    "20.00%": [
-      "QE_EV_GL_1M_EAR"
-    ]
-  },
-  "IT_PI_LW_BYLO": {
-    "35.00%": [
-      "QE_EV_GL_1M_EAR"
-    ]
-  },
-  "IT_PI_LW_MURM": {
-    "35.00%": [
-      "QE_EV_GL_1M_EAR"
-    ]
-  },
-  "IT_PI_LW_OOOO": {
-    "20.00%": [
-      "QE_EV_GL_1M_THU"
-    ]
-  },
-  "IT_PI_LW_MRLK": {
-    "20.00%": [
-      "QE_EV_GL_1M_THU"
-    ]
-  },
-  "IT_PI_LW_SZRT": {
-    "20.00%": [
-      "QE_EV_GL_1M_THU"
-    ]
-  },
-  "IT_PI_LW_VADM": {
-    "20.00%": [
-      "QE_EV_GL_1M_THU"
+  "IT_PI_LW_ZZAN": {
+    "100.00%": [
+      "QE_HA_LW_ZZAN"
     ]
   },
   "IT_PI_LW_RART": {
+    "100.00%": [
+      "QE_HA_LW_RART"
+    ],
     "20.00%": [
       "QE_EV_GL_1M_THU"
     ]
   },
-  "IT_PI_LW_RAMD": {
-    "20.00%": [
+  "IT_PI_LW_MICE": {
+    "100.00%": [
+      "QE_HA_LW_MICE"
+    ],
+    "25.00%": [
+      "QE_EV_GL_1M_FIR"
+    ]
+  },
+  "IT_PI_LW_MIIA": {
+    "100.00%": [
+      "QE_HA_LW_MIIA"
+    ],
+    "25.00%": [
+      "QE_EV_GL_1M_WIN"
+    ]
+  },
+  "IT_PI_LW_BYLO": {
+    "100.00%": [
+      "QE_HA_LW_BYLO"
+    ],
+    "35.00%": [
+      "QE_EV_GL_1M_EAR"
+    ]
+  },
+  "IT_PI_LW_RYER": {
+    "100.00%": [
+      "QE_HA_LW_RYER"
+    ],
+    "60.00%": [
+      "QE_EV_GL_1M_DAR"
+    ]
+  },
+  "IT_PI_LW_SCIA": {
+    "100.00%": [
+      "QE_HA_LW_SCIA"
+    ],
+    "25.00%": [
+      "QE_EV_GL_1M_WIN"
+    ]
+  },
+  "IT_PI_LW_VRID": {
+    "100.00%": [
+      "QE_HA_LW_VRID"
+    ],
+    "30.00%": [
+      "QE_EV_GL_1M_ICE"
+    ]
+  },
+  "IT_PI_LW_NAIA": {
+    "100.00%": [
+      "QE_HA_LW_NAIA"
+    ],
+    "25.00%": [
+      "QE_EV_GL_1M_FIR"
+    ]
+  },
+  "IT_PI_LW_SRJS": {
+    "100.00%": [
+      "QE_HA_LW_SRJS"
+    ],
+    "30.00%": [
+      "QE_EV_GL_1M_ICE"
+    ]
+  },
+  "IT_PI_LW_UNII": {
+    "100.00%": [
+      "QE_HA_LW_UNII"
+    ],
+    "40.00%": [
       "QE_EV_GL_1M_WTR"
     ]
   },
   "IT_PI_LW_SEVR": {
+    "100.00%": [
+      "QE_HA_LW_SEVR"
+    ],
     "40.00%": [
       "QE_EV_GL_1M_WTR"
     ]
   },
-  "IT_PI_LW_UNII": {
-    "40.00%": [
+  "IT_PI_LW_VADM": {
+    "100.00%": [
+      "QE_HA_LW_VADM"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_THU"
+    ]
+  },
+  "IT_PI_LW_MURM": {
+    "100.00%": [
+      "QE_HA_LW_MURM"
+    ],
+    "35.00%": [
+      "QE_EV_GL_1M_EAR"
+    ]
+  },
+  "IT_PI_LW_PHBE": {
+    "100.00%": [
+      "QE_HA_LW_PHBE"
+    ],
+    "25.00%": [
+      "QE_EV_GL_1M_SHI"
+    ]
+  },
+  "IT_PI_LW_MONT": {
+    "100.00%": [
+      "QE_HA_LW_MONT"
+    ]
+  },
+  "IT_PI_LW_HLNA": {
+    "100.00%": [
+      "QE_HA_LW_HLNA"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_WIN"
+    ]
+  },
+  "IT_PI_LW_LILS": {
+    "100.00%": [
+      "QE_HA_LW_LILS"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_FIR"
+    ]
+  },
+  "IT_PI_LW_RAMD": {
+    "100.00%": [
+      "QE_HA_LW_RAMD"
+    ],
+    "20.00%": [
       "QE_EV_GL_1M_WTR"
     ]
   },
-  "IT_PI_LW_ROBB": {
-    "10.00%": [
-      "QE_EV_GL_1M_SHI"
+  "IT_PI_LW_OOOO": {
+    "100.00%": [
+      "QE_HA_LW_OOOO"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_THU"
     ]
   },
-  "IT_PI_LW_ENBT": {
-    "10.00%": [
-      "QE_EV_GL_1M_SHI"
+  "IT_PI_LW_LRNZ": {
+    "100.00%": [
+      "QE_HA_LW_LRNZ"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_EAR"
     ]
   },
-  "IT_PI_LW_MACR": {
-    "10.00%": [
-      "QE_EV_GL_1M_SHI"
+  "IT_PI_LW_RIRY": {
+    "100.00%": [
+      "QE_HA_LW_RIRY"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_DAR"
     ]
   },
   "IT_PI_LW_VSTR": {
+    "100.00%": [
+      "QE_HA_LW_VSTR"
+    ],
     "15.00%": [
       "QE_EV_GL_1M_SHI"
     ]
   },
+  "IT_PI_LW_CLEY": {
+    "100.00%": [
+      "QE_HA_LW_CLEY"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_ICE"
+    ]
+  },
+  "IT_PI_LW_KADI": {
+    "100.00%": [
+      "QE_HA_LW_KADI"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_WIN"
+    ]
+  },
+  "IT_PI_LW_MRLK": {
+    "100.00%": [
+      "QE_HA_LW_MRLK"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_THU"
+    ]
+  },
+  "IT_PI_LW_MGRT": {
+    "100.00%": [
+      "QE_HA_LW_MGRT"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_FIR"
+    ]
+  },
+  "IT_AF_LW_ROD_004": {
+    "5.00%": [
+      "QE_HA_LW_MGRT",
+      "QE_HA_LW_MDNA"
+    ],
+    "4.00%": [
+      "QE_HA_LW_PRAY",
+      "QE_HA_LW_AYKA"
+    ]
+  },
   "IT_PI_LW_PRAY": {
+    "100.00%": [
+      "QE_HA_LW_PRAY"
+    ],
     "15.00%": [
       "QE_EV_GL_1M_SHI"
     ]
   },
   "IT_PI_LW_FINA": {
+    "100.00%": [
+      "QE_HA_LW_FINA"
+    ],
     "15.00%": [
       "QE_EV_GL_1M_SHI"
     ]
   },
-  "IT_PI_LW_PHBE": {
-    "25.00%": [
-      "QE_EV_GL_1M_SHI"
+  "IT_PI_LW_SZRT": {
+    "100.00%": [
+      "QE_HA_LW_SZRT"
+    ],
+    "20.00%": [
+      "QE_EV_GL_1M_THU"
+    ]
+  },
+  "IT_PI_LW_SDLX": {
+    "100.00%": [
+      "QE_HA_LW_SDLX"
+    ]
+  },
+  "IT_PI_LW_NASR": {
+    "100.00%": [
+      "QE_HA_LW_NASR"
     ]
   },
   "IT_PI_LW_STRN": {
+    "100.00%": [
+      "QE_HA_LW_STRN"
+    ],
     "10.00%": [
       "QE_EV_GL_1M_DAR"
+    ]
+  },
+  "IT_PI_LW_ELDE": {
+    "100.00%": [
+      "QE_HA_LW_ELDE"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_FIR"
+    ]
+  },
+  "IT_PI_LW_ROBB": {
+    "100.00%": [
+      "QE_HA_LW_ROBB"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_SHI"
+    ]
+  },
+  "IT_PI_LW_ENBT": {
+    "100.00%": [
+      "QE_HA_LW_ENBT"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_SHI"
     ]
   },
   "IT_PI_LW_ZIZA": {
+    "100.00%": [
+      "QE_HA_LW_ZIZA"
+    ],
     "10.00%": [
       "QE_EV_GL_1M_DAR"
     ]
   },
-  "IT_PI_LW_RIRY": {
-    "20.00%": [
-      "QE_EV_GL_1M_DAR"
+  "IT_PI_LW_AILN": {
+    "100.00%": [
+      "QE_HA_LW_AILN"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_EAR"
     ]
   },
-  "IT_PI_LW_RYER": {
-    "60.00%": [
-      "QE_EV_GL_1M_DAR"
+  "IT_PI_LW_MDNA": {
+    "100.00%": [
+      "QE_HA_LW_MDNA"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_ICE"
+    ]
+  },
+  "IT_PI_LW_AYKA": {
+    "100.00%": [
+      "QE_HA_LW_AYKA"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_WIN"
+    ]
+  },
+  "IT_PI_LW_MACR": {
+    "100.00%": [
+      "QE_HA_LW_MACR"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_SHI"
+    ]
+  },
+  "IT_PI_LW_GLMS": {
+    "100.00%": [
+      "QE_HA_LW_GLMS"
+    ],
+    "10.00%": [
+      "QE_EV_GL_1M_ICE"
+    ]
+  },
+  "IT_PI_LW_FDRC": {
+    "100.00%": [
+      "QE_HA_LW_FDRC"
+    ]
+  },
+  "IT_PI_LW_YERM": {
+    "100.00%": [
+      "QE_HA_LW_YERM"
+    ]
+  },
+  "IT_JB_MM_FFT_RAMZ_3": {
+    "1.50%": [
+      "QE_CH_FFT_RAMZ"
+    ]
+  },
+  "IT_JB_MM_FFT_GFGR_3": {
+    "1.50%": [
+      "QE_CH_FFT_GFGR"
+    ]
+  },
+  "IT_JB_MM_FFT_ORND_3": {
+    "1.00%": [
+      "QE_CH_FFT_ORND"
     ]
   },
   "IT_EC_FF14_1": {
@@ -6714,8 +7929,6 @@
     ],
     "50.00%": [
       "QE_EV_FF14_01",
-      "QE_EV_FF14_01",
-      "QE_EV_FF14_02",
       "QE_EV_FF14_02"
     ],
     "20.00%": [
@@ -6723,14 +7936,9 @@
     ],
     "15.00%": [
       "QE_EV_FF14_03",
-      "QE_EV_FF14_03",
-      "QE_EV_FF14_04",
       "QE_EV_FF14_04",
       "QE_EV_FF14_05",
-      "QE_EV_FF14_05",
       "QE_EV_FF14_EX1",
-      "QE_EV_FF14_EX1",
-      "QE_EV_FF14_Ex2",
       "QE_EV_FF14_Ex2",
       "QE_EV_FF14_RD02"
     ],
@@ -6741,30 +7949,159 @@
       "QE_EV_FF14_RD02"
     ]
   },
-  "IT_JB_AXE_01": {
-    "20.00%": [
-      "QE_EV_01_01"
-    ]
-  },
-  "IT_JB_MM_VIK": {
-    "2.00%": [
-      "QE_EV_01_01"
-    ]
-  },
-  "IT_JB_AXE_02": {
-    "16.67%": [
-      "QE_EV_01_03"
+  "IT_EC_FFT_1": {
+    "37.00%": [
+      "QE_EV_FFT_05"
     ],
-    "11.17%": [
-      "QE_EV_01_05"
+    "35.00%": [
+      "QE_EV_FFT_05"
+    ],
+    "18.00%": [
+      "QE_EV_FFT_01",
+      "QE_EV_FFT_02"
+    ],
+    "16.00%": [
+      "QE_EV_FFT_03"
+    ],
+    "15.00%": [
+      "QE_EV_FFT_04",
+      "QE_EV_FFT_05"
+    ],
+    "13.00%": [
+      "QE_EV_FFT_03"
+    ],
+    "11.00%": [
+      "QE_EV_FFT_01"
+    ],
+    "10.00%": [
+      "QE_EV_FFT_02"
+    ],
+    "9.00%": [
+      "QE_EV_FFT_05"
+    ],
+    "8.00%": [
+      "QE_EV_FFT_03"
+    ],
+    "7.00%": [
+      "QE_EV_FFT_04"
+    ],
+    "6.00%": [
+      "QE_EV_FFT_02"
+    ],
+    "5.00%": [
+      "QE_EV_FFT_04"
+    ],
+    "4.00%": [
+      "QE_EV_FFT_05"
     ]
   },
-  "IT_JB_MM_VIK_2": {
-    "0.83%": [
-      "QE_EV_01_03"
+  "IT_PI_FFT_GFGR": {
+    "15.00%": [
+      "QE_EV_FFT_05"
     ],
-    "0.56%": [
-      "QE_EV_01_05"
+    "10.00%": [
+      "QE_EV_FFT_05"
+    ],
+    "8.00%": [
+      "QE_EV_FFT_04"
+    ],
+    "4.00%": [
+      "QE_EV_FFT_04"
+    ],
+    "3.00%": [
+      "QE_EV_FFT_04"
+    ]
+  },
+  "IT_PI_COM_FIRE": {
+    "100.00%": [
+      "QE_EV_ANV_19_10"
+    ],
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_PI_COM_ICE": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_PI_COM_WIND": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_PI_COM_SOIL": {
+    "100.00%": [
+      "QE_EV_ANV_19_10"
+    ],
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_PI_COM_THUNDER": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_PI_COM_WATER": {
+    "100.00%": [
+      "QE_EV_ANV_19_10"
+    ],
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_PI_COM_SHINE": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_PI_COM_DARK": {
+    "100.00%": [
+      "QE_EV_ANV_19_10"
+    ],
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_FIRE": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_ICE": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_WIND": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_SOIL": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_THUNDER": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_WATER": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_SHINE": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
+    ]
+  },
+  "IT_UN_AW_DARK": {
+    "12.50%": [
+      "QE_EV_GL_3M_DL"
     ]
   },
   "IT_AF_LW_AXE_003": {
@@ -6810,6 +8147,14 @@
     ]
   },
   "IT_AF_AW_AXE": {
+    "33.33%": [
+      "QE_EV_ART_SCR_01",
+      "QE_MU_EV_SCR_01"
+    ],
+    "6.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_MU_EV_SCR_01"
+    ],
     "4.88%": [
       "QE_MU_EV_01_EX1"
     ],
@@ -6856,11 +8201,111 @@
     ]
   },
   "IT_AF_AW_LSWORD": {
+    "33.33%": [
+      "QE_EV_ART_SCR_01",
+      "QE_MU_EV_SCR_01"
+    ],
     "11.70%": [
       "QE_MU_EV_01_EX2"
     ],
     "7.80%": [
       "QE_EV_01_EX2"
+    ],
+    "6.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_MU_EV_SCR_01"
+    ]
+  },
+  "IT_AF_AW_SWORD": {
+    "33.33%": [
+      "QE_EV_ART_SCR_01",
+      "QE_MU_EV_SCR_01"
+    ],
+    "6.00%": [
+      "QE_EV_ART_SCR_01",
+      "QE_MU_EV_SCR_01"
+    ]
+  },
+  "IT_AF_SUP_HP": {
+    "1.00%": [
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
+    ],
+    "0.50%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02"
+    ]
+  },
+  "IT_AF_SUP_ATK": {
+    "1.00%": [
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
+    ],
+    "0.50%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02"
+    ]
+  },
+  "IT_AF_SUP_HIT": {
+    "1.00%": [
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
+    ],
+    "0.50%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02"
+    ]
+  },
+  "IT_AF_SUP_CRI": {
+    "1.00%": [
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02"
+    ],
+    "0.50%": [
+      "QE_EV_ART_SCR_01",
+      "QE_EV_ART_SCR_02"
+    ]
+  },
+  "IT_AF_AW_SPEAR": {
+    "33.33%": [
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_02"
+    ],
+    "6.00%": [
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_02"
+    ],
+    "4.88%": [
+      "QE_MU_EV_ET_EX1"
+    ],
+    "3.25%": [
+      "QE_EV_ETRE_EX1"
+    ]
+  },
+  "IT_AF_AW_FIST": {
+    "33.33%": [
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_02"
+    ],
+    "6.00%": [
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_02"
+    ],
+    "4.88%": [
+      "QE_MU_EV_ET_EX2"
+    ],
+    "3.25%": [
+      "QE_EV_ETRE_EX2"
+    ]
+  },
+  "IT_AF_AW_GUN": {
+    "33.33%": [
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_02"
+    ],
+    "6.00%": [
+      "QE_EV_ART_SCR_02",
+      "QE_MU_EV_SCR_02"
     ]
   },
   "IT_PI_LW_ETRE": {
@@ -6875,12 +8320,9 @@
       "QE_EV_ETRE_03"
     ],
     "20.00%": [
-      "QE_EV_ETRE_06",
-      "QE_EV_ETRE_06",
       "QE_EV_ETRE_06"
     ],
     "15.00%": [
-      "QE_EV_ETRE_06",
       "QE_EV_ETRE_06"
     ],
     "14.29%": [
@@ -6911,14 +8353,6 @@
       "QE_MU_EV_ET_EX1"
     ],
     "20.00%": [
-      "QE_EV_ETRE_EX1"
-    ]
-  },
-  "IT_AF_AW_SPEAR": {
-    "4.88%": [
-      "QE_MU_EV_ET_EX1"
-    ],
-    "3.25%": [
       "QE_EV_ETRE_EX1"
     ]
   },
@@ -6955,14 +8389,6 @@
       "QE_EV_ART_CRF_03"
     ]
   },
-  "IT_AF_AW_FIST": {
-    "4.88%": [
-      "QE_MU_EV_ET_EX2"
-    ],
-    "3.25%": [
-      "QE_EV_ETRE_EX2"
-    ]
-  },
   "IT_ACTP_01": {
     "10.59%": [
       "QE_EV_ANV_19_10"
@@ -6970,26 +8396,6 @@
   },
   "IT_ACTP_02": {
     "5.88%": [
-      "QE_EV_ANV_19_10"
-    ]
-  },
-  "IT_PI_COM_SOIL": {
-    "100.00%": [
-      "QE_EV_ANV_19_10"
-    ]
-  },
-  "IT_PI_COM_FIRE": {
-    "100.00%": [
-      "QE_EV_ANV_19_10"
-    ]
-  },
-  "IT_PI_COM_DARK": {
-    "100.00%": [
-      "QE_EV_ANV_19_10"
-    ]
-  },
-  "IT_PI_COM_WATER": {
-    "100.00%": [
       "QE_EV_ANV_19_10"
     ]
   },
