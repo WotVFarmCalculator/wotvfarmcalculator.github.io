@@ -352,6 +352,9 @@ function getMaterialLayerImageHtml(material, image) {
   if (image.indexOf('itemicon_job_') >= 0) {
     typeClass = 'material-icon-memory';
   }
+  if (image.indexOf('it_pi_lw_') >= 0) {
+    typeClass = 'material-icon-shard';
+  }
 
   return applyTemplate('MaterialIconLayer', {
     'image': image,

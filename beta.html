@@ -207,7 +207,7 @@
         <td>
           <div class="container">
             <div class="row">
-              <img src="img/ui/cmn_btn_acordion_off.png" data-quest="{{iname}}" class="accordion-toggle accordion-toggle-story-name mr-2" alt="Click to expand/collapse" title="Click to expand/collapse">
+              <img src="img/ui/cmn_btn_acordion_off.png" data-quest="{{cssclass iname}}" class="accordion-toggle accordion-toggle-story-name mr-2" alt="Click to expand/collapse" title="Click to expand/collapse">
               <div class="col">
                 <div class="row">
                   <span class="quest-type quest-type-{{cssclass type}}">{{type}}</span> {{designation}} {{title}}
@@ -241,7 +241,7 @@
 
 
     <template class="template template-story-row-expanded">
-      <tr class="story-row-expanded story-row-expanded-{{iname}} gutter-1">
+      <tr class="story-row-expanded story-row-expanded-{{cssclass iname}} gutter-1">
         <td colspan="3">
           <div class="container">
             <div class="row drop-table-header">

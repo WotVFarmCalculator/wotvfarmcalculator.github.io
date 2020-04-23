@@ -481,14 +481,11 @@ body {
   top: 0;
   left: 0;
   vertical-align: top;
+  filter: drop-shadow(0px 0px .1em rgba(0,0,0,.3));
 }
 
 .material-icon:first-child {
   position: static;
-}
-
-.material-icon-job {
-
 }
 
 .material-icon-gear {
@@ -501,11 +498,31 @@ body {
   transform: scale(.7);
 }
 
+.material-icon-shard {
+  transform: scale(.8);
+}
+
 .tooltip-inner .material-icon,
 .tooltip-inner .material-icon-wrapper,
 .form-control .material-icon,
 .form-control .material-icon-wrapper {
   height: 1.5rem;
+}
+
+.form-control .material-icon-wrapper {
+  transform: scale(1.5);
+}
+
+.form-control .material-icon-wrapper .material-icon-recipe {
+  transform: scale(.7);
+}
+
+.form-control .material-icon-wrapper .material-icon-gear {
+  transform: scale(.6);
+}
+
+.form-control .material-icon-wrapper .material-icon-shard {
+  transform: scale(.8);
 }
 
 .material-icon-quantity {
@@ -581,6 +598,10 @@ body {
 
 .quest-type-beast-den {
   background: #ff6600;
+}
+
+.quest-type-shard {
+  background: #fe00a6;
 }
 
 .mode-import,
