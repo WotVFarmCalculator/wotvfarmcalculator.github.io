@@ -1,0 +1,156 @@
+{
+  "AF_LW_GUN_001": [
+    "IT_AF_LW_GUN_001",
+    "IT_AF_MAT_SAND_01"
+  ],
+  "AF_LW_HAT_003": [
+    "IT_AF_LW_HAT_003",
+    "IT_AF_MAT_LIQUID_01",
+    "IT_AF_MAT_LIQUID_02"
+  ],
+  "AF_LW_BSW_001": [
+    "IT_AF_LW_BSW_001",
+    "IT_AF_MAT_SAP_01"
+  ],
+  "AF_LW_DAG_001": [
+    "IT_AF_LW_DAG_001",
+    "IT_AF_MAT_HEART_01"
+  ],
+  "AF_LW_RNG_003": [
+    "IT_AF_LW_RNG_003",
+    "IT_AF_MAT_HEART_01",
+    "IT_AF_MAT_HEART_02"
+  ],
+  "AF_LW_BOW_002": [
+    "IT_AF_LW_BOW_002",
+    "IT_AF_MAT_LIQUID_01",
+    "IT_AF_MAT_LIQUID_02"
+  ],
+  "AF_LW_RNG_002": [
+    "IT_AF_LW_RNG_002",
+    "IT_AF_MAT_HEART_01"
+  ],
+  "AF_LW_HLM_002": [
+    "IT_AF_LW_HLM_002",
+    "IT_AF_MAT_LIQUID_01"
+  ],
+  "AF_LW_MAC_001": [
+    "IT_AF_LW_MAC_001",
+    "IT_AF_MAT_SAP_01"
+  ],
+  "AF_LW_ARM_002": [
+    "IT_AF_LW_ARM_002",
+    "IT_AF_MAT_HEART_01"
+  ],
+  "AF_LW_ROD_002": [
+    "IT_AF_LW_ROD_002",
+    "IT_AF_MAT_LIQUID_01"
+  ],
+  "AF_LW_KAT_002": [
+    "IT_AF_LW_KAT_002",
+    "IT_AF_MAT_SAP_01",
+    "IT_AF_MAT_SAP_02"
+  ],
+  "AF_LW_NKN_002": [
+    "IT_AF_LW_NKN_002",
+    "IT_AF_MAT_SAP_01",
+    "IT_AF_MAT_SAP_02"
+  ],
+  "AF_LW_KAT_001": [
+    "IT_AF_LW_KAT_001",
+    "IT_AF_MAT_SAP_01"
+  ],
+  "AF_LW_NKN_001": [
+    "IT_AF_LW_NKN_001",
+    "IT_AF_MAT_SAP_01"
+  ],
+  "AF_LW_BOW_001": [
+    "IT_AF_LW_BOW_001",
+    "IT_AF_MAT_LIQUID_01"
+  ],
+  "AF_LW_SWO_001": [
+    "IT_AF_LW_SWO_001",
+    "IT_AF_MAT_HEART_01"
+  ],
+  "AF_LW_FIS_001": [
+    "IT_AF_LW_FIS_001",
+    "IT_AF_MAT_SAND_01"
+  ],
+  "AF_LW_CLT_003": [
+    "IT_AF_LW_CLT_003",
+    "IT_AF_MAT_SAND_01",
+    "IT_AF_MAT_SAND_02"
+  ],
+  "AF_LW_ARM_003": [
+    "IT_AF_LW_ARM_003",
+    "IT_AF_MAT_HEART_01",
+    "IT_AF_MAT_HEART_02"
+  ],
+  "AF_LW_AXE_002": [
+    "IT_AF_LW_AXE_002",
+    "IT_AF_MAT_SAP_01",
+    "IT_AF_MAT_SAP_02"
+  ],
+  "AF_LW_FIS_002": [
+    "IT_AF_LW_FIS_002",
+    "IT_AF_MAT_SAND_01",
+    "IT_AF_MAT_SAND_02"
+  ],
+  "AF_LW_DAG_002": [
+    "IT_AF_LW_DAG_002",
+    "IT_AF_MAT_HEART_01",
+    "IT_AF_MAT_HEART_02"
+  ],
+  "AF_LW_HLM_003": [
+    "IT_AF_LW_HLM_003",
+    "IT_AF_MAT_LIQUID_01",
+    "IT_AF_MAT_LIQUID_02"
+  ],
+  "AF_LW_MAC_002": [
+    "IT_AF_LW_MAC_002",
+    "IT_AF_MAT_SAP_01",
+    "IT_AF_MAT_SAP_02"
+  ],
+  "AF_LW_BSW_002": [
+    "IT_AF_LW_BSW_002",
+    "IT_AF_MAT_SAP_01",
+    "IT_AF_MAT_SAP_02"
+  ],
+  "AF_LW_SPE_002": [
+    "IT_AF_LW_SPE_002",
+    "IT_AF_MAT_LIQUID_01",
+    "IT_AF_MAT_LIQUID_02"
+  ],
+  "AF_LW_SWO_002": [
+    "IT_AF_LW_SWO_002",
+    "IT_AF_MAT_HEART_01",
+    "IT_AF_MAT_HEART_02"
+  ],
+  "AF_LW_AXE_001": [
+    "IT_AF_LW_AXE_001",
+    "IT_AF_MAT_SAP_01"
+  ],
+  "AF_LW_SPE_001": [
+    "IT_AF_LW_SPE_001",
+    "IT_AF_MAT_LIQUID_01"
+  ],
+  "AF_LW_ROD_005": [
+    "IT_AF_LW_ROD_005",
+    "IT_AF_MAT_LIQUID_03",
+    "IT_AF_MAT_MABR",
+    "IT_AF_MAT_LESS_01"
+  ],
+  "AF_LW_CLT_002": [
+    "IT_AF_LW_CLT_002",
+    "IT_AF_MAT_SAND_01"
+  ],
+  "AF_LW_GUN_002": [
+    "IT_AF_LW_GUN_002",
+    "IT_AF_MAT_SAND_01",
+    "IT_AF_MAT_SAND_02"
+  ],
+  "AF_LW_HAT_002": [
+    "IT_AF_LW_HAT_002",
+    "IT_AF_MAT_LIQUID_01"
+  ]
+}

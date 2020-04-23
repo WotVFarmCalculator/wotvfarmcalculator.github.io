@@ -1,0 +1,58 @@
+{
+  "Dark": [
+    "IT_JB_EM_DARK_1",
+    "IT_JB_EM_DARK_2",
+    "IT_JB_EM_DARK_3",
+    "IT_JB_EM_DARK_4",
+    "IT_JB_EM_DARK_5"
+  ],
+  "Earth": [
+    "IT_JB_EM_SOIL_1",
+    "IT_JB_EM_SOIL_2",
+    "IT_JB_EM_SOIL_3",
+    "IT_JB_EM_SOIL_4",
+    "IT_JB_EM_SOIL_5"
+  ],
+  "Fire": [
+    "IT_JB_EM_FIRE_1",
+    "IT_JB_EM_FIRE_2",
+    "IT_JB_EM_FIRE_3",
+    "IT_JB_EM_FIRE_4",
+    "IT_JB_EM_FIRE_5"
+  ],
+  "Ice": [
+    "IT_JB_EM_ICE_1",
+    "IT_JB_EM_ICE_2",
+    "IT_JB_EM_ICE_3",
+    "IT_JB_EM_ICE_4",
+    "IT_JB_EM_ICE_5"
+  ],
+  "Light": [
+    "IT_JB_EM_SHINE_1",
+    "IT_JB_EM_SHINE_2",
+    "IT_JB_EM_SHINE_3",
+    "IT_JB_EM_SHINE_4",
+    "IT_JB_EM_SHINE_5"
+  ],
+  "Lightning": [
+    "IT_JB_EM_THUNDER_1",
+    "IT_JB_EM_THUNDER_2",
+    "IT_JB_EM_THUNDER_3",
+    "IT_JB_EM_THUNDER_4",
+    "IT_JB_EM_THUNDER_5"
+  ],
+  "Water": [
+    "IT_JB_EM_WATER_1",
+    "IT_JB_EM_WATER_2",
+    "IT_JB_EM_WATER_3",
+    "IT_JB_EM_WATER_4",
+    "IT_JB_EM_WATER_5"
+  ],
+  "Wind": [
+    "IT_JB_EM_WIND_1",
+    "IT_JB_EM_WIND_2",
+    "IT_JB_EM_WIND_3",
+    "IT_JB_EM_WIND_4",
+    "IT_JB_EM_WIND_5"
+  ]
+}
