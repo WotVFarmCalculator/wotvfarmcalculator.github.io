@@ -325,9 +325,21 @@
     "job/drg_item.png"
   ],
   "IT_JB_MM_DRG_5": "no_image.png",
+  "IT_JB_MM_FFT_GFGR": "no_image.png",
+  "IT_JB_MM_FFT_GFGR_2": "no_image.png",
   "IT_JB_MM_FFT_GFGR_3": "no_image.png",
+  "IT_JB_MM_FFT_GFGR_4": "no_image.png",
+  "IT_JB_MM_FFT_GFGR_5": "no_image.png",
+  "IT_JB_MM_FFT_ORND": "no_image.png",
+  "IT_JB_MM_FFT_ORND_2": "no_image.png",
   "IT_JB_MM_FFT_ORND_3": "no_image.png",
+  "IT_JB_MM_FFT_ORND_4": "no_image.png",
+  "IT_JB_MM_FFT_ORND_5": "no_image.png",
+  "IT_JB_MM_FFT_RAMZ": "no_image.png",
+  "IT_JB_MM_FFT_RAMZ_2": "no_image.png",
   "IT_JB_MM_FFT_RAMZ_3": "no_image.png",
+  "IT_JB_MM_FFT_RAMZ_4": "no_image.png",
+  "IT_JB_MM_FFT_RAMZ_5": "no_image.png",
   "IT_JB_MM_GRM": [
     "itemicon_job_01.png",
     "job/grm_item.png"
