@@ -463,6 +463,9 @@ function calculate() {
 
       storyRowExpandedVM.enemies = [];
       for (let [enemyKey, enemyData] of Object.entries(setData.enemies)) {
+        if (!enemyData.name) {
+          enemyData.name = enemyKey;
+        }
         storyRowExpandedVM.enemies.push({name: enemyData.name});
       }
 
