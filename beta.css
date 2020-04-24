@@ -449,7 +449,7 @@ body {
 .material-icon-drop-percent {
   font-size: .5rem;
   background: #333;
-  border-radius: 0 0 .4rem .4rem;
+  border-radius: 0 0 .3rem .3rem;
   padding-bottom: 4px;
   padding-top: 2px;
   color: #fff;
@@ -646,6 +646,9 @@ body.dark-mode {
 .dark-mode .form-control {
   background: #444;
   border-color: #333;
+}
+
+.dark-mode .materials-list .form-control {
   color: #fff;
 }
 
@@ -664,4 +667,56 @@ body.dark-mode {
 .dark-mode .autocomplete__input {
   background: #ccc;
 }
+
+.dark-mode .tt-menu {
+  background: #444;
+  color: #fff;
+}
+
+.dark-mode .tt-highlight {
+  background: #339900;
+}
+
+.dark-mode .story-row {
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  background: rgb(25, 25, 25);
+  background: linear-gradient(0deg, rgba(60, 60, 60, 1) 0%, rgba(40, 40, 40, 1) 15%, rgba(40, 40, 40, 1) 85%, rgba(60, 60, 60, 1) 100%);
+}
+
+.dark-mode .table td,
+.dark-mode .table th {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.dark-mode .gutter-1 {
+  background: #222;
+}
+
+.dark-mode .gutter-2 {
+  background: #444;
+}
+
+.dark-mode .material-icon-quantity {
+  color: #000;
+}
+
+.dark-mode .no-drop {
+  color: #000;
+}
+
+.dark-mode .accordion-toggle {
+  filter: drop-shadow(0px 0px 1px rgba(255, 255, 255, 1)) invert(100%);
+}
+
+.dark-mode .material-icon-drop-box {
+  background: #aaa;
+  border: 1px solid #000;
+}
+
+.dark-mode .jumbotron {
+  background: #333;
+}
+
 /** Dark Mode END **/
