@@ -197,7 +197,14 @@
     </template>
 
     <template class="template template-material-quantity-layer">
-      <div class="material-icon material-icon-quantity" title="{{material}}">x{{quantity}}</div>
+      <div class="material-icon material-icon-quantity" title="{{material}}">
+        {{#if showRange}}
+        x{{min}} - {{max}}
+        {{/if}}
+        {{#unless showRange}}
+        x{{min}}
+        {{/unless}}
+      </div>
     </template>
 
     <template class="template template-story-row">
@@ -238,7 +245,7 @@
       <div class="material-icon-drop-box">
         {{{materialLabel}}}
         <div class="material-icon-drop-percent">
-          {{dropChance}}
+          {{dropChance}}%
         </div>
       </div>
     </template>

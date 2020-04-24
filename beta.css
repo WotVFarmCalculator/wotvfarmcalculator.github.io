@@ -515,6 +515,10 @@ body {
   height: 1.5rem;
 }
 
+.story-row .material-icon-wrapper {
+  height: 3.3em;
+}
+
 .form-control .material-icon-wrapper {
   transform: scale(1.5);
 }

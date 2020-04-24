@@ -4,15 +4,12 @@ var fileList = {
   'ItemName': 'data/en/ItemName.json',
   'ArtifactName': 'data/en/ArtifactName.json',
   'ItemImageMap': 'data/ItemImageMap.json',
-  'ItemAtLeastOne': 'data/ItemAtLeastOne.json',
-  'ItemChance': 'data/ItemChance.json',
   'ItemQuests': 'data/ItemQuests.json',
   'QuestsByIName': 'data/QuestsByIName.json',
   'ElementalItems': 'data/ElementalItems.json',
   'JobMaterials': 'data/JobMaterials.json',
   'Characters': 'data/Characters.json',
   'ItemRecipes': 'data/ItemRecipes.json',
-  'QuestAtLeastOne': 'data/QuestAtLeastOne.json',
 };
 
 var loadedData = {};
@@ -293,9 +290,9 @@ function addMaterialToDom(material) {
  *
  * @param material
  * @param includeText
- * @param includeQuantity
+ * @param includeRange
  */
-function getMaterialImageOrLabel(material, includeText, includeQuantity) {
+function getMaterialImageOrLabel(material, includeText, includeRange) {
   if (!loadedData['ItemImageMap'].hasOwnProperty(material.iname)) {
     return material.iname;
   }
@@ -316,10 +313,14 @@ function getMaterialImageOrLabel(material, includeText, includeQuantity) {
     layerHtml += getMaterialLayerImageHtml(material, layer);
   });
 
-  if (includeQuantity) {
+  if (includeRange) {
+    var showRange = (material.min !== material.max);
+
     layerHtml += applyTemplate('MaterialQuantityLayer', {
       'material': material.value,
-      'quantity': material.quantity,
+      'min': material.min,
+      'max': material.max,
+      'showRange': showRange,
     });
   }
 
@@ -427,12 +428,12 @@ function calculate() {
     }
 
     if (quest.start && quest.start > Date.now()) {
-      console.log('quest start check failed: ', questIName, quest.start);
+      console.info('quest start check failed: ', questIName, quest.start);
       continue;
     }
 
     if (quest.end && quest.end < Date.now()) {
-      console.log('quest end check failed: ', questIName, quest.end);
+      console.info('quest end check failed: ', questIName, quest.end);
       continue;
     }
 
@@ -462,18 +463,16 @@ function calculate() {
     storyRowVM.materialDropBoxes = "";
     matchedItems.forEach(function (matchedItem) {
       var matchedItemVM = {};
-      // @todo: There can be multiple drop chances here - how to flatten?
-      // @todo: For now just take the first which is the highest.
-      matchedItemVM.dropChance = loadedData['QuestAtLeastOne'][questIName][matchedItem][0];
+      matchedItemVM.dropChance = quest.topLevelDrop[matchedItem].dropChance;
+
       var entry = {
         'iname': matchedItem,
         'value': translation['ItemName'][matchedItem],
         'type': 'item',
-
-        // @todo: how to show quantity range here?
-        //'quantity':
+        'min': quest.topLevelDrop[matchedItem].min,
+        'max': quest.topLevelDrop[matchedItem].max,
       };
-      matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false);
+      matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true);
       storyRowVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
     });
 
@@ -510,11 +509,12 @@ function calculate() {
       storyRowExpandedVM.materialDropBoxes = "";
       setData.drops.forEach(function (itemData) {
         var matchedItemVM = {};
-        matchedItemVM.dropChance = itemData.chance + "%";
+        matchedItemVM.dropChance = Number(itemData.chance);
         var entry = {
           'iname': itemData.iname === "NOTHING" ? applyTemplate('NoDrop', {}) : itemData.iname,
           'value': itemData.name,
-          'quantity': itemData.num,
+          'min': itemData.num,
+          'max': itemData.num,
           'type': 'item',
         };
 
