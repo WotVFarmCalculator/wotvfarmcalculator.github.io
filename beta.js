@@ -462,12 +462,12 @@ function calculate() {
       storyRowExpandedVM.iname = questIName;
 
       storyRowExpandedVM.enemies = [];
-      for (let [enemyKey, enemyData] of Object.entries(setData.enemies)) {
+      setData.enemies.forEach(function(enemyData) {
         if (!enemyData.name) {
-          enemyData.name = enemyKey;
+          enemyData.name = enemyData.iname;
         }
         storyRowExpandedVM.enemies.push({name: enemyData.name});
-      }
+      });
 
       storyRowExpandedVM.materialDropBoxes = "";
       for (let [itemIName, itemData] of Object.entries(setData.drops)) {
