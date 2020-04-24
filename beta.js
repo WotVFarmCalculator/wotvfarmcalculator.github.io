@@ -470,7 +470,7 @@ function calculate() {
         'value': translation['ItemName'][matchedItem],
         'type': 'item',
 
-        // @todo: show quantity here?
+        // @todo: how to show quantity range here?
         //'quantity':
       };
       matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false);
@@ -479,12 +479,18 @@ function calculate() {
 
     $tbody.append(applyTemplate('StoryRow', storyRowVM));
 
-    for (let [dropKey, setData] of Object.entries(quest.drop)) {
+    for (let [dropTableKey, setData] of Object.entries(quest.drop)) {
       var storyRowExpandedVM = {};
       storyRowExpandedVM.iname = questIName;
 
       storyRowExpandedVM.enemies = [];
-      setData.enemies.forEach(function(enemyData) {
+
+      // Don't show tables without anything that can drop it.
+      if (!setData.enemies || setData.enemies.length === 0) {
+        continue;
+      }
+
+      setData.enemies.forEach(function (enemyData) {
         if (!enemyData.name) {
           enemyData.name = enemyData.iname;
         }
@@ -502,11 +508,11 @@ function calculate() {
       });
 
       storyRowExpandedVM.materialDropBoxes = "";
-      for (let [itemIName, itemData] of Object.entries(setData.drops)) {
+      setData.drops.forEach(function (itemData) {
         var matchedItemVM = {};
         matchedItemVM.dropChance = itemData.chance + "%";
         var entry = {
-          'iname': itemIName === "NOTHING" ? applyTemplate('NoDrop', {}) : itemIName,
+          'iname': itemData.iname === "NOTHING" ? applyTemplate('NoDrop', {}) : itemData.iname,
           'value': itemData.name,
           'quantity': itemData.num,
           'type': 'item',
@@ -514,7 +520,7 @@ function calculate() {
 
         matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true);
         storyRowExpandedVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
-      }
+      });
 
       $tbody.append(applyTemplate('StoryRowExpanded', storyRowExpandedVM));
     }
