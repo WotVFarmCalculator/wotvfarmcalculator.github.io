@@ -249,7 +249,10 @@
               <div class="col">
                 <div class="row">
                   {{#each enemies}}
-                  <span class="story-substat">{{name}}</span>
+                  <span class="story-substat">
+                    <img class="enemy-element" src="{{elementImage}}" alt="{{element}}" title="{{element}}">
+                    {{name}}
+                  </span>
                   {{/each}}
                 </div>
               </div>

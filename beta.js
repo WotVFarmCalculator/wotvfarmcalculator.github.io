@@ -466,7 +466,17 @@ function calculate() {
         if (!enemyData.name) {
           enemyData.name = enemyData.iname;
         }
-        storyRowExpandedVM.enemies.push({name: enemyData.name});
+        var elementImage = "element/element_icon_none.png";
+        var element = "Element: None";
+        if (enemyData.elem) {
+          elementImage = "img/element/element_icon_" + enemyData.elem.toLowerCase() + ".png";
+          element = "Element: " + enemyData.elem;
+        }
+        storyRowExpandedVM.enemies.push({
+          name: enemyData.name,
+          elementImage: elementImage,
+          element: element,
+        });
       });
 
       storyRowExpandedVM.materialDropBoxes = "";

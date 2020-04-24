@@ -604,6 +604,11 @@ body {
   background: #fe00a6;
 }
 
+.enemy-element {
+  max-height: 1rem;
+  vertical-align: text-bottom;
+}
+
 .mode-import,
 .mode-export {
   display: none;
