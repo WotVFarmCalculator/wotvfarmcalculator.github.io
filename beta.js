@@ -423,7 +423,27 @@ function calculate() {
     var quest = loadedData['QuestsByIName'][questIName];
     if (!quest) {
       console.error("Unable to find quest for quest iname: ", questIName, quest);
-      break;
+      continue;
+    }
+
+    if (quest.start && quest.start > Date.now()) {
+      console.log('quest start check failed: ', questIName, quest.start);
+      continue;
+    }
+
+    if (quest.end && quest.end < Date.now()) {
+      console.log('quest end check failed: ', questIName, quest.end);
+      continue;
+    }
+
+    var startDate = '';
+    var endDate = '';
+    if (quest.start) {
+      startDate = (new Date(quest.start)).toLocaleString();
+    }
+
+    if (quest.end) {
+      endDate = (new Date(quest.end)).toLocaleString();
     }
 
     storyRowVM.iname = questIName;
@@ -436,6 +456,8 @@ function calculate() {
     storyRowVM.xp = quest.unitXp;
     storyRowVM.jp = quest.jp;
     storyRowVM.gold = quest.gold;
+    storyRowVM.start = startDate;
+    storyRowVM.end = endDate;
 
     storyRowVM.materialDropBoxes = "";
     matchedItems.forEach(function (matchedItem) {
