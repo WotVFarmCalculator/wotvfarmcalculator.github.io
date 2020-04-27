@@ -29,24 +29,25 @@
       </a>
     </nav>
 
-    <!--<nav class="nav nav-main nav-pills nav-fill container mb-4">
-      <a class="nav-item nav-link active nav-search" href="#">Search</a>
-      <a class="nav-item nav-link nav-import" href="#">Import</a>
-      <a class="nav-item nav-link nav-export" href="#">Export</a>
-    </nav>-->
-
     <div class="jumbotron loading">
       <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
       <h1 class="display-4">Loading data and crunching numbers.. please wait.</h1>
     </div>
 
-
     <main role="main" class="main container">
       <div class="jumbotron warning">
         <h2>Notice:</h2>
         <h3>The "at least 1" drop rates in the right column are most likely inaccurate. I'm working on a fix - sorry for the inconvenience!</h3>
-        <p>Please see the <a href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io/issues/48" target="_blank">github issue</a> for more info.</p>
+        <p>Please see the
+          <a href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io/issues/48" target="_blank">github issue</a> for more info.
+        </p>
       </div>
+
+      <nav class="nav nav-main nav-pills nav-fill container mb-4">
+        <a class="nav-item nav-link active nav-search" href="#">Search</a>
+        <a class="nav-item nav-link nav-import" href="#">Import</a>
+        <a class="nav-item nav-link nav-export" href="#">Export</a>
+      </nav>
 
       <form>
         <div class="mode mode-autocomplete">
@@ -80,7 +81,8 @@
             <div class="col-md-12">
               <label for="import" class="">Enter a comma-delimited list of
                 materials. Ex:
-                "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite"</label>
+                "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite".<br>
+                The field also supports import by item <strong>iname</strong>. Ex: "IT_JB_MM_ALL_2,IT_JB_MM_WAR_4"</label>
             </div>
 
             <div class="col-md-12">
@@ -101,27 +103,32 @@
           </div>
         </div>
 
-
         <div class="mode mode-export">
           <div class="row">
             <div class="col-md-12">
-              <label for="export" class="">The data below has been copied to
-                your clipboard. Paste this into other sites that
-                support this method or save for import later.</label>
+              <label for="export" class="">
+                Copy the data below to your clipboard. Paste this into other sites that support this method or save for import later.
+              </label>
             </div>
 
             <div class="col-md-12">
-              <textarea name="export" id="export" class="mb-3" cols="50"></textarea>
+              <label for="exportName">By item name:</label>
+              <textarea name="exportName" id="exportName" class="mb-3" cols="50"></textarea>
             </div>
 
-            <div class="col-md-6">
-
+            <div class="col-md-12">
+              <label for="export">By item <strong>iname</strong>:</label>
+              <textarea name="export" id="export" class="mb-3" cols="50"></textarea>
             </div>
 
             <div class="col-md-6">
               <button type="button" class="btn btn-danger btn-mode-cancel">
                 Cancel
               </button>
+            </div>
+
+            <div class="col-md-6">
+
             </div>
           </div>
         </div>
@@ -166,7 +173,7 @@
           </li>
           <li class="nav-item">
             <span class="nav-link latest-update">
-              Latest update: Apr 24: Too many - see changelog.  :)
+              Latest update: Apr 27: Too many - see changelog.  :)
             </span>
           </li>
         </ul>
