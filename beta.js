@@ -38,6 +38,9 @@ var autocompleteData = [];
 var translation = {};
 var templates = {};
 
+/**
+ * Initializes and starts the application.
+ */
 function start() {
   clearInterval(preload);
 
@@ -51,6 +54,15 @@ function start() {
       translation[translationKey][keyValue.key] = keyValue.value;
     });
   });
+
+  // Build a reverse translation lookup for import/export.
+  translation['ReverseLookup'] = {};
+  for (let [key, value] of Object.entries(translation['ArtifactName'])) {
+    translation['ReverseLookup'][value] = key;
+  }
+  for (let [key, value] of Object.entries(translation['ItemName'])) {
+    translation['ReverseLookup'][value] = key;
+  }
 
   initTemplates();
 
@@ -97,7 +109,7 @@ function start() {
 
   initTypeAhead();
 
-  $('.typeahead').on('typeahead:select', handleCallback);
+  $('.typeahead').on('typeahead:select', onTypeaheadSelect);
 
   var $body = $('body');
   $body.on('click', '.toggle-dark-mode', function (e) {
@@ -146,7 +158,58 @@ function start() {
     }
   });
 
+  // Handle mode tab active class change.
+  $body.on('click', '.nav-main a', function (e) {
+    e.preventDefault();
+    $('.nav-main a').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  $body.on('click', '.btn-export', populateExport);
+
+  $body.on('click', '.nav-search', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-autocomplete').show();
+    $('.autocomplete__input').focus();
+  });
+
+  $body.on('click', '.nav-import', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-import').show();
+    $('#import').focus();
+  });
+
+  $body.on('click', '.nav-export', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-export').show();
+    populateExport();
+  });
+
+  $body.on('click', '.btn-mode-cancel', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-autocomplete').show();
+    $('.nav-main a').removeClass('active');
+    $('.nav-main a:first-child').addClass('active');
+    $('.autocomplete__input').focus();
+  });
+
+  $body.on('click', '.btn-import', function (e) {
+    e.preventDefault();
+    doImport($('#import').val());
+    calculate();
+    $('.mode-autocomplete').show();
+    $('.mode-import').hide();
+    $('.nav-main a').removeClass('active');
+    $('.nav-main a:first-child').addClass('active');
+  });
+
   loadFromLocalStorage();
+
+  importFromQueryString();
 
   $('.loading').hide();
   $('.main').show();
@@ -154,11 +217,12 @@ function start() {
 
 
 /**
+ * Handles when an item is selected in the autocomplete.
  *
  * @param e
  * @param suggestion
  */
-function handleCallback(e, suggestion) {
+function onTypeaheadSelect(e, suggestion) {
   var $typeahead = $('.typeahead');
   $typeahead.typeahead('val', '');
   $typeahead.focus();
@@ -180,9 +244,10 @@ function handleCallback(e, suggestion) {
 }
 
 /**
+ * Adds a material to the tracking array and the DOM.
  *
- *
- * @param material
+ * @param material - string or material object.
+ * @param dontCalculate
  */
 function addMaterial(material, dontCalculate) {
   // Normalize structure.
@@ -206,11 +271,24 @@ function addMaterial(material, dontCalculate) {
   }
 }
 
+/**
+ * Updates the DOM to show the passed material.
+ *
+ * @param material
+ */
+function addMaterialToDom(material) {
+  var materialItem = applyTemplate('MaterialItem', {
+    'material': material.iname,
+    'materialLabel': getMaterialImageOrLabel(material, true),
+  });
+
+  $('.materials-list').append(materialItem);
+}
 
 /**
- * Add all materials related to a job name.
+ * Adds all materials related to a job name.
  *
- * @param job
+ * @param job - string or job object.
  */
 function addJobMaterials(job) {
   // Normalize structure.
@@ -229,7 +307,7 @@ function addJobMaterials(job) {
 }
 
 /**
- * Add all materials related to a character name.
+ * Adds all materials related to a character name.
  *
  * @param charName
  */
@@ -246,7 +324,7 @@ function addCharacterMaterials(charName) {
 }
 
 /**
- * Add all materials related to an element.
+ * Adds all materials related to an element.
  *
  * @param elementName
  */
@@ -259,7 +337,7 @@ function addElementMaterials(elementName) {
 }
 
 /**
- * Add all materials related to an equipment name.
+ * Adds all materials related to an equipment name.
  *
  * @param recipe
  */
@@ -269,20 +347,6 @@ function addRecipeMaterials(recipe) {
   }
 
   loadedData['ItemRecipes'][recipe.iname].forEach(addMaterial);
-}
-
-/**
- * Updates the DOM to show the passed material.
- *
- * @param material
- */
-function addMaterialToDom(material) {
-  var materialItem = applyTemplate('MaterialItem', {
-    'material': material.iname,
-    'materialLabel': getMaterialImageOrLabel(material, true),
-  });
-
-  $('.materials-list').append(materialItem);
 }
 
 /**
@@ -324,12 +388,10 @@ function getMaterialImageOrLabel(material, includeText, includeRange) {
     });
   }
 
-  var html = applyTemplate('MaterialIconWrapper', {
+  return applyTemplate('MaterialIconWrapper', {
     'layers': layerHtml,
     'includedText': includeText ? material.value : ''
   });
-
-  return html;
 }
 
 /**
@@ -365,7 +427,7 @@ function getMaterialLayerImageHtml(material, image) {
 }
 
 /**
- * Delete material from array and DOM.
+ * Deletes material from array and DOM.
  */
 function deleteMaterial() {
   var $parent = $(this).parents('.input-group').first();
@@ -377,7 +439,7 @@ function deleteMaterial() {
 }
 
 /**
- * Take the list of materials and figure out which story quests match.
+ * Takes the list of materials and figures out which story quests match.
  */
 function calculate() {
   if (!materialsList.length) {
@@ -528,7 +590,7 @@ function calculate() {
 }
 
 /**
- * Clear all selected materials from array, localStorage, and DOM.
+ * Clears all selected materials from array, localStorage, and DOM.
  */
 function clearAll() {
   if (!confirm('Are you sure you want to clear all selected materials?')) {
@@ -543,7 +605,7 @@ function clearAll() {
 }
 
 /**
- * Store the selected materials in local storage.
+ * Stores the selected materials in local storage.
  */
 function updateLocalStorage() {
   localStorage.setItem(version + '.selectedMaterials', JSON.stringify(materialsList));
@@ -571,16 +633,37 @@ function loadFromLocalStorage() {
 
 /**
  * Parses the list of materials and adds them as materials to search on.
+ *
+ * @param importList
  */
-function doImport() {
-  // @todo: Update/add back to beta
-  var importList = $('#import').val();
+function doImport(importList) {
+  importList = importList.trim();
   if (!importList) {
     return;
   }
 
+  var shouldReverseTranslate = false;
+  if (importList.indexOf('IT_') === -1) {
+    shouldReverseTranslate = true;
+  }
+
   importList = importList.split(',');
+
   importList.forEach(function (importMaterial) {
+    importMaterial = importMaterial.trim();
+    if (shouldReverseTranslate && translation['ReverseLookup'][importMaterial]) {
+      // Add material by english translated name.
+      addMaterial(translation['ReverseLookup'][importMaterial]);
+      return;
+    }
+
+    // Add material by item iname.
+    // Only add material if it is a valid material we are tracking.
+    // We can use ItemImageMap for this since even items without images are declared.
+    if (!loadedData['ItemImageMap'].hasOwnProperty(importMaterial)) {
+      return;
+    }
+
     addMaterial(importMaterial);
   });
 
@@ -588,11 +671,37 @@ function doImport() {
 }
 
 /**
+ * Parses a passed list of items
+ */
+function importFromQueryString() {
+  var urlParams = new URLSearchParams(window.location.search);
+  if (!urlParams.has('i')) {
+    return;
+  }
+
+  var items = urlParams.get('i');
+  doImport(items);
+}
+
+/**
  * Populates the export textarea with current list of materials.
  */
 function populateExport() {
-  // @todo: Update/add back to beta
   $('#export').text(materialsList.join(','));
+
+  var reverseMaterialsList = [];
+  materialsList.forEach(function (material) {
+    var reversed = translation['ItemName'][material];
+    if (!reversed) {
+      reversed = translation['ItemName'][material];
+    }
+
+    if (reversed) {
+      reverseMaterialsList.push(reversed);
+    }
+  });
+
+  $('#exportName').text(reverseMaterialsList.join(','));
 }
 
 /**

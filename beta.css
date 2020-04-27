@@ -301,16 +301,23 @@ body {
 
 .nav-pills .nav-link {
   border-style: solid;
-  border-width: 6px 9px 8px 8px;
-  border-image: url("img/ui/cmn_btn_inner_01.png") 17 20 19 19 fill stretch;
+  border-width: 13px 17px 17px 16px;
+  border-image: url("img/ui/cmn_tab_off_02_02_no_trans.png") 25 33 33 35 fill stretch;
+  height: 29px;
   background: none;
   padding: 0;
-  color: #fff;
+  color: #000;
+  line-height: .1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nav-pills .nav-link.active,
+.nav-pills .nav-link:hover,
 .nav-pills .show>.nav-link {
-  background: blue;
+  background: none;
+  border-image: url("img/ui/cmn_tab_on_02_02_no_trans.png") 25 33 33 35 fill stretch;
+  color: #000;
 }
 
 .btn-primary {
@@ -617,6 +624,10 @@ body {
 .enemy-element {
   max-height: 1rem;
   vertical-align: text-bottom;
+}
+
+.mode {
+  margin-bottom: 3rem;
 }
 
 .mode-import,
