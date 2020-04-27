@@ -1,15 +1,16 @@
 var version = "v2";
+var fileVersion = '20200427.1';
 
 var fileList = {
-  'ItemName': 'data/en/ItemName.json',
-  'ArtifactName': 'data/en/ArtifactName.json',
-  'ItemImageMap': 'data/ItemImageMap.json',
-  'ItemQuests': 'data/ItemQuests.json',
-  'QuestsByIName': 'data/QuestsByIName.json',
-  'ElementalItems': 'data/ElementalItems.json',
-  'JobMaterials': 'data/JobMaterials.json',
-  'Characters': 'data/Characters.json',
-  'ItemRecipes': 'data/ItemRecipes.json',
+  'ItemName': 'data/en/ItemName.json?ver=' + fileVersion,
+  'ArtifactName': 'data/en/ArtifactName.json?ver=' + fileVersion,
+  'ItemImageMap': 'data/ItemImageMap.json?ver=' + fileVersion,
+  'ItemQuests': 'data/ItemQuests.json?ver=' + fileVersion,
+  'QuestsByIName': 'data/QuestsByIName.json?ver=' + fileVersion,
+  'ElementalItems': 'data/ElementalItems.json?ver=' + fileVersion,
+  'JobMaterials': 'data/JobMaterials.json?ver=' + fileVersion,
+  'Characters': 'data/Characters.json?ver=' + fileVersion,
+  'ItemRecipes': 'data/ItemRecipes.json?ver=' + fileVersion,
 };
 
 var loadedData = {};
