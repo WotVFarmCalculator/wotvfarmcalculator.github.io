@@ -531,136 +531,23 @@
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -668,46 +555,6 @@
         "dropChance": 98.7,
         "min": 1,
         "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -803,153 +650,27 @@
       },
       "IT_CG": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "58.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "42.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -962,46 +683,6 @@
         "dropChance": 67.3,
         "min": 1,
         "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -1121,176 +802,31 @@
       },
       "QE_EV_GIL_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "50.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_02",
-            "name": "Gil Snapper (M)",
-            "chance": "17.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "33.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "IT_CG": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "58.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "42.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -1308,46 +844,6 @@
         "dropChance": 42.7,
         "min": 1,
         "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -1429,136 +925,23 @@
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -1566,46 +949,6 @@
         "dropChance": 98.7,
         "min": 1,
         "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -1701,153 +1044,27 @@
       },
       "IT_CG": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "58.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "42.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -1860,46 +1077,6 @@
         "dropChance": 67.3,
         "min": 1,
         "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -2019,176 +1196,31 @@
       },
       "QE_EV_GIL_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "50.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_02",
-            "name": "Gil Snapper (M)",
-            "chance": "17.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "33.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "IT_CG": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "58.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "42.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -2206,46 +1238,6 @@
         "dropChance": 42.7,
         "min": 1,
         "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -2641,239 +1633,43 @@
       },
       "IT_AF_EXP_LV2": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_AF_EXP_02",
-            "name": "Adamantite (M)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_AF_EXP_03",
-            "name": "Adamantite (L)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "50.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "IT_AF_EXP_LV1": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_AF_EXP_01",
-            "name": "Adamantite (S)",
-            "chance": "90.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_AF_EXP_02",
-            "name": "Adamantite (M)",
-            "chance": "10.0",
-            "num": 1
-          }
-        ]
+        "drops": []
       },
       "QE_EV_GIL_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "50.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_02",
-            "name": "Gil Snapper (M)",
-            "chance": "44.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_03",
-            "name": "Gil Snapper (L)",
-            "chance": "6.0",
-            "num": 1
-          }
-        ]
+        "drops": []
       },
       "QE_EV_GIL_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "50.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_02",
-            "name": "Gil Snapper (M)",
-            "chance": "17.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "33.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "IT_CG": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "58.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "42.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -2886,66 +1682,6 @@
         "dropChance": 95.8,
         "min": 1,
         "max": 1
-      },
-      "IT_AF_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_CG_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_CG_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_CG_03": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -3341,239 +2077,43 @@
       },
       "IT_AF_EXP_LV2": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_AF_EXP_02",
-            "name": "Adamantite (M)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_AF_EXP_03",
-            "name": "Adamantite (L)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "50.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "IT_AF_EXP_LV1": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_AF_EXP_01",
-            "name": "Adamantite (S)",
-            "chance": "90.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_AF_EXP_02",
-            "name": "Adamantite (M)",
-            "chance": "10.0",
-            "num": 1
-          }
-        ]
+        "drops": []
       },
       "QE_EV_GIL_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "50.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_02",
-            "name": "Gil Snapper (M)",
-            "chance": "44.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_03",
-            "name": "Gil Snapper (L)",
-            "chance": "6.0",
-            "num": 1
-          }
-        ]
+        "drops": []
       },
       "QE_EV_GIL_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "50.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_CG_02",
-            "name": "Gil Snapper (M)",
-            "chance": "17.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "33.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "IT_CG": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_CG_01",
-            "name": "Gil Snapper (S)",
-            "chance": "58.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "42.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_03": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "25.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "15.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_02": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "60.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_US_EXP_02",
-            "name": "EXP Cube (M)",
-            "chance": "10.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "30.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "60.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_EV_AW_EAR_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R4",
-            "name": "Earth Awakening Soul (4★)",
-            "chance": "5.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R5",
-            "name": "Earth Awakening Soul (5★)",
-            "chance": "40.0",
-            "num": 1
-          },
-          {
-            "iname": "IT_UN_AW_SOIL_R6",
-            "name": "Earth Awakening Soul (6★)",
-            "chance": "10.0",
-            "num": 20
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "45.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "QE_ST_01010104": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_JB_MM_ALL",
-            "name": "Faint Memory (Green)",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_KUNAI_01",
-            "name": "Ninja Blade Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "IT_JB_BOW_01",
-            "name": "Bow Jadeite",
-            "chance": "20.0",
-            "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "40.0",
-            "num": 0
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -3586,66 +2126,6 @@
         "dropChance": 95.8,
         "min": 1,
         "max": 1
-      },
-      "IT_AF_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_CG_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_CG_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_CG_03": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_US_EXP_02": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R4": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R5": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 1
-      },
-      "IT_UN_AW_SOIL_R6": {
-        "dropChance": 0,
-        "min": 20,
-        "max": 20
-      },
-      "IT_JB_MM_ALL": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_KUNAI_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
-      },
-      "IT_JB_BOW_01": {
-        "dropChance": 0,
-        "min": 2,
-        "max": 2
       }
     },
     "start": "",
@@ -3806,12 +2286,6 @@
             "name": "Growth Egg (SR)",
             "chance": "15.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -3942,12 +2416,6 @@
             "name": "Growth Egg (SR)",
             "chance": "37.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -9104,12 +7572,6 @@
             "name": "Earth Awakening Soul (2★)",
             "chance": "40.0",
             "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -13636,12 +12098,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_EM_SOIL_1",
             "name": "Earth Alcryst (Green)",
             "chance": "21.0",
@@ -13801,12 +12257,6 @@
             "name": "Gun Jadeite",
             "chance": "20.4",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_JB_EM_ICE_1",
@@ -13976,12 +12426,6 @@
             "name": "White Mage's Memory (Green)",
             "chance": "2.5",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_JB_EM_WIND_1",
@@ -14364,12 +12808,6 @@
             "name": "Red Mage's Memory (Green)",
             "chance": "2.5",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_JB_EM_THUNDER_1",
@@ -15606,12 +14044,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_EM_WIND_1",
             "name": "Wind Alcryst (Green)",
             "chance": "20.0",
@@ -15792,12 +14224,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_EM_FIRE_1",
             "name": "Fire Alcryst (Green)",
             "chance": "20.0",
@@ -15976,12 +14402,6 @@
             "name": "Gun Jadeite",
             "chance": "18.6",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_JB_EM_THUNDER_1",
@@ -18952,12 +17372,6 @@
             "name": "Dragoon's Memory (Blue)",
             "chance": "0.9",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_JB_EM_FIRE_2",
@@ -22621,12 +21035,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_AF_LW_CLT_002",
             "name": "Scholar Robe Crafting Recipe",
             "chance": "2.3",
@@ -25656,12 +24064,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_AF_LW_HAT_002",
             "name": "Wizard's Hat Crafting Recipe",
             "chance": "3.7",
@@ -25848,12 +24250,6 @@
             "name": "Water Alcryst (Purple)",
             "chance": "17.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_AF_LW_CLT_002",
@@ -28632,12 +27028,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_AF_LW_ARM_002",
             "name": "Iron Plate Crafting Recipe",
             "chance": "2.3",
@@ -28819,12 +27209,6 @@
             "name": "Lightning Alcryst (Purple)",
             "chance": "20.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_AF_LW_HAT_002",
@@ -31470,12 +29854,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_AF_LW_SWO_002",
             "name": "Mythril Sword Crafting Recipe",
             "chance": "3.7",
@@ -32659,12 +31037,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_AF_LW_NKN_002",
             "name": "Kodachi Crafting Recipe",
             "chance": "3.7",
@@ -33063,12 +31435,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_AF_LW_GUN_002",
             "name": "Vega Crafting Recipe",
             "chance": "2.3",
@@ -33274,12 +31640,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
-          },
-          {
             "iname": "IT_AF_LW_ROD_005",
             "name": "Platinum Rod Crafting Recipe",
             "chance": "2.5",
@@ -33447,12 +31807,6 @@
             "name": "Fire Alcryst (Purple)",
             "chance": "20.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_AF_LW_MAC_002",
@@ -34614,12 +32968,6 @@
             "name": "Ice Alcryst (Purple)",
             "chance": "17.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           },
           {
             "iname": "IT_AF_LW_SWO_002",
@@ -41373,12 +39721,6 @@
             "name": "Zazan Unit Shard",
             "chance": "100.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -44849,12 +43191,6 @@
             "name": "Mont Leonis Unit Shard",
             "chance": "100.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       }
@@ -46457,12 +44793,6 @@
             "iname": "NOTHING",
             "name": "NO DROP",
             "chance": "19.0",
-            "num": 0
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
             "num": 0
           }
         ]
@@ -62262,12 +60592,6 @@
             "name": "Praying Angel Statue (Green)",
             "chance": "3.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -62425,12 +60749,6 @@
             "name": "Prowling Wyvern Statue (Green)",
             "chance": "3.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -62644,12 +60962,6 @@
             "name": "Praying Angel Statue (Blue)",
             "chance": "2.5",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       }
@@ -63030,12 +61342,6 @@
             "name": "Praying Angel Statue (Purple)",
             "chance": "10.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       }
@@ -63242,12 +61548,6 @@
             "name": "Prowling Wyvern Statue (Purple)",
             "chance": "3.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -63419,12 +61719,6 @@
             "name": "Praying Angel Statue (Purple)",
             "chance": "4.0",
             "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
@@ -68618,43 +66912,11 @@
       },
       "EV_UNITEXP_01": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "44.3",
-            "num": 1
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "55.8",
-            "num": 0
-          }
-        ]
+        "drops": []
       },
       "EV_UNITEXP_01T": {
         "enemies": [],
-        "drops": [
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "10.0",
-            "num": 4
-          },
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "80.0",
-            "num": 5
-          },
-          {
-            "iname": "IT_US_EXP_01",
-            "name": "EXP Cube (S)",
-            "chance": "10.0",
-            "num": 6
-          }
-        ]
+        "drops": []
       }
     },
     "topLevelDrop": {
@@ -68712,11 +66974,6 @@
         "dropChance": 13.2,
         "min": 1,
         "max": 1
-      },
-      "IT_US_EXP_01": {
-        "dropChance": 0,
-        "min": 1,
-        "max": 6
       }
     },
     "start": 1586934000000,
@@ -73345,12 +71602,6 @@
             "name": "Earth Awakening Soul (2★)",
             "chance": "40.0",
             "num": 2
-          },
-          {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.0",
-            "num": 0
           }
         ]
       },
