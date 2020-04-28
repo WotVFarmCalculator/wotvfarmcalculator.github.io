@@ -11,7 +11,7 @@
 
     <link href="styles.css?ver=20200428.1" rel="stylesheet">
 
-    <title>War of the Visions Farming Story Materials Calculator</title>
+    <title>War of the Visions Quest Farming Materials and Items Calculator</title>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark fixed-top d-flex flex-row align-items-center px-md-4 flex-nowrap">
@@ -136,20 +136,17 @@
 
       <div class="feedback"></div>
 
-      <div class="story-quest-list container">
 
+      <div class="quest-list container">
         <table class="table table-sm">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">Story Name</th>
+              <th scope="col">Quest Name</th>
               <th scope="col">Materials (Chance for <strong>at least one</strong> per embark)</th>
             </tr>
           </thead>
-          <tbody>
-
-          </tbody>
+          <tbody></tbody>
         </table>
-
       </div>
 
     </main><!-- /.container -->
@@ -219,28 +216,28 @@
       </div>
     </template>
 
-    <template class="template template-story-row">
-      <tr class="story-row">
+    <template class="template template-quest-row">
+      <tr class="quest-row">
         <td>
           <div class="container">
             <div class="row">
-              <img src="img/ui/cmn_btn_acordion_off.png" data-quest="{{cssclass iname}}" class="accordion-toggle accordion-toggle-story-name mr-2" alt="Click to expand/collapse" title="Click to expand/collapse">
+              <img src="img/ui/cmn_btn_acordion_off.png" data-quest="{{cssclass iname}}" class="accordion-toggle accordion-toggle-quest-name mr-2" alt="Click to expand/collapse" title="Click to expand/collapse">
               <div class="col">
                 <div class="row">
                   <span class="quest-type quest-type-{{cssclass type}}">{{type}}</span> {{designation}} {{title}}
                 </div>
                 <div class="row">
-                  <span class="story-substat">Enemies: {{numEnemies}}</span>
-                  <span class="story-substat">Chests: {{numChests}}</span>
-                  <span class="story-substat">NRG: {{nrg}}</span>
-                  <span class="story-substat">XP: {{xp}}</span>
-                  <span class="story-substat">JP: {{jp}}</span>
-                  <span class="story-substat">Gil: {{gold}}</span>
+                  <span class="quest-substat">Enemies: {{numEnemies}}</span>
+                  <span class="quest-substat">Chests: {{numChests}}</span>
+                  <span class="quest-substat">NRG: {{nrg}}</span>
+                  <span class="quest-substat">XP: {{xp}}</span>
+                  <span class="quest-substat">JP: {{jp}}</span>
+                  <span class="quest-substat">Gil: {{gold}}</span>
                 </div>
                 {{#if start}}
                 <div class="row">
-                  <span class="story-substat story-substat-date">Starts: {{start}}</span>
-                  <span class="story-substat story-substat-date">Ends: {{end}}</span>
+                  <span class="quest-substat quest-substat-date">Starts: {{start}}</span>
+                  <span class="quest-substat quest-substat-date">Ends: {{end}}</span>
                 </div>
                 {{/if}}
               </div>
@@ -262,9 +259,8 @@
       </div>
     </template>
 
-
-    <template class="template template-story-row-expanded">
-      <tr class="story-row-expanded story-row-expanded-{{cssclass iname}} gutter-1">
+    <template class="template template-quest-row-expanded">
+      <tr class="quest-row-expanded quest-row-expanded-{{cssclass iname}} gutter-1">
         <td colspan="3">
           <div class="container">
             <div class="row drop-table-header">
@@ -272,7 +268,7 @@
               <div class="col">
                 <div class="row">
                   {{#each enemies}}
-                  <span class="story-substat">
+                  <span class="quest-substat">
                     <img class="enemy-element" src="{{elementImage}}" alt="{{element}}" title="{{element}}">
                     {{name}}
                   </span>
@@ -302,7 +298,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="lib/typeahead.bundle.min.js"></script>
-
 
     <script src="scripts.js?ver=20200428.1"></script>
   </body>

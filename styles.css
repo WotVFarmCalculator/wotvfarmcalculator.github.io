@@ -359,7 +359,7 @@ body {
   margin-top: -3px;
 }
 
-.accordion-toggle-story-name {
+.accordion-toggle-quest-name {
   margin-top: 2px;
 }
 
@@ -391,14 +391,14 @@ body {
   padding-left: 1rem;
 }
 
-.story-row {
+.quest-row {
   border-bottom: 1px solid #aaa;
   border-top: 1px solid #aaa;
   background: rgb(228,228,228);
   background: linear-gradient(0deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(228,228,228,1) 100%);
 }
 
-.story-row-expanded {
+.quest-row-expanded {
   display: none;
 }
 
@@ -416,7 +416,7 @@ body {
   padding: 12px;
 }
 
-.story-substat {
+.quest-substat {
   display: inline-block;
   padding-left: .5rem;
   font-size: .8rem;
@@ -424,13 +424,13 @@ body {
   margin-left: .5rem;
 }
 
-.story-substat:first-child {
+.quest-substat:first-child {
   padding-left: 0;
   border-left: none;
   margin-left: 0;
 }
 
-.story-substat-date {
+.quest-substat-date {
   font-size: 0.6rem;
   line-height: 1.2rem;
 }
@@ -522,7 +522,7 @@ body {
   height: 1.5rem;
 }
 
-.story-row .material-icon-wrapper {
+.quest-row .material-icon-wrapper {
   height: 3.3em;
 }
 
@@ -578,7 +578,7 @@ body {
   transform-origin: 75% 40%;
 }
 
-.story-quest-list {
+.quest-list {
   margin-bottom: 200px;
 }
 
@@ -698,7 +698,7 @@ body.dark-mode {
   background: #339900;
 }
 
-.dark-mode .story-row {
+.dark-mode .quest-row {
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
   background: rgb(25, 25, 25);
