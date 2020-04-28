@@ -337,17 +337,59 @@ body {
 
 .btn-danger {
   border-style: solid;
-  border-width: 8px 13px 16px;
-  border-image: url("img/ui/cmn_btn_base_02.png") 13 23 25 fill stretch;
-  padding: 5px 7px 4px 7px;
+  border-width: 7px 12px 14px;
+  border-image: url(img/ui/cmn_btn_base_02.png) 13 23 25 fill stretch;
+  padding: 2px 0px 0px 0px;
   background: none;
-  line-height: 12px;
+  line-height: 1rem;
   font-weight: 300;
   font-family: serif;
 }
 
 .btn-danger:hover {
   background: none;
+}
+
+.btn-filter {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: serif;
+  line-height: 1rem;
+  text-shadow: 1px 1px 0px rgba(0,0,0,1);
+  border-style: solid;
+  border-width: 10px 12px 14px;
+  border-image: url("img/ui/cmn_btn_base_06.png") 21 24 26 23 fill stretch;
+}
+
+.btn-filter:hover {
+  color: rgba(255,255,255,.8);
+}
+
+.icon-close {
+  vertical-align: middle;
+  max-height: .7rem;
+  margin-right: .3rem;
+}
+
+.btn-filter-clear {
+  display: none;
+}
+
+.accordion-arrow {
+  transform: scale(.5) rotate(0);
+  padding-top: 4px;
+  vertical-align: top;
+}
+
+.collapsed .accordion-arrow {
+  transform: scale(.5) rotate(-90deg);
+}
+
+.accordion .card-header {
+  padding: 0;
+  background: none;
+  border: none;
 }
 
 .accordion-toggle {
@@ -738,6 +780,11 @@ body.dark-mode {
 
 .dark-mode .jumbotron {
   background: #333;
+}
+
+.dark-mode .card {
+  background: #333;
+  color: #fff;
 }
 
 /** Dark Mode END **/

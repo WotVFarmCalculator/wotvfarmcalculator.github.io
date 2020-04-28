@@ -38,6 +38,7 @@ var materialsList = [];
 var autocompleteData = [];
 var translation = {};
 var templates = {};
+var filterOptions = [];
 
 /**
  * Initializes and starts the application.
@@ -45,172 +46,19 @@ var templates = {};
 function start() {
   clearInterval(preload);
 
-  var translationKeys = [
-    'ItemName',
-    'ArtifactName',
-  ];
-  translationKeys.forEach(function (translationKey) {
-    translation[translationKey] = {};
-    loadedData[translationKey]['infos'].forEach(function (keyValue) {
-      translation[translationKey][keyValue.key] = keyValue.value;
-    });
-  });
-
-  // Build a reverse translation lookup for import/export.
-  translation['ReverseLookup'] = {};
-  for (let [key, value] of Object.entries(translation['ArtifactName'])) {
-    translation['ReverseLookup'][value] = key;
-  }
-  for (let [key, value] of Object.entries(translation['ItemName'])) {
-    translation['ReverseLookup'][value] = key;
-  }
-
+  initTranslation();
   initTemplates();
-
-  // Build the structure for the autocomplete.
-  Object.keys(loadedData["ItemQuests"]).forEach(function (itemCode) {
-    var entry = {
-      'iname': itemCode,
-      'value': translation['ItemName'][itemCode],
-      'type': 'item',
-    };
-    entry.materialLabel = getMaterialImageOrLabel(entry, true);
-    autocompleteData.push(entry);
-  });
-
-  Object.keys(loadedData["Characters"]).forEach(function (characterName) {
-    var entry = {
-      'iname': characterName,
-      'value': 'Character: ' + characterName,
-      'type': 'character',
-      'materialLabel': 'Character: ' + characterName,
-    };
-    autocompleteData.push(entry);
-  });
-
-  Object.keys(loadedData["JobMaterials"]).forEach(function (jobName) {
-    var entry = {
-      'iname': jobName,
-      'value': 'Job: ' + jobName,
-      'type': 'job',
-      'materialLabel': 'Job: ' + jobName,
-    };
-    autocompleteData.push(entry);
-  });
-
-  Object.keys(loadedData["ItemRecipes"]).forEach(function (artifactIName) {
-    var entry = {
-      'iname': artifactIName,
-      'value': 'Equipment: ' + translation['ArtifactName'][artifactIName],
-      'type': 'recipe',
-      'materialLabel': 'Equipment: ' + translation['ArtifactName'][artifactIName],
-    };
-    autocompleteData.push(entry);
-  });
-
   initTypeAhead();
-
-  $('.typeahead').on('typeahead:select', onTypeaheadSelect);
-
-  var $body = $('body');
-  $body.on('click', '.toggle-dark-mode', function (e) {
-    $('.toggle-dark-mode').hide();
-    $('.toggle-light-mode').show();
-    $body.addClass('dark-mode');
-    localStorage.setItem('darkMode', '1');
-  });
-
-  $body.on('click', '.toggle-light-mode', function (e) {
-    $('.toggle-dark-mode').show();
-    $('.toggle-light-mode').hide();
-    $body.removeClass('dark-mode');
-    localStorage.setItem('darkMode', '');
-  });
-
-  if (localStorage.getItem('darkMode') === '1') {
-    $('.toggle-dark-mode').hide();
-    $('.toggle-light-mode').show();
-    $body.addClass('dark-mode');
-  }
-
-  $body.on('click', '.materials-list .btn-close', deleteMaterial);
-  $body.on('click', '.btn-clear-all', clearAll);
-
-  // Toggle showing drop tables.
-  $body.on('click', '.accordion-toggle-quest-name', function () {
-    var questIName = $(this).data('quest');
-    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
-      $('.quest-row-expanded-' + questIName).show();
-    } else {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
-      $('.quest-row-expanded-' + questIName).hide();
-    }
-  });
-
-  // Toggle showing individual drop table.
-  $body.on('click', '.accordion-toggle-drop-table', function () {
-    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
-      $(this).parent().siblings('.drop-table-data').show();
-    } else {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
-      $(this).parent().siblings('.drop-table-data').hide();
-    }
-  });
-
-  // Handle mode tab active class change.
-  $body.on('click', '.nav-main a', function (e) {
-    e.preventDefault();
-    $('.nav-main a').removeClass('active');
-    $(this).addClass('active');
-  });
-
-  $body.on('click', '.btn-export', populateExport);
-
-  $body.on('click', '.nav-search', function (e) {
-    e.preventDefault();
-    $('.mode').hide();
-    $('.mode-autocomplete').show();
-    $('.autocomplete__input').focus();
-  });
-
-  $body.on('click', '.nav-import', function (e) {
-    e.preventDefault();
-    $('.mode').hide();
-    $('.mode-import').show();
-    $('#import').focus();
-  });
-
-  $body.on('click', '.nav-export', function (e) {
-    e.preventDefault();
-    $('.mode').hide();
-    $('.mode-export').show();
-    populateExport();
-  });
-
-  $body.on('click', '.btn-mode-cancel', function (e) {
-    e.preventDefault();
-    $('.mode').hide();
-    $('.mode-autocomplete').show();
-    $('.nav-main a').removeClass('active');
-    $('.nav-main a:first-child').addClass('active');
-    $('.autocomplete__input').focus();
-  });
-
-  $body.on('click', '.btn-import', function (e) {
-    e.preventDefault();
-    doImport($('#import').val());
-    calculate();
-    $('.mode-autocomplete').show();
-    $('.mode-import').hide();
-    $('.nav-main a').removeClass('active');
-    $('.nav-main a:first-child').addClass('active');
-  });
+  initDarkMode();
+  initUI();
 
   loadFromLocalStorage();
 
   importFromQueryString();
+
+  initFiltering();
+
+  calculate();
 
   $('.loading').hide();
   $('.main').show();
@@ -444,11 +292,8 @@ function deleteMaterial() {
  */
 function calculate() {
   if (!materialsList.length) {
-    $('.feedback').html('<div class="alert alert-danger" role="alert">Add materials first.</div>');
     return;
   }
-
-  $('.feedback').html('');
 
   // First, get all quest inames for all item inames (taking counts for in-common materials)
   var inCommon = {};
@@ -588,6 +433,8 @@ function calculate() {
       $tbody.append(applyTemplate('QuestRowExpanded', questRowExpandedVM));
     }
   }
+
+  applyFiltering();
 }
 
 /**
@@ -610,12 +457,18 @@ function clearAll() {
  */
 function updateLocalStorage() {
   localStorage.setItem(version + '.selectedMaterials', JSON.stringify(materialsList));
+  localStorage.setItem(version + '.filterOptions', JSON.stringify($('.quest-filters-form').serializeArray()));
 }
 
 /**
  * Load the selected materials from local storage.
  */
 function loadFromLocalStorage() {
+  var savedFilterOptions = localStorage.getItem(version + '.filterOptions');
+  if (savedFilterOptions) {
+    filterOptions = JSON.parse(savedFilterOptions);
+  }
+
   var savedMaterials = localStorage.getItem(version + '.selectedMaterials');
   if (!savedMaterials) {
     return;
@@ -629,7 +482,6 @@ function loadFromLocalStorage() {
   list.forEach(function (listItem) {
     addMaterial(listItem, true);
   });
-  calculate();
 }
 
 /**
@@ -719,6 +571,48 @@ function applyTemplate(template, data) {
  * Initialize the autocomplete functionality.
  */
 function initTypeAhead() {
+  // Build the structure for the autocomplete.
+  Object.keys(loadedData["ItemQuests"]).forEach(function (itemCode) {
+    var entry = {
+      'iname': itemCode,
+      'value': translation['ItemName'][itemCode],
+      'type': 'item',
+    };
+    entry.materialLabel = getMaterialImageOrLabel(entry, true);
+    autocompleteData.push(entry);
+  });
+
+  Object.keys(loadedData["Characters"]).forEach(function (characterName) {
+    var entry = {
+      'iname': characterName,
+      'value': 'Character: ' + characterName,
+      'type': 'character',
+      'materialLabel': 'Character: ' + characterName,
+    };
+    autocompleteData.push(entry);
+  });
+
+  Object.keys(loadedData["JobMaterials"]).forEach(function (jobName) {
+    var entry = {
+      'iname': jobName,
+      'value': 'Job: ' + jobName,
+      'type': 'job',
+      'materialLabel': 'Job: ' + jobName,
+    };
+    autocompleteData.push(entry);
+  });
+
+  Object.keys(loadedData["ItemRecipes"]).forEach(function (artifactIName) {
+    var entry = {
+      'iname': artifactIName,
+      'value': 'Equipment: ' + translation['ArtifactName'][artifactIName],
+      'type': 'recipe',
+      'materialLabel': 'Equipment: ' + translation['ArtifactName'][artifactIName],
+    };
+    autocompleteData.push(entry);
+  });
+
+
   var autocompleteBH = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.nonword('value'),
     queryTokenizer: Bloodhound.tokenizers.nonword,
@@ -740,7 +634,10 @@ function initTypeAhead() {
         empty: '<div class="empty-message">Nothing found.</div>',
         suggestion: templates['MaterialTypeahead'],
       }
-    });
+    }
+  );
+
+  $('.typeahead').on('typeahead:select', onTypeaheadSelect);
 }
 
 /**
@@ -767,4 +664,188 @@ function initTemplates() {
     var $template = $(selector);
     templates[key] = Handlebars.compile($template.html());
   }
+}
+
+/**
+ * Initializes the translation lookup information.
+ */
+function initTranslation() {
+  var translationKeys = [
+    'ItemName',
+    'ArtifactName',
+  ];
+  translationKeys.forEach(function (translationKey) {
+    translation[translationKey] = {};
+    loadedData[translationKey]['infos'].forEach(function (keyValue) {
+      translation[translationKey][keyValue.key] = keyValue.value;
+    });
+  });
+
+  // Build a reverse translation lookup for import/export.
+  translation['ReverseLookup'] = {};
+  for (let [key, value] of Object.entries(translation['ArtifactName'])) {
+    translation['ReverseLookup'][value] = key;
+  }
+  for (let [key, value] of Object.entries(translation['ItemName'])) {
+    translation['ReverseLookup'][value] = key;
+  }
+}
+
+/**
+ * Initializes and loads the dark mode functionality.
+ */
+function initDarkMode() {
+  var $body = $('body');
+  $body.on('click', '.toggle-dark-mode', function (e) {
+    $('.toggle-dark-mode').hide();
+    $('.toggle-light-mode').show();
+    $body.addClass('dark-mode');
+    localStorage.setItem('darkMode', '1');
+  });
+
+  $body.on('click', '.toggle-light-mode', function (e) {
+    $('.toggle-dark-mode').show();
+    $('.toggle-light-mode').hide();
+    $body.removeClass('dark-mode');
+    localStorage.setItem('darkMode', '');
+  });
+
+  if (localStorage.getItem('darkMode') === '1') {
+    $('.toggle-dark-mode').hide();
+    $('.toggle-light-mode').show();
+    $body.addClass('dark-mode');
+  }
+}
+
+/**
+ * Initializes the interactive elements.
+ */
+function initUI() {
+  var $body = $('body');
+  $body.on('click', '.materials-list .btn-close', deleteMaterial);
+  $body.on('click', '.btn-clear-all', clearAll);
+  $body.on('click', '.btn-export', populateExport);
+
+  // Toggle showing drop tables.
+  $body.on('click', '.accordion-toggle-quest-name', function () {
+    var questIName = $(this).data('quest');
+    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
+      $('.quest-row-expanded-' + questIName).show();
+    } else {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
+      $('.quest-row-expanded-' + questIName).hide();
+    }
+  });
+
+  // Toggle showing individual drop table.
+  $body.on('click', '.accordion-toggle-drop-table', function () {
+    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
+      $(this).parent().siblings('.drop-table-data').show();
+    } else {
+      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
+      $(this).parent().siblings('.drop-table-data').hide();
+    }
+  });
+
+  // Handle mode tab active class change.
+  $body.on('click', '.nav-main a', function (e) {
+    e.preventDefault();
+    $('.nav-main a').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  $body.on('click', '.nav-search', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-autocomplete').show();
+    $('.typeahead').focus();
+  });
+
+  $body.on('click', '.nav-import', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-import').show();
+    $('#import').focus();
+  });
+
+  $body.on('click', '.nav-export', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-export').show();
+    populateExport();
+  });
+
+  $body.on('click', '.btn-mode-cancel', function (e) {
+    e.preventDefault();
+    $('.mode').hide();
+    $('.mode-autocomplete').show();
+    $('.nav-main a').removeClass('active');
+    $('.nav-main a:first-child').addClass('active');
+    $('.autocomplete__input').focus();
+  });
+
+  $body.on('click', '.btn-import', function (e) {
+    e.preventDefault();
+    doImport($('#import').val());
+    calculate();
+    $('.mode-autocomplete').show();
+    $('.mode-import').hide();
+    $('.nav-main a').removeClass('active');
+    $('.nav-main a:first-child').addClass('active');
+  });
+}
+
+/**
+ * Attaches handlers and processes quest filter inputs.
+ */
+function initFiltering() {
+  filterOptions.forEach(function (filterOption) {
+    var $field = $('[name=' + filterOption.name + ']');
+    if ($field[0].type == "radio" || $field[0].type == "checkbox") {
+      var $fieldWithValue = $field.filter('[value="' + filterOption.value + '"]');
+      var isFound = ($fieldWithValue.length > 0);
+      if (!isFound && filterOption.value == "on") {
+        $field.first().prop("checked", true);
+      } else {
+        $fieldWithValue.prop("checked", isFound);
+      }
+    } else { // input, textarea
+      $field.val(filterOption.value);
+    }
+
+  });
+
+  $('body').on('click', '.quest-type-checkboxes input[type=checkbox]', function (e) {
+    applyFiltering();
+  });
+
+  $('body').on('click', '.btn-filter-clear', function (e) {
+    $('#questFiltersForm').trigger('reset');
+    applyFiltering();
+    $('.btn-filter-clear').hide();
+  });
+}
+
+/**
+ * Reads the quest filter form state and applies filtering to the quest list.
+ */
+function applyFiltering() {
+  updateLocalStorage();
+
+  // Default to show everything then hide with filters.
+  $('.quest-row').show();
+
+  var checked = $('.quest-type-checkboxes input[type=checkbox]:checked');
+
+  if (checked.length > 0) {
+    $('.btn-filter-clear').show();
+
+    checked.each(function (index, checkbox) {
+      $('.quest-row-type-' + $(checkbox).val()).hide();
+    });
+  }
+
+  // @todo: add other types of filtering here.
 }
