@@ -69,7 +69,7 @@
           <div class="row mb-5">
             <div class="col-md-6 col-sm-6 col-6">
               <button type="button" class="btn btn-danger btn-clear-all">
-                Clear All
+                <img src="img/ui/global_btn_close.png" alt="Clear All Selected Materials" class="icon-close"> Clear All Selected Materials
               </button>
             </div>
           </div>
@@ -134,15 +134,63 @@
 
       </form>
 
-      <div class="feedback"></div>
+      <div class="row">
+        <div class="col-auto">
+          <button class="btn btn-filter collapsed" type="button" data-toggle="collapse" data-target="#questFilters" aria-expanded="false" aria-controls="questFilters">
+            <img src="img/ui/cmn_btn_arrow_01.png" alt="Expand/Collapse Arrow" class="accordion-arrow"> Show Quest Filtering Options
+          </button>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-danger btn-filter-clear" type="button">
+            <img src="img/ui/global_btn_close.png" alt="Clear All Filters" class="icon-close"> Clear All Filters
+          </button>
+        </div>
+      </div>
 
+      <form id="questFiltersForm" class="quest-filters-form">
+        <div id="questFilters" class="collapse quest-filters">
+          <div class="card">
+            <div class="card-header">
+              Hide Quest Types:
+            </div>
+            <div class="card-body quest-type-checkboxes">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="questTypeStory" name="questTypeStory" value="story">
+                <label class="form-check-label" for="questTypeStory">Story</label>
+              </div>
 
-      <div class="quest-list container">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="questTypeEvent" name="questTypeEvent" value="event">
+                <label class="form-check-label" for="questTypeEvent">Event</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="questTypeShard" name="questTypeShard" value="shard">
+                <label class="form-check-label" for="questTypeShard">Shard</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="questTypeCharacter" name="questTypeCharacter" value="character">
+                <label class="form-check-label" for="questTypeCharacter">Character</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="questTypeMultiplayer" name="questTypeMultiplayer" value="multiplayer">
+                <label class="form-check-label" for="questTypeMultiplayer">Multiplayer</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="quest-list mt-4">
         <table class="table table-sm">
           <thead class="thead-dark">
             <tr>
               <th scope="col">Quest Name</th>
-              <th scope="col">Materials (Chance for <strong>at least one</strong> per embark)</th>
+              <th scope="col">Materials (Chance for
+                <strong>at least one</strong> per embark)
+              </th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -217,7 +265,7 @@
     </template>
 
     <template class="template template-quest-row">
-      <tr class="quest-row">
+      <tr class="quest-row quest-row-type-{{cssclass type}}" data-enemies="{{numEnemies}}" data-chests="{{numChests}}" data-nrg="{{nrg}}" data-xp="{{xp}}" data-jp="{{jp}}" data-gold="{{gold}}">
         <td>
           <div class="container">
             <div class="row">
