@@ -1,5 +1,5 @@
 var version = "v2";
-var fileVersion = '20200428.1';
+var fileVersion = '20200429.1';
 
 var fileList = {
   'ItemName': 'data/en/ItemName.json?ver=' + fileVersion,
