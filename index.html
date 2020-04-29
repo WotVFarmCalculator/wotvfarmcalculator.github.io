@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="styles.css?ver=20200428.1" rel="stylesheet">
+    <link href="styles.css?ver=20200429.1" rel="stylesheet">
 
     <title>War of the Visions Quest Farming Materials and Items Calculator</title>
   </head>
@@ -30,16 +30,28 @@
     </nav>
 
     <div class="jumbotron loading">
-      <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <h1 class="display-4">Loading data and crunching numbers.. please wait.</h1>
     </div>
 
     <main role="main" class="main container">
-      <div class="jumbotron warning">
+      <div class="jumbotron">
         <h2>Latest:</h2>
         <h3>
-          Beta is now launched! Thanks to everyone for their feedback and support!
+          April 29th: FFT quests and Chapter 5 Scene 3 story quests added
         </h3>
+        <p>
+          <a href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io/commits/master" target="_blank">See full changelog</a>
+        </p>
       </div>
 
       <nav class="nav nav-main nav-pills nav-fill container mb-4">
@@ -78,10 +90,11 @@
         <div class="mode mode-import">
           <div class="row">
             <div class="col-md-12">
-              <label for="import" class="">Enter a comma-delimited list of
-                materials. Ex:
-                "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite".<br>
-                The field also supports import by item <strong>iname</strong>. Ex: "IT_JB_MM_ALL_2,IT_JB_MM_WAR_4"</label>
+              <label for="import" class="">
+                Enter a comma-delimited list of materials. Ex: "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite".<br>
+                The field also supports import by item
+                <strong>iname</strong>. Ex: "IT_JB_MM_ALL_2,IT_JB_MM_WAR_4"
+              </label>
             </div>
 
             <div class="col-md-12">
@@ -217,7 +230,7 @@
           </li>
           <li class="nav-item">
             <span class="nav-link latest-update">
-              Latest update: Apr 28: Beta Launched!
+              Latest update: Apr 29: newest quests added.
             </span>
           </li>
         </ul>
@@ -256,7 +269,7 @@
     <template class="template template-material-quantity-layer">
       <div class="material-icon material-icon-quantity" title="{{material}}">
         {{#if showRange}}
-        x{{min}} - {{max}}
+        x{{min}}-{{max}}
         {{/if}}
         {{#unless showRange}}
         x{{min}}
@@ -347,6 +360,6 @@
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="lib/typeahead.bundle.min.js"></script>
 
-    <script src="scripts.js?ver=20200428.1"></script>
+    <script src="scripts.js?ver=20200429.1"></script>
   </body>
 </html>
