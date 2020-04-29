@@ -39687,6 +39687,1396 @@
     "start": "",
     "end": ""
   },
+  "QE_ST_01050301": {
+    "title": "Entrapped",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 1,
+    "designation": "1:5:3:1",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 5925,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030301": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "14.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_FIST_03",
+            "name": "Fists Charoite",
+            "chance": "14.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_JSWORD_03",
+            "name": "Katana Charoite",
+            "chance": "14.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "47.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_01",
+            "name": "Grey Spiritsand",
+            "chance": "11.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 65.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_FIST_03": {
+        "dropChance": 65.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_JSWORD_03": {
+        "dropChance": 65.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_SAND_01": {
+        "dropChance": 55.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050302": {
+    "title": "Schuzelt",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 2,
+    "designation": "1:5:3:2",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 5925,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030302": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 42,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "13.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_SPEAR_03",
+            "name": "Spear Charoite",
+            "chance": "13.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_SSWORD_03",
+            "name": "Dagger Charoite",
+            "chance": "13.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "51.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "10.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_SPEAR_03": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_SSWORD_03": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 57,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050303": {
+    "title": "Resolve",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 3,
+    "designation": "1:5:3:3",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 6026,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030303": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "14.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_KUNAI_03",
+            "name": "Ninja Blade Charoite",
+            "chance": "14.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_BOW_03",
+            "name": "Bow Charoite",
+            "chance": "14.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "47.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_01",
+            "name": "Grey Spiritsand",
+            "chance": "11.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 65.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_KUNAI_03": {
+        "dropChance": 65.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_BOW_03": {
+        "dropChance": 65.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_SAND_01": {
+        "dropChance": 55.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050304": {
+    "title": "Golden Armor",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 4,
+    "designation": "1:5:3:4",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 6026,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030304": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 43,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "20.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_GUN_03",
+            "name": "Gun Charoite",
+            "chance": "20.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_STAFF_03",
+            "name": "Staff Charoite",
+            "chance": "20.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "25.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "15.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_GUN_03": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_STAFF_03": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 55.6,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050305": {
+    "title": "Lies and Falsehoods I",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 5,
+    "designation": "1:5:3:5",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 6026,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 50,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030305": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "16.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_MACE_03",
+            "name": "Mace Charoite",
+            "chance": "16.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_AXE_03",
+            "name": "Axe Charoite",
+            "chance": "16.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "35.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_HUN",
+            "name": "Ranger's Memory (Green)",
+            "chance": "7.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "10.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 75.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_MACE_03": {
+        "dropChance": 75.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_AXE_03": {
+        "dropChance": 75.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_MM_HUN": {
+        "dropChance": 44,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 57,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050306": {
+    "title": "Lies and Falsehoods II",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 6,
+    "designation": "1:5:3:6",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 6127,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030306": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_LSWORD_03",
+            "name": "Greatsword Charoite",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "36.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "13.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_LSWORD_03": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 56.6,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050307": {
+    "title": "First Defeat",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 7,
+    "designation": "1:5:3:7",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 6127,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030307": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 44,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "13.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_FIST_03",
+            "name": "Fists Charoite",
+            "chance": "13.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_JSWORD_03",
+            "name": "Katana Charoite",
+            "chance": "13.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "51.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_01",
+            "name": "Grey Spiritsand",
+            "chance": "10.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_FIST_03": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_JSWORD_03": {
+        "dropChance": 67.2,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_SAND_01": {
+        "dropChance": 57,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050308": {
+    "title": "Who Will Succeed",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 8,
+    "designation": "1:5:3:8",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7188,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030308": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ZUUU",
+            "name": "Zuu",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_ZUUU",
+            "name": "Zuu",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_ZUUU",
+            "name": "Zuu",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_05",
+            "name": "Wind Elemental",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_SPEAR_03",
+            "name": "Spear Charoite",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_SSWORD_03",
+            "name": "Dagger Charoite",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "36.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "13.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_SPEAR_03": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_SSWORD_03": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 56.6,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050309": {
+    "title": "Rampaging Young Lion",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 9,
+    "designation": "1:5:3:9",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7188,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030309": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 45,
+            "awake": 4,
+            "rank": 0,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_KUNAI_03",
+            "name": "Ninja Blade Charoite",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_BOW_03",
+            "name": "Bow Charoite",
+            "chance": "17.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "36.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "13.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_KUNAI_03": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_BOW_03": {
+        "dropChance": 67.3,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 56.6,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01050310": {
+    "title": "«Solidus»",
+    "section": "Part 1, Chapter 5, Scene 3",
+    "battle": 10,
+    "designation": "1:5:3:10",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7737,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 100,
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01030310": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 47,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "10.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_GUN_03",
+            "name": "Gun Charoite",
+            "chance": "10.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_JB_STAFF_03",
+            "name": "Staff Charoite",
+            "chance": "10.0",
+            "num": 4
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "57.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_WHM",
+            "name": "White Mage's Memory (Green)",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "8.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 65.1,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_GUN_03": {
+        "dropChance": 65.1,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_STAFF_03": {
+        "dropChance": 65.1,
+        "min": 4,
+        "max": 4
+      },
+      "IT_JB_MM_WHM": {
+        "dropChance": 40.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 56.6,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
   "QE_HA_LW_ZZAN": {
     "title": "Shard Quest: Zazan",
     "section": "Leonis Castle",
@@ -62791,6 +64181,1164 @@
     },
     "start": 1587519000000,
     "end": 1589331599000
+  },
+  "QE_EV_FFT_06": {
+    "title": "FINAL FANTASY TACTICS Battle #1 [Intermediate]",
+    "section": "FINAL FANTASY TACTICS Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 4800,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "FFT6_drop1": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_BOMB_01",
+            "name": "Balloon",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB1",
+            "name": "Black Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 43,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "11.0",
+            "num": 16
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "18.0",
+            "num": 17
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "11.0",
+            "num": 18
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_02",
+            "name": "Sword Azurite",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_2",
+            "name": "Dark Alcryst (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_2",
+            "name": "Lightning Alcryst (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "5.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_EC_FFT_1": {
+        "dropChance": 92.2,
+        "min": 16,
+        "max": 18
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_02": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 22.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 22.6,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1587519000000,
+    "end": 1589331599000
+  },
+  "QE_EV_FFT_07": {
+    "title": "FINAL FANTASY TACTICS Battle #2 [Intermediate]",
+    "section": "FINAL FANTASY TACTICS Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 4800,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "FFT_7_drop1": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_CHCB_01",
+            "name": "Red Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB1",
+            "name": "Black Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB1",
+            "name": "Black Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "10.0",
+            "num": 20
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "18.0",
+            "num": 21
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "6.0",
+            "num": 22
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_02",
+            "name": "Sword Azurite",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_2",
+            "name": "Dark Alcryst (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_2",
+            "name": "Lightning Alcryst (Blue)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "6.0",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_EC_FFT_1": {
+        "dropChance": 87.5,
+        "min": 20,
+        "max": 22
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_02": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 22.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 22.6,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1587519000000,
+    "end": 1589331599000
+  },
+  "QE_EV_FFT_08": {
+    "title": "FINAL FANTASY TACTICS Battle #3 [Intermediate]",
+    "section": "FINAL FANTASY TACTICS Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 4893,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "FFT_8_drop1": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_KNT",
+            "name": "Bandit",
+            "level": 45,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 45,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 45,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 45,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "13.0",
+            "num": 15
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "16.0",
+            "num": 16
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "8.0",
+            "num": 17
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "8.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "8.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_3",
+            "name": "Dark Alcryst (Purple)",
+            "chance": "8.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_3",
+            "name": "Light Alcryst (Purple)",
+            "chance": "8.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_3",
+            "name": "Lightning Alcryst (Purple)",
+            "chance": "8.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "4.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "4.2",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "12.1",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_EC_FFT_1": {
+        "dropChance": 93.7,
+        "min": 15,
+        "max": 17
+      },
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 41.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 41.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_3": {
+        "dropChance": 41.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_3": {
+        "dropChance": 41.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_3": {
+        "dropChance": 41.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 22.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 22.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1587519000000,
+    "end": 1589331599000
+  },
+  "QE_EV_FFT_09": {
+    "title": "Lionel Castle — Outer Gates [Intermediate]",
+    "section": "FINAL FANTASY TACTICS Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5094,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "FFT_9_drop1": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_GFGR",
+            "name": "Gaffgarion",
+            "level": 60,
+            "awake": 3,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_KNT",
+            "name": "Bandit",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_KNT",
+            "name": "Bandit",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_KNT",
+            "name": "Bandit",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 43,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "7.0",
+            "num": 20
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "15.0",
+            "num": 21
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "5.0",
+            "num": 22
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "7.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "7.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_3",
+            "name": "Dark Alcryst (Purple)",
+            "chance": "7.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_3",
+            "name": "Light Alcryst (Purple)",
+            "chance": "7.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_3",
+            "name": "Lightning Alcryst (Purple)",
+            "chance": "7.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "3.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "3.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_PI_FFT_GFGR",
+            "name": "Gaffgarion Unit Shard",
+            "chance": "4.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_PI_FFT_GFGR",
+            "name": "Gaffgarion Unit Shard",
+            "chance": "8.0",
+            "num": 3
+          },
+          {
+            "iname": "IT_PI_FFT_GFGR",
+            "name": "Gaffgarion Unit Shard",
+            "chance": "3.0",
+            "num": 6
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "13.5",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_EC_FFT_1": {
+        "dropChance": 89,
+        "min": 20,
+        "max": 22
+      },
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 42.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 42.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_3": {
+        "dropChance": 42.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_3": {
+        "dropChance": 42.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_3": {
+        "dropChance": 42.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 22.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 22.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_PI_FFT_GFGR": {
+        "dropChance": 67.9,
+        "min": 2,
+        "max": 6
+      }
+    },
+    "start": 1587519000000,
+    "end": 1589331599000
+  },
+  "QE_EV_FFT_10": {
+    "title": "Lionel Castle — Interior [Intermediate]",
+    "section": "FINAL FANTASY TACTICS Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5288,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": null,
+    "numChests": null,
+    "drop": {},
+    "start": 1587519000000,
+    "end": 1589331599000
+  },
+  "QE_EV_FFT_EX_01": {
+    "title": "FINAL FANTASY TACTICS [EX]",
+    "section": "FINAL FANTASY TACTICS Quest [EX]",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 6,
+    "nrg": 12,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "KAKUTEI": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_CCLI",
+            "name": "Cúchulainn",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "90.0",
+            "num": 150
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "5.0",
+            "num": 165
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "5.0",
+            "num": 180
+          }
+        ]
+      },
+      "QE_FFT_EX1": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB_01",
+            "name": "Red Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB_01",
+            "name": "Red Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB1",
+            "name": "Black Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_AF_FFT_SWO_001",
+            "name": "Nagnarok Crafting Recipe",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_AW_SWORD",
+            "name": "Secret Book of Refinement (Sword)",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "15.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "15.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "30.8",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_FFT_SWO_001": {
+        "dropChance": 9.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 90,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 48.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_AW_SWORD": {
+        "dropChance": 33.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 72.8,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 72.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FFT_1": {
+        "dropChance": 100,
+        "min": 150,
+        "max": 180
+      }
+    },
+    "start": 1588143600000,
+    "end": 1589331599000
+  },
+  "QE_MU_FFT_EX_01": {
+    "title": "FINAL FANTASY TACTICS [EX]",
+    "section": "FINAL FANTASY TACTICS Quest [EX]",
+    "designation": "",
+    "type": "Multiplayer",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 0,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "KAKUTEI": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_CCLI",
+            "name": "Cúchulainn",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "90.0",
+            "num": 180
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "5.0",
+            "num": 200
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "5.0",
+            "num": 215
+          }
+        ]
+      },
+      "QE_FFT_EX1": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB",
+            "name": "Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB_01",
+            "name": "Red Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB_01",
+            "name": "Red Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_FFT_E_CHCB1",
+            "name": "Black Chocobo",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 50,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_AF_FFT_SWO_001",
+            "name": "Nagnarok Crafting Recipe",
+            "chance": "1.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "25.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "8.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_AW_SWORD",
+            "name": "Secret Book of Refinement (Sword)",
+            "chance": "5.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "15.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "15.0",
+            "num": 2
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "30.8",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_FFT_SWO_001": {
+        "dropChance": 9.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 90,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 48.7,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_AW_SWORD": {
+        "dropChance": 33.7,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 72.8,
+        "min": 4,
+        "max": 4
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 72.8,
+        "min": 2,
+        "max": 2
+      },
+      "IT_EC_FFT_1": {
+        "dropChance": 100,
+        "min": 180,
+        "max": 215
+      }
+    },
+    "start": "",
+    "end": ""
   },
   "QE_EV_GL_3M_DL": {
     "title": "\"3 Million Downloads\" Celebration Quest",

@@ -10,6 +10,10 @@
   "IT_AF_EXP_01": "it_af_exp_01.png",
   "IT_AF_EXP_02": "it_af_exp_02.png",
   "IT_AF_EXP_03": "it_af_exp_03.png",
+  "IT_AF_FFT_SWO_001": [
+    "itemicon_recipe.png",
+    "gear/fft0wpn_swo_001.png"
+  ],
   "IT_AF_LW_ARM_002": [
     "itemicon_recipe.png",
     "gear/lapswpn_arm_002.png"

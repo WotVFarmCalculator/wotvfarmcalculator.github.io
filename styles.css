@@ -136,10 +136,12 @@ body {
   width: 80px;
   height: 80px;
 }
+
 .lds-roller div {
   animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   transform-origin: 40px 40px;
 }
+
 .lds-roller div:after {
   content: " ";
   display: block;
@@ -150,62 +152,79 @@ body {
   background: #000;
   margin: -4px 0 0 -4px;
 }
+
 .lds-roller div:nth-child(1) {
   animation-delay: -0.036s;
 }
+
 .lds-roller div:nth-child(1):after {
   top: 63px;
   left: 63px;
 }
+
 .lds-roller div:nth-child(2) {
   animation-delay: -0.072s;
 }
+
 .lds-roller div:nth-child(2):after {
   top: 68px;
   left: 56px;
 }
+
 .lds-roller div:nth-child(3) {
   animation-delay: -0.108s;
 }
+
 .lds-roller div:nth-child(3):after {
   top: 71px;
   left: 48px;
 }
+
 .lds-roller div:nth-child(4) {
   animation-delay: -0.144s;
 }
+
 .lds-roller div:nth-child(4):after {
   top: 72px;
   left: 40px;
 }
+
 .lds-roller div:nth-child(5) {
   animation-delay: -0.18s;
 }
+
 .lds-roller div:nth-child(5):after {
   top: 71px;
   left: 32px;
 }
+
 .lds-roller div:nth-child(6) {
   animation-delay: -0.216s;
 }
+
 .lds-roller div:nth-child(6):after {
   top: 68px;
   left: 24px;
 }
+
 .lds-roller div:nth-child(7) {
   animation-delay: -0.252s;
 }
+
 .lds-roller div:nth-child(7):after {
   top: 63px;
   left: 17px;
 }
+
 .lds-roller div:nth-child(8) {
   animation-delay: -0.288s;
 }
+
 .lds-roller div:nth-child(8):after {
   top: 56px;
   left: 12px;
 }
+
 @keyframes lds-roller {
   0% {
     transform: rotate(0deg);
@@ -214,6 +233,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 /** Loading spinner END **/
 
 /** Autocomplete START **/
@@ -221,9 +241,11 @@ body {
   padding: 5px 10px;
   text-align: center;
 }
+
 .twitter-typeahead {
   width: 100%;
 }
+
 .typeahead,
 .tt-query,
 .tt-hint {
@@ -260,7 +282,7 @@ body {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
   max-height: 150px;
   overflow-y: auto;
 }
@@ -268,7 +290,7 @@ body {
 .tt-suggestion {
   padding: 2px 6px;
   font-size: 12px;
-  border-top: 1px dashed rgba(0,0,0,.1);
+  border-top: 1px dashed rgba(0, 0, 0, .1);
 }
 
 .tt-suggestion:first-child {
@@ -297,6 +319,7 @@ body {
 .tt-highlight {
   background: #ffdd00;
 }
+
 /** Autocomplete END **/
 
 .nav-pills .nav-link {
@@ -314,7 +337,7 @@ body {
 
 .nav-pills .nav-link.active,
 .nav-pills .nav-link:hover,
-.nav-pills .show>.nav-link {
+.nav-pills .show > .nav-link {
   background: none;
   border-image: url("img/ui/cmn_tab_on_02_02_no_trans.png") 25 33 33 35 fill stretch;
   color: #000;
@@ -356,14 +379,14 @@ body {
   color: #fff;
   font-family: serif;
   line-height: 1rem;
-  text-shadow: 1px 1px 0px rgba(0,0,0,1);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
   border-style: solid;
   border-width: 10px 12px 14px;
   border-image: url("img/ui/cmn_btn_base_06.png") 21 24 26 23 fill stretch;
 }
 
 .btn-filter:hover {
-  color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, .8);
 }
 
 .icon-close {
@@ -436,8 +459,8 @@ body {
 .quest-row {
   border-bottom: 1px solid #aaa;
   border-top: 1px solid #aaa;
-  background: rgb(228,228,228);
-  background: linear-gradient(0deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 85%, rgba(228,228,228,1) 100%);
+  background: rgb(228, 228, 228);
+  background: linear-gradient(0deg, rgba(228, 228, 228, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 85%, rgba(228, 228, 228, 1) 100%);
 }
 
 .quest-row-expanded {
@@ -500,6 +523,7 @@ body {
 .material-icon-drop-box .material-icon-gear {
   transform: scale(.55);
 }
+
 .material-icon-drop-percent {
   font-size: .75rem;
   background: #333;
@@ -514,7 +538,6 @@ body {
   font-size: 14px;
   min-width: 2.7rem;
 }
-
 
 
 .tooltip-inner {
@@ -536,7 +559,7 @@ body {
   top: 0;
   left: 0;
   vertical-align: top;
-  filter: drop-shadow(0px 0px .1em rgba(0,0,0,.3));
+  filter: drop-shadow(0px 0px .1em rgba(0, 0, 0, .3));
 }
 
 .material-icon:first-child {
@@ -596,6 +619,7 @@ body {
   border-radius: 5px 0 0 0;
   border: 1px solid #555;
   line-height: .7rem;
+  white-space: nowrap;
 }
 
 .materials-list .form-control {

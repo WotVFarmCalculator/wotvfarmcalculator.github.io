@@ -30,12 +30,21 @@
     </nav>
 
     <div class="jumbotron loading">
-      <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <h1 class="display-4">Loading data and crunching numbers.. please wait.</h1>
     </div>
 
     <main role="main" class="main container">
-      <div class="jumbotron warning">
+      <div class="jumbotron">
         <h2>Latest:</h2>
         <h3>
           Beta is now launched! Thanks to everyone for their feedback and support!
@@ -78,10 +87,11 @@
         <div class="mode mode-import">
           <div class="row">
             <div class="col-md-12">
-              <label for="import" class="">Enter a comma-delimited list of
-                materials. Ex:
-                "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite".<br>
-                The field also supports import by item <strong>iname</strong>. Ex: "IT_JB_MM_ALL_2,IT_JB_MM_WAR_4"</label>
+              <label for="import" class="">
+                Enter a comma-delimited list of materials. Ex: "Staff Charoite,Wind Alcryst (Blue),Mace Jadeite".<br>
+                The field also supports import by item
+                <strong>iname</strong>. Ex: "IT_JB_MM_ALL_2,IT_JB_MM_WAR_4"
+              </label>
             </div>
 
             <div class="col-md-12">
@@ -256,7 +266,7 @@
     <template class="template template-material-quantity-layer">
       <div class="material-icon material-icon-quantity" title="{{material}}">
         {{#if showRange}}
-        x{{min}} - {{max}}
+        x{{min}}-{{max}}
         {{/if}}
         {{#unless showRange}}
         x{{min}}
