@@ -62564,9 +62564,15 @@
     "completionRewards": {
       "Visiore": 50
     },
-    "numEnemies": null,
-    "numChests": null,
-    "drop": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {
+      "DROP": {
+        "enemies": [],
+        "drops": []
+      }
+    },
+    "topLevelDrop": {},
     "start": 1586320200000,
     "end": 1586933999000
   },
@@ -65599,9 +65605,183 @@
     "completionRewards": {
       "Visiore": 50
     },
-    "numEnemies": null,
-    "numChests": null,
-    "drop": {},
+    "numEnemies": 3,
+    "numChests": 0,
+    "drop": {
+      "FFT_10_drop2": {
+        "enemies": [
+          {
+            "iname": "UN_FFT_E_CCLI",
+            "name": "Cúchulainn",
+            "level": 50,
+            "awake": 3,
+            "rank": 3,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "4.0",
+            "num": 30
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "9.0",
+            "num": 35
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "35.0",
+            "num": 45
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "37.0",
+            "num": 55
+          },
+          {
+            "iname": "IT_EC_FFT_1",
+            "name": "FFT Event Medal",
+            "chance": "15.0",
+            "num": 65
+          }
+        ]
+      },
+      "FFT_10_drop1": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ELEM_06",
+            "name": "Light Elemental",
+            "level": 45,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_06",
+            "name": "Light Elemental",
+            "level": 45,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_04",
+            "name": "Sword Citrine",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_4",
+            "name": "Dark Alcryst (Yellow)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_4",
+            "name": "Light Alcryst (Yellow)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_4",
+            "name": "Lightning Alcryst (Yellow)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_4",
+            "name": "Praying Angel Statue (Yellow)",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_PI_FFT_GFGR",
+            "name": "Gaffgarion Unit Shard",
+            "chance": "15.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_PI_FFT_GFGR",
+            "name": "Gaffgarion Unit Shard",
+            "chance": "15.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_PI_FFT_GFGR",
+            "name": "Gaffgarion Unit Shard",
+            "chance": "10.0",
+            "num": 5
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 19,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_04": {
+        "dropChance": 19,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_4": {
+        "dropChance": 19,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_4": {
+        "dropChance": 19,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_4": {
+        "dropChance": 19,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_4": {
+        "dropChance": 9.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 9.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_PI_FFT_GFGR": {
+        "dropChance": 64,
+        "min": 2,
+        "max": 5
+      },
+      "IT_EC_FFT_1": {
+        "dropChance": 100,
+        "min": 30,
+        "max": 65
+      }
+    },
     "start": 1587519000000,
     "end": 1589331599000
   },
@@ -66271,9 +66451,15 @@
     "completionRewards": {
       "Visiore": 50
     },
-    "numEnemies": null,
-    "numChests": null,
-    "drop": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {
+      "DROP": {
+        "enemies": [],
+        "drops": []
+      }
+    },
+    "topLevelDrop": {},
     "start": 1587519000000,
     "end": 1589331599000
   },
@@ -68071,8 +68257,8 @@
             "num": 1
           },
           {
-            "iname": "IT_JB_EM_WATER_3",
-            "name": "Water Alcryst (Purple)",
+            "iname": "IT_JB_EM_DARK_3",
+            "name": "Dark Alcryst (Purple)",
             "chance": "12.5",
             "num": 1
           }
@@ -68120,7 +68306,7 @@
         "min": 1,
         "max": 1
       },
-      "IT_JB_EM_WATER_3": {
+      "IT_JB_EM_DARK_3": {
         "dropChance": 65.6,
         "min": 1,
         "max": 1
