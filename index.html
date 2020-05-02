@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="styles.css?ver=20200429.1" rel="stylesheet">
+    <link href="styles.css?ver=20200502.1" rel="stylesheet">
 
     <title>War of the Visions Quest Farming Materials and Items Calculator</title>
   </head>
@@ -43,12 +43,34 @@
       <h1 class="display-4">Loading data and crunching numbers.. please wait.</h1>
     </div>
 
+    <div class="modal" id="calculatingModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-body spinner">
+            Calculating...
+          </div>
+        </div>
+      </div>
+    </div>
+
     <main role="main" class="main container">
       <div class="jumbotron">
         <h2>Latest:</h2>
         <h3>
-          April 29th: FFT quests and Chapter 5 Scene 3 story quests added
+          May 2nd: Added the "required material" functionality.
         </h3>
+        <p>
+          You can now set a material as "required" by clicking the star next to the material name.
+          Once a material is required, the quest list will only show quests with that material, and the results will
+          be sorted by number of matched materials, then by the at-least-one drop rate
+          of the required material and then by the median drop amount of the required material.
+        </p>
+        <p>
+          There is also some feedback added above the quest list on the number of filters
+          and the order of the sorting, to give you some visibility on how quests
+          are being shown behind the scenes. This sets up the framework for other
+          types of sorting in the future. (ex: sort by NRG, sort by # of chests, etc.)
+        </p>
         <p>
           <a href="https://github.com/WotVFarmCalculator/wotvfarmcalculator.github.io/commits/master" target="_blank">See full changelog</a>
         </p>
@@ -71,7 +93,7 @@
                   and job related materials. Job names will load the statues, job memories,
                   and weapon jewels. Equipment names will load the recipe and required
                   crafting materials.</label>
-                <input id="autocomplete" class="typeahead form-control" type="text" placeholder="Enter the name of the material, job, recipe, or character">
+                <input id="autocomplete" class="typeahead form-control" type="text" placeholder="Enter the name of the material, job, recipe, equipment, or character">
               </div>
             </div>
           </div>
@@ -79,7 +101,7 @@
           <div class="row materials-list mb-5"></div>
 
           <div class="row mb-5">
-            <div class="col-md-6 col-sm-6 col-6">
+            <div class="col-md-6 col-sm-12 col-12">
               <button type="button" class="btn btn-danger btn-clear-all">
                 <img src="img/ui/global_btn_close.png" alt="Clear All Selected Materials" class="icon-close"> Clear All Selected Materials
               </button>
@@ -196,6 +218,8 @@
         </div>
       </form>
 
+      <div class="quest-filters-info-container"></div>
+
       <div class="quest-list mt-4">
         <table class="table table-sm">
           <thead class="thead-dark">
@@ -237,6 +261,11 @@
       </div>
     </nav>
 
+    <template class="template template-quest-filters-info">
+      <div class="alert alert-info mt-4" role="alert">
+        {{filteredTypes}}{{filteredRequired}} Results are sorted by number of matched materials{{sorted}}
+      </div>
+    </template>
 
     <template class="template template-material-typeahead">
       <div>
@@ -245,13 +274,18 @@
     </template>
 
     <template class="template template-material-item">
-      <div class="input-group col-lg-4 col-md-6 mb-2" data-material="{{material}}">
+      <div class="input-group col-lg-4 col-md-6 mb-2 material-item-input" data-material="{{material}}">
         <div class="input-group-prepend">
-      <span class="input-group-text">
-      <img src="img/ui/cmn_btn_close_01.png" alt="Delete Material" title="Delete Material" class="btn btn-close">
-      </span>
+          <span class="input-group-text">
+            <img src="img/ui/cmn_btn_close_01.png" alt="Delete Material" title="Delete Material" class="btn btn-close">
+          </span>
         </div>
         <div class="form-control">{{{materialLabel}}}</div>
+        <div class="input-group-append">
+          <span class="input-group-text">
+            <img src="img/ui/summonquest_icon_rarelity_off.png" class="required-material" alt="Set this material as required and the quest list will be sorted and filtered based on this item." title="Set this material as required and the quest list will be sorted and filtered based on this item.">
+          </span>
+        </div>
       </div>
     </template>
 
@@ -312,7 +346,7 @@
     </template>
 
     <template class="template template-material-drop-box">
-      <div class="material-icon-drop-box">
+      <div class="material-icon-drop-box {{dropboxClass}}">
         {{{materialLabel}}}
         <div class="material-icon-drop-percent">
           {{dropChance}}%
@@ -360,6 +394,6 @@
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="lib/typeahead.bundle.min.js"></script>
 
-    <script src="scripts.js?ver=20200429.1"></script>
+    <script src="scripts.js?ver=20200502.1"></script>
   </body>
 </html>
