@@ -1012,7 +1012,6 @@ function updateQuestFilterInfo() {
   var filteredTypes = 'Showing all quest types.';
   var filteredRequired = '';
   var sorted = '.';
-  // {{filteredTypes}}{{filteredRequired}} Results are sorted by number of matched materials{{sorted}}
 
   var $checked = $('.quest-type-checkboxes input[type=checkbox]:checked');
   if ($checked.length > 0) {
