@@ -234,6 +234,26 @@ body {
   }
 }
 
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #000;
+  animation: spinner .6s linear infinite;
+}
+
 /** Loading spinner END **/
 
 /** Autocomplete START **/
@@ -508,6 +528,11 @@ body {
   border: 1px solid #aaa;
 }
 
+.material-icon-drop-box-required,
+.input-group-text-required {
+  background: #cccc00;
+}
+
 .drop-table-data .material-icon-drop-box {
   margin-bottom: 5px;
 }
@@ -631,7 +656,7 @@ body {
   font-size: .8rem;
 }
 
-.materials-list .input-group-text {
+.materials-list .input-group-prepend .input-group-text {
   padding: 0;
   background: none;
   border-right: none;
@@ -642,6 +667,10 @@ body {
   max-height: 2rem;
   transform: scale(1.4);
   transform-origin: 75% 40%;
+}
+
+.required-material {
+  cursor: pointer;
 }
 
 .quest-list {
@@ -730,6 +759,10 @@ body.dark-mode {
   color: #ccc;
 }
 
+.dark-mode .modal-body {
+  color: #000;
+}
+
 .dark-mode .form-control {
   background: #444;
   border-color: #333;
@@ -800,6 +833,10 @@ body.dark-mode {
 .dark-mode .material-icon-drop-box {
   background: #aaa;
   border: 1px solid #000;
+}
+
+.dark-mode .material-icon-drop-box-required {
+  background: #cccc00;
 }
 
 .dark-mode .jumbotron {

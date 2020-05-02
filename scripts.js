@@ -1,5 +1,5 @@
 var version = "v2";
-var fileVersion = '20200429.1';
+var fileVersion = '20200502.1';
 
 var fileList = {
   'ItemName': 'data/en/ItemName.json?ver=' + fileVersion,
@@ -26,7 +26,7 @@ for (let [key, url] of Object.entries(fileList)) {
 }
 
 let preload = null;
-$(document).ready(function () {
+$(function () {
   preload = setInterval(function () {
     if (Object.keys(fileList).length === Object.keys(loadedData).length) {
       start();
@@ -39,6 +39,7 @@ var autocompleteData = [];
 var translation = {};
 var templates = {};
 var filterOptions = [];
+var requiredMaterial = null;
 
 /**
  * Initializes and starts the application.
@@ -51,13 +52,10 @@ function start() {
   initTypeAhead();
   initDarkMode();
   initUI();
-
-  loadFromLocalStorage();
-
   importFromQueryString();
-
+  loadFromLocalStorage();
+  rebuildMaterialsDom();
   initFiltering();
-
   calculate();
 
   $('.loading').hide();
@@ -74,7 +72,6 @@ function start() {
 function onTypeaheadSelect(e, suggestion) {
   var $typeahead = $('.typeahead');
   $typeahead.typeahead('val', '');
-  $typeahead.focus();
 
   switch (suggestion.type) {
     case 'item':
@@ -90,6 +87,8 @@ function onTypeaheadSelect(e, suggestion) {
       addRecipeMaterials(suggestion);
       break;
   }
+
+  $typeahead.trigger('focus');
 }
 
 /**
@@ -99,6 +98,44 @@ function onTypeaheadSelect(e, suggestion) {
  * @param dontCalculate
  */
 function addMaterial(material, dontCalculate) {
+  material = registerMaterial(material);
+  if (!material) {
+    return;
+  }
+
+  addMaterialToDom(material);
+
+  updateLocalStorage();
+  if (!dontCalculate) {
+    calculateStart();
+  }
+}
+
+/**
+ * Save the material to the internal materials list, but don't add to DOM (yet).
+ *
+ * @param material
+ * @returns {{value: *, iname: string}|boolean}
+ */
+function registerMaterial(material) {
+  material = normalizeMaterial(material);
+
+  if (materialsList.includes(material.iname)) {
+    return false;
+  }
+
+  materialsList.push(material.iname);
+
+  return material;
+}
+
+/**
+ * Normalize the material object structure.
+ *
+ * @param material
+ * @returns {{value: *, iname: string}}
+ */
+function normalizeMaterial(material) {
   // Normalize structure.
   if (typeof material === 'string') {
     material = {
@@ -107,16 +144,28 @@ function addMaterial(material, dontCalculate) {
     }
   }
 
-  if (materialsList.includes(material.iname)) {
-    return;
-  }
+  return material;
+}
 
-  materialsList.push(material.iname);
-  addMaterialToDom(material);
+/**
+ * Clear the DOM for the materials and rebuilds it based on internal materials list.
+ */
+function rebuildMaterialsDom() {
+  $('.materials-list').empty();
 
-  updateLocalStorage();
-  if (!dontCalculate) {
-    calculate();
+  materialsList.forEach(function (materialIName) {
+    var material = normalizeMaterial(materialIName);
+    addMaterialToDom(material);
+  });
+
+  if (requiredMaterial) {
+    if (materialsList.includes(requiredMaterial)) {
+      var $requiredMaterial = $('.material-item-input[data-material=' + requiredMaterial + '] .required-material');
+      if ($requiredMaterial.length > 0) {
+        $requiredMaterial.attr('src', 'img/ui/summonquest_icon_rarelity_on.png');
+        $requiredMaterial.parent().addClass('input-group-text-required');
+      }
+    }
   }
 }
 
@@ -283,16 +332,44 @@ function deleteMaterial() {
   var material = $parent.data('material');
   $parent.remove();
   materialsList.splice(materialsList.findIndex(a => a === material), 1);
+  if (material === requiredMaterial) {
+    requiredMaterial = null;
+  }
   updateLocalStorage();
-  calculate();
+  calculateStart();
 }
+
+function calculateStart() {
+  // For small numbers of materials, don't worry about showing the modal.
+  if (!requiredMaterial && materialsList.length > 10) {
+    $('#calculatingModal').modal('show');
+  }
+
+  // Offset 1 frame so that the modal appears before crunching numbers.
+  setTimeout(function () {
+    calculate();
+  }, 1);
+}
+
 
 /**
  * Takes the list of materials and figures out which quests match.
  */
 function calculate() {
+  updateQuestFilterInfo();
+
   if (!materialsList.length) {
     return;
+  }
+
+  // Validate requiredMaterial is in the list of materials (just in case).
+  if (!materialsList.includes(requiredMaterial)) {
+    requiredMaterial = null;
+  }
+
+  var requiredQuests = null
+  if (requiredMaterial && loadedData['ItemQuests'].hasOwnProperty(requiredMaterial)) {
+    requiredQuests = loadedData['ItemQuests'][requiredMaterial];
   }
 
   // First, get all quest inames for all item inames (taking counts for in-common materials)
@@ -305,18 +382,49 @@ function calculate() {
 
     var itemQuests = loadedData['ItemQuests'][materialListItem];
 
-    itemQuests.forEach(function (itemQuest) {
-      if (!inCommon.hasOwnProperty(itemQuest)) {
-        inCommon[itemQuest] = [];
+    itemQuests.forEach(function (itemQuestIName) {
+      // Filter out any quest that doesn't have the required material.
+      if (requiredQuests && !requiredQuests.includes(itemQuestIName)) {
+        return;
       }
-      inCommon[itemQuest].push(materialListItem);
+
+      if (!inCommon.hasOwnProperty(itemQuestIName)) {
+        inCommon[itemQuestIName] = {};
+      }
+
+      if (inCommon[itemQuestIName].hasOwnProperty(materialListItem)) {
+        console.warn('inCommon Quest already has registered item: ', itemQuestIName, materialListItem);
+      }
+
+      var min = getTopLevelQuestItemParam(itemQuestIName, materialListItem, 'min');
+      var max = getTopLevelQuestItemParam(itemQuestIName, materialListItem, 'max');
+      var median = (min + max) / 2;
+
+      inCommon[itemQuestIName][materialListItem] = {
+        'dropChance': getTopLevelQuestItemParam(itemQuestIName, materialListItem, 'dropChance'),
+        'num': median,
+      };
     });
   });
 
-  // Second, sort quest inames by # of in-common materials
   var inCommonSorted = {};
   let sortedKeys = Object.keys(inCommon).sort(function (a, b) {
-    return inCommon[b].length - inCommon[a].length;
+    var commonSort = Object.keys(inCommon[b]).length - Object.keys(inCommon[a]).length;
+    if (!requiredMaterial || commonSort !== 0) {
+      return commonSort;
+    }
+
+    var dropSort = inCommon[b][requiredMaterial].dropChance - inCommon[a][requiredMaterial].dropChance;
+    if (dropSort !== 0) {
+      return dropSort;
+    }
+
+    var numSort = inCommon[b][requiredMaterial].num - inCommon[a][requiredMaterial].num;
+    if (numSort !== 0) {
+      return numSort;
+    }
+
+    return 0;
   });
   sortedKeys.forEach(function (key) {
     inCommonSorted[key] = inCommon[key];
@@ -369,9 +477,14 @@ function calculate() {
     questRowVM.end = endDate;
 
     questRowVM.materialDropBoxes = "";
-    matchedItems.forEach(function (matchedItem) {
+    for (let [matchedItem, itemSortingParams] of Object.entries(matchedItems)) {
       var matchedItemVM = {};
       matchedItemVM.dropChance = quest.topLevelDrop[matchedItem].dropChance;
+      matchedItemVM.dropboxClass = '';
+
+      if (requiredMaterial && requiredMaterial === matchedItem) {
+        matchedItemVM.dropboxClass = 'material-icon-drop-box-required';
+      }
 
       var entry = {
         'iname': matchedItem,
@@ -382,7 +495,7 @@ function calculate() {
       };
       matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true);
       questRowVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
-    });
+    }
 
     $tbody.append(applyTemplate('QuestRow', questRowVM));
 
@@ -435,7 +548,10 @@ function calculate() {
   }
 
   applyFiltering();
+
+  $('#calculatingModal').modal('hide');
 }
+
 
 /**
  * Clears all selected materials from array, localStorage, and DOM.
@@ -449,6 +565,9 @@ function clearAll() {
   materialsList = [];
   $('.quest-list tbody').html('');
 
+  requiredMaterial = null;
+
+  updateQuestFilterInfo();
   updateLocalStorage();
 }
 
@@ -458,6 +577,7 @@ function clearAll() {
 function updateLocalStorage() {
   localStorage.setItem(version + '.selectedMaterials', JSON.stringify(materialsList));
   localStorage.setItem(version + '.filterOptions', JSON.stringify($('.quest-filters-form').serializeArray()));
+  localStorage.setItem(version + '.requiredMaterial', requiredMaterial);
 }
 
 /**
@@ -470,18 +590,16 @@ function loadFromLocalStorage() {
   }
 
   var savedMaterials = localStorage.getItem(version + '.selectedMaterials');
-  if (!savedMaterials) {
-    return;
+  if (savedMaterials) {
+    var list = JSON.parse(savedMaterials);
+    if (list.length) {
+      list.forEach(function (listItem) {
+        registerMaterial(listItem);
+      });
+    }
   }
 
-  var list = JSON.parse(savedMaterials);
-  if (!list.length) {
-    return;
-  }
-
-  list.forEach(function (listItem) {
-    addMaterial(listItem, true);
-  });
+  requiredMaterial = localStorage.getItem(version + '.requiredMaterial');
 }
 
 /**
@@ -506,7 +624,7 @@ function doImport(importList) {
     importMaterial = importMaterial.trim();
     if (shouldReverseTranslate && translation['ReverseLookup'][importMaterial]) {
       // Add material by english translated name.
-      addMaterial(translation['ReverseLookup'][importMaterial]);
+      registerMaterial(translation['ReverseLookup'][importMaterial]);
       return;
     }
 
@@ -517,10 +635,8 @@ function doImport(importList) {
       return;
     }
 
-    addMaterial(importMaterial);
+    registerMaterial(importMaterial);
   });
-
-  updateLocalStorage();
 }
 
 /**
@@ -620,7 +736,9 @@ function initTypeAhead() {
     local: autocompleteData
   });
 
-  $('.typeahead').typeahead({
+  var $typeahead = $('.typeahead');
+
+  $typeahead.typeahead({
       hint: true,
       highlight: true,
       minLength: 1,
@@ -637,7 +755,7 @@ function initTypeAhead() {
     }
   );
 
-  $('.typeahead').on('typeahead:select', onTypeaheadSelect);
+  $typeahead.on('typeahead:select', onTypeaheadSelect);
 }
 
 /**
@@ -658,6 +776,7 @@ function initTemplates() {
     'QuestRowExpanded': '.template-quest-row-expanded',
     'NoDrop': '.template-no-drop',
     'MaterialQuantityLayer': '.template-material-quantity-layer',
+    'QuestFiltersInfo': '.template-quest-filters-info',
   };
 
   for (let [key, selector] of Object.entries(templateSelectors)) {
@@ -696,14 +815,14 @@ function initTranslation() {
  */
 function initDarkMode() {
   var $body = $('body');
-  $body.on('click', '.toggle-dark-mode', function (e) {
+  $body.on('click', '.toggle-dark-mode', function () {
     $('.toggle-dark-mode').hide();
     $('.toggle-light-mode').show();
     $body.addClass('dark-mode');
     localStorage.setItem('darkMode', '1');
   });
 
-  $body.on('click', '.toggle-light-mode', function (e) {
+  $body.on('click', '.toggle-light-mode', function () {
     $('.toggle-dark-mode').show();
     $('.toggle-light-mode').hide();
     $body.removeClass('dark-mode');
@@ -722,9 +841,9 @@ function initDarkMode() {
  */
 function initUI() {
   var $body = $('body');
-  $body.on('click', '.materials-list .btn-close', deleteMaterial);
-  $body.on('click', '.btn-clear-all', clearAll);
-  $body.on('click', '.btn-export', populateExport);
+  $body.on('click', '.materials-list .btn-close', null, deleteMaterial);
+  $body.on('click', '.btn-clear-all', null, clearAll);
+  $body.on('click', '.btn-export', null, populateExport);
 
   // Toggle showing drop tables.
   $body.on('click', '.accordion-toggle-quest-name', function () {
@@ -760,14 +879,14 @@ function initUI() {
     e.preventDefault();
     $('.mode').hide();
     $('.mode-autocomplete').show();
-    $('.typeahead').focus();
+    $('.typeahead').trigger('focus');
   });
 
   $body.on('click', '.nav-import', function (e) {
     e.preventDefault();
     $('.mode').hide();
     $('.mode-import').show();
-    $('#import').focus();
+    $('#import').trigger('focus');
   });
 
   $body.on('click', '.nav-export', function (e) {
@@ -783,17 +902,45 @@ function initUI() {
     $('.mode-autocomplete').show();
     $('.nav-main a').removeClass('active');
     $('.nav-main a:first-child').addClass('active');
-    $('.autocomplete__input').focus();
+    $('.autocomplete__input').trigger('focus');
   });
 
   $body.on('click', '.btn-import', function (e) {
     e.preventDefault();
     doImport($('#import').val());
-    calculate();
+    rebuildMaterialsDom();
+    updateLocalStorage();
+    calculateStart();
     $('.mode-autocomplete').show();
     $('.mode-import').hide();
     $('.nav-main a').removeClass('active');
     $('.nav-main a:first-child').addClass('active');
+  });
+
+  // Handle the "required material" click events.
+  $body.on('click', '.required-material', function (e) {
+    e.preventDefault();
+
+    var $this = $(this);
+    var alreadyEnabled = ($this.attr('src') === 'img/ui/summonquest_icon_rarelity_on.png');
+    var $requiredMaterials = $('.required-material');
+    $requiredMaterials.attr('src', 'img/ui/summonquest_icon_rarelity_off.png');
+    $requiredMaterials.parent().removeClass('input-group-text-required');
+    requiredMaterial = null;
+
+    if (!alreadyEnabled) {
+      requiredMaterial = $this.parents('.material-item-input').data('material');
+      $this.attr('src', 'img/ui/summonquest_icon_rarelity_on.png');
+      $this.parent().addClass('input-group-text-required');
+    }
+
+    updateLocalStorage();
+    calculateStart();
+  });
+
+  // Init calculating modal, but don't show yet.
+  $('#calculatingModal').modal({
+    'show': false
   });
 }
 
@@ -803,10 +950,10 @@ function initUI() {
 function initFiltering() {
   filterOptions.forEach(function (filterOption) {
     var $field = $('[name=' + filterOption.name + ']');
-    if ($field[0].type == "radio" || $field[0].type == "checkbox") {
+    if ($field[0].type === "radio" || $field[0].type === "checkbox") {
       var $fieldWithValue = $field.filter('[value="' + filterOption.value + '"]');
       var isFound = ($fieldWithValue.length > 0);
-      if (!isFound && filterOption.value == "on") {
+      if (!isFound && filterOption.value === "on") {
         $field.first().prop("checked", true);
       } else {
         $fieldWithValue.prop("checked", isFound);
@@ -814,14 +961,14 @@ function initFiltering() {
     } else { // input, textarea
       $field.val(filterOption.value);
     }
-
   });
 
-  $('body').on('click', '.quest-type-checkboxes input[type=checkbox]', function (e) {
+  var $body = $('body');
+  $body.on('click', '.quest-type-checkboxes input[type=checkbox]', function () {
     applyFiltering();
   });
 
-  $('body').on('click', '.btn-filter-clear', function (e) {
+  $body.on('click', '.btn-filter-clear', function () {
     $('#questFiltersForm').trigger('reset');
     applyFiltering();
     $('.btn-filter-clear').hide();
@@ -837,15 +984,81 @@ function applyFiltering() {
   // Default to show everything then hide with filters.
   $('.quest-row').show();
 
-  var checked = $('.quest-type-checkboxes input[type=checkbox]:checked');
+  var $checked = $('.quest-type-checkboxes input[type=checkbox]:checked');
 
-  if (checked.length > 0) {
+  if ($checked.length > 0) {
     $('.btn-filter-clear').show();
 
-    checked.each(function (index, checkbox) {
+    $checked.each(function (index, checkbox) {
       $('.quest-row-type-' + $(checkbox).val()).hide();
     });
   }
 
   // @todo: add other types of filtering here.
+
+  updateQuestFilterInfo();
+}
+
+/**
+ * Updates the quest filtering and sorting feedback text to make things a little
+ * clearer on what's happening behind the scenes.
+ */
+function updateQuestFilterInfo() {
+  if (materialsList.length === 0) {
+    $('.quest-filters-info-container').html('');
+    return;
+  }
+
+  var filteredTypes = 'Showing all quest types.';
+  var filteredRequired = '';
+  var sorted = '.';
+  // {{filteredTypes}}{{filteredRequired}} Results are sorted by number of matched materials{{sorted}}
+
+  var $checked = $('.quest-type-checkboxes input[type=checkbox]:checked');
+  if ($checked.length > 0) {
+    var checkedVals = [];
+    $checked.each(function (index, checkbox) {
+      checkedVals.push($(checkbox).val());
+    });
+    filteredTypes = 'Hiding quests of type: ' + checkedVals.join(', ') + '.';
+  }
+
+  if (requiredMaterial) {
+    filteredRequired = ' Only showing quests with the required material "' + translation['ItemName'][requiredMaterial] + '".';
+    sorted = ', then by the required material\'s at-least-one drop chance, then by the required material\'s median drop quantity.';
+  }
+
+  var html = applyTemplate('QuestFiltersInfo', {
+    'filteredTypes': filteredTypes,
+    'filteredRequired': filteredRequired,
+    'sorted': sorted,
+  });
+  $('.quest-filters-info-container').html(html);
+}
+
+/**
+ * Utility function to get a top level parameter than may/may not exist.
+ *
+ * @param itemQuestIName
+ * @param materialListItem
+ * @param param
+ * @returns {number|*}
+ */
+function getTopLevelQuestItemParam(itemQuestIName, materialListItem, param) {
+  if (!loadedData['QuestsByIName'].hasOwnProperty(itemQuestIName)) {
+    console.warn('Attempted to get top level param for invalid quest: ', itemQuestIName, materialListItem, param);
+    return 0;
+  }
+
+  if (!loadedData['QuestsByIName'][itemQuestIName].topLevelDrop.hasOwnProperty(materialListItem)) {
+    console.warn('Attempted to get top level param for invalid material: ', itemQuestIName, materialListItem, param);
+    return 0;
+  }
+
+  if (!loadedData['QuestsByIName'][itemQuestIName].topLevelDrop[materialListItem].hasOwnProperty(param)) {
+    console.warn('Attempted to get top level param for invalid param: ', itemQuestIName, materialListItem, param);
+    return 0;
+  }
+
+  return loadedData['QuestsByIName'][itemQuestIName].topLevelDrop[materialListItem][param];
 }
