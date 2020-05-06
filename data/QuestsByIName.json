@@ -51834,6 +51834,451 @@
     "start": "",
     "end": ""
   },
+  "QE_HA_LW_KTON": {
+    "title": "Shard Quest: Kitone",
+    "section": "Zanagar Fortress",
+    "battle": 1,
+    "designation": "",
+    "type": "Shard",
+    "rankXp": 0,
+    "unitXp": 5674,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 20,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_HD_01040307": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 56,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 56,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 56,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 56,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 56,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "4.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_NIN_4",
+            "name": "Ninja's Memory (Yellow)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_SWN_4",
+            "name": "Soldier's Memory (Yellow)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_TIM_4",
+            "name": "Time Mage's Memory (Yellow)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SOIL_4",
+            "name": "Earth Alcryst (Yellow)",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_NKN_002",
+            "name": "Kodachi Crafting Recipe",
+            "chance": "4.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_KUNAI_04",
+            "name": "Ninja Blade Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_04",
+            "name": "Greatsword Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_04",
+            "name": "Staff Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "23.2",
+            "num": 0
+          }
+        ]
+      },
+      "QE_HA_LW_KTON": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 56,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_LW_KTON",
+            "name": "Kitone Unit Shard",
+            "chance": "100.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_LW_KTON": {
+        "dropChance": 100,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 18.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_NIN_4": {
+        "dropChance": 3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_SWN_4": {
+        "dropChance": 3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_TIM_4": {
+        "dropChance": 3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SOIL_4": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 34.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 34.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_NKN_002": {
+        "dropChance": 18.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_KUNAI_04": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_04": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_04": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_HA_LW_WHIS": {
+    "title": "Shard Quest: \"Whisper\"",
+    "section": "Zanagar Fortress",
+    "battle": 1,
+    "designation": "",
+    "type": "Shard",
+    "rankXp": 0,
+    "unitXp": 5674,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 20,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "QE_HD_01040305": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 56,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 56,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_02",
+            "name": "Earth Elemental",
+            "level": 56,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_02",
+            "name": "Earth Elemental",
+            "level": 56,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_KNT_4",
+            "name": "Knight's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_SAM_4",
+            "name": "Samurai's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_4",
+            "name": "Spellblade's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_4",
+            "name": "Dark Alcryst (Yellow)",
+            "chance": "8.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "5.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "5.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_002",
+            "name": "Mythril Sword Crafting Recipe",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_04",
+            "name": "Sword Citrine",
+            "chance": "17.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_JSWORD_04",
+            "name": "Katana Citrine",
+            "chance": "8.6",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "44.4",
+            "num": 0
+          }
+        ]
+      },
+      "QE_HA_LW_WHIS": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ZUUU",
+            "name": "Zuu",
+            "level": 56,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_LW_WHIS",
+            "name": "\"Whisper\" Unit Shard",
+            "chance": "100.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_LW_WHIS": {
+        "dropChance": 100,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 11.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_KNT_4": {
+        "dropChance": 1.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_SAM_4": {
+        "dropChance": 1.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_4": {
+        "dropChance": 1.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_4": {
+        "dropChance": 30.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 8.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 21.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 21.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_002": {
+        "dropChance": 11.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_04": {
+        "dropChance": 53,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_JSWORD_04": {
+        "dropChance": 30.2,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
   "QE_CH_LW_ZZAN": {
     "title": "Zazan",
     "section": "Rasheena Forest",
@@ -60862,6 +61307,382 @@
         "max": 1
       },
       "IT_AF_LW_AXE_001": {
+        "dropChance": 14.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_CH_LW_WHIS": {
+    "title": "\"Whisper\"",
+    "section": "Zanagar Fortress",
+    "battle": 1,
+    "designation": "",
+    "type": "Character",
+    "rankXp": 0,
+    "unitXp": 6400,
+    "gold": 1500,
+    "jp": 13,
+    "nrg": 25,
+    "completionRewards": {
+      "Visiore": 50,
+      "\"Whisper\" Unit Shard": 15
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_CH_LW_WHIS": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_01_LAN",
+            "name": "Hourne Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_01",
+            "name": "Hourne Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_01",
+            "name": "Hourne Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_01_MGK",
+            "name": "Hourne Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_01_MGK",
+            "name": "Hourne Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_01_PLD",
+            "name": "Hourne Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_00_WHM",
+            "name": "White Mage",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_KNT_3",
+            "name": "Knight's Memory (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "21.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_3",
+            "name": "Dark Alcryst (Purple)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "2.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "46.7",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 39,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_KNT_3": {
+        "dropChance": 7.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 11.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 84.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_3": {
+        "dropChance": 57,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_CH_LW_KTON": {
+    "title": "Kitone",
+    "section": "Zanagar Fortress",
+    "battle": 1,
+    "designation": "",
+    "type": "Character",
+    "rankXp": 0,
+    "unitXp": 6400,
+    "gold": 1500,
+    "jp": 13,
+    "nrg": 25,
+    "completionRewards": {
+      "Visiore": 50,
+      "Kitone Unit Shard": 15
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_CH_LW_KTON": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_03",
+            "name": "Lightning Elemental",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ZUUU",
+            "name": "Zuu",
+            "level": 40,
+            "awake": 5,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_NIN_3",
+            "name": "Ninja's Memory (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_KUNAI_03",
+            "name": "Ninja Blade Charoite",
+            "chance": "21.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SOIL_3",
+            "name": "Earth Alcryst (Purple)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_NKN_001",
+            "name": "Kunai Crafting Recipe",
+            "chance": "2.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "46.7",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 39,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_NIN_3": {
+        "dropChance": 7.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 11.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_KUNAI_03": {
+        "dropChance": 84.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SOIL_3": {
+        "dropChance": 57,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_NKN_001": {
         "dropChance": 14.7,
         "min": 1,
         "max": 1
