@@ -1,6 +1,7 @@
 {
   "IT_ACTP_01": "it_actp_01.png",
   "IT_ACTP_02": "it_actp_02.png",
+  "IT_AF_AW_ARMOR": "it_af_aw_armor.png",
   "IT_AF_AW_AXE": "it_af_aw_axe.png",
   "IT_AF_AW_FIST": "it_af_aw_fist.png",
   "IT_AF_AW_GUN": "it_af_aw_gun.png",
@@ -62,6 +63,10 @@
     "itemicon_recipe.png",
     "gear/lapswpn_clt_003.png"
   ],
+  "IT_AF_LW_CLT_004": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_clt_004.png"
+  ],
   "IT_AF_LW_DAG_001": [
     "itemicon_recipe.png",
     "gear/lapswpn_dag_001.png"
@@ -109,6 +114,10 @@
   "IT_AF_LW_HLM_003": [
     "itemicon_recipe.png",
     "gear/lapswpn_hlm_003.png"
+  ],
+  "IT_AF_LW_HLM_004": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_hlm_004.png"
   ],
   "IT_AF_LW_KAT_001": [
     "itemicon_recipe.png",
@@ -178,6 +187,7 @@
     "itemicon_recipe.png",
     "gear/lapswpn_swo_002.png"
   ],
+  "IT_AF_MAT_BOMB": "it_af_mat_bomb.png",
   "IT_AF_MAT_BONE": "it_af_mat_bone.png",
   "IT_AF_MAT_HEART_01": "it_af_mat_heart_01.png",
   "IT_AF_MAT_HEART_02": "it_af_mat_heart_02.png",
