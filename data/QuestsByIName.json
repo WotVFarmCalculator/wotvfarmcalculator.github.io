@@ -69028,8 +69028,8 @@
         "max": 215
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1588143600000,
+    "end": 1589331599000
   },
   "QE_EV_GL_3M_DL": {
     "title": "\"3 Million Downloads\" Celebration Quest",
@@ -71721,8 +71721,8 @@
         "max": 1
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1586320200000,
+    "end": 1587517199000
   },
   "QE_MU_EV_01_EX2": {
     "title": "The Admirable Prince [EX 2]",
@@ -71872,8 +71872,8 @@
         "max": 3
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1586320200000,
+    "end": 1587517199000
   },
   "QE_EV_ART_SCR_01": {
     "title": "High Difficulty Secret Book Reward Quest (Sword, Greatsword, Axe)",
@@ -72715,8 +72715,8 @@
         "max": 2
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1587519000000,
+    "end": 1588748399000
   },
   "QE_MU_EV_SCR_02": {
     "title": "High Difficulty Secret Book Reward Quest (Spear, Fists, Gun)",
@@ -72996,8 +72996,8 @@
         "max": 2
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1587519000000,
+    "end": 1588748399000
   },
   "QE_EV_ETRE_01": {
     "title": "Etre Training Quest I",
@@ -74664,8 +74664,8 @@
         "max": 1
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1586934000000,
+    "end": 1588143599000
   },
   "QE_MU_EV_ET_EX2": {
     "title": "High Difficulty Etre Training Ex-Quest II",
@@ -74871,8 +74871,8 @@
         "max": 1
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1586934000000,
+    "end": 1588143599000
   },
   "QE_EV_ANV_19_10": {
     "title": "Release Commemoration Quest",
@@ -76067,8 +76067,8 @@
         "max": 2
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1589333400000,
+    "end": 1590562799000
   },
   "QE_SB_IFRT_01": {
     "title": "Ifrit Battle",
