@@ -23,8 +23,10 @@
     "QE_MU_EV_01_EX2",
     "QE_EV_ART_SCR_01",
     "QE_EV_ART_SCR_02",
+    "QE_EV_ART_SCR_03",
     "QE_MU_EV_SCR_01",
     "QE_MU_EV_SCR_02",
+    "QE_MU_EV_SCR_03",
     "QE_EV_ETRE_EX1",
     "QE_EV_ETRE_EX2",
     "QE_MU_EV_ET_EX1",
@@ -32,7 +34,11 @@
     "QE_EV_ART_CRF_02",
     "QE_EV_ART_CRF_03",
     "QE_EV_ART_CRF_04",
-    "QE_MU_ART_CRF_04"
+    "QE_MU_ART_CRF_04",
+    "QE_EV_ART_CRF_05",
+    "QE_EV_ART_CRF_06",
+    "QE_MU_ART_CRF_05",
+    "QE_MU_ART_CRF_06"
   ],
   "IT_AF_EXP_02": [
     "QE_EV_AFEXP_D1",
@@ -49,8 +55,10 @@
     "QE_MU_EV_01_EX2",
     "QE_EV_ART_SCR_01",
     "QE_EV_ART_SCR_02",
+    "QE_EV_ART_SCR_03",
     "QE_MU_EV_SCR_01",
     "QE_MU_EV_SCR_02",
+    "QE_MU_EV_SCR_03",
     "QE_EV_ETRE_EX1",
     "QE_EV_ETRE_EX2",
     "QE_MU_EV_ET_EX1",
@@ -60,7 +68,11 @@
     "QE_EV_ART_CRF_02",
     "QE_EV_ART_CRF_03",
     "QE_EV_ART_CRF_04",
-    "QE_MU_ART_CRF_04"
+    "QE_MU_ART_CRF_04",
+    "QE_EV_ART_CRF_05",
+    "QE_EV_ART_CRF_06",
+    "QE_MU_ART_CRF_05",
+    "QE_MU_ART_CRF_06"
   ],
   "IT_AF_EXP_01": [
     "QE_EV_AFEXP_D1",
@@ -74,6 +86,10 @@
     "QE_EV_FF14_Ex2",
     "QE_EV_ANV_19_10",
     "QE_EV_ART_CRF_01"
+  ],
+  "IT_AF_MAT_ARMN": [
+    "QE_EV_ART_CRF_05",
+    "QE_MU_ART_CRF_05"
   ],
   "IT_PI_LW_AILN": [
     "QE_HA_LW_AILN",
@@ -110,6 +126,7 @@
     "QE_ST_01040109",
     "QE_ST_01040207",
     "QE_CH_LW_YERM",
+    "QE_CH_LW_DRND",
     "QE_EV_01_07",
     "QE_EV_01_09"
   ],
@@ -123,6 +140,7 @@
     "QE_ST_01050305",
     "QE_ST_01060102",
     "QE_ST_01060107",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_YERM"
   ],
   "IT_JB_AXE_01": [
@@ -133,7 +151,8 @@
     "QE_EV_01_01"
   ],
   "IT_JB_AXE_05": [
-    "QE_EV_AW_HIGH_03"
+    "QE_EV_AW_HIGH_03",
+    "QE_MU_AW_HIGH_03"
   ],
   "IT_PI_LW_AYKA": [
     "QE_HA_LW_AYKA",
@@ -190,6 +209,10 @@
     "QE_EV_ART_CRF_04",
     "QE_MU_ART_CRF_04"
   ],
+  "IT_AF_MAT_HEART_03": [
+    "QE_EV_ART_CRF_05",
+    "QE_MU_ART_CRF_05"
+  ],
   "IT_AF_MAT_SAND_02": [
     "QE_ST_01040101",
     "QE_ST_01040103",
@@ -228,6 +251,7 @@
     "QE_ST_01060109",
     "QE_HA_LW_MGRT",
     "QE_HA_LW_NASR",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_ELDE",
     "QE_HA_LW_ROBB",
     "QE_HA_LW_ENBT",
@@ -236,7 +260,8 @@
     "QE_HA_LW_MDNA",
     "QE_HA_LW_AYKA",
     "QE_HA_LW_FDRC",
-    "QE_HA_LW_KTON"
+    "QE_HA_LW_KTON",
+    "QE_HA_LW_MRND"
   ],
   "IT_AF_MAT_BOMB": [
     "QE_EV_ART_CRF_04",
@@ -246,7 +271,9 @@
     "QE_EV_01_EX1",
     "QE_MU_EV_01_EX1",
     "QE_EV_ART_CRF_04",
-    "QE_MU_ART_CRF_04"
+    "QE_MU_ART_CRF_04",
+    "QE_EV_ART_CRF_06",
+    "QE_MU_ART_CRF_06"
   ],
   "IT_JB_BOW_02": [
     "QE_ST_01010301",
@@ -385,6 +412,7 @@
     "QE_HA_LW_PRAY",
     "QE_HA_LW_FINA",
     "QE_HA_LW_SZRT",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_MACR",
     "QE_HA_LW_YERM",
     "QE_HA_LW_KTON"
@@ -503,6 +531,7 @@
     "QE_CH_LW_FDRC",
     "QE_CH_LW_YERM",
     "QE_CH_LW_KTON",
+    "QE_CH_LW_DRND",
     "QE_CH_FF14_TNCR",
     "QE_CH_FFT_GFGR",
     "QE_CH_FFT_ORND",
@@ -662,16 +691,19 @@
     "QE_MU_AW_DARK_05"
   ],
   "IT_UN_AW_DARK": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_DARK_R2": [
     "QE_EV_AW_DARK_01",
     "QE_EV_AW_DARK_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_DARK_01"
   ],
   "IT_UN_AW_DARK_R3": [
     "QE_EV_AW_DARK_02",
     "QE_EV_AW_DARK_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_DARK_03"
   ],
   "IT_UN_AW_DARK_R4": [
@@ -693,8 +725,16 @@
     "QE_MU_SM_DARK_01"
   ],
   "IT_PI_COM_DARK": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL",
     "QE_EV_ANV_19_10"
+  ],
+  "IT_AF_SUP_DEF": [
+    "QE_EV_ART_SCR_03",
+    "QE_MU_EV_SCR_03"
+  ],
+  "IT_PI_LW_DRND": [
+    "QE_HA_LW_DRND"
   ],
   "IT_JB_MM_DRG_2": [
     "QE_ST_01010308",
@@ -748,22 +788,28 @@
     "QE_EV_UNITEXP_03",
     "QE_EV_ART_SCR_01",
     "QE_EV_ART_SCR_02",
+    "QE_EV_ART_SCR_03",
     "QE_MU_EV_SCR_01",
-    "QE_MU_EV_SCR_02"
+    "QE_MU_EV_SCR_02",
+    "QE_MU_EV_SCR_03"
   ],
   "IT_US_EXP_02": [
     "QE_EV_UNITEXP_02",
     "QE_EV_UNITEXP_03",
+    "QE_EV_BEGN_2001",
     "QE_EV_ART_SCR_01",
     "QE_EV_ART_SCR_02",
+    "QE_EV_ART_SCR_03",
     "QE_MU_EV_SCR_01",
     "QE_MU_EV_SCR_02",
+    "QE_MU_EV_SCR_03",
     "QE_EV_ANV_19_10"
   ],
   "IT_US_EXP_01": [
     "QE_EV_UNITEXP_01",
     "QE_EV_UNITEXP_02",
     "QE_EV_UNITEXP_03",
+    "QE_EV_BEGN_2001",
     "QE_EV_ANV_19_10"
   ],
   "IT_JB_EM_SOIL_2": [
@@ -806,6 +852,7 @@
     "QE_CH_LW_ETRE",
     "QE_CH_LW_AILN",
     "QE_CH_LW_KTON",
+    "QE_CH_LW_DRND",
     "QE_EV_ETRE_04",
     "QE_MU_AW_EAR_03"
   ],
@@ -822,21 +869,25 @@
     "QE_ST_01050209",
     "QE_ST_01050307",
     "QE_ST_01060105",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_AILN",
     "QE_HA_LW_KTON",
     "QE_MU_AW_EAR_05"
   ],
   "IT_UN_AW_SOIL": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_SOIL_R2": [
     "QE_EV_AW_EAR_01",
     "QE_EV_AW_EAR_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_EAR_01"
   ],
   "IT_UN_AW_SOIL_R3": [
     "QE_EV_AW_EAR_02",
     "QE_EV_AW_EAR_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_EAR_03"
   ],
   "IT_UN_AW_SOIL_R4": [
@@ -858,6 +909,7 @@
     "QE_MU_SM_EAR_01"
   ],
   "IT_PI_COM_SOIL": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL",
     "QE_EV_ANV_19_10"
   ],
@@ -872,6 +924,10 @@
     "QE_EV_ETRE_04",
     "QE_EV_ETRE_05",
     "QE_EV_ETRE_06"
+  ],
+  "IT_AF_SUP_AVO": [
+    "QE_EV_ART_SCR_03",
+    "QE_MU_EV_SCR_03"
   ],
   "IT_EC_FFT_1": [
     "QE_EV_FFT_01",
@@ -1102,6 +1158,8 @@
     "QE_CH_LW_YERM",
     "QE_CH_LW_WHIS",
     "QE_CH_LW_KTON",
+    "QE_CH_LW_MRND",
+    "QE_CH_LW_DRND",
     "QE_CH_FF14_YSTL",
     "QE_CH_FF14_TNCR",
     "QE_CH_FFT_RAMZ",
@@ -1179,6 +1237,7 @@
     "QE_HA_LW_FINA",
     "QE_HA_LW_SZRT",
     "QE_HA_LW_NASR",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_AILN",
     "QE_HA_LW_MDNA",
     "QE_HA_LW_AYKA",
@@ -1187,6 +1246,7 @@
     "QE_HA_LW_YERM",
     "QE_HA_LW_KTON",
     "QE_HA_LW_WHIS",
+    "QE_HA_LW_MRND",
     "QE_EV_FFT_10",
     "QE_MU_AW_HIGH_01"
   ],
@@ -1270,16 +1330,19 @@
     "QE_MU_AW_FIRE_05"
   ],
   "IT_UN_AW_FIRE": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_FIRE_R2": [
     "QE_EV_AW_FIRE_01",
     "QE_EV_AW_FIRE_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_FIRE_01"
   ],
   "IT_UN_AW_FIRE_R3": [
     "QE_EV_AW_FIRE_02",
     "QE_EV_AW_FIRE_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_FIRE_03"
   ],
   "IT_UN_AW_FIRE_R4": [
@@ -1301,6 +1364,7 @@
     "QE_MU_SM_FIRE_01"
   ],
   "IT_PI_COM_FIRE": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL",
     "QE_EV_ANV_19_10"
   ],
@@ -1345,6 +1409,7 @@
     "QE_ST_01050304",
     "QE_ST_01050309",
     "QE_ST_01060106",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_MACR",
     "QE_MU_AW_HIGH_01"
   ],
@@ -1395,7 +1460,9 @@
   ],
   "IT_AF_LW_AXE_003": [
     "QE_EV_01_EX1",
-    "QE_MU_EV_01_EX1"
+    "QE_MU_EV_01_EX1",
+    "QE_EV_ART_CRF_06",
+    "QE_MU_ART_CRF_06"
   ],
   "IT_AF_LW_BSW_004": [
     "QE_EV_01_EX2",
@@ -1587,6 +1654,7 @@
     "QE_CH_LW_MACR",
     "QE_CH_LW_GLMS",
     "QE_CH_LW_FDRC",
+    "QE_CH_LW_MRND",
     "QE_CH_FF14_TNCR",
     "QE_EV_ETRE_02",
     "QE_EV_ETRE_05"
@@ -1601,8 +1669,10 @@
     "QE_EV_VCEXP_03",
     "QE_EV_ART_SCR_01",
     "QE_EV_ART_SCR_02",
+    "QE_EV_ART_SCR_03",
     "QE_MU_EV_SCR_01",
     "QE_MU_EV_SCR_02",
+    "QE_MU_EV_SCR_03",
     "QE_EV_ANV_19_10"
   ],
   "IT_VC_EXP_03": [
@@ -1610,8 +1680,10 @@
     "QE_EV_VCEXP_03",
     "QE_EV_ART_SCR_01",
     "QE_EV_ART_SCR_02",
+    "QE_EV_ART_SCR_03",
     "QE_MU_EV_SCR_01",
-    "QE_MU_EV_SCR_02"
+    "QE_MU_EV_SCR_02",
+    "QE_MU_EV_SCR_03"
   ],
   "IT_JB_GUN_02": [
     "QE_ST_01010302",
@@ -1648,6 +1720,7 @@
     "QE_ST_01050309",
     "QE_ST_01060104",
     "QE_HA_LW_FINA",
+    "QE_HA_LW_DRND",
     "QE_MU_AW_HIGH_01"
   ],
   "IT_JB_GUN_01": [
@@ -1694,6 +1767,7 @@
     "QE_ST_01050301",
     "QE_ST_01060101",
     "QE_HA_LW_FINA",
+    "QE_HA_LW_DRND",
     "QE_MU_AW_HIGH_01"
   ],
   "IT_AF_LW_ROD_004": [
@@ -1778,16 +1852,19 @@
     "QE_MU_AW_ICE_05"
   ],
   "IT_UN_AW_ICE": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_ICE_R2": [
     "QE_EV_AW_ICE_01",
     "QE_EV_AW_ICE_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_ICE_01"
   ],
   "IT_UN_AW_ICE_R3": [
     "QE_EV_AW_ICE_02",
     "QE_EV_AW_ICE_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_ICE_03"
   ],
   "IT_UN_AW_ICE_R4": [
@@ -1809,6 +1886,7 @@
     "QE_MU_SM_ICE_01"
   ],
   "IT_PI_COM_ICE": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_AF_LW_HLM_002": [
@@ -2047,8 +2125,10 @@
   "IT_AF_SUP_HP": [
     "QE_EV_ART_SCR_01",
     "QE_EV_ART_SCR_02",
+    "QE_EV_ART_SCR_03",
     "QE_MU_EV_SCR_01",
-    "QE_MU_EV_SCR_02"
+    "QE_MU_EV_SCR_02",
+    "QE_MU_EV_SCR_03"
   ],
   "IT_JB_EM_SHINE_2": [
     "QE_EV_AW_SHIN_02",
@@ -2124,16 +2204,19 @@
     "QE_MU_AW_SHIN_05"
   ],
   "IT_UN_AW_SHINE": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_SHINE_R2": [
     "QE_EV_AW_SHIN_01",
     "QE_EV_AW_SHIN_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_SHIN_01"
   ],
   "IT_UN_AW_SHINE_R3": [
     "QE_EV_AW_SHIN_02",
     "QE_EV_AW_SHIN_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_SHIN_03"
   ],
   "IT_UN_AW_SHINE_R4": [
@@ -2152,13 +2235,16 @@
   ],
   "IT_AF_MAT_SHINE_01": [
     "QE_EV_01_EX1",
-    "QE_MU_EV_01_EX1"
+    "QE_MU_EV_01_EX1",
+    "QE_EV_ART_CRF_06",
+    "QE_MU_ART_CRF_06"
   ],
   "IT_SB_AW_SHINE": [
     "QE_EV_SM_SHIN_01",
     "QE_MU_SM_SHIN_01"
   ],
   "IT_PI_COM_SHINE": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_JB_EM_THUNDER_2": [
@@ -2229,16 +2315,19 @@
     "QE_MU_AW_THUN_05"
   ],
   "IT_UN_AW_THUNDER": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_THUNDER_R2": [
     "QE_EV_AW_THUN_01",
     "QE_EV_AW_THUN_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_THUN_01"
   ],
   "IT_UN_AW_THUNDER_R3": [
     "QE_EV_AW_THUN_02",
     "QE_EV_AW_THUN_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_THUN_03"
   ],
   "IT_UN_AW_THUNDER_R4": [
@@ -2260,6 +2349,7 @@
     "QE_MU_SM_THUN_01"
   ],
   "IT_PI_COM_THUNDER": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_PI_LW_LILS": [
@@ -2307,6 +2397,7 @@
     "QE_CH_LW_NASR",
     "QE_CH_LW_ENBT",
     "QE_CH_LW_WHIS",
+    "QE_CH_LW_MRND",
     "QE_CH_FFT_RAMZ",
     "QE_CH_FFT_GFGR",
     "QE_CH_FFT_ORND",
@@ -2424,6 +2515,9 @@
     "QE_ST_01050205",
     "QE_ST_01060101"
   ],
+  "IT_PI_LW_MRND": [
+    "QE_HA_LW_MRND"
+  ],
   "IT_JB_MM_MNK_2": [
     "QE_ST_01010305",
     "QE_ST_01020105",
@@ -2464,6 +2558,7 @@
     "QE_ST_01050204",
     "QE_ST_01050304",
     "QE_ST_01060104",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_MACR",
     "QE_MU_AW_HIGH_01"
   ],
@@ -2580,6 +2675,7 @@
     "QE_ST_01050107",
     "QE_ST_01050208",
     "QE_ST_01060104",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_YERM"
   ],
   "IT_AF_LW_FIS_002": [
@@ -2636,7 +2732,8 @@
     "QE_ST_01060105",
     "QE_HA_LW_NASR",
     "QE_HA_LW_ENBT",
-    "QE_HA_LW_WHIS"
+    "QE_HA_LW_WHIS",
+    "QE_HA_LW_MRND"
   ],
   "IT_ACTP_02": [
     "QE_EV_ANV_19_10"
@@ -2761,6 +2858,7 @@
     "QE_ST_01020310",
     "QE_ST_01030206",
     "QE_CH_LW_YERM",
+    "QE_CH_LW_DRND",
     "QE_EV_01_01",
     "QE_EV_01_04",
     "QE_EV_01_07",
@@ -2811,6 +2909,7 @@
     "QE_ST_01050302",
     "QE_ST_01060102",
     "QE_HA_LW_NASR",
+    "QE_HA_LW_MRND",
     "QE_MU_AW_HIGH_01"
   ],
   "IT_AF_LW_SPE_001": [
@@ -3124,6 +3223,8 @@
     "QE_CH_LW_YERM",
     "QE_CH_LW_WHIS",
     "QE_CH_LW_KTON",
+    "QE_CH_LW_MRND",
+    "QE_CH_LW_DRND",
     "QE_CH_FF14_TNCR",
     "QE_CH_FFT_GFGR",
     "QE_EV_FF14_EX1",
@@ -3165,9 +3266,11 @@
     "QE_ST_01060106",
     "QE_ST_01060108",
     "QE_ST_01060110",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_MDNA",
     "QE_HA_LW_KTON",
     "QE_HA_LW_WHIS",
+    "QE_HA_LW_MRND",
     "QE_EV_FFT_10",
     "QE_MU_AW_HIGH_01"
   ],
@@ -3215,7 +3318,8 @@
     "QE_HA_LW_MDNA",
     "QE_HA_LW_GLMS",
     "QE_HA_LW_YERM",
-    "QE_HA_LW_WHIS"
+    "QE_HA_LW_WHIS",
+    "QE_HA_LW_MRND"
   ],
   "IT_PI_LW_RIRY": [
     "QE_HA_LW_RIRY",
@@ -3295,7 +3399,8 @@
     "QE_HA_LW_RIRY",
     "QE_HA_LW_VSTR",
     "QE_HA_LW_MGRT",
-    "QE_CH_LW_MURM"
+    "QE_CH_LW_MURM",
+    "QE_CH_LW_MRND"
   ],
   "IT_JB_MM_RDM_5": [
     "QE_EV_AW_HIGH_03",
@@ -3308,6 +3413,7 @@
     "QE_ST_01050204",
     "QE_ST_01050304",
     "QE_ST_01060104",
+    "QE_HA_LW_MRND",
     "QE_MU_AW_HIGH_01"
   ],
   "IT_PI_LW_ROBB": [
@@ -3365,7 +3471,13 @@
     "QE_HA_LW_SZRT",
     "QE_EV_GL_1M_THU"
   ],
+  "IT_AF_AW_ACCE": [
+    "QE_EV_ART_SCR_03",
+    "QE_MU_EV_SCR_03"
+  ],
   "IT_AF_AW_ARMOR": [
+    "QE_EV_ART_SCR_03",
+    "QE_MU_EV_SCR_03",
     "QE_EV_ART_CRF_04",
     "QE_MU_ART_CRF_04"
   ],
@@ -3373,7 +3485,9 @@
     "QE_EV_01_EX1",
     "QE_MU_EV_01_EX1",
     "QE_EV_ART_SCR_01",
-    "QE_MU_EV_SCR_01"
+    "QE_MU_EV_SCR_01",
+    "QE_EV_ART_CRF_06",
+    "QE_MU_ART_CRF_06"
   ],
   "IT_AF_AW_FIST": [
     "QE_EV_ART_SCR_02",
@@ -3391,6 +3505,10 @@
     "QE_EV_ART_SCR_02",
     "QE_MU_EV_SCR_02"
   ],
+  "IT_AF_AW_KUNAI": [
+    "QE_EV_ART_SCR_03",
+    "QE_MU_EV_SCR_03"
+  ],
   "IT_AF_AW_SPEAR": [
     "QE_EV_ART_SCR_02",
     "QE_MU_EV_SCR_02",
@@ -3401,7 +3519,9 @@
     "QE_EV_FFT_EX_01",
     "QE_MU_FFT_EX_01",
     "QE_EV_ART_SCR_01",
-    "QE_MU_EV_SCR_01"
+    "QE_MU_EV_SCR_01",
+    "QE_EV_ART_CRF_05",
+    "QE_MU_ART_CRF_05"
   ],
   "IT_PI_LW_SRJS": [
     "QE_HA_LW_SRJS",
@@ -3419,6 +3539,10 @@
     "QE_EV_ART_SCR_02",
     "QE_MU_EV_SCR_01",
     "QE_MU_EV_SCR_02"
+  ],
+  "IT_AF_LW_SWO_003": [
+    "QE_EV_ART_CRF_05",
+    "QE_MU_ART_CRF_05"
   ],
   "IT_AF_LW_CLT_004": [
     "QE_EV_ART_CRF_04",
@@ -3553,6 +3677,8 @@
     "QE_CH_LW_YERM",
     "QE_CH_LW_WHIS",
     "QE_CH_LW_KTON",
+    "QE_CH_LW_MRND",
+    "QE_CH_LW_DRND",
     "QE_CH_FF14_YSTL",
     "QE_CH_FFT_RAMZ",
     "QE_CH_FFT_GFGR",
@@ -3673,6 +3799,10 @@
     "QE_HA_LW_WHIS",
     "QE_MU_AW_HIGH_01"
   ],
+  "IT_AF_SUP_MND": [
+    "QE_EV_ART_SCR_03",
+    "QE_MU_EV_SCR_03"
+  ],
   "IT_JB_MM_FFT_RAMZ_2": [],
   "IT_JB_MM_FFT_RAMZ": [],
   "IT_JB_MM_FFT_RAMZ_3": [
@@ -3747,6 +3877,7 @@
     "QE_HA_LW_MACR",
     "QE_HA_LW_GLMS",
     "QE_HA_LW_KTON",
+    "QE_HA_LW_MRND",
     "QE_MU_AW_HIGH_01"
   ],
   "IT_JB_STAFF_01": [
@@ -3814,6 +3945,9 @@
     "QE_HA_LW_FDRC",
     "QE_HA_LW_WHIS"
   ],
+  "IT_TICKET_STORY": [
+    "QE_EV_BEGN_2001"
+  ],
   "IT_JB_SWORD_02": [
     "QE_ST_01010301",
     "QE_ST_01010305",
@@ -3874,6 +4008,7 @@
     "QE_CH_LW_ENBT",
     "QE_CH_LW_GLMS",
     "QE_CH_LW_WHIS",
+    "QE_CH_LW_MRND",
     "QE_CH_FF14_TNCR",
     "QE_CH_FFT_RAMZ",
     "QE_CH_FFT_GFGR",
@@ -3904,6 +4039,7 @@
     "QE_HA_LW_GLMS",
     "QE_HA_LW_YERM",
     "QE_HA_LW_WHIS",
+    "QE_HA_LW_MRND",
     "QE_EV_FFT_10",
     "QE_MU_AW_HIGH_01"
   ],
@@ -4008,6 +4144,7 @@
     "QE_HA_LW_AYKA",
     "QE_HA_LW_GLMS",
     "QE_HA_LW_KTON",
+    "QE_HA_LW_MRND",
     "QE_MU_AW_HIGH_01"
   ],
   "IT_EC_FF14_1": [
@@ -4026,7 +4163,9 @@
     "QE_EV_01_EX2",
     "QE_MU_EV_01_EX1",
     "QE_MU_EV_01_EX2",
-    "QE_EV_ART_CRF_03"
+    "QE_EV_ART_CRF_03",
+    "QE_EV_ART_CRF_06",
+    "QE_MU_ART_CRF_06"
   ],
   "IT_PI_LW_VADM": [
     "QE_HA_LW_VADM",
@@ -4069,11 +4208,13 @@
     "QE_ST_01040105",
     "QE_ST_01040205",
     "QE_CH_LW_YERM",
+    "QE_CH_LW_DRND",
     "QE_EV_01_07",
     "QE_EV_01_09"
   ],
   "IT_JB_MM_VIK_5": [
-    "QE_EV_AW_HIGH_03"
+    "QE_EV_AW_HIGH_03",
+    "QE_MU_AW_HIGH_03"
   ],
   "IT_JB_MM_VIK_4": [
     "QE_EV_AW_HIGH_01",
@@ -4082,6 +4223,7 @@
     "QE_ST_01050209",
     "QE_ST_01050309",
     "QE_ST_01060109",
+    "QE_HA_LW_DRND",
     "QE_HA_LW_YERM"
   ],
   "IT_PI_LW_VSTR": [
@@ -4097,7 +4239,9 @@
     "QE_MU_EV_ET_EX2",
     "QE_EV_ART_CRF_03",
     "QE_EV_ART_CRF_04",
-    "QE_MU_ART_CRF_04"
+    "QE_MU_ART_CRF_04",
+    "QE_EV_ART_CRF_05",
+    "QE_MU_ART_CRF_05"
   ],
   "IT_JB_MM_WAR_2": [
     "QE_ST_01010301",
@@ -4175,6 +4319,7 @@
     "QE_CH_LW_UNII",
     "QE_CH_LW_SEVR",
     "QE_CH_LW_RAMD",
+    "QE_CH_LW_MRND",
     "QE_MU_AW_WTR_03"
   ],
   "IT_JB_EM_WATER_5": [
@@ -4191,19 +4336,23 @@
     "QE_ST_01050304",
     "QE_ST_01060102",
     "QE_ST_01060110",
+    "QE_HA_LW_MRND",
     "QE_MU_AW_WTR_05"
   ],
   "IT_UN_AW_WATER": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_WATER_R2": [
     "QE_EV_AW_WTR_01",
     "QE_EV_AW_WTR_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_WTR_01"
   ],
   "IT_UN_AW_WATER_R3": [
     "QE_EV_AW_WTR_02",
     "QE_EV_AW_WTR_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_WTR_03"
   ],
   "IT_UN_AW_WATER_R4": [
@@ -4225,6 +4374,7 @@
     "QE_MU_SM_WTR_01"
   ],
   "IT_PI_COM_WATER": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL",
     "QE_EV_ANV_19_10"
   ],
@@ -4336,16 +4486,19 @@
     "QE_MU_AW_WIND_05"
   ],
   "IT_UN_AW_WIND": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_UN_AW_WIND_R2": [
     "QE_EV_AW_WIND_01",
     "QE_EV_AW_WIND_02",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_WIND_01"
   ],
   "IT_UN_AW_WIND_R3": [
     "QE_EV_AW_WIND_02",
     "QE_EV_AW_WIND_03",
+    "QE_EV_BEGN_2001",
     "QE_MU_AW_WIND_03"
   ],
   "IT_UN_AW_WIND_R4": [
@@ -4367,6 +4520,7 @@
     "QE_MU_SM_WIND_01"
   ],
   "IT_PI_COM_WIND": [
+    "QE_EV_BEGN_2001",
     "QE_EV_GL_3M_DL"
   ],
   "IT_JB_MM_LW_GLMS_2": [
