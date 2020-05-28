@@ -76221,8 +76221,8 @@
         "max": 1
       }
     },
-    "start": 1587519000000,
-    "end": 1588748399000
+    "start": 1589958000000,
+    "end": 1591145999000
   },
   "QE_EV_ART_SCR_02": {
     "title": "High Difficulty Secret Book Reward Quest (Spear, Fists, Gun)",
@@ -76502,8 +76502,8 @@
         "max": 1
       }
     },
-    "start": 1587519000000,
-    "end": 1588748399000
+    "start": 1589958000000,
+    "end": 1591145999000
   },
   "QE_EV_ART_SCR_03": {
     "title": "High Difficulty Secret Book Reward Quest (Armor, Accessory, Ninja Blade)",
@@ -77064,8 +77064,8 @@
         "max": 2
       }
     },
-    "start": 1587519000000,
-    "end": 1588748399000
+    "start": 1589958000000,
+    "end": 1591145999000
   },
   "QE_MU_EV_SCR_02": {
     "title": "High Difficulty Secret Book Reward Quest (Spear, Fists, Gun)",
@@ -77345,8 +77345,8 @@
         "max": 2
       }
     },
-    "start": 1587519000000,
-    "end": 1588748399000
+    "start": 1589958000000,
+    "end": 1591145999000
   },
   "QE_MU_EV_SCR_03": {
     "title": "High Difficulty Secret Book Reward Quest (Armor, Accessory, Ninja Blade)",
