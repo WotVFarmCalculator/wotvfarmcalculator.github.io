@@ -46309,6 +46309,2053 @@
     "start": "",
     "end": ""
   },
+  "QE_ST_01060301": {
+    "title": "May the Crystals Guide Us",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 1,
+    "designation": "1:6:3:1",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 6127,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060301": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_WAR",
+            "name": "Sanctum Monk",
+            "level": 60,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_WAR",
+            "name": "Sanctum Monk",
+            "level": 61,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 60,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 61,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_MGK",
+            "name": "Sanctum Monk",
+            "level": 60,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_WHM",
+            "name": "Sanctum Monk",
+            "level": 60,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "17.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "8.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_GUN_4",
+            "name": "Gunner's Memory (Yellow)",
+            "chance": "0.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_KNT_4",
+            "name": "Knight's Memory (Yellow)",
+            "chance": "0.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_002",
+            "name": "Mythril Sword Crafting Recipe",
+            "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_KUNAI_04",
+            "name": "Ninja Blade Citrine",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_04",
+            "name": "Greatsword Citrine",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SOIL_4",
+            "name": "Earth Alcryst (Yellow)",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_4",
+            "name": "Praying Angel Statue (Yellow)",
+            "chance": "3.5",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 41.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_GUN_4": {
+        "dropChance": 5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_KNT_4": {
+        "dropChance": 5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 39.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 39.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_002": {
+        "dropChance": 13,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_KUNAI_04": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_04": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SOIL_4": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_4": {
+        "dropChance": 19.2,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060302": {
+    "title": "To Leonis Castle",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 2,
+    "designation": "1:6:3:2",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7188,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060302": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 61,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_LAN",
+            "name": "UN_LW_E_PR_01_LAN",
+            "level": 60,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_LAN",
+            "name": "UN_LW_E_PR_01_LAN",
+            "level": 61,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_BLM",
+            "name": "Sanctum Monk",
+            "level": 61,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_LAN",
+            "name": "UN_LW_E_PR_01_LAN",
+            "level": 62,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "17.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "8.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_WGN_4",
+            "name": "Dual Gunner's Memory (Yellow)",
+            "chance": "0.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_PLD_4",
+            "name": "Paladin's Memory (Yellow)",
+            "chance": "0.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_BSW_002",
+            "name": "Mythril Saber Crafting Recipe",
+            "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_BOW_04",
+            "name": "Bow Citrine",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_JSWORD_04",
+            "name": "Katana Citrine",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_4",
+            "name": "Ice Alcryst (Yellow)",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "3.5",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 41.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_WGN_4": {
+        "dropChance": 5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_PLD_4": {
+        "dropChance": 5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 39.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 39.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_BSW_002": {
+        "dropChance": 13,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_BOW_04": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_JSWORD_04": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_4": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 19.2,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060303": {
+    "title": "Cling to Life",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 3,
+    "designation": "1:6:3:3",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7188,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060303": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_KNT",
+            "name": "UN_LW_E_PR_01_KNT",
+            "level": 61,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_DRG",
+            "name": "UN_LW_E_PR_01_DRG",
+            "level": 60,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_DRG",
+            "name": "UN_LW_E_PR_01_DRG",
+            "level": 60,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 61,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 60,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_WHM",
+            "name": "Sanctum Monk",
+            "level": 61,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 61,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "27.3",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "7.4",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_WHM_4",
+            "name": "White Mage's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_SWN_4",
+            "name": "Soldier's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_GLMS_4",
+            "name": "Winged One's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_KAT_002",
+            "name": "Kiku-ichimonji Crafting Recipe",
+            "chance": "2.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_GUN_04",
+            "name": "Gun Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_FIST_04",
+            "name": "Fists Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_WIND_4",
+            "name": "Wind Alcryst (Yellow)",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_4",
+            "name": "Praying Angel Statue (Yellow)",
+            "chance": "3.1",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 41.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_WHM_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_SWN_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_GLMS_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_KAT_002": {
+        "dropChance": 13.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_GUN_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_FIST_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_WIND_4": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_4": {
+        "dropChance": 19.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060304": {
+    "title": "Changing Luck",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 4,
+    "designation": "1:6:3:4",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7569,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060304": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_MNK",
+            "name": "UN_LW_E_PR_01_MNK",
+            "level": 62,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_MNK",
+            "name": "UN_LW_E_PR_01_MNK",
+            "level": 63,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 63,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_WAR",
+            "name": "Sanctum Monk",
+            "level": 62,
+            "awake": 6,
+            "rank": 0,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "17.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "8.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_BLM_4",
+            "name": "Black Mage's Memory (Yellow)",
+            "chance": "0.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MNK_4",
+            "name": "Monk's Memory (Yellow)",
+            "chance": "0.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_FIS_002",
+            "name": "Mythril Claws Crafting Recipe",
+            "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_04",
+            "name": "Staff Citrine",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_04",
+            "name": "Spear Citrine",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_FIRE_4",
+            "name": "Fire Alcryst (Yellow)",
+            "chance": "17.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "3.5",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 41.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_BLM_4": {
+        "dropChance": 5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MNK_4": {
+        "dropChance": 5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 39.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 39.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_FIS_002": {
+        "dropChance": 13,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_04": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_04": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_FIRE_4": {
+        "dropChance": 67.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 19.2,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060305": {
+    "title": "«Solidus», Charge!",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 5,
+    "designation": "1:6:3:5",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7611,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 50,
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060305": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "UN_LW_E_PR_01_PLD",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "UN_LW_E_PR_01_PLD",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_BLM",
+            "name": "Sanctum Monk",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_NIN",
+            "name": "UN_LW_E_PR_01_NIN",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_NIN",
+            "name": "UN_LW_E_PR_01_NIN",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "28.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "7.4",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_RDM_4",
+            "name": "Red Mage's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_SAM_4",
+            "name": "Samurai's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SPE_002",
+            "name": "Mythril Spear Crafting Recipe",
+            "chance": "2.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MACE_04",
+            "name": "Mace Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SSWORD_04",
+            "name": "Dagger Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_4",
+            "name": "Lightning Alcryst (Yellow)",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_4",
+            "name": "Praying Angel Statue (Yellow)",
+            "chance": "3.1",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 41.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_RDM_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_SAM_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SPE_002": {
+        "dropChance": 13.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MACE_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SSWORD_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_4": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_4": {
+        "dropChance": 19.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060306": {
+    "title": "Break Through",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 6,
+    "designation": "1:6:3:6",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7611,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060306": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_SWN",
+            "name": "UN_LW_E_PR_01_SWN",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SWN",
+            "name": "UN_LW_E_PR_01_SWN",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_TIM",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SAM",
+            "name": "UN_LW_E_PR_01_SAM",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SAM",
+            "name": "UN_LW_E_PR_01_SAM",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SAM",
+            "name": "UN_LW_E_PR_01_SAM",
+            "level": 61,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_BLM",
+            "name": "Sanctum Monk",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "33.9",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "6.6",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_GRM_4",
+            "name": "Green Mage's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LAN_4",
+            "name": "Lancer's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_DAG_002",
+            "name": "Mythril Dagger Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_AXE_04",
+            "name": "Axe Citrine",
+            "chance": "13.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_KUNAI_04",
+            "name": "Ninja Blade Citrine",
+            "chance": "13.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_WATER_4",
+            "name": "Water Alcryst (Yellow)",
+            "chance": "13.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "2.8",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 42.1,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_GRM_4": {
+        "dropChance": 5.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LAN_4": {
+        "dropChance": 5.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 41.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 41.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_DAG_002": {
+        "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_AXE_04": {
+        "dropChance": 68.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_KUNAI_04": {
+        "dropChance": 68.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_WATER_4": {
+        "dropChance": 68.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 20.3,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060307": {
+    "title": "Something in the Carriage I",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 7,
+    "designation": "1:6:3:7",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7653,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060307": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_SWN",
+            "name": "UN_LW_E_PR_01_SWN",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SWN",
+            "name": "UN_LW_E_PR_01_SWN",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_WAR",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_BLM",
+            "name": "Sanctum Monk",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_WHM",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "33.9",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "6.6",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_TIM_4",
+            "name": "Time Mage's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_4",
+            "name": "Dragoon's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_NKN_002",
+            "name": "Kodachi Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_04",
+            "name": "Sword Citrine",
+            "chance": "13.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_BOW_04",
+            "name": "Bow Citrine",
+            "chance": "13.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_4",
+            "name": "Light Alcryst (Yellow)",
+            "chance": "13.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_4",
+            "name": "Praying Angel Statue (Yellow)",
+            "chance": "2.8",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 42.1,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_TIM_4": {
+        "dropChance": 5.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_4": {
+        "dropChance": 5.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 41.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 41.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_NKN_002": {
+        "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_04": {
+        "dropChance": 68.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_BOW_04": {
+        "dropChance": 68.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_4": {
+        "dropChance": 68.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_4": {
+        "dropChance": 20.3,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060308": {
+    "title": "Something in the Carriage II",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 8,
+    "designation": "1:6:3:8",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7695,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060308": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "UN_LW_E_PR_01_PLD",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "UN_LW_E_PR_01_PLD",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_MNK",
+            "name": "UN_LW_E_PR_01_MNK",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_LAN",
+            "name": "UN_LW_E_PR_01_LAN",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_MNK",
+            "name": "UN_LW_E_PR_01_MNK",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "28.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "7.4",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_MGK_4",
+            "name": "Spellblade's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_THI_4",
+            "name": "Thief's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_BOW_002",
+            "name": "Great Bow Crafting Recipe",
+            "chance": "2.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_04",
+            "name": "Greatsword Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_GUN_04",
+            "name": "Gun Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_4",
+            "name": "Dark Alcryst (Yellow)",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "3.1",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 41.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_MGK_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_THI_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_BOW_002": {
+        "dropChance": 13.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_GUN_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_4": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 19.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060309": {
+    "title": "I'm Waiting",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 9,
+    "designation": "1:6:3:9",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7695,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060309": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 64,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_HUN",
+            "name": "Sanctum Monk",
+            "level": 65,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_ZIZA",
+            "name": "Xiza",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_VSTR",
+            "name": "Vistralle",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_BLM",
+            "name": "Sanctum Monk",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "UN_LW_E_PR_01_PLD",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_KNT",
+            "name": "UN_LW_E_PR_01_KNT",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "28.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "7.4",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_CLR_4",
+            "name": "Cleric's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_NIN_4",
+            "name": "Ninja's Memory (Yellow)",
+            "chance": "0.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_GUN_002",
+            "name": "Vega Crafting Recipe",
+            "chance": "2.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_JSWORD_04",
+            "name": "Katana Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_04",
+            "name": "Staff Citrine",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SOIL_4",
+            "name": "Earth Alcryst (Yellow)",
+            "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_4",
+            "name": "Praying Angel Statue (Yellow)",
+            "chance": "3.1",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 41.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_CLR_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_NIN_4": {
+        "dropChance": 5.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 40.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_GUN_002": {
+        "dropChance": 13.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_JSWORD_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_04": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SOIL_4": {
+        "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_4": {
+        "dropChance": 19.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01060310": {
+    "title": "Boisterous Stars",
+    "section": "Part 1, Chapter 6, Scene 3",
+    "battle": 10,
+    "designation": "1:6:3:10",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 8296,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 100,
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01060310": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 70,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_06",
+            "name": "Light Elemental",
+            "level": 69,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 70,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 71,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 68,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 69,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 70,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 71,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 70,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 70,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Ice"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "42.5",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "5.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_VIK_4",
+            "name": "Viking's Memory (Yellow)",
+            "chance": "0.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_HUN_4",
+            "name": "Ranger's Memory (Yellow)",
+            "chance": "0.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "5.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "5.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_MAC_002",
+            "name": "Mythril Mace Crafting Recipe",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_FIST_04",
+            "name": "Fists Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MACE_04",
+            "name": "Mace Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_4",
+            "name": "Ice Alcryst (Yellow)",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "2.5",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 43.2,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_VIK_4": {
+        "dropChance": 5.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_HUN_4": {
+        "dropChance": 5.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 43.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 43.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_MAC_002": {
+        "dropChance": 13.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_FIST_04": {
+        "dropChance": 72.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MACE_04": {
+        "dropChance": 72.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_4": {
+        "dropChance": 72.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 22.4,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
   "QE_HA_LW_ZZAN": {
     "title": "Shard Quest: Zazan",
     "section": "Leonis Castle",
@@ -79485,7 +81532,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_IGNT_SIREN2",
-            "name": "UN_LW_E_IGNT_SIREN2",
+            "name": "Iron Giant",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -79493,7 +81540,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -79501,7 +81548,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -79509,7 +81556,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -79646,7 +81693,7 @@
       }
     },
     "start": 1590562800000,
-    "end": 1591772399000
+    "end": 1591858799000
   },
   "QE_SB_IGNT_03": {
     "title": "Brutal Difficulty Iron Giant Challenge",
@@ -79668,7 +81715,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_IGNT_SIREN2",
-            "name": "UN_LW_E_IGNT_SIREN2",
+            "name": "Iron Giant",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -79676,7 +81723,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -79684,7 +81731,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -79692,7 +81739,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -79829,7 +81876,7 @@
       }
     },
     "start": 1590562800000,
-    "end": 1591772399000
+    "end": 1591858799000
   },
   "QE_EV_JP_001": {
     "title": "JP Reward Quest",
@@ -80129,8 +82176,8 @@
         "max": 1
       }
     },
-    "start": 1589958000000,
-    "end": 1591253999000
+    "start": 1587519000000,
+    "end": 1588748399000
   },
   "QE_EV_ART_SCR_02": {
     "title": "High Difficulty Secret Book Reward Quest (Spear, Fists, Gun)",
@@ -80410,8 +82457,8 @@
         "max": 1
       }
     },
-    "start": 1589958000000,
-    "end": 1591253999000
+    "start": 1591763400000,
+    "end": 1592377199000
   },
   "QE_EV_ART_SCR_03": {
     "title": "High Difficulty Secret Book Reward Quest (Armor, Accessory, Ninja Blade)",
@@ -80433,7 +82480,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_WHIS",
-            "name": "UN_LW_E_WHIS",
+            "name": "\"Whisper\"",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -80473,7 +82520,7 @@
           },
           {
             "iname": "UN_LW_E_KTON",
-            "name": "UN_LW_E_KTON",
+            "name": "Kitone",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -80691,8 +82738,8 @@
         "max": 1
       }
     },
-    "start": 1589958000000,
-    "end": 1591253999000
+    "start": 1587519000000,
+    "end": 1588748399000
   },
   "QE_MU_EV_SCR_01": {
     "title": "High Difficulty Secret Book Reward Quest (Sword, Greatsword, Axe)",
@@ -80972,8 +83019,8 @@
         "max": 2
       }
     },
-    "start": 1589958000000,
-    "end": 1591253999000
+    "start": 1587519000000,
+    "end": 1588748399000
   },
   "QE_MU_EV_SCR_02": {
     "title": "High Difficulty Secret Book Reward Quest (Spear, Fists, Gun)",
@@ -81253,8 +83300,8 @@
         "max": 2
       }
     },
-    "start": 1589958000000,
-    "end": 1591253999000
+    "start": 1591763400000,
+    "end": 1592377199000
   },
   "QE_MU_EV_SCR_03": {
     "title": "High Difficulty Secret Book Reward Quest (Armor, Accessory, Ninja Blade)",
@@ -81276,7 +83323,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_WHIS",
-            "name": "UN_LW_E_WHIS",
+            "name": "\"Whisper\"",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -81316,7 +83363,7 @@
           },
           {
             "iname": "UN_LW_E_KTON",
-            "name": "UN_LW_E_KTON",
+            "name": "Kitone",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -81534,8 +83581,8 @@
         "max": 2
       }
     },
-    "start": 1589958000000,
-    "end": 1591253999000
+    "start": 1587519000000,
+    "end": 1588748399000
   },
   "QE_EV_ETRE_01": {
     "title": "Etre Training Quest I",
@@ -85693,7 +87740,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_IGNT_SIREN2",
-            "name": "UN_LW_E_IGNT_SIREN2",
+            "name": "Iron Giant",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -85701,7 +87748,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -85709,7 +87756,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -85717,7 +87764,7 @@
           },
           {
             "iname": "UN_LW_E_SO_04_KNT",
-            "name": "UN_LW_E_SO_04_KNT",
+            "name": "Fennes Soldier",
             "level": 80,
             "awake": 6,
             "rank": 5,
@@ -85854,7 +87901,7 @@
       }
     },
     "start": 1590562800000,
-    "end": 1591772399000
+    "end": 1591858799000
   },
   "QE_MU_AW_FIRE_01": {
     "title": "Alcryst Chamber (Fire) Lv. 1",
