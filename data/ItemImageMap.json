@@ -9,6 +9,7 @@
   "IT_AF_AW_KUNAI": "it_af_aw_kunai.png",
   "IT_AF_AW_LSWORD": "it_af_aw_lsword.png",
   "IT_AF_AW_SPEAR": "it_af_aw_spear.png",
+  "IT_AF_AW_STAFF": "it_af_aw_staff.png",
   "IT_AF_AW_SWORD": "it_af_aw_sword.png",
   "IT_AF_EXP_01": "it_af_exp_01.png",
   "IT_AF_EXP_02": "it_af_exp_02.png",
@@ -181,6 +182,10 @@
     "itemicon_recipe.png",
     "gear/lapswpn_spe_002.png"
   ],
+  "IT_AF_LW_SPE_004": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_spe_004.png"
+  ],
   "IT_AF_LW_SPE_006": [
     "itemicon_recipe.png",
     "gear/lapswpn_spe_006.png"
@@ -203,6 +208,7 @@
   "IT_AF_MAT_HEART_01": "it_af_mat_heart_01.png",
   "IT_AF_MAT_HEART_02": "it_af_mat_heart_02.png",
   "IT_AF_MAT_HEART_03": "it_af_mat_heart_03.png",
+  "IT_AF_MAT_ICE_01": "it_af_mat_ice_01.png",
   "IT_AF_MAT_LESS_01": "it_af_mat_less_01.png",
   "IT_AF_MAT_LIQUID_01": "it_af_mat_liquid_01.png",
   "IT_AF_MAT_LIQUID_02": "it_af_mat_liquid_02.png",
@@ -217,6 +223,7 @@
   "IT_AF_MAT_SAP_03": "it_af_mat_sap_03.png",
   "IT_AF_MAT_SHINE_01": "it_af_mat_shine_01.png",
   "IT_AF_MAT_WOLF": "it_af_mat_wolf.png",
+  "IT_AF_MAT_ZUUU": "it_af_mat_zuuu.png",
   "IT_AF_SUP_ATK": "it_af_sup_atk.png",
   "IT_AF_SUP_AVO": "it_af_sup_avo.png",
   "IT_AF_SUP_CRI": "it_af_sup_cri.png",
@@ -899,8 +906,10 @@
   "IT_PI_LW_SRJS": "it_pi_lw_srjs.png",
   "IT_PI_LW_STRN": "it_pi_lw_strn.png",
   "IT_PI_LW_SZRT": "it_pi_lw_szrt.png",
+  "IT_PI_LW_THLA": "it_pi_lw_thla.png",
   "IT_PI_LW_UNII": "it_pi_lw_unii.png",
   "IT_PI_LW_VADM": "it_pi_lw_vadm.png",
+  "IT_PI_LW_VKTR": "it_pi_lw_vktr.png",
   "IT_PI_LW_VRID": "it_pi_lw_vrid.png",
   "IT_PI_LW_VSTR": "it_pi_lw_vstr.png",
   "IT_PI_LW_WHIS": "it_pi_lw_whis.png",

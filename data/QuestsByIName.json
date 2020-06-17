@@ -59872,6 +59872,491 @@
     "start": "",
     "end": ""
   },
+  "QE_HA_LW_THLA": {
+    "title": "Shard Quest: Salire",
+    "section": "Yaarm Caverns",
+    "battle": 1,
+    "designation": "",
+    "type": "Shard",
+    "rankXp": 0,
+    "unitXp": 7228,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 18,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_HA_LW_THLA": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_LW_THLA",
+            "name": "Salire Unit Shard",
+            "chance": "100.0",
+            "num": 1
+          }
+        ]
+      },
+      "QE_HD_01050201": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 62,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_BLM_4",
+            "name": "Black Mage's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_WHM_4",
+            "name": "White Mage's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_NIN_4",
+            "name": "Ninja's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "5.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_ROD_004",
+            "name": "Healing Staff Crafting Recipe",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_KUNAI_04",
+            "name": "Ninja Blade Citrine",
+            "chance": "7.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_04",
+            "name": "Staff Citrine",
+            "chance": "14.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_4",
+            "name": "Lightning Alcryst (Yellow)",
+            "chance": "7.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "53.1",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_LW_THLA": {
+        "dropChance": 100,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 24,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_BLM_4": {
+        "dropChance": 3.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_WHM_4": {
+        "dropChance": 3.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_NIN_4": {
+        "dropChance": 3.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 37,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 37,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_ROD_004": {
+        "dropChance": 24,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_KUNAI_04": {
+        "dropChance": 48,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_04": {
+        "dropChance": 74.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_4": {
+        "dropChance": 48,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 15.1,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_HA_LW_VKTR": {
+    "title": "Shard Quest: Viktora",
+    "section": "Yaarm Caverns",
+    "battle": 1,
+    "designation": "",
+    "type": "Shard",
+    "rankXp": 0,
+    "unitXp": 7228,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 20,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_HA_LW_VKTR": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_LW_VKTR",
+            "name": "Viktora Unit Shard",
+            "chance": "100.0",
+            "num": 1
+          }
+        ]
+      },
+      "QE_HD_01050108": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_ZUUU",
+            "name": "Zuu",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 62,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "4.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_4",
+            "name": "Dragoon's Memory (Yellow)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_THI_4",
+            "name": "Thief's Memory (Yellow)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_SWN_4",
+            "name": "Soldier's Memory (Yellow)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_4",
+            "name": "Ice Alcryst (Yellow)",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_4",
+            "name": "Prowling Wyvern Statue (Yellow)",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SPE_002",
+            "name": "Mythril Spear Crafting Recipe",
+            "chance": "4.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_04",
+            "name": "Spear Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SSWORD_04",
+            "name": "Dagger Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_04",
+            "name": "Greatsword Citrine",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "23.2",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_LW_VKTR": {
+        "dropChance": 100,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 18.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_4": {
+        "dropChance": 3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_THI_4": {
+        "dropChance": 3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_SWN_4": {
+        "dropChance": 3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_4": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_4": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 34.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 34.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SPE_002": {
+        "dropChance": 18.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_04": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SSWORD_04": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_04": {
+        "dropChance": 47.2,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
   "QE_CH_LW_ZZAN": {
     "title": "Zazan",
     "section": "Rasheena Forest",
@@ -70264,6 +70749,398 @@
       },
       "IT_JB_IM_DRAGON_3": {
         "dropChance": 11.4,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_CH_LW_THLA": {
+    "title": "Salire",
+    "section": "Mt. Sorgie",
+    "battle": 1,
+    "designation": "",
+    "type": "Character",
+    "rankXp": 0,
+    "unitXp": 6400,
+    "gold": 1500,
+    "jp": 13,
+    "nrg": 25,
+    "completionRewards": {
+      "Visiore": 50,
+      "Salire Unit Shard": 15
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_CH_LW_THLA": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_BLM_3",
+            "name": "Black Mage's Memory (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_01",
+            "name": "Grey Spiritsand",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_03",
+            "name": "Staff Charoite",
+            "chance": "19.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_ROD_002",
+            "name": "Iron Rod Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_3",
+            "name": "Lightning Alcryst (Purple)",
+            "chance": "9.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "51.3",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 38.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_BLM_3": {
+        "dropChance": 12.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 38.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_01": {
+        "dropChance": 38.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 12.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_03": {
+        "dropChance": 85,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_ROD_002": {
+        "dropChance": 14.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_3": {
+        "dropChance": 57.2,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_CH_LW_VKTR": {
+    "title": "Viktora",
+    "section": "Reedar Mountain Range",
+    "battle": 1,
+    "designation": "",
+    "type": "Character",
+    "rankXp": 0,
+    "unitXp": 6400,
+    "gold": 1500,
+    "jp": 13,
+    "nrg": 25,
+    "completionRewards": {
+      "Visiore": 50,
+      "Viktora Unit Shard": 15
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_CH_LW_VKTR": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_MNK",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_MNK",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_MGK",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_MGK",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_DRG",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_DRG",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_3",
+            "name": "Dragoon's Memory (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_01",
+            "name": "Grey Spiritsand",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_03",
+            "name": "Spear Charoite",
+            "chance": "19.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SPE_001",
+            "name": "Partisan Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_3",
+            "name": "Ice Alcryst (Purple)",
+            "chance": "9.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "51.3",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 38.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_3": {
+        "dropChance": 12.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_01": {
+        "dropChance": 38.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 38.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 12.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_03": {
+        "dropChance": 85,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SPE_001": {
+        "dropChance": 14.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_3": {
+        "dropChance": 57.2,
         "min": 1,
         "max": 1
       }
@@ -81276,6 +82153,1694 @@
     "start": 1591147800000,
     "end": 1592377199000
   },
+  "QE_EV_VKTR_01": {
+    "title": "Limited Hard Quest (Viktora)",
+    "section": "Limited Hard Quest (Viktora)",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 7228,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 8,
+    "completionRewards": {
+      "EXP Cube (L)": 10
+    },
+    "numEnemies": 1,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_VKTR_01": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 30,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_LW_VKTR",
+            "name": "Viktora Unit Shard",
+            "chance": "100.0",
+            "num": 5
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_LW_VKTR": {
+        "dropChance": 100,
+        "min": 5,
+        "max": 5
+      }
+    },
+    "start": 1592377200000,
+    "end": 1592981999000
+  },
+  "QE_EV_THLA_01": {
+    "title": "Salire Unit Shard Reward Quest I",
+    "section": "Salire Unit Shard Reward Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 972,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_THLA_01": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_BOMB",
+            "name": "Bomb",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_BOMB",
+            "name": "Bomb",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "24.5",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "15.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_STAFF_01",
+            "name": "Staff Jadeite",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_01",
+            "name": "Spear Jadeite",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_BLM",
+            "name": "Black Mage's Memory (Green)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG",
+            "name": "Dragoon's Memory (Green)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_1",
+            "name": "Lightning Alcryst (Green)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_1",
+            "name": "Ice Alcryst (Green)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_ROD_002",
+            "name": "Iron Rod Crafting Recipe",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SPE_001",
+            "name": "Partisan Crafting Recipe",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "8.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 60.6,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_STAFF_01": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_01": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_BLM": {
+        "dropChance": 7.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG": {
+        "dropChance": 7.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_1": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_1": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_1": {
+        "dropChance": 7.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_ROD_002": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SPE_001": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 34.1,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_EV_THLA_02": {
+    "title": "Salire Unit Shard Reward Quest II",
+    "section": "Salire Unit Shard Reward Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 1791,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_THLA_02": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "41.7",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "12.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "1.7",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_STAFF_02",
+            "name": "Staff Azurite",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_BLM_2",
+            "name": "Black Mage's Memory (Blue)",
+            "chance": "0.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_2",
+            "name": "Lightning Alcryst (Blue)",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "0.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_ROD_002",
+            "name": "Iron Rod Crafting Recipe",
+            "chance": "2.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "6.7",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 60,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_STAFF_02": {
+        "dropChance": 66.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_BLM_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_2": {
+        "dropChance": 66.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_ROD_002": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 33.9,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_EV_THLA_03": {
+    "title": "Salire Unit Shard Reward Quest III",
+    "section": "Salire Unit Shard Reward Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 2178,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_THLA_03": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Earth"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "41.7",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "12.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "1.7",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_02",
+            "name": "Spear Azurite",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_2",
+            "name": "Dragoon's Memory (Blue)",
+            "chance": "0.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_2",
+            "name": "Ice Alcryst (Blue)",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "0.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SPE_001",
+            "name": "Partisan Crafting Recipe",
+            "chance": "2.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "6.7",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 60,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SPEAR_02": {
+        "dropChance": 66.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_2": {
+        "dropChance": 66.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SPE_001": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 33.9,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_EV_THLA_04": {
+    "title": "Salire Unit Shard Reward Quest IV",
+    "section": "Salire Unit Shard Reward Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 2819,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_THLA_04": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_01",
+            "name": "Water Elemental",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_GUN",
+            "name": "Bandit",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_GUN",
+            "name": "Bandit",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_BLM",
+            "name": "Bandit",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_KNT",
+            "name": "Bandit",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_WAR",
+            "name": "Bandit",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_WAR",
+            "name": "Bandit",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "56.2",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "9.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "1.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_STAFF_03",
+            "name": "Staff Charoite",
+            "chance": "12.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_BLM_3",
+            "name": "Black Mage's Memory (Purple)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_3",
+            "name": "Lightning Alcryst (Purple)",
+            "chance": "12.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_ROD_002",
+            "name": "Iron Rod Crafting Recipe",
+            "chance": "1.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "5.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 59.3,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_STAFF_03": {
+        "dropChance": 65.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_BLM_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_3": {
+        "dropChance": 65.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_ROD_002": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 33.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_EV_THLA_05": {
+    "title": "Salire Unit Shard Reward Quest V",
+    "section": "Salire Unit Shard Reward Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 3771,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_THLA_05": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_TH_00_HUN",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_GUN",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_WHM",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_THI",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_TH_00_THI",
+            "name": "Bandit",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_LAMA",
+            "name": "Lamia",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 2,
+            "rank": 1,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "56.2",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "9.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "1.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_03",
+            "name": "Spear Charoite",
+            "chance": "12.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_3",
+            "name": "Dragoon's Memory (Purple)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_3",
+            "name": "Ice Alcryst (Purple)",
+            "chance": "12.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "0.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SPE_001",
+            "name": "Partisan Crafting Recipe",
+            "chance": "1.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "5.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 59.3,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SPEAR_03": {
+        "dropChance": 65.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_3": {
+        "dropChance": 65.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SPE_001": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 33.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_EV_THLA_EX1": {
+    "title": "High Difficulty Salire Unit Shard Reward Ex-Quest I",
+    "section": "High Difficulty Salire Unit Shard Reward Ex-Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 6,
+    "nrg": 12,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_THLA_EX1": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_GUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_GUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_KNT",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_KNT",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "48.5",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_LW_ROD_005",
+            "name": "Platinum Rod Crafting Recipe",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_MABR",
+            "name": "Malboro Tentacle",
+            "chance": "3.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_03",
+            "name": "Velvety Fluid",
+            "chance": "15.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LESS_01",
+            "name": "Void Cryst",
+            "chance": "3.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "15.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_AW_STAFF",
+            "name": "Secret Book of Refinement (Staff)",
+            "chance": "3.5",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_LW_ROD_005": {
+        "dropChance": 9.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_MABR": {
+        "dropChance": 30,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_03": {
+        "dropChance": 80.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LESS_01": {
+        "dropChance": 30,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 80.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 65.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_AW_STAFF": {
+        "dropChance": 30,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_EV_THLA_EX2": {
+    "title": "High Difficulty Salire Unit Shard Reward Ex-Quest II",
+    "section": "High Difficulty Salire Unit Shard Reward Ex-Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 6,
+    "nrg": 12,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_THLA_EX2": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_PLD",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_SWN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_PLD",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_MNK",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_00_WHM",
+            "name": "White Mage",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ZZAN",
+            "name": "Zazan",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "42.8",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_LW_SPE_004",
+            "name": "Ice Lance Crafting Recipe",
+            "chance": "1.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_ZUUU",
+            "name": "Zuu Beak",
+            "chance": "3.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_03",
+            "name": "Velvety Fluid",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_ICE_01",
+            "name": "Ice Cryst",
+            "chance": "3.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "11.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_AW_SPEAR",
+            "name": "Secret Book of Refinement (Spear)",
+            "chance": "3.9",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_LW_SPE_004": {
+        "dropChance": 9.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_ZUUU": {
+        "dropChance": 30,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_03": {
+        "dropChance": 80.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_ICE_01": {
+        "dropChance": 30,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 80.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 65.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_AW_SPEAR": {
+        "dropChance": 30,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_MU_EV_TH_EX1": {
+    "title": "High Difficulty Salire Unit Shard Reward Ex-Quest I",
+    "section": "[Multi] High Difficulty Salire Unit Shard Reward Ex-Quest",
+    "designation": "",
+    "type": "Multiplayer",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 0,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_MU_EV_TH_EX1": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_GUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_GUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_KNT",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_KNT",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "22.8",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_LW_ROD_005",
+            "name": "Platinum Rod Crafting Recipe",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_MABR",
+            "name": "Malboro Tentacle",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_03",
+            "name": "Velvety Fluid",
+            "chance": "22.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LESS_01",
+            "name": "Void Cryst",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "22.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "15.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_AW_STAFF",
+            "name": "Secret Book of Refinement (Staff)",
+            "chance": "5.3",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_LW_ROD_005": {
+        "dropChance": 14,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_MABR": {
+        "dropChance": 41.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_03": {
+        "dropChance": 92.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LESS_01": {
+        "dropChance": 41.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 92.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 80.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_AW_STAFF": {
+        "dropChance": 41.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
+  "QE_MU_EV_TH_EX2": {
+    "title": "High Difficulty Salire Unit Shard Reward Ex-Quest II",
+    "section": "[Multi] High Difficulty Salire Unit Shard Reward Ex-Quest",
+    "designation": "",
+    "type": "Multiplayer",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 0,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_MU_EV_TH_EX2": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_PLD",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_SWN",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_PLD",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_MNK",
+            "name": "Wezette Soldier",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_00_WHM",
+            "name": "White Mage",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ZZAN",
+            "name": "Zazan",
+            "level": 50,
+            "awake": 5,
+            "rank": 2,
+            "elem": "Water"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "14.2",
+            "num": 0
+          },
+          {
+            "iname": "IT_AF_LW_SPE_004",
+            "name": "Ice Lance Crafting Recipe",
+            "chance": "1.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_ZUUU",
+            "name": "Zuu Beak",
+            "chance": "5.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_03",
+            "name": "Velvety Fluid",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_ICE_01",
+            "name": "Ice Cryst",
+            "chance": "5.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_AW_SPEAR",
+            "name": "Secret Book of Refinement (Spear)",
+            "chance": "5.8",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_LW_SPE_004": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_ZUUU": {
+        "dropChance": 41.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_03": {
+        "dropChance": 92.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_ICE_01": {
+        "dropChance": 41.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 92.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 80.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_AW_SPEAR": {
+        "dropChance": 41.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": 1592377200000,
+    "end": 1593565199000
+  },
   "QE_MU_EV_02_EX1": {
     "title": "Threat to the West, Rundall [EX]",
     "section": "Threat to the West, Rundall [EX]",
@@ -81895,8 +84460,8 @@
     "numChests": 0,
     "drop": {},
     "topLevelDrop": {},
-    "start": 1587519000000,
-    "end": 1589331599000
+    "start": 1592377200000,
+    "end": 1592981999000
   },
   "QE_EV_ART_SCR_01": {
     "title": "High Difficulty Secret Book Reward Quest (Sword, Greatsword, Axe)",
@@ -87618,6 +90183,26 @@
   },
   "QE_SB_LAMA_01": {
     "title": "Lamia Queen Battle",
+    "section": "Beast's Den",
+    "designation": "",
+    "type": "Beast Den",
+    "rankXp": 0,
+    "unitXp": 5800,
+    "gold": 1500,
+    "jp": 15,
+    "nrg": 30,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": "",
+    "end": ""
+  },
+  "QE_SB_OCHU_01": {
+    "title": "Ochu Battle",
     "section": "Beast's Den",
     "designation": "",
     "type": "Beast Den",
@@ -93943,6 +96528,19 @@
     "end": ""
   },
   "QE_GVG_00001": {
+    "title": "Arena",
+    "designation": "",
+    "type": "Guild Vs. Guild",
+    "nrg": 8,
+    "completionRewards": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": "",
+    "end": ""
+  },
+  "QE_GVG_00002": {
     "title": "Arena",
     "designation": "",
     "type": "Guild Vs. Guild",
