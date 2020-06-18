@@ -288,7 +288,11 @@
 
     <template class="template template-quest-filters-info">
       <div class="alert alert-info mt-4" role="alert">
-        {{filteredTypes}}{{filteredRequired}}
+        {{filteredTypes}}
+        {{#if filteredRequired}}
+          <br>
+          {{filteredRequired}}
+        {{/if}}
         <br>
         {{dateTypesShow}} {{dateTypesHide}}
         <br>
