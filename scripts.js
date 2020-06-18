@@ -443,18 +443,25 @@ function calculate() {
       continue;
     }
 
+    var startDate = '';
+    var endDate = '';
+    var dateStatus = 'current';
+    var isCurrent = true;
+    var isExpired = false;
+    var isUpcoming = false;
+
     if (quest.start && quest.start > Date.now()) {
-      console.info('quest start check failed: ', questIName, quest.start);
-      continue;
+      dateStatus = 'upcoming';
+      isUpcoming = true;
+      isCurrent = false;
     }
 
     if (quest.end && quest.end < Date.now()) {
-      console.info('quest end check failed: ', questIName, quest.end);
-      continue;
+      dateStatus = 'expired';
+      isExpired = true;
+      isCurrent = false;
     }
 
-    var startDate = '';
-    var endDate = '';
     if (quest.start) {
       startDate = (new Date(quest.start)).toLocaleString();
     }
@@ -475,6 +482,10 @@ function calculate() {
     questRowVM.gold = quest.gold;
     questRowVM.start = startDate;
     questRowVM.end = endDate;
+    questRowVM.dateStatus = dateStatus;
+    questRowVM.isCurrent = isCurrent;
+    questRowVM.isExpired = isExpired;
+    questRowVM.isUpcoming = isUpcoming;
 
     questRowVM.materialDropBoxes = "";
     for (let [matchedItem, itemSortingParams] of Object.entries(matchedItems)) {
@@ -964,7 +975,7 @@ function initFiltering() {
   });
 
   var $body = $('body');
-  $body.on('click', '.quest-type-checkboxes input[type=checkbox]', function () {
+  $body.on('click', '.quest-filters input[type=checkbox]', function () {
     applyFiltering();
   });
 
@@ -984,13 +995,27 @@ function applyFiltering() {
   // Default to show everything then hide with filters.
   $('.quest-row').show();
 
-  var $checked = $('.quest-type-checkboxes input[type=checkbox]:checked');
-
-  if ($checked.length > 0) {
+  // Filter on quest type.
+  var $checkedTypes = $('.quest-type-checkboxes input[type=checkbox]:checked');
+  if ($checkedTypes.length > 0) {
     $('.btn-filter-clear').show();
 
-    $checked.each(function (index, checkbox) {
+    $checkedTypes.each(function (index, checkbox) {
       $('.quest-row-type-' + $(checkbox).val()).hide();
+    });
+  }
+
+  // Filter on quest date expired/upcoming.
+  $('.quest-date-status-expired').hide();
+  $('.quest-date-status-upcoming').hide();
+  $('.quest-date-status-current').show();
+  var $checkedDates = $('.quest-date-checkboxes input[type=checkbox]:checked');
+  if ($checkedDates.length > 0) {
+    $('.btn-filter-clear').show();
+
+    $checkedDates.each(function (index, checkbox) {
+      var val = $(checkbox).val();
+      $('.quest-date-status-' + val).toggle(val !== 'current');
     });
   }
 
@@ -1004,15 +1029,14 @@ function applyFiltering() {
  * clearer on what's happening behind the scenes.
  */
 function updateQuestFilterInfo() {
+  var $questFiltersInfoContainer = $('.quest-filters-info-container');
+
   if (materialsList.length === 0) {
-    $('.quest-filters-info-container').html('');
+    $questFiltersInfoContainer.html('');
     return;
   }
 
   var filteredTypes = 'Showing all quest types.';
-  var filteredRequired = '';
-  var sorted = '.';
-
   var $checked = $('.quest-type-checkboxes input[type=checkbox]:checked');
   if ($checked.length > 0) {
     var checkedVals = [];
@@ -1022,6 +1046,42 @@ function updateQuestFilterInfo() {
     filteredTypes = 'Hiding quests of type: ' + checkedVals.join(', ') + '.';
   }
 
+  var showDates = [];
+  var hideDates = [];
+  var currentChecked = document.getElementById('questDateCurrent').checked;
+  var expiredChecked = document.getElementById('questDateExpired').checked;
+  var upcomingChecked = document.getElementById('questDateUpcoming').checked;
+
+  if (currentChecked) {
+    hideDates.push('current');
+  } else {
+    showDates.push('current');
+  }
+
+  if (expiredChecked) {
+    showDates.push('expired');
+  } else {
+    hideDates.push('expired');
+  }
+
+  if (upcomingChecked) {
+    showDates.push('upcoming');
+  } else {
+    hideDates.push('upcoming');
+  }
+
+  var dateTypesShow = '';
+  var dateTypesHide = '';
+  if (showDates.length > 0) {
+    dateTypesShow = 'Showing ' + showDates.join(' and ') + ' quests.';
+  }
+
+  if (hideDates.length > 0) {
+    dateTypesHide = 'Hiding ' + hideDates.join(' and ') + ' quests.';
+  }
+
+  var filteredRequired = '';
+  var sorted = '.';
   if (requiredMaterial) {
     filteredRequired = ' Only showing quests with the required material "' + translation['ItemName'][requiredMaterial] + '".';
     sorted = ', then by the required material\'s at-least-one drop chance, then by the required material\'s median drop quantity.';
@@ -1031,8 +1091,10 @@ function updateQuestFilterInfo() {
     'filteredTypes': filteredTypes,
     'filteredRequired': filteredRequired,
     'sorted': sorted,
+    'dateTypesHide': dateTypesHide,
+    'dateTypesShow': dateTypesShow,
   });
-  $('.quest-filters-info-container').html(html);
+  $questFiltersInfoContainer.html(html);
 }
 
 /**

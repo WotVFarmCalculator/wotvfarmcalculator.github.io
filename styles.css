@@ -419,6 +419,24 @@ body {
   display: none;
 }
 
+.quest-filters {
+  margin-left: .5rem;
+  padding-left: 1rem;
+  border-left: .3rem solid #777;
+}
+
+.quest-filters .card {
+  margin-top: 1rem;
+}
+
+.quest-filters .card:first-child {
+  margin-top: .5rem;
+}
+
+.quest-filters .card-header {
+  font-weight: bold;
+}
+
 .accordion-arrow {
   transform: scale(.5) rotate(0);
   padding-top: 4px;
@@ -518,6 +536,15 @@ body {
 .quest-substat-date {
   font-size: 0.6rem;
   line-height: 1.2rem;
+}
+
+.quest-substat-date-type {
+  background: red;
+  border-radius: .4rem;
+  text-transform: uppercase;
+  border: 1px solid darkred;
+  padding: 0 .3rem;
+  color: white;
 }
 
 .material-icon-drop-box {
@@ -795,6 +822,10 @@ body.dark-mode {
 
 .dark-mode .tt-highlight {
   background: #339900;
+}
+
+.dark-mode .quest-filters {
+  border-left: .3rem solid white;
 }
 
 .dark-mode .quest-row {
