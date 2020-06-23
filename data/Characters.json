@@ -1,4 +1,36 @@
 {
+  "\"Grace\"": {
+    "element": "Light",
+    "jobs": [
+      "White Mage",
+      "Green Mage",
+      "Lancer"
+    ]
+  },
+  "\"Murmur\"": {
+    "element": "Earth",
+    "jobs": [
+      "Red Mage",
+      "Black Mage",
+      "Lancer"
+    ]
+  },
+  "\"Whisper\"": {
+    "element": "Dark",
+    "jobs": [
+      "Knight",
+      "Samurai",
+      "Spellblade"
+    ]
+  },
+  "Adelard": {
+    "element": "Fire",
+    "jobs": [
+      "Red Mage",
+      "Green Mage",
+      "White Mage"
+    ]
+  },
   "Aileen": {
     "element": "Earth",
     "jobs": [
@@ -11,8 +43,8 @@
     "element": "Wind",
     "jobs": [
       "White Mage",
-      "Green Mage",
-      "Time Mage"
+      "Time Mage",
+      "Green Mage"
     ]
   },
   "Baelo": {
@@ -29,6 +61,14 @@
       "Cleric",
       "White Mage",
       "Spellblade"
+    ]
+  },
+  "Dorando": {
+    "element": "Earth",
+    "jobs": [
+      "Viking",
+      "Monk",
+      "Gunner"
     ]
   },
   "Engelbert": {
@@ -60,7 +100,7 @@
     "jobs": [
       "Gunner",
       "Ninja",
-      "Hunter"
+      "Ranger"
     ]
   },
   "Gaffgarion": {
@@ -79,14 +119,6 @@
       "Soldier"
     ]
   },
-  "Grace": {
-    "element": "Light",
-    "jobs": [
-      "White Mage",
-      "Green Mage",
-      "Lancer"
-    ]
-  },
   "Helena Leonis": {
     "element": "Wind",
     "jobs": [
@@ -98,15 +130,23 @@
   "Khury Wezette": {
     "element": "Ice",
     "jobs": [
-      "Hunter",
+      "Ranger",
       "Dragoon",
-      "Gree Mage"
+      "Green Mage"
+    ]
+  },
+  "Kitone": {
+    "element": "Earth",
+    "jobs": [
+      "Ninja",
+      "Soldier",
+      "Time Mage"
     ]
   },
   "Learte": {
     "element": "Thunder",
     "jobs": [
-      "Hunter",
+      "Ranger",
       "Lancer",
       "White Mage"
     ]
@@ -116,7 +156,7 @@
     "jobs": [
       "Knight",
       "Soldier",
-      "Hunter"
+      "Ranger"
     ]
   },
   "Little Leela": {
@@ -135,7 +175,15 @@
       "Time Mage"
     ]
   },
-  "Macherie Hourne": {
+  "Lu'Cia": {
+    "element": "Wind",
+    "jobs": [
+      "Dual Gunner",
+      "Ranger",
+      "Monk"
+    ]
+  },
+  "Machérie Hourne": {
     "element": "Light",
     "jobs": [
       "Cleric",
@@ -164,7 +212,7 @@
     "jobs": [
       "Monk",
       "Knight",
-      "Gree Mage"
+      "Green Mage"
     ]
   },
   "Mia": {
@@ -180,7 +228,15 @@
     "jobs": [
       "Black Mage",
       "Thief",
-      "Hunter"
+      "Ranger"
+    ]
+  },
+  "Miranda": {
+    "element": "Water",
+    "jobs": [
+      "Red Mage",
+      "Time Mage",
+      "Paladin"
     ]
   },
   "Mont Leonis": {
@@ -191,12 +247,12 @@
       "Knight"
     ]
   },
-  "Murmur": {
-    "element": "Earth",
+  "Muraga Fennes": {
+    "element": "None",
     "jobs": [
-      "Red Mage",
-      "Black Mage",
-      "Lancer"
+      "Viking",
+      "Ranger",
+      "Knight"
     ]
   },
   "Naiah": {
@@ -224,7 +280,7 @@
     ]
   },
   "Orlandeau": {
-    "element": "Lightning",
+    "element": "Thunder",
     "jobs": [
       "Sword Saint",
       "Samurai",
@@ -275,8 +331,16 @@
     "element": "Light",
     "jobs": [
       "Samurai",
-      "Soldier",
-      "Lancer"
+      "Lancer",
+      "Soldier"
+    ]
+  },
+  "Salire": {
+    "element": "Thunder",
+    "jobs": [
+      "Black Mage",
+      "White Mage",
+      "Ninja"
     ]
   },
   "Schuzelt": {
@@ -284,7 +348,7 @@
     "jobs": [
       "Soldier",
       "Knight",
-      "Hunter"
+      "Ranger"
     ]
   },
   "Serjes": {
@@ -316,7 +380,7 @@
     "jobs": [
       "Dragoon",
       "Warrior",
-      "Hunter"
+      "Ranger"
     ]
   },
   "Sterne Leonis": {
@@ -336,7 +400,7 @@
     ]
   },
   "Vadim": {
-    "element": "Earth",
+    "element": "Thunder",
     "jobs": [
       "Thief",
       "Warrior",
@@ -349,6 +413,14 @@
       "Green Mage",
       "White Mage",
       "Red Mage"
+    ]
+  },
+  "Viktora": {
+    "element": "Ice",
+    "jobs": [
+      "Dragoon",
+      "Soldier",
+      "Thief"
     ]
   },
   "Vistralle": {
@@ -367,6 +439,14 @@
       "Lancer"
     ]
   },
+  "Y'shtola": {
+    "element": "Fire",
+    "jobs": [
+      "Sorceress",
+      "White Mage",
+      "Green Mage"
+    ]
+  },
   "Yerma": {
     "element": "Wind",
     "jobs": [
@@ -375,18 +455,10 @@
       "Thief"
     ]
   },
-  "Yshtola": {
-    "element": "Fire",
-    "jobs": [
-      "Sorceress",
-      "White Mage",
-      "Green Mage"
-    ]
-  },
   "Yuni": {
     "element": "Water",
     "jobs": [
-      "Hunter",
+      "Ranger",
       "Black Mage",
       "Spellblade"
     ]
