@@ -992,34 +992,47 @@ function initFiltering() {
 function applyFiltering() {
   updateLocalStorage();
 
-  // Default to show everything then hide with filters.
-  $('.quest-row').show();
+  var $clearBtn = $('.btn-filter-clear');
+  $clearBtn.hide();
+
+  // Default all to hidden and then keep track of which rows to show.
+  var $questRows = $('.quest-row').hide();
 
   // Filter on quest type.
   var $checkedTypes = $('.quest-type-checkboxes input[type=checkbox]:checked');
   if ($checkedTypes.length > 0) {
-    $('.btn-filter-clear').show();
+    $clearBtn.show();
 
     $checkedTypes.each(function (index, checkbox) {
-      $('.quest-row-type-' + $(checkbox).val()).hide();
+      $questRows = $questRows.not('.quest-row-type-' + $(checkbox).val());
     });
   }
 
   // Filter on quest date expired/upcoming.
-  $('.quest-date-status-expired').hide();
-  $('.quest-date-status-upcoming').hide();
-  $('.quest-date-status-current').show();
-  var $checkedDates = $('.quest-date-checkboxes input[type=checkbox]:checked');
-  if ($checkedDates.length > 0) {
-    $('.btn-filter-clear').show();
+  var currentChecked = document.getElementById('questDateCurrent').checked;
+  var expiredChecked = document.getElementById('questDateExpired').checked;
+  var upcomingChecked = document.getElementById('questDateUpcoming').checked;
 
-    $checkedDates.each(function (index, checkbox) {
-      var val = $(checkbox).val();
-      $('.quest-date-status-' + val).toggle(val !== 'current');
-    });
+  if (currentChecked || expiredChecked || upcomingChecked) {
+    $clearBtn.show();
+  }
+
+  if (currentChecked) {
+    $questRows = $questRows.not('.quest-date-status-current');
+  }
+
+  if (!expiredChecked) {
+    $questRows = $questRows.not('.quest-date-status-expired');
+  }
+
+  if (!upcomingChecked) {
+    $questRows = $questRows.not('.quest-date-status-upcoming');
   }
 
   // @todo: add other types of filtering here.
+
+  // Show any quests that passed the filtering.
+  $questRows.show();
 
   updateQuestFilterInfo();
 }
