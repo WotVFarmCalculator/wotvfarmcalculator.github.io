@@ -103,6 +103,14 @@
       "Ranger"
     ]
   },
+  "Fryevia": {
+    "element": "Ice",
+    "jobs": [
+      "Spellblade",
+      "Green Mage",
+      "White Mage"
+    ]
+  },
   "Gaffgarion": {
     "element": "Dark",
     "jobs": [
@@ -301,6 +309,14 @@
       "Time Mage",
       "Dragoon",
       "White Mage"
+    ]
+  },
+  "Rain": {
+    "element": "Fire",
+    "jobs": [
+      "Knight of Grandshelt",
+      "Red Mage",
+      "Knight"
     ]
   },
   "Rairyuu": {

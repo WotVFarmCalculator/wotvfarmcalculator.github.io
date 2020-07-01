@@ -3428,7 +3428,7 @@
           {
             "iname": "UN_GM_TREASURE",
             "name": "Treasure Chest",
-            "level": 0,
+            "level": 1,
             "awake": 1,
             "rank": 0,
             "elem": "None"
@@ -3658,9 +3658,15 @@
             "num": 1
           },
           {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.1",
+            "num": 1
+          },
+          {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "24.1",
+            "chance": "24.0",
             "num": 0
           }
         ]
@@ -3848,6 +3854,11 @@
         "max": 1
       },
       "IT_JB_MM_WGN_4": {
+        "dropChance": 1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
         "dropChance": 1,
         "min": 1,
         "max": 1
@@ -4153,12 +4164,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "24.1",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_MM_VIK_5",
             "name": "Viking's Memory (Red)",
             "chance": "0.1",
@@ -4175,6 +4180,18 @@
             "name": "Dual Gunner's Memory (Red)",
             "chance": "0.1",
             "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_5",
+            "name": "Knight of Grandshelt's Memory (Flame: Red)",
+            "chance": "0.1",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "24.0",
+            "num": 0
           }
         ]
       }
@@ -4361,6 +4378,11 @@
         "max": 1
       },
       "IT_JB_MM_WGN_5": {
+        "dropChance": 1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_5": {
         "dropChance": 1,
         "min": 1,
         "max": 1
@@ -13755,13 +13777,13 @@
           {
             "iname": "IT_AF_MAT_SAP_01",
             "name": "Cloudy Sap",
-            "chance": "8.0",
+            "chance": "7.5",
             "num": 1
           },
           {
             "iname": "IT_AF_MAT_HEART_01",
             "name": "Sorrowful Heart",
-            "chance": "8.0",
+            "chance": "7.5",
             "num": 1
           },
           {
@@ -13789,12 +13811,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "0.9",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_EM_DARK_1",
             "name": "Dark Alcryst (Green)",
             "chance": "17.0",
@@ -13811,6 +13827,18 @@
             "name": "Axe Jadeite",
             "chance": "16.1",
             "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN",
+            "name": "Knight of Grandshelt's Memory (Flame: Green)",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "0.1",
+            "num": 0
           }
         ]
       }
@@ -13827,12 +13855,12 @@
         "max": 1
       },
       "IT_AF_MAT_SAP_01": {
-        "dropChance": 44.2,
+        "dropChance": 42.1,
         "min": 1,
         "max": 1
       },
       "IT_AF_MAT_HEART_01": {
-        "dropChance": 44.2,
+        "dropChance": 42.1,
         "min": 1,
         "max": 1
       },
@@ -13868,6 +13896,11 @@
       },
       "IT_JB_AXE_01": {
         "dropChance": 70.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN": {
+        "dropChance": 11.9,
         "min": 1,
         "max": 1
       }
@@ -15628,7 +15661,7 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "5.0",
+            "chance": "2.9",
             "num": 0
           },
           {
@@ -15641,6 +15674,12 @@
             "iname": "IT_AF_LW_SWO_001",
             "name": "Longsword Crafting Recipe",
             "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN",
+            "name": "Knight of Grandshelt's Memory (Flame: Green)",
+            "chance": "2.1",
             "num": 1
           }
         ]
@@ -15694,6 +15733,11 @@
       },
       "IT_AF_LW_SWO_001": {
         "dropChance": 16.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN": {
+        "dropChance": 12,
         "min": 1,
         "max": 1
       }
@@ -16647,7 +16691,7 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "5.0",
+            "chance": "4.0",
             "num": 0
           },
           {
@@ -16660,6 +16704,12 @@
             "iname": "IT_AF_LW_DAG_001",
             "name": "Dagger Crafting Recipe",
             "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_2",
+            "name": "Knight of Grandshelt's Memory (Flame: Blue)",
+            "chance": "1.0",
             "num": 1
           }
         ]
@@ -16713,6 +16763,11 @@
       },
       "IT_AF_LW_DAG_001": {
         "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_2": {
+        "dropChance": 4.9,
         "min": 1,
         "max": 1
       }
@@ -18861,13 +18916,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "5.0",
+            "chance": "4.0",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_SWO_001",
             "name": "Longsword Crafting Recipe",
             "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_2",
+            "name": "Knight of Grandshelt's Memory (Flame: Blue)",
+            "chance": "1.0",
             "num": 1
           }
         ]
@@ -18921,6 +18982,11 @@
       },
       "IT_AF_LW_SWO_001": {
         "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_2": {
+        "dropChance": 4.9,
         "min": 1,
         "max": 1
       }
@@ -20643,13 +20709,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "17.0",
+            "chance": "16.2",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_ROD_002",
             "name": "Iron Rod Crafting Recipe",
             "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_2",
+            "name": "Knight of Grandshelt's Memory (Flame: Blue)",
+            "chance": "0.9",
             "num": 1
           }
         ]
@@ -20703,6 +20775,11 @@
       },
       "IT_AF_LW_ROD_002": {
         "dropChance": 13,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_2": {
+        "dropChance": 5,
         "min": 1,
         "max": 1
       }
@@ -22696,13 +22773,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "28.0",
+            "chance": "27.3",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_FIS_001",
             "name": "Metal Knuckles Crafting Recipe",
             "chance": "2.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_3",
+            "name": "Knight of Grandshelt's Memory (Flame: Purple)",
+            "chance": "0.8",
             "num": 1
           }
         ]
@@ -22756,6 +22839,11 @@
       },
       "IT_AF_LW_FIS_001": {
         "dropChance": 13.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_3": {
+        "dropChance": 5.1,
         "min": 1,
         "max": 1
       }
@@ -24338,13 +24426,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "5.0",
+            "chance": "4.0",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_ARM_002",
             "name": "Iron Plate Crafting Recipe",
             "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_3",
+            "name": "Knight of Grandshelt's Memory (Flame: Purple)",
+            "chance": "1.0",
             "num": 1
           }
         ]
@@ -24398,6 +24492,11 @@
       },
       "IT_AF_LW_ARM_002": {
         "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_3": {
+        "dropChance": 4.9,
         "min": 1,
         "max": 1
       }
@@ -26863,13 +26962,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "5.0",
+            "chance": "4.0",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_GUN_001",
             "name": "Capella Crafting Recipe",
             "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_3",
+            "name": "Knight of Grandshelt's Memory (Flame: Purple)",
+            "chance": "1.0",
             "num": 1
           }
         ]
@@ -26923,6 +27028,11 @@
       },
       "IT_AF_LW_GUN_001": {
         "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_3": {
+        "dropChance": 4.9,
         "min": 1,
         "max": 1
       }
@@ -29695,7 +29805,7 @@
           {
             "iname": "IT_JB_MM_DRG_3",
             "name": "Dragoon's Memory (Purple)",
-            "chance": "0.9",
+            "chance": "0.8",
             "num": 1
           },
           {
@@ -29707,7 +29817,7 @@
           {
             "iname": "IT_JB_MM_WAR_3",
             "name": "Warrior's Memory (Purple)",
-            "chance": "0.9",
+            "chance": "0.8",
             "num": 1
           },
           {
@@ -29719,13 +29829,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "17.0",
+            "chance": "16.2",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_NKN_001",
             "name": "Kunai Crafting Recipe",
             "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_3",
+            "name": "Knight of Grandshelt's Memory (Flame: Purple)",
+            "chance": "0.8",
             "num": 1
           }
         ]
@@ -29748,12 +29864,12 @@
         "max": 1
       },
       "IT_AF_MAT_LIQUID_01": {
-        "dropChance": 39.4,
+        "dropChance": 39.3,
         "min": 1,
         "max": 1
       },
       "IT_AF_MAT_SAP_01": {
-        "dropChance": 39.4,
+        "dropChance": 39.3,
         "min": 1,
         "max": 1
       },
@@ -29779,6 +29895,11 @@
       },
       "IT_AF_LW_NKN_001": {
         "dropChance": 13,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_3": {
+        "dropChance": 5,
         "min": 1,
         "max": 1
       }
@@ -30519,13 +30640,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "5.0",
+            "chance": "4.0",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_BSW_002",
             "name": "Mythril Saber Crafting Recipe",
             "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_3",
+            "name": "Knight of Grandshelt's Memory (Flame: Purple)",
+            "chance": "1.0",
             "num": 1
           }
         ]
@@ -30579,6 +30706,11 @@
       },
       "IT_AF_LW_BSW_002": {
         "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_3": {
+        "dropChance": 4.9,
         "min": 1,
         "max": 1
       }
@@ -33272,13 +33404,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "17.0",
+            "chance": "16.2",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_RNG_003",
             "name": "Fairy Ring Crafting Recipe",
             "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_3",
+            "name": "Knight of Grandshelt's Memory (Flame: Purple)",
+            "chance": "0.9",
             "num": 1
           }
         ]
@@ -33332,6 +33470,11 @@
       },
       "IT_AF_LW_RNG_003": {
         "dropChance": 13,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_3": {
+        "dropChance": 5,
         "min": 1,
         "max": 1
       }
@@ -35881,7 +36024,7 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "13.5",
+            "chance": "12.8",
             "num": 0
           },
           {
@@ -35894,6 +36037,12 @@
             "iname": "IT_JB_AXE_04",
             "name": "Axe Citrine",
             "chance": "14.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.7",
             "num": 1
           }
         ]
@@ -35952,6 +36101,11 @@
       },
       "IT_JB_AXE_04": {
         "dropChance": 66.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 5.1,
         "min": 1,
         "max": 1
       }
@@ -37717,13 +37871,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "5.0",
+            "chance": "4.0",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_DAG_002",
             "name": "Mythril Dagger Crafting Recipe",
             "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "1.0",
             "num": 1
           }
         ]
@@ -37777,6 +37937,11 @@
       },
       "IT_AF_LW_DAG_002": {
         "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 4.9,
         "min": 1,
         "max": 1
       }
@@ -38975,13 +39140,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "17.0",
+            "chance": "16.2",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_HAT_003",
             "name": "Circlet Crafting Recipe",
             "chance": "2.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.9",
             "num": 1
           }
         ]
@@ -39035,6 +39206,11 @@
       },
       "IT_AF_LW_HAT_003": {
         "dropChance": 13,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 5,
         "min": 1,
         "max": 1
       }
@@ -40562,13 +40738,19 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "33.9",
+            "chance": "33.3",
             "num": 0
           },
           {
             "iname": "IT_AF_LW_FIS_002",
             "name": "Mythril Claws Crafting Recipe",
             "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.7",
             "num": 1
           }
         ]
@@ -40622,6 +40804,11 @@
       },
       "IT_AF_LW_FIS_002": {
         "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 5.2,
         "min": 1,
         "max": 1
       }
@@ -43639,8 +43826,14 @@
           {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "28.0",
+            "chance": "27.3",
             "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.7",
+            "num": 1
           }
         ]
       }
@@ -43693,6 +43886,11 @@
       },
       "IT_AF_LW_KAT_002": {
         "dropChance": 13.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 5.1,
         "min": 1,
         "max": 1
       }
@@ -45366,12 +45564,6 @@
         ],
         "drops": [
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "17.0",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_MM_ALL_4",
             "name": "Faint Memory (Yellow)",
             "chance": "8.5",
@@ -45430,6 +45622,18 @@
             "name": "Prowling Wyvern Statue (Yellow)",
             "chance": "3.5",
             "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "16.2",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.9",
+            "num": 1
           }
         ]
       }
@@ -45482,6 +45686,11 @@
       },
       "IT_JB_IM_DRAGON_4": {
         "dropChance": 19.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 5,
         "min": 1,
         "max": 1
       }
@@ -46750,7 +46959,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_PR_01_KNT",
-            "name": "UN_LW_E_PR_01_KNT",
+            "name": "Sanctum Monk",
             "level": 61,
             "awake": 6,
             "rank": 0,
@@ -47173,7 +47382,7 @@
           },
           {
             "iname": "UN_LW_E_PR_01_PLD",
-            "name": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
             "level": 64,
             "awake": 5,
             "rank": 5,
@@ -47181,7 +47390,7 @@
           },
           {
             "iname": "UN_LW_E_PR_01_PLD",
-            "name": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
             "level": 63,
             "awake": 5,
             "rank": 5,
@@ -47779,7 +47988,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_PR_01_PLD",
-            "name": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
             "level": 65,
             "awake": 5,
             "rank": 5,
@@ -47787,7 +47996,7 @@
           },
           {
             "iname": "UN_LW_E_PR_01_PLD",
-            "name": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
             "level": 64,
             "awake": 5,
             "rank": 5,
@@ -48021,7 +48230,7 @@
           },
           {
             "iname": "UN_LW_E_PR_01_PLD",
-            "name": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
             "level": 65,
             "awake": 5,
             "rank": 5,
@@ -48029,7 +48238,7 @@
           },
           {
             "iname": "UN_LW_E_PR_01_KNT",
-            "name": "UN_LW_E_PR_01_KNT",
+            "name": "Sanctum Monk",
             "level": 64,
             "awake": 5,
             "rank": 5,
@@ -48264,12 +48473,6 @@
         ],
         "drops": [
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "42.5",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_MM_ALL_4",
             "name": "Faint Memory (Yellow)",
             "chance": "5.5",
@@ -48328,6 +48531,18 @@
             "name": "Prowling Wyvern Statue (Yellow)",
             "chance": "2.5",
             "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "41.9",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.5",
+            "num": 1
           }
         ]
       }
@@ -48380,6 +48595,11 @@
       },
       "IT_JB_IM_DRAGON_4": {
         "dropChance": 22.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 5.4,
         "min": 1,
         "max": 1
       }
@@ -48847,9 +49067,21 @@
             "num": 1
           },
           {
+            "iname": "IT_JB_MM_LW_RAIN",
+            "name": "Knight of Grandshelt's Memory (Flame: Green)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_2",
+            "name": "Knight of Grandshelt's Memory (Flame: Blue)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
             "iname": "NOTHING",
             "name": "NO DROP",
-            "chance": "18.9",
+            "chance": "18.0",
             "num": 0
           }
         ]
@@ -48938,6 +49170,16 @@
       },
       "IT_JB_IM_DRAGON_2": {
         "dropChance": 10.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_2": {
+        "dropChance": 2.6,
         "min": 1,
         "max": 1
       }
@@ -63280,6 +63522,251 @@
     "start": "",
     "end": ""
   },
+  "QE_HA_LW_RAIN": {
+    "title": "Shard Quest: Rain",
+    "section": "White Wolf's Shrine",
+    "battle": 1,
+    "designation": "",
+    "type": "Shard",
+    "rankXp": 0,
+    "unitXp": 7268,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 20,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_HD_01050209": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_ARMN_01",
+            "name": "Floateye",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ARMN_01",
+            "name": "Floateye",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_4",
+            "name": "Faint Memory (Yellow)",
+            "chance": "2.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_RDM_4",
+            "name": "Red Mage's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_KNT_4",
+            "name": "Knight's Memory (Yellow)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_FIRE_4",
+            "name": "Fire Alcryst (Yellow)",
+            "chance": "7.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_4",
+            "name": "Praying Angel Statue (Yellow)",
+            "chance": "2.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "5.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "5.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_BSW_002",
+            "name": "Mythril Saber Crafting Recipe",
+            "chance": "3.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_04",
+            "name": "Sword Citrine",
+            "chance": "15.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_04",
+            "name": "Greatsword Citrine",
+            "chance": "7.6",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "49.4",
+            "num": 0
+          }
+        ]
+      },
+      "QE_HA_LW_RAIN": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_LW_RAIN",
+            "name": "Rain Unit Shard",
+            "chance": "100.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_LW_RAIN": {
+        "dropChance": 100,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_ALL_4": {
+        "dropChance": 19.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
+        "dropChance": 3.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_RDM_4": {
+        "dropChance": 3.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_KNT_4": {
+        "dropChance": 3.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_FIRE_4": {
+        "dropChance": 46.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_4": {
+        "dropChance": 14.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 36.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 36.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_BSW_002": {
+        "dropChance": 23.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_04": {
+        "dropChance": 73.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_04": {
+        "dropChance": 46.9,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
   "QE_CH_LW_ZZAN": {
     "title": "Zazan",
     "section": "Rasheena Forest",
@@ -74071,6 +74558,382 @@
     "start": "",
     "end": ""
   },
+  "QE_CH_GL_LW_FRVA": {
+    "title": "Fryevia",
+    "section": "Rasheena Forest",
+    "battle": 1,
+    "designation": "",
+    "type": "Character",
+    "rankXp": 0,
+    "unitXp": 6400,
+    "gold": 1500,
+    "jp": 13,
+    "nrg": 25,
+    "completionRewards": {
+      "Visiore": 50,
+      "Fryevia Unit Shard": 15
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_CH_LW_GL_FRVA": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_00_HUN",
+            "name": "Leonis Soldier",
+            "level": 35,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_00_HUN",
+            "name": "Leonis Soldier",
+            "level": 35,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_ARMN_01",
+            "name": "Floateye",
+            "level": 35,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ARMN_01",
+            "name": "Floateye",
+            "level": 35,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 35,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 35,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 35,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_00_SWN",
+            "name": "Leonis Soldier",
+            "level": 35,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_3",
+            "name": "Spellblade's Memory (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "21.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "2.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_3",
+            "name": "Ice Alcryst (Purple)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "46.7",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 39,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_3": {
+        "dropChance": 7.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 11.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 84.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_3": {
+        "dropChance": 57,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_CH_LW_RAIN": {
+    "title": "Rain",
+    "section": "Rasheena Forest",
+    "battle": 1,
+    "designation": "",
+    "type": "Character",
+    "rankXp": 0,
+    "unitXp": 6400,
+    "gold": 1500,
+    "jp": 13,
+    "nrg": 25,
+    "completionRewards": {
+      "Visiore": 50,
+      "Rain Unit Shard": 15
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_CH_LW_RAIN": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_02_WAR",
+            "name": "Wezette Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_RDM",
+            "name": "Wezette Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_RDM",
+            "name": "Wezette Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_00_WHM",
+            "name": "White Mage",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_SO_02_HUN",
+            "name": "Wezette Soldier",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Ice"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_3",
+            "name": "Knight of Grandshelt's Memory (Flame: Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "5.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_03",
+            "name": "Greatsword Charoite",
+            "chance": "19.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_BSW_001",
+            "name": "Claymore Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_FIRE_3",
+            "name": "Fire Alcryst (Purple)",
+            "chance": "9.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "51.3",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 35.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_3": {
+        "dropChance": 11.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 35.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 35.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 11.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_03": {
+        "dropChance": 81.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_BSW_001": {
+        "dropChance": 13.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_FIRE_3": {
+        "dropChance": 53,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
   "QE_CH_FF14_YSTL": {
     "title": "Y'shtola",
     "section": "Leonis Castle",
@@ -78656,6 +79519,498 @@
     },
     "start": 1588143600000,
     "end": 1589331599000
+  },
+  "QE_GL_EV_FFEXU_01": {
+    "title": "FF EXVIUS Universe Quest",
+    "section": "FF EXVIUS Universe Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 500,
+    "gold": 1500,
+    "jp": 50,
+    "nrg": 8,
+    "completionRewards": {
+      "Visiore": 50,
+      "Gil Snapper (L)": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "BEGN_2001_CUBE": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 1,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_US_EXP_01",
+            "name": "EXP Cube (S)",
+            "chance": "50.0",
+            "num": 50
+          },
+          {
+            "iname": "IT_US_EXP_02",
+            "name": "EXP Cube (M)",
+            "chance": "50.0",
+            "num": 25
+          }
+        ]
+      },
+      "BEGN_2001_COM": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 1,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_COM_FIRE",
+            "name": "Fire Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_PI_COM_ICE",
+            "name": "Ice Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_PI_COM_WIND",
+            "name": "Wind Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_PI_COM_SOIL",
+            "name": "Earth Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_PI_COM_THUNDER",
+            "name": "Lightning Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_PI_COM_WATER",
+            "name": "Water Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_PI_COM_SHINE",
+            "name": "Light Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_PI_COM_DARK",
+            "name": "Dark Fragment of Thought",
+            "chance": "12.5",
+            "num": 10
+          }
+        ]
+      },
+      "BEGN_2001_AW": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_BOMB",
+            "name": "Bomb",
+            "level": 1,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_UN_AW_FIRE",
+            "name": "Fire Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_UN_AW_ICE",
+            "name": "Ice Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_UN_AW_WIND",
+            "name": "Wind Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_UN_AW_SOIL",
+            "name": "Earth Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_UN_AW_THUNDER",
+            "name": "Lightning Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_UN_AW_WATER",
+            "name": "Water Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_UN_AW_SHINE",
+            "name": "Light Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          },
+          {
+            "iname": "IT_UN_AW_DARK",
+            "name": "Dark Awakening Prism",
+            "chance": "12.5",
+            "num": 10
+          }
+        ]
+      },
+      "BEGN_2001_STTK": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_BOMB",
+            "name": "Bomb",
+            "level": 1,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_TICKET_STORY",
+            "name": "Story Skip Ticket",
+            "chance": "100.0",
+            "num": 5
+          }
+        ]
+      },
+      "BEGN_2001_AW2": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 1,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_UN_AW_FIRE_R2",
+            "name": "Fire Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_ICE_R2",
+            "name": "Ice Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_WIND_R2",
+            "name": "Wind Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_SOIL_R2",
+            "name": "Earth Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_THUNDER_R2",
+            "name": "Lightning Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_WATER_R2",
+            "name": "Water Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_SHINE_R2",
+            "name": "Light Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_DARK_R2",
+            "name": "Dark Awakening Soul (2★)",
+            "chance": "12.5",
+            "num": 25
+          }
+        ]
+      },
+      "BEGN_2001_AW3": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 1,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_UN_AW_FIRE_R3",
+            "name": "Fire Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_ICE_R3",
+            "name": "Ice Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_WIND_R3",
+            "name": "Wind Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_SOIL_R3",
+            "name": "Earth Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_THUNDER_R3",
+            "name": "Lightning Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_WATER_R3",
+            "name": "Water Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_SHINE_R3",
+            "name": "Light Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          },
+          {
+            "iname": "IT_UN_AW_DARK_R3",
+            "name": "Dark Awakening Soul (3★)",
+            "chance": "12.5",
+            "num": 25
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_US_EXP_01": {
+        "dropChance": 50,
+        "min": 50,
+        "max": 50
+      },
+      "IT_US_EXP_02": {
+        "dropChance": 50,
+        "min": 25,
+        "max": 25
+      },
+      "IT_PI_COM_FIRE": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_PI_COM_ICE": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_PI_COM_WIND": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_PI_COM_SOIL": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_PI_COM_THUNDER": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_PI_COM_WATER": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_PI_COM_SHINE": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_PI_COM_DARK": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_FIRE": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_ICE": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_WIND": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_SOIL": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_THUNDER": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_WATER": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_SHINE": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_UN_AW_DARK": {
+        "dropChance": 12.5,
+        "min": 10,
+        "max": 10
+      },
+      "IT_TICKET_STORY": {
+        "dropChance": 100,
+        "min": 5,
+        "max": 5
+      },
+      "IT_UN_AW_FIRE_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_ICE_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_WIND_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_SOIL_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_THUNDER_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_WATER_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_SHINE_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_DARK_R2": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_FIRE_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_ICE_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_WIND_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_SOIL_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_THUNDER_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_WATER_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_SHINE_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      },
+      "IT_UN_AW_DARK_R3": {
+        "dropChance": 12.5,
+        "min": 25,
+        "max": 25
+      }
+    },
+    "start": 1593567000000,
+    "end": 1594450799000
   },
   "QE_EV_GL_1M_FIR": {
     "title": "\"1 Million Downloads\" Celebratory Quest (Fire)",
@@ -85076,6 +86431,53 @@
     "start": 1591147800000,
     "end": 1592377199000
   },
+  "QE_EV_RAIN_01": {
+    "title": "Limited Hard Quest (Rain)",
+    "section": "Limited Hard Quest (Rain)",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 7228,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 8,
+    "completionRewards": {
+      "EXP Cube (L)": 10
+    },
+    "numEnemies": 1,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_LW_RAIN": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 35,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_LW_RAIN",
+            "name": "Rain Unit Shard",
+            "chance": "100.0",
+            "num": 5
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_LW_RAIN": {
+        "dropChance": 100,
+        "min": 5,
+        "max": 5
+      }
+    },
+    "start": 1593567000000,
+    "end": 1594191599000
+  },
   "QE_SB_CSLI_02": {
     "title": "High Difficulty Chocolate Flan Challenge",
     "section": "Chocolate Flan Challenge",
@@ -90206,8 +91608,8 @@
     "numChests": 0,
     "drop": {},
     "topLevelDrop": {},
-    "start": 1592377200000,
-    "end": 1592981999000
+    "start": 1593567000000,
+    "end": 1594191599000
   },
   "QE_EV_ART_SCR_01": {
     "title": "High Difficulty Secret Book Reward Quest (Sword, Greatsword, Axe)",
@@ -90229,7 +91631,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_ENBT",
-            "name": "UN_LW_E_ENBT",
+            "name": "Engelbert",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -93091,7 +94493,7 @@
         "enemies": [
           {
             "iname": "UN_LW_E_ENBT",
-            "name": "UN_LW_E_ENBT",
+            "name": "Engelbert",
             "level": 60,
             "awake": 6,
             "rank": 5,
@@ -101196,7 +102598,7 @@
           {
             "iname": "UN_GM_TREASURE",
             "name": "Treasure Chest",
-            "level": 1,
+            "level": 0,
             "awake": 1,
             "rank": 0,
             "elem": "None"
@@ -101420,16 +102822,22 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "24.1",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_MM_WGN_4",
             "name": "Dual Gunner's Memory (Yellow)",
             "chance": "0.1",
             "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_4",
+            "name": "Knight of Grandshelt's Memory (Flame: Yellow)",
+            "chance": "0.1",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "24.0",
+            "num": 0
           }
         ]
       }
@@ -101616,6 +103024,11 @@
         "max": 1
       },
       "IT_JB_MM_WGN_4": {
+        "dropChance": 1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_4": {
         "dropChance": 1,
         "min": 1,
         "max": 1
@@ -101921,12 +103334,6 @@
             "num": 1
           },
           {
-            "iname": "NOTHING",
-            "name": "NO DROP",
-            "chance": "24.1",
-            "num": 0
-          },
-          {
             "iname": "IT_JB_MM_VIK_5",
             "name": "Viking's Memory (Red)",
             "chance": "0.1",
@@ -101943,6 +103350,18 @@
             "name": "Dual Gunner's Memory (Red)",
             "chance": "0.1",
             "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_5",
+            "name": "Knight of Grandshelt's Memory (Flame: Red)",
+            "chance": "0.1",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "24.0",
+            "num": 0
           }
         ]
       }
@@ -102129,6 +103548,11 @@
         "max": 1
       },
       "IT_JB_MM_WGN_5": {
+        "dropChance": 1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_5": {
         "dropChance": 1,
         "min": 1,
         "max": 1

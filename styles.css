@@ -645,6 +645,7 @@ body {
 
 .form-control .material-icon-wrapper {
   transform: scale(1.5);
+  min-width: 1.8rem;
 }
 
 .form-control .material-icon-wrapper .material-icon-recipe {
@@ -676,11 +677,12 @@ body {
 
 .materials-list .form-control {
   border-left: none;
-  padding-top: 4px;
+  padding-top: 6px;
 }
 
 .materials-list .form-control span {
   font-size: .8rem;
+  line-height: .8rem;
 }
 
 .materials-list .input-group-prepend .input-group-text {
