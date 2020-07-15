@@ -473,7 +473,7 @@ function calculate() {
     questRowVM.iname = questIName;
     questRowVM.type = quest.type;
     questRowVM.designation = quest.designation;
-    questRowVM.title = quest.title;
+    questRowVM.title = quest.title.replace('<br>', ' ').replace('  ', ' ');
     questRowVM.numEnemies = quest.numEnemies;
     questRowVM.numChests = quest.numChests;
     questRowVM.nrg = quest.nrg;

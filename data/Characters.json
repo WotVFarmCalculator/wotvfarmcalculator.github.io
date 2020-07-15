@@ -63,6 +63,14 @@
       "Spellblade"
     ]
   },
+  "Dario Hourne": {
+    "element": "Wind",
+    "jobs": [
+      "Spellblade",
+      "Ninja",
+      "Paladin"
+    ]
+  },
   "Dorando": {
     "element": "Earth",
     "jobs": [
@@ -415,6 +423,14 @@
       "Red Mage"
     ]
   },
+  "Tyrrell": {
+    "element": "Water",
+    "jobs": [
+      "Knight",
+      "Viking",
+      "Lancer"
+    ]
+  },
   "Vadim": {
     "element": "Thunder",
     "jobs": [
@@ -437,6 +453,14 @@
       "Dragoon",
       "Soldier",
       "Thief"
+    ]
+  },
+  "Vinera Fennes": {
+    "element": "Dark",
+    "jobs": [
+      "Assassin",
+      "Thief",
+      "Dual Gunner"
     ]
   },
   "Vistralle": {
