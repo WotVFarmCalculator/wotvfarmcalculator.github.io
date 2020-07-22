@@ -54647,6 +54647,2984 @@
     "start": "",
     "end": ""
   },
+  "QE_ST_01070301": {
+    "title": "Surprise Attack I",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 1,
+    "designation": "1:7:3:1",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7268,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070301": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03",
+            "name": "Fennes Soldier",
+            "level": 63,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "3.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "3.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_VIK",
+            "name": "Viking's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_VIK_2",
+            "name": "Viking's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK",
+            "name": "Spellblade's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_2",
+            "name": "Spellblade's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "4.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "8.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_HLM_003",
+            "name": "Mythril Helm Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_01",
+            "name": "Spear Jadeite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_02",
+            "name": "Spear Azurite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_FIST_01",
+            "name": "Fists Jadeite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_FIST_02",
+            "name": "Fists Azurite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_1",
+            "name": "Light Alcryst (Green)",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_1",
+            "name": "Praying Angel Statue (Green)",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "33.9",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 23.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 23.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_VIK": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_VIK_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 29.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 51.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_HLM_003": {
+        "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_01": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_02": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_FIST_01": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_FIST_02": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_1": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_1": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070302": {
+    "title": "Surprise Attack II",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 2,
+    "designation": "1:7:3:2",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7308,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070302": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_GUN",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_GUN",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Thunder"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "3.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "3.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_LAN",
+            "name": "Lancer's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LAN_2",
+            "name": "Lancer's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_WGN",
+            "name": "Dual Gunner's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_WGN_2",
+            "name": "Dual Gunner's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_GLMS",
+            "name": "Winged One's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_GLMS_2",
+            "name": "Winged One's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_01",
+            "name": "Grey Spiritsand",
+            "chance": "4.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "8.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_RNG_003",
+            "name": "Fairy Ring Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_01",
+            "name": "Greatsword Jadeite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_02",
+            "name": "Greatsword Azurite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MACE_01",
+            "name": "Mace Jadeite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MACE_02",
+            "name": "Mace Azurite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_1",
+            "name": "Dark Alcryst (Green)",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_2",
+            "name": "Dark Alcryst (Blue)",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "33.3",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 23.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 23.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_LAN": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LAN_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_WGN": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_WGN_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_GLMS": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_GLMS_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_01": {
+        "dropChance": 29.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 51.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_RNG_003": {
+        "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_01": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_02": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MACE_01": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MACE_02": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_1": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_2": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_1": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070303": {
+    "title": "Savages' Trap",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 3,
+    "designation": "1:7:3:3",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7308,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070303": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_SAM",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_GUN",
+            "name": "Fennes Soldier",
+            "level": 64,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_00_WHM",
+            "name": "White Mage",
+            "level": 64,
+            "awake": 4,
+            "rank": 4,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "3.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "3.3",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_WAR",
+            "name": "Warrior's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_WAR_2",
+            "name": "Warrior's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_HUN",
+            "name": "Ranger's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_HUN_2",
+            "name": "Ranger's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "4.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "8.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_002",
+            "name": "Mythril Sword Crafting Recipe",
+            "chance": "1.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SSWORD_01",
+            "name": "Dagger Jadeite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SSWORD_02",
+            "name": "Dagger Azurite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_01",
+            "name": "Staff Jadeite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_02",
+            "name": "Staff Azurite",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SOIL_1",
+            "name": "Earth Alcryst (Green)",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SOIL_2",
+            "name": "Earth Alcryst (Blue)",
+            "chance": "6.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_1",
+            "name": "Praying Angel Statue (Green)",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "33.9",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 23.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 23.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_WAR": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_WAR_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_HUN": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_HUN_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 29.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 51.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_002": {
+        "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SSWORD_01": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SSWORD_02": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_01": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_02": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SOIL_1": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SOIL_2": {
+        "dropChance": 42.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_1": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070304": {
+    "title": "You Must Decide I",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 4,
+    "designation": "1:7:3:4",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7695,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070304": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 4,
+            "rank": 4,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 4,
+            "rank": 4,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 4,
+            "rank": 4,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "3.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "3.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_SWN",
+            "name": "Soldier's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_SWN_2",
+            "name": "Soldier's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_RDM",
+            "name": "Red Mage's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_RDM_2",
+            "name": "Red Mage's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "3.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "7.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_BSW_002",
+            "name": "Mythril Saber Crafting Recipe",
+            "chance": "1.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_JSWORD_01",
+            "name": "Katana Jadeite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_JSWORD_02",
+            "name": "Katana Azurite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_GUN_01",
+            "name": "Gun Jadeite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_GUN_02",
+            "name": "Gun Azurite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_1",
+            "name": "Ice Alcryst (Green)",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_ICE_2",
+            "name": "Ice Alcryst (Blue)",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN",
+            "name": "Knight of Grandshelt's Memory (Flame: Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_LW_RAIN_2",
+            "name": "Knight of Grandshelt's Memory (Flame: Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "37.1",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 23.8,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 23.8,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_SWN": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_SWN_2": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_RDM": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_RDM_2": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 30.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 51.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_BSW_002": {
+        "dropChance": 14,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_JSWORD_01": {
+        "dropChance": 45.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_JSWORD_02": {
+        "dropChance": 45.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_GUN_01": {
+        "dropChance": 45.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_GUN_02": {
+        "dropChance": 45.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_1": {
+        "dropChance": 45.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_ICE_2": {
+        "dropChance": 45.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_1": {
+        "dropChance": 10.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 10.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_LW_RAIN_2": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070305": {
+    "title": "You Must Decide II",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 5,
+    "designation": "1:7:3:5",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7737,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 50,
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070305": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_00_BLM",
+            "name": "Black Mage",
+            "level": 66,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_HUN",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03",
+            "name": "Fennes Soldier",
+            "level": 65,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.9",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.9",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_KNT",
+            "name": "Knight's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_KNT_2",
+            "name": "Knight's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK",
+            "name": "Spellblade's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_2",
+            "name": "Spellblade's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_01",
+            "name": "Grey Spiritsand",
+            "chance": "3.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_02",
+            "name": "Sticky Fluid",
+            "chance": "7.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_KAT_002",
+            "name": "Kiku-ichimonji Crafting Recipe",
+            "chance": "1.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_01",
+            "name": "Sword Jadeite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_02",
+            "name": "Sword Azurite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_AXE_01",
+            "name": "Axe Jadeite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_AXE_02",
+            "name": "Axe Azurite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_WIND_1",
+            "name": "Wind Alcryst (Green)",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_WIND_2",
+            "name": "Wind Alcryst (Blue)",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "38.1",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 23.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 23.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_KNT": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_KNT_2": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_2": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_01": {
+        "dropChance": 29.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_02": {
+        "dropChance": 51.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_KAT_002": {
+        "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_01": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_02": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_AXE_01": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_AXE_02": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_WIND_1": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_WIND_2": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_1": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070306": {
+    "title": "Catching On",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 6,
+    "designation": "1:7:3:6",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7737,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070306": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_GUN",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_GUN",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_WAR",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 66,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Earth"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "3.7",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "3.7",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_DRG",
+            "name": "Dragoon's Memory (Green)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_2",
+            "name": "Dragoon's Memory (Blue)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_TIM",
+            "name": "Time Mage's Memory (Green)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_TIM_2",
+            "name": "Time Mage's Memory (Blue)",
+            "chance": "0.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_01",
+            "name": "Cloudy Sap",
+            "chance": "4.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "9.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_FIS_002",
+            "name": "Mythril Claws Crafting Recipe",
+            "chance": "2.1",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_01",
+            "name": "Greatsword Jadeite",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_LSWORD_02",
+            "name": "Greatsword Azurite",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_FIST_01",
+            "name": "Fists Jadeite",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_FIST_02",
+            "name": "Fists Azurite",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_FIRE_1",
+            "name": "Fire Alcryst (Green)",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_FIRE_2",
+            "name": "Fire Alcryst (Blue)",
+            "chance": "7.2",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_1",
+            "name": "Praying Angel Statue (Green)",
+            "chance": "1.6",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "1.6",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "28.0",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 23.2,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 23.2,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_DRG": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_TIM": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_TIM_2": {
+        "dropChance": 2.6,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_01": {
+        "dropChance": 29.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 50.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_FIS_002": {
+        "dropChance": 13.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_01": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_LSWORD_02": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_FIST_01": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_FIST_02": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_FIRE_1": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_FIRE_2": {
+        "dropChance": 41,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_1": {
+        "dropChance": 10.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 10.4,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070307": {
+    "title": "Metal on Metal",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 7,
+    "designation": "1:7:3:7",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7778,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070307": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_DRG",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_DRG",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_DRG",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_MGK",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_MGK",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_TIM",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SWN",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SWN",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_SAM",
+            "name": "Samurai's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_SAM_2",
+            "name": "Samurai's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_CLR",
+            "name": "Cleric's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_CLR_2",
+            "name": "Cleric's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "3.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "7.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_FIS_002",
+            "name": "Mythril Claws Crafting Recipe",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_KUNAI_01",
+            "name": "Ninja Blade Jadeite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_KUNAI_02",
+            "name": "Ninja Blade Azurite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MACE_01",
+            "name": "Mace Jadeite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MACE_02",
+            "name": "Mace Azurite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_1",
+            "name": "Lightning Alcryst (Green)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_THUNDER_2",
+            "name": "Lightning Alcryst (Blue)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "42.5",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 24.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 24.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_SAM": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_SAM_2": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_CLR": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_CLR_2": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 31.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 53.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_FIS_002": {
+        "dropChance": 13.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_KUNAI_01": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_KUNAI_02": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MACE_01": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MACE_02": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_1": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_THUNDER_2": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_1": {
+        "dropChance": 11.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 11.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070308": {
+    "title": "«Solidus», Retreat",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 8,
+    "designation": "1:7:3:8",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7820,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 9,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070308": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_PR_01_DRG",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_DRG",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Water"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_PLD",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_GUN",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_PR_01_SWN",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_TIM",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_PR_02_TIM",
+            "name": "Sanctum Monk",
+            "level": 67,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.9",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.9",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_GRM",
+            "name": "Green Mage's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_GRM_2",
+            "name": "Green Mage's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ASS",
+            "name": "Assassin's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ASS_2",
+            "name": "Assassin's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "3.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_02",
+            "name": "Raging Heart",
+            "chance": "7.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_AXE_002",
+            "name": "Mythril Axe Crafting Recipe",
+            "chance": "1.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_JSWORD_01",
+            "name": "Katana Jadeite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_JSWORD_02",
+            "name": "Katana Azurite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_01",
+            "name": "Spear Jadeite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SPEAR_02",
+            "name": "Spear Azurite",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_WATER_1",
+            "name": "Water Alcryst (Green)",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_WATER_2",
+            "name": "Water Alcryst (Blue)",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_1",
+            "name": "Praying Angel Statue (Green)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "38.1",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 23.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 23.6,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_GRM": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_GRM_2": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_ASS": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_ASS_2": {
+        "dropChance": 2.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 29.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_02": {
+        "dropChance": 51.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_AXE_002": {
+        "dropChance": 13.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_JSWORD_01": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_JSWORD_02": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_01": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SPEAR_02": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_WATER_1": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_WATER_2": {
+        "dropChance": 45.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_1": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 10.7,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070309": {
+    "title": "Believe in Your Fellow Fighters I",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 9,
+    "designation": "1:7:3:9",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 7820,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 25,
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070309": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Thunder"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_LAN",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 67,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_MNK",
+            "name": "Monk's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MNK_2",
+            "name": "Monk's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_BLM",
+            "name": "Black Mage's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_BLM_2",
+            "name": "Black Mage's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "3.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAND_02",
+            "name": "Blue Spiritsand",
+            "chance": "7.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SPE_002",
+            "name": "Mythril Spear Crafting Recipe",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SSWORD_01",
+            "name": "Dagger Jadeite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SSWORD_02",
+            "name": "Dagger Azurite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_GUN_01",
+            "name": "Gun Jadeite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_GUN_02",
+            "name": "Gun Azurite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_1",
+            "name": "Light Alcryst (Green)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "42.5",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 24.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 24.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_MNK": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MNK_2": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_BLM": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_BLM_2": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 31.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAND_02": {
+        "dropChance": 53.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SPE_002": {
+        "dropChance": 13.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SSWORD_01": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SSWORD_02": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_GUN_01": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_GUN_02": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_1": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_1": {
+        "dropChance": 11.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 11.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_ST_01070310": {
+    "title": "Believe in Your Fellow Fighters II",
+    "section": "Part 1, Chapter 7, Scene 3",
+    "battle": 10,
+    "designation": "1:7:3:10",
+    "type": "Story",
+    "rankXp": 0,
+    "unitXp": 8427,
+    "gold": 1500,
+    "jp": 6,
+    "nrg": 6,
+    "completionRewards": {
+      "Player Rank XP": 100,
+      "Visiore": 50
+    },
+    "numEnemies": 10,
+    "numChests": 0,
+    "drop": {
+      "QE_ST_01070310": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_VIK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_KNT",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 5,
+            "rank": 4,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          },
+          {
+            "iname": "UN_LW_E_SO_03_MNK",
+            "name": "Fennes Soldier",
+            "level": 72,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_MM_WHM",
+            "name": "White Mage's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_WHM_2",
+            "name": "White Mage's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_NIN",
+            "name": "Ninja's Memory (Green)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_NIN_2",
+            "name": "Ninja's Memory (Blue)",
+            "chance": "0.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "3.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SAP_02",
+            "name": "Clear Sap",
+            "chance": "7.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_DAG_002",
+            "name": "Mythril Dagger Crafting Recipe",
+            "chance": "1.4",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_01",
+            "name": "Staff Jadeite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_STAFF_02",
+            "name": "Staff Azurite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_BOW_01",
+            "name": "Bow Jadeite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_BOW_02",
+            "name": "Bow Azurite",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_1",
+            "name": "Dark Alcryst (Green)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_DARK_2",
+            "name": "Dark Alcryst (Blue)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_1",
+            "name": "Praying Angel Statue (Green)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "42.5",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 24.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 24.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_JB_MM_WHM": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_WHM_2": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_NIN": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_NIN_2": {
+        "dropChance": 2.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 31.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SAP_02": {
+        "dropChance": 53.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_DAG_002": {
+        "dropChance": 13.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_01": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_STAFF_02": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_BOW_01": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_BOW_02": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_1": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_DARK_2": {
+        "dropChance": 46.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_1": {
+        "dropChance": 11.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 11.8,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
   "QE_HA_LW_ZZAN": {
     "title": "Shard Quest: Zazan",
     "section": "Leonis Castle",
@@ -98873,8 +101851,8 @@
         "max": 1
       }
     },
-    "start": 1594191600000,
-    "end": 1594796399000
+    "start": 1595401200000,
+    "end": 1596610799000
   },
   "QE_EV_ART_SCR_02": {
     "title": "High Difficulty Secret Book Reward Quest (Spear, Fists, Gun)",
@@ -99159,7 +102137,7 @@
   },
   "QE_EV_ART_SCR_03": {
     "title": "High Difficulty Secret Book Reward Quest (Armor, Accessory, Ninja Blade)",
-    "section": "High Difficulty Secret Book Reward Quest",
+    "section": "",
     "designation": "",
     "type": "Event",
     "rankXp": 0,
@@ -99435,12 +102413,12 @@
         "max": 1
       }
     },
-    "start": 1594191600000,
-    "end": 1594796399000
+    "start": "",
+    "end": ""
   },
   "QE_EV_ART_SCR_04": {
     "title": "High Difficulty Secret Book Reward Quest (Staff, Katana, Dagger)",
-    "section": "",
+    "section": "High Difficulty Secret Book Reward Quest",
     "designation": "",
     "type": "Event",
     "rankXp": 0,
@@ -99716,8 +102694,8 @@
         "max": 1
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1595401200000,
+    "end": 1596610799000
   },
   "QE_EV_ANV_19_10": {
     "title": "Release Commemoration Quest",
@@ -101735,8 +104713,8 @@
         "max": 2
       }
     },
-    "start": 1594191600000,
-    "end": 1594796399000
+    "start": 1595401200000,
+    "end": 1596610799000
   },
   "QE_MU_EV_SCR_02": {
     "title": "High Difficulty Secret Book Reward Quest (Spear, Fists, Gun)",
@@ -102021,7 +104999,7 @@
   },
   "QE_MU_EV_SCR_03": {
     "title": "High Difficulty Secret Book Reward Quest (Armor, Accessory, Ninja Blade)",
-    "section": "[Multi] High Difficulty Secret Book Reward Quest",
+    "section": "",
     "designation": "",
     "type": "Multiplayer",
     "rankXp": 0,
@@ -102297,12 +105275,12 @@
         "max": 2
       }
     },
-    "start": 1594191600000,
-    "end": 1594796399000
+    "start": "",
+    "end": ""
   },
   "QE_MU_EV_SCR_04": {
     "title": "High Difficulty Secret Book Reward Quest (Staff, Katana, Dagger)",
-    "section": "",
+    "section": "[Multi] High Difficulty Secret Book Reward Quest",
     "designation": "",
     "type": "Multiplayer",
     "rankXp": 0,
@@ -102578,8 +105556,8 @@
         "max": 2
       }
     },
-    "start": "",
-    "end": ""
+    "start": 1595401200000,
+    "end": 1596610799000
   },
   "QE_MU_EV_ET_EX1": {
     "title": "High Difficulty Etre Training Ex-Quest I",
@@ -104459,6 +107437,26 @@
     "start": "",
     "end": ""
   },
+  "QE_SB_THDG_01": {
+    "title": "Two-Headed Dragon Battle",
+    "section": "Beast's Den",
+    "designation": "",
+    "type": "Beast Den",
+    "rankXp": 0,
+    "unitXp": 6100,
+    "gold": 1800,
+    "jp": 16,
+    "nrg": 32,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": "",
+    "end": ""
+  },
   "QE_RAID_EV_06_01": {
     "title": "Chocolate Flan Raid",
     "designation": "",
@@ -104509,6 +107507,70 @@
   },
   "QE_RAID_EV_06_04": {
     "title": "Chocolate Flan Raid",
+    "designation": "",
+    "rankXp": 0,
+    "unitXp": 0,
+    "gold": 0,
+    "jp": 0,
+    "nrg": 1,
+    "completionRewards": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": "",
+    "end": ""
+  },
+  "QE_RAID_EV_07_01": {
+    "title": "White Marshmallow Raid",
+    "designation": "",
+    "rankXp": 0,
+    "unitXp": 0,
+    "gold": 0,
+    "jp": 0,
+    "nrg": 1,
+    "completionRewards": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": "",
+    "end": ""
+  },
+  "QE_RAID_EV_07_02": {
+    "title": "White Marshmallow Raid",
+    "designation": "",
+    "rankXp": 0,
+    "unitXp": 0,
+    "gold": 0,
+    "jp": 0,
+    "nrg": 1,
+    "completionRewards": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": "",
+    "end": ""
+  },
+  "QE_RAID_EV_07_03": {
+    "title": "White Marshmallow Raid",
+    "designation": "",
+    "rankXp": 0,
+    "unitXp": 0,
+    "gold": 0,
+    "jp": 0,
+    "nrg": 1,
+    "completionRewards": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": "",
+    "end": ""
+  },
+  "QE_RAID_EV_07_04": {
+    "title": "White Marshmallow Raid",
     "designation": "",
     "rankXp": 0,
     "unitXp": 0,
