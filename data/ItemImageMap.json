@@ -16,6 +16,10 @@
   "IT_AF_EXP_01": "it_af_exp_01.png",
   "IT_AF_EXP_02": "it_af_exp_02.png",
   "IT_AF_EXP_03": "it_af_exp_03.png",
+  "IT_AF_FF1_ARM_002": [
+    "itemicon_recipe.png",
+    "gear/ff1wpn_arm_002.png"
+  ],
   "IT_AF_FFT_SWO_001": [
     "itemicon_recipe.png",
     "gear/fft0wpn_swo_001.png"
@@ -224,6 +228,7 @@
   "IT_AF_MAT_LIQUID_02": "it_af_mat_liquid_02.png",
   "IT_AF_MAT_LIQUID_03": "it_af_mat_liquid_03.png",
   "IT_AF_MAT_MABR": "it_af_mat_mabr.png",
+  "IT_AF_MAT_MYTHRIL": "it_af_mat_mythril.png",
   "IT_AF_MAT_OGRE": "it_af_mat_ogre.png",
   "IT_AF_MAT_SAND_01": "it_af_mat_sand_01.png",
   "IT_AF_MAT_SAND_02": "it_af_mat_sand_02.png",
@@ -248,6 +253,7 @@
   "IT_EC_EV02_1": "it_ec_ev02_1.png",
   "IT_EC_EV03_1": "it_ec_ev03_1.png",
   "IT_EC_FF14_1": "it_ec_ff14_1.png",
+  "IT_EC_FF1_1": "it_ec_ff1_1.png",
   "IT_EC_FFT_1": "it_ec_fft_1.png",
   "IT_JB_AXE_01": "it_jb_axe_01.png",
   "IT_JB_AXE_02": "it_jb_axe_02.png",
@@ -423,6 +429,18 @@
   "IT_JB_MM_DRG_5": [
     "itemicon_job_05.png",
     "job/drg_item.png"
+  ],
+  "IT_JB_MM_FF1_WROL": [
+    "itemicon_job_01.png",
+    "job/ff01wrol_item.png"
+  ],
+  "IT_JB_MM_FF1_WROL_2": [
+    "itemicon_job_02.png",
+    "job/ff01wrol_item.png"
+  ],
+  "IT_JB_MM_FF1_WROL_3": [
+    "itemicon_job_03.png",
+    "job/ff01wrol_item.png"
   ],
   "IT_JB_MM_FFT_GFGR": [
     "itemicon_job_01.png",
@@ -914,6 +932,7 @@
   "IT_PI_COM_THUNDER": "it_pi_com_thunder.png",
   "IT_PI_COM_WATER": "it_pi_com_water.png",
   "IT_PI_COM_WIND": "it_pi_com_wind.png",
+  "IT_PI_FF1_WROL": "it_pi_ff1_wrol.png",
   "IT_PI_FFT_GFGR": "it_pi_fft_gfgr.png",
   "IT_PI_LW_ADLD": "it_pi_lw_adld.png",
   "IT_PI_LW_AILN": "it_pi_lw_ailn.png",
@@ -1069,5 +1088,13 @@
   "IT_VC_EXP_03": "it_vc_exp_03.png",
   "IT_VC_EXP_04": "it_vc_exp_04.png",
   "IT_WA_EXP_01": "it_wa_exp_01.png",
-  "IT_WA_EXP_02": "it_wa_exp_02.png"
+  "IT_WA_EXP_02": "it_wa_exp_02.png",
+  "IT_JB_MM_FF1_WROL_4": [
+    "itemicon_job_04.png",
+    "job/ff01wrol_item.png"
+  ],
+  "IT_JB_MM_FF1_WROL_5": [
+    "itemicon_job_05.png",
+    "job/ff01wrol_item.png"
+  ]
 }

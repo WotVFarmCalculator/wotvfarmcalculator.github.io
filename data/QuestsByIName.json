@@ -83107,6 +83107,2738 @@
     "start": "",
     "end": ""
   },
+  "QE_CH_FF1_WROL": {
+    "title": "Warrior of Light",
+    "section": "South Symbus Plains",
+    "battle": 1,
+    "designation": "",
+    "type": "Character",
+    "rankXp": 0,
+    "unitXp": 6400,
+    "gold": 1500,
+    "jp": 13,
+    "nrg": 25,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 8,
+    "numChests": 0,
+    "drop": {
+      "QE_CH_FF1_WROL": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 40,
+            "awake": 5,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "6.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_FF1_WROL_3",
+            "name": "Warrior of Light's Memory (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_LIQUID_01",
+            "name": "Murky Fluid",
+            "chance": "5.9",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "2.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "21.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_3",
+            "name": "Light Alcryst (Purple)",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "46.7",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 39,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_FF1_WROL_3": {
+        "dropChance": 7.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_LIQUID_01": {
+        "dropChance": 38.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.7,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 84.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_3": {
+        "dropChance": 57,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 11.4,
+        "min": 1,
+        "max": 1
+      }
+    },
+    "start": "",
+    "end": ""
+  },
+  "QE_EV_FF1_01": {
+    "title": "FINAL FANTASY I Battle #1",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 972,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 4,
+    "numChests": 1,
+    "drop": {
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "18.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SWORD_01",
+            "name": "Sword Jadeite",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_FF1_WROL",
+            "name": "Warrior of Light's Memory (Green)",
+            "chance": "2.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG",
+            "name": "Dragoon's Memory (Green)",
+            "chance": "2.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_1",
+            "name": "Light Alcryst (Green)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "2.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "7.5",
+            "num": 0
+          }
+        ]
+      },
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 5,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 3
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "40.0",
+            "num": 4
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 5
+          }
+        ]
+      },
+      "box": {
+        "enemies": [
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "20.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.7",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SWORD_01",
+            "name": "Sword Jadeite",
+            "chance": "27.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_FF1_WROL",
+            "name": "Warrior of Light's Memory (Green)",
+            "chance": "2.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG",
+            "name": "Dragoon's Memory (Green)",
+            "chance": "2.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_1",
+            "name": "Light Alcryst (Green)",
+            "chance": "27.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "4.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "11.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_1",
+            "name": "Prowling Wyvern Statue (Green)",
+            "chance": "2.7",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 62.2,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SWORD_01": {
+        "dropChance": 69.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_FF1_WROL": {
+        "dropChance": 9.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG": {
+        "dropChance": 9.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_1": {
+        "dropChance": 69.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_1": {
+        "dropChance": 9.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 35.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 3,
+        "max": 5
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_02": {
+    "title": "FINAL FANTASY I Battle #2",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 1791,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 4,
+    "numChests": 1,
+    "drop": {
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "18.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "2.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_01",
+            "name": "Spear Jadeite",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK",
+            "name": "Spellblade's Memory (Green)",
+            "chance": "2.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_1",
+            "name": "Light Alcryst (Green)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_1",
+            "name": "Praying Angel Statue (Green)",
+            "chance": "2.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "10.0",
+            "num": 0
+          }
+        ]
+      },
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 10,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 8
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "40.0",
+            "num": 10
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 12
+          }
+        ]
+      },
+      "box": {
+        "enemies": [
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "21.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL",
+            "name": "Faint Memory (Green)",
+            "chance": "3.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_01",
+            "name": "Spear Jadeite",
+            "chance": "27.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK",
+            "name": "Spellblade's Memory (Green)",
+            "chance": "2.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_1",
+            "name": "Praying Angel Statue (Green)",
+            "chance": "2.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_1",
+            "name": "Light Alcryst (Green)",
+            "chance": "27.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "4.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "12.0",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL": {
+        "dropChance": 62.9,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SPEAR_01": {
+        "dropChance": 69.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK": {
+        "dropChance": 9.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_1": {
+        "dropChance": 69.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_1": {
+        "dropChance": 9.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 35.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 8,
+        "max": 12
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_03": {
+    "title": "FINAL FANTASY I Battle #3",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 2679,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 15
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "40.0",
+            "num": 16
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 17
+          }
+        ]
+      },
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 20,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Ice"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "18.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SWORD_02",
+            "name": "Sword Azurite",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_2",
+            "name": "Dragoon's Memory (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "12.5",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 61.5,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SWORD_02": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 34.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 15,
+        "max": 17
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_04": {
+    "title": "FINAL FANTASY I Battle #4",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 3519,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "18.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_02",
+            "name": "Spear Azurite",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_FF1_WROL_2",
+            "name": "Warrior of Light's Memory (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_2",
+            "name": "Spellblade's Memory (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "11.3",
+            "num": 0
+          }
+        ]
+      },
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 20
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "40.0",
+            "num": 22
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 25
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 61.5,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SPEAR_02": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_FF1_WROL_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 34.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 20,
+        "max": 25
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_05": {
+    "title": "FINAL FANTASY I Battle #5",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5084,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 1,
+    "numChests": 4,
+    "drop": {
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_FF01_E_WRMC",
+            "name": "Death Machine",
+            "level": 40,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "25.0",
+            "num": 26
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 27
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "20.0",
+            "num": 30
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "15.0",
+            "num": 33
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "10.0",
+            "num": 34
+          }
+        ]
+      },
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          },
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          },
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          },
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "20.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "3.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SWORD_02",
+            "name": "Sword Azurite",
+            "chance": "28.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_FF1_WROL_2",
+            "name": "Warrior of Light's Memory (Blue)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "28.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_2",
+            "name": "Prowling Wyvern Statue (Blue)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "4.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_2",
+            "name": "Dragoon's Memory (Blue)",
+            "chance": "1.5",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 64.8,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SWORD_02": {
+        "dropChance": 73.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_FF1_WROL_2": {
+        "dropChance": 5.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 73.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_2": {
+        "dropChance": 5.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 16.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 40,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_2": {
+        "dropChance": 5.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 26,
+        "max": 34
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_06": {
+    "title": "FINAL FANTASY I Battle #1 [Intermediate]",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 4800,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "18.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_2",
+            "name": "Faint Memory (Blue)",
+            "chance": "2.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_02",
+            "name": "Spear Azurite",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_2",
+            "name": "Spellblade's Memory (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_2",
+            "name": "Light Alcryst (Blue)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_2",
+            "name": "Praying Angel Statue (Blue)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "12.5",
+            "num": 0
+          }
+        ]
+      },
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ARMN",
+            "name": "Ahriman",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Light"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "25.0",
+            "num": 34
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 35
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "20.0",
+            "num": 36
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "15.0",
+            "num": 38
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "10.0",
+            "num": 40
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_2": {
+        "dropChance": 61.5,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SPEAR_02": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_2": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_2": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 34.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 34,
+        "max": 40
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_07": {
+    "title": "FINAL FANTASY I Battle #2 [Intermediate]",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 4800,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 5,
+    "numChests": 0,
+    "drop": {
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Earth"
+          },
+          {
+            "iname": "UN_LW_E_SKEL",
+            "name": "Skeleton",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "18.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "2.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_DRG_3",
+            "name": "Dragoon's Memory (Purple)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_3",
+            "name": "Light Alcryst (Purple)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "1.3",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "10.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "12.5",
+            "num": 0
+          }
+        ]
+      },
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE",
+            "name": "Ogre",
+            "level": 42,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "25.0",
+            "num": 40
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 42
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "20.0",
+            "num": 43
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "15.0",
+            "num": 47
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "10.0",
+            "num": 48
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 61.5,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_3": {
+        "dropChance": 68.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 34.4,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 40,
+        "max": 48
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_08": {
+    "title": "FINAL FANTASY I Battle #3 [Intermediate]",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 4893,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "25.0",
+            "num": 47
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 50
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "20.0",
+            "num": 51
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "15.0",
+            "num": 52
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "10.0",
+            "num": 55
+          }
+        ]
+      },
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF",
+            "name": "Wolf",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Fire"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Ice"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_04",
+            "name": "Ice Elemental",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Ice"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "15.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "2.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_03",
+            "name": "Spear Charoite",
+            "chance": "20.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_3",
+            "name": "Spellblade's Memory (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_3",
+            "name": "Light Alcryst (Purple)",
+            "chance": "20.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "30.0",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 60.6,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SPEAR_03": {
+        "dropChance": 67.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_3": {
+        "dropChance": 67.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 34.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 47,
+        "max": 55
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_09": {
+    "title": "FINAL FANTASY I Battle #4 [Intermediate]",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5094,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 6,
+    "numChests": 0,
+    "drop": {
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_WOLF_01",
+            "name": "Blind Wolf",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_SKEL_01",
+            "name": "Bloodbones",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "15.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "2.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SWORD_03",
+            "name": "Sword Charoite",
+            "chance": "20.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_FF1_WROL_3",
+            "name": "Warrior of Light's Memory (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_3",
+            "name": "Light Alcryst (Purple)",
+            "chance": "20.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_DRAGON_3",
+            "name": "Prowling Wyvern Statue (Purple)",
+            "chance": "1.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "3.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "8.0",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "29.0",
+            "num": 0
+          },
+          {
+            "iname": "IT_JB_MM_DRG_3",
+            "name": "Dragoon's Memory (Purple)",
+            "chance": "1.0",
+            "num": 1
+          }
+        ]
+      },
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 45,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "25.0",
+            "num": 55
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 57
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "20.0",
+            "num": 58
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "15.0",
+            "num": 60
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "10.0",
+            "num": 62
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 60.6,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SWORD_03": {
+        "dropChance": 67.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_FF1_WROL_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_3": {
+        "dropChance": 67.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_DRAGON_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 14.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 34.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_DRG_3": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 55,
+        "max": 62
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_10": {
+    "title": "FINAL FANTASY I Battle #5 [Intermediate]",
+    "section": "FINAL FANTASY I Quest",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5288,
+    "gold": 1500,
+    "jp": 3,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 1,
+    "numChests": 4,
+    "drop": {
+      "medal": {
+        "enemies": [
+          {
+            "iname": "UN_FF01_E_WRMC",
+            "name": "Death Machine",
+            "level": 48,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "25.0",
+            "num": 62
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "30.0",
+            "num": 64
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "20.0",
+            "num": 67
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "15.0",
+            "num": 68
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "10.0",
+            "num": 70
+          }
+        ]
+      },
+      "drop": {
+        "enemies": [
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          },
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          },
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          },
+          {
+            "iname": "UN_GM_TREASURE",
+            "name": "Treasure Chest",
+            "level": 0,
+            "awake": 1,
+            "rank": 0,
+            "elem": "None"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "20.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_ALL_3",
+            "name": "Faint Memory (Purple)",
+            "chance": "3.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_JB_SPEAR_03",
+            "name": "Spear Charoite",
+            "chance": "28.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_FF1_WROL_3",
+            "name": "Warrior of Light's Memory (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_EM_SHINE_3",
+            "name": "Light Alcryst (Purple)",
+            "chance": "28.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_IM_ANGEL_3",
+            "name": "Praying Angel Statue (Purple)",
+            "chance": "1.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_LW_SWO_001",
+            "name": "Longsword Crafting Recipe",
+            "chance": "4.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_01",
+            "name": "Sorrowful Heart",
+            "chance": "12.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_JB_MM_MGK_3",
+            "name": "Spellblade's Memory (Purple)",
+            "chance": "1.5",
+            "num": 1
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_JB_MM_ALL_3": {
+        "dropChance": 64.8,
+        "min": 1,
+        "max": 2
+      },
+      "IT_JB_SPEAR_03": {
+        "dropChance": 73.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_FF1_WROL_3": {
+        "dropChance": 5.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_EM_SHINE_3": {
+        "dropChance": 73.1,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_IM_ANGEL_3": {
+        "dropChance": 5.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_LW_SWO_001": {
+        "dropChance": 16.8,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_01": {
+        "dropChance": 40,
+        "min": 1,
+        "max": 1
+      },
+      "IT_JB_MM_MGK_3": {
+        "dropChance": 5.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 62,
+        "max": 70
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_FF1_EX": {
+    "title": "FINAL FANTASY I [EX]",
+    "section": "FINAL FANTASY I Quest [EX]",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 6,
+    "nrg": 12,
+    "completionRewards": {
+      "Visiore": 50,
+      "Armor of Light Crafting Recipe": 1
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "KAKUTEI": {
+        "enemies": [
+          {
+            "iname": "UN_FF01_E_WRMC",
+            "name": "Death Machine",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "90.0",
+            "num": 150
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "5.0",
+            "num": 165
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "5.0",
+            "num": 180
+          }
+        ]
+      },
+      "QE_FFT_EX1": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_AF_FF1_ARM_002",
+            "name": "Armor of Light Crafting Recipe",
+            "chance": "0.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_03",
+            "name": "Blissful Heart",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_MYTHRIL",
+            "name": "Mythril Ore",
+            "chance": "5.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_MAT_SHINE_01",
+            "name": "Light Cryst",
+            "chance": "5.8",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_AW_ARMOR",
+            "name": "Secret Book of Refinement (Armor)",
+            "chance": "6.5",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "25.0",
+            "num": 1
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "16.7",
+            "num": 1
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "22.7",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_FF1_ARM_002": {
+        "dropChance": 4.9,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_HEART_03": {
+        "dropChance": 66.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_MYTHRIL": {
+        "dropChance": 30.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_MAT_SHINE_01": {
+        "dropChance": 30.3,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_AW_ARMOR": {
+        "dropChance": 33.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 82.2,
+        "min": 1,
+        "max": 1
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 66.5,
+        "min": 1,
+        "max": 1
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 150,
+        "max": 180
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_MU_EV_FF1_EX": {
+    "title": "FINAL FANTASY I [EX]",
+    "section": "FINAL FANTASY I Quest [EX]",
+    "designation": "",
+    "type": "Multiplayer",
+    "rankXp": 0,
+    "unitXp": 5623,
+    "gold": 1800,
+    "jp": 0,
+    "nrg": 6,
+    "completionRewards": {
+      "Visiore": 50
+    },
+    "numEnemies": 7,
+    "numChests": 0,
+    "drop": {
+      "KAKUTEI": {
+        "enemies": [
+          {
+            "iname": "UN_FF01_E_WRMC",
+            "name": "Death Machine",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Fire"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "90.0",
+            "num": 180
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "5.0",
+            "num": 200
+          },
+          {
+            "iname": "IT_EC_FF1_1",
+            "name": "FFI Event Medal",
+            "chance": "5.0",
+            "num": 215
+          }
+        ]
+      },
+      "QE_FFT_EX1": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          },
+          {
+            "iname": "UN_LW_E_ELEM_07",
+            "name": "Dark Elemental",
+            "level": 50,
+            "awake": 6,
+            "rank": 5,
+            "elem": "Dark"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_AF_FF1_ARM_002",
+            "name": "Armor of Light Crafting Recipe",
+            "chance": "0.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_MAT_HEART_03",
+            "name": "Blissful Heart",
+            "chance": "16.7",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_MAT_MYTHRIL",
+            "name": "Mythril Ore",
+            "chance": "5.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_MAT_SHINE_01",
+            "name": "Light Cryst",
+            "chance": "5.8",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_AW_ARMOR",
+            "name": "Secret Book of Refinement (Armor)",
+            "chance": "6.5",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_EXP_02",
+            "name": "Adamantite (M)",
+            "chance": "25.0",
+            "num": 2
+          },
+          {
+            "iname": "IT_AF_EXP_03",
+            "name": "Adamantite (L)",
+            "chance": "16.7",
+            "num": 2
+          },
+          {
+            "iname": "NOTHING",
+            "name": "NO DROP",
+            "chance": "22.7",
+            "num": 0
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_AF_FF1_ARM_002": {
+        "dropChance": 4.9,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_MAT_HEART_03": {
+        "dropChance": 66.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_MAT_MYTHRIL": {
+        "dropChance": 30.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_MAT_SHINE_01": {
+        "dropChance": 30.3,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_AW_ARMOR": {
+        "dropChance": 33.2,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_EXP_02": {
+        "dropChance": 82.2,
+        "min": 2,
+        "max": 2
+      },
+      "IT_AF_EXP_03": {
+        "dropChance": 66.5,
+        "min": 2,
+        "max": 2
+      },
+      "IT_EC_FF1_1": {
+        "dropChance": 100,
+        "min": 180,
+        "max": 215
+      }
+    },
+    "start": 1596000600000,
+    "end": 1597215599000
+  },
+  "QE_EV_WROL_01": {
+    "title": "Limited Hard Quest (Warrior of Light)",
+    "section": "Limited Hard Quest (Warrior of Light)",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 7228,
+    "gold": 1500,
+    "jp": 10,
+    "nrg": 8,
+    "completionRewards": {
+      "EXP Cube (L)": 10
+    },
+    "numEnemies": 1,
+    "numChests": 0,
+    "drop": {
+      "QE_EV_FF1_WROL": {
+        "enemies": [
+          {
+            "iname": "UN_LW_E_OGRE_01",
+            "name": "Ogre Chief",
+            "level": 30,
+            "awake": 1,
+            "rank": 0,
+            "elem": "Wind"
+          }
+        ],
+        "drops": [
+          {
+            "iname": "IT_PI_FF1_WROL",
+            "name": "Warrior of Light Unit Shard",
+            "chance": "100.0",
+            "num": 5
+          }
+        ]
+      }
+    },
+    "topLevelDrop": {
+      "IT_PI_FF1_WROL": {
+        "dropChance": 100,
+        "min": 5,
+        "max": 5
+      }
+    },
+    "start": 1596000600000,
+    "end": 1596610799000
+  },
   "QE_EV_FF14_01": {
     "title": "FINAL FANTASY XIV: Shadowbringers Battle #1",
     "section": "FINAL FANTASY XIV: Shadowbringers",
@@ -96328,24 +99060,6 @@
     "start": 1594796400000,
     "end": 1595998799000
   },
-  "QE_EV_NEWMAP_001": {
-    "title": "Mock Guild Battle",
-    "section": "Mock Guild Battle",
-    "designation": "",
-    "type": "Event",
-    "rankXp": 0,
-    "unitXp": 0,
-    "gold": 0,
-    "jp": 0,
-    "nrg": 0,
-    "completionRewards": {},
-    "numEnemies": 0,
-    "numChests": 0,
-    "drop": {},
-    "topLevelDrop": {},
-    "start": 1594796400000,
-    "end": 1596610799000
-  },
   "QE_EV_VNLA_01": {
     "title": "Limited Hard Quest (Vinera Fennes)",
     "section": "Limited Hard Quest (Vinera Fennes)",
@@ -101570,8 +104284,8 @@
     "numChests": 0,
     "drop": {},
     "topLevelDrop": {},
-    "start": 1594796400000,
-    "end": 1595401199000
+    "start": 1596000600000,
+    "end": 1596610799000
   },
   "QE_EV_ART_SCR_01": {
     "title": "High Difficulty Secret Book Reward Quest (Sword, Greatsword, Axe)",
@@ -104060,6 +106774,24 @@
     },
     "start": 1589958000000,
     "end": 1591145999000
+  },
+  "QE_EV_NEWMAP_001": {
+    "title": "Mock Guild Battle",
+    "section": "Mock Guild Battle",
+    "designation": "",
+    "type": "Event",
+    "rankXp": 0,
+    "unitXp": 0,
+    "gold": 0,
+    "jp": 0,
+    "nrg": 0,
+    "completionRewards": {},
+    "numEnemies": 0,
+    "numChests": 0,
+    "drop": {},
+    "topLevelDrop": {},
+    "start": 1594796400000,
+    "end": 1596610799000
   },
   "QE_MU_CSLI_03": {
     "title": "Brutal Difficulty Chocolate Flan Challenge",

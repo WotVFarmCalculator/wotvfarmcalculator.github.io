@@ -151,6 +151,14 @@
       "Green Mage"
     ]
   },
+  "Kilphe": {
+    "element": "Earth",
+    "jobs": [
+      "Staff Mage",
+      "Spellblade",
+      "White Mage"
+    ]
+  },
   "Kitone": {
     "element": "Earth",
     "jobs": [
@@ -469,6 +477,14 @@
       "Thief",
       "Red Mage",
       "Soldier"
+    ]
+  },
+  "Warrior of Light": {
+    "element": "Light",
+    "jobs": [
+      "Warrior of Light",
+      "Spellblade",
+      "Dragoon"
     ]
   },
   "Xiza": {
