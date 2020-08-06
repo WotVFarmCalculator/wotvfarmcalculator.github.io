@@ -148,6 +148,10 @@
     "itemicon_recipe.png",
     "gear/lapswpn_kat_002.png"
   ],
+  "IT_AF_LW_KAT_003": [
+    "itemicon_recipe.png",
+    "gear/lapswpn_kat_003.png"
+  ],
   "IT_AF_LW_MAC_001": [
     "itemicon_recipe.png",
     "gear/lapswpn_mac_001.png"
@@ -252,6 +256,7 @@
   "IT_CG_03": "it_cg_03.png",
   "IT_EC_EV02_1": "it_ec_ev02_1.png",
   "IT_EC_EV03_1": "it_ec_ev03_1.png",
+  "IT_EC_EV04_1": "it_ec_ev04_1.png",
   "IT_EC_FF14_1": "it_ec_ff14_1.png",
   "IT_EC_FF1_1": "it_ec_ff1_1.png",
   "IT_EC_FFT_1": "it_ec_fft_1.png",
@@ -682,6 +687,26 @@
     "itemicon_job_05.png",
     "job/mnk_item.png"
   ],
+  "IT_JB_MM_MST": [
+    "itemicon_job_01.png",
+    "job/mst_item.png"
+  ],
+  "IT_JB_MM_MST_2": [
+    "itemicon_job_02.png",
+    "job/mst_item.png"
+  ],
+  "IT_JB_MM_MST_3": [
+    "itemicon_job_03.png",
+    "job/mst_item.png"
+  ],
+  "IT_JB_MM_MST_4": [
+    "itemicon_job_04.png",
+    "job/mst_item.png"
+  ],
+  "IT_JB_MM_MST_5": [
+    "itemicon_job_05.png",
+    "job/mst_item.png"
+  ],
   "IT_JB_MM_NIN": [
     "itemicon_job_01.png",
     "job/nin_item.png"
@@ -967,6 +992,7 @@
   "IT_PI_LW_OOOO": "it_pi_lw_oooo.png",
   "IT_PI_LW_PHBE": "it_pi_lw_phbe.png",
   "IT_PI_LW_PRAY": "it_pi_lw_pray.png",
+  "IT_PI_LW_QILF": "it_pi_lw_qilf.png",
   "IT_PI_LW_RAIN": "it_pi_lw_rain.png",
   "IT_PI_LW_RAMD": "it_pi_lw_ramd.png",
   "IT_PI_LW_RART": "it_pi_lw_rart.png",
@@ -976,6 +1002,7 @@
   "IT_PI_LW_SCIA": "it_pi_lw_scia.png",
   "IT_PI_LW_SDLX": "it_pi_lw_sdlx.png",
   "IT_PI_LW_SEVR": "it_pi_lw_sevr.png",
+  "IT_PI_LW_SIMR": "it_pi_lw_simr.png",
   "IT_PI_LW_SRJS": "it_pi_lw_srjs.png",
   "IT_PI_LW_STRN": "it_pi_lw_strn.png",
   "IT_PI_LW_SZRT": "it_pi_lw_szrt.png",

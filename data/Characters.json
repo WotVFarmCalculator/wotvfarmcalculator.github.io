@@ -399,6 +399,14 @@
       "Monk"
     ]
   },
+  "Seymore": {
+    "element": "Fire",
+    "jobs": [
+      "Samurai",
+      "Viking",
+      "Thief"
+    ]
+  },
   "Shadowlynx": {
     "element": "Dark",
     "jobs": [
