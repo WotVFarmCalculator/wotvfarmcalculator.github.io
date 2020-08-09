@@ -74,6 +74,7 @@
         <h2>Latest:</h2>
         <h3>August 9th:</h3>
         <ul>
+          <li>You can now show stealable items! (Expand "Show Quest Filtering Options" and click "Include quests with stealable matching items")</li>
           <li>Fixed issue where Lightning character batch-adds didn't add alcrysts</li>
         </ul>
         <p>
@@ -243,6 +244,18 @@
               </div>
             </div>
           </div>
+
+          <div class="card">
+            <div class="card-header">
+              Steal Table Options:
+            </div>
+            <div class="card-body quest-steal-checkboxes">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="questStealShow" name="questStealShow" value="show">
+                <label class="form-check-label" for="questStealShow">Include quests with stealable matching items</label>
+              </div>
+            </div>
+          </div>
         </div>
       </form>
 
@@ -296,6 +309,10 @@
         {{/if}}
         <br>
         {{dateTypesShow}} {{dateTypesHide}}
+        {{#if filteredSteal}}
+        <br>
+        {{filteredSteal}}
+        {{/if}}
         <br>
         Results are sorted by number of matched materials{{sorted}}
       </div>
@@ -342,6 +359,13 @@
         {{#unless showRange}}
         x{{min}}
         {{/unless}}
+      </div>
+    </template>
+
+    <template class="template template-material-steal-layer">
+      <div class="material-icon material-icon-steal" title="Stolen Item">
+        <img src="img/ui/cmn_cursor.png" alt="Stolen Item">
+        STEAL
       </div>
     </template>
 
@@ -395,13 +419,16 @@
     </template>
 
     <template class="template template-quest-row-expanded">
-      <tr class="quest-row-expanded quest-row-expanded-{{cssclass iname}} gutter-1">
+      <tr class="quest-row-expanded quest-row-expanded-{{cssclass iname}} quest-row-expanded-type-{{cssclass type}} gutter-1">
         <td colspan="3">
           <div class="container">
             <div class="row drop-table-header">
               <img src="img/ui/cmn_btn_acordion_on.png" class="accordion-toggle accordion-toggle-drop-table mr-2">
               <div class="col">
                 <div class="row">
+                  {{#if isSteal}}
+                  <span class="quest-substat quest-substat-steal">STEAL:</span>
+                  {{/if}}
                   {{#each enemies}}
                   <span class="quest-substat">
                     <img class="enemy-element" src="{{elementImage}}" alt="{{element}}" title="{{element}}">
@@ -413,7 +440,11 @@
             </div>
             <div class="row drop-table-data gutter-2">
               <div class="col">
+                {{#if isSteal}}
+                <h6>Chance to steal:</h6>
+                {{else}}
                 <h6>Chance per enemy killed/chest opened:</h6>
+                {{/if}}
                 {{{materialDropBoxes}}}
               </div>
             </div>

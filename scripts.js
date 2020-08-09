@@ -1,16 +1,15 @@
 var version = "v2";
-var fileVersion = '20200506.1';
 
 var fileList = {
-  'ItemName': 'data/en/ItemName.json?ver=' + fileVersion,
-  'ArtifactName': 'data/en/ArtifactName.json?ver=' + fileVersion,
-  'ItemImageMap': 'data/ItemImageMap.json?ver=' + fileVersion,
-  'ItemQuests': 'data/ItemQuests.json?ver=' + fileVersion,
-  'QuestsByIName': 'data/QuestsByIName.json?ver=' + fileVersion,
-  'ElementalItems': 'data/ElementalItems.json?ver=' + fileVersion,
-  'JobMaterials': 'data/JobMaterials.json?ver=' + fileVersion,
-  'Characters': 'data/Characters.json?ver=' + fileVersion,
-  'ItemRecipes': 'data/ItemRecipes.json?ver=' + fileVersion,
+  'ItemName': 'data/en/ItemName.json',
+  'ArtifactName': 'data/en/ArtifactName.json',
+  'ItemImageMap': 'data/ItemImageMap.json',
+  'ItemQuests': 'data/ItemQuests.json',
+  'QuestsByIName': 'data/QuestsByIName.json',
+  'ElementalItems': 'data/ElementalItems.json',
+  'JobMaterials': 'data/JobMaterials.json',
+  'Characters': 'data/Characters.json',
+  'ItemRecipes': 'data/ItemRecipes.json',
 };
 
 var loadedData = {};
@@ -40,6 +39,7 @@ var translation = {};
 var templates = {};
 var filterOptions = [];
 var requiredMaterial = null;
+var showStealable = false;
 
 /**
  * Initializes and starts the application.
@@ -177,7 +177,7 @@ function rebuildMaterialsDom() {
 function addMaterialToDom(material) {
   var materialItem = applyTemplate('MaterialItem', {
     'material': material.iname,
-    'materialLabel': getMaterialImageOrLabel(material, true),
+    'materialLabel': getMaterialImageOrLabel(material, true, false, false),
   });
 
   $('.materials-list').append(materialItem);
@@ -254,7 +254,7 @@ function addRecipeMaterials(recipe) {
  * @param includeText
  * @param includeRange
  */
-function getMaterialImageOrLabel(material, includeText, includeRange) {
+function getMaterialImageOrLabel(material, includeText, includeRange, isSteal) {
   if (!loadedData['ItemImageMap'].hasOwnProperty(material.iname)) {
     return material.iname;
   }
@@ -279,6 +279,15 @@ function getMaterialImageOrLabel(material, includeText, includeRange) {
     var showRange = (material.min !== material.max);
 
     layerHtml += applyTemplate('MaterialQuantityLayer', {
+      'material': material.value,
+      'min': material.min,
+      'max': material.max,
+      'showRange': showRange,
+    });
+  }
+
+  if (isSteal) {
+    layerHtml += applyTemplate('MaterialStealLayer', {
       'material': material.value,
       'min': material.min,
       'max': material.max,
@@ -368,73 +377,122 @@ function calculate() {
   }
 
   var requiredQuests = null
-  if (requiredMaterial && loadedData['ItemQuests'].hasOwnProperty(requiredMaterial)) {
-    requiredQuests = loadedData['ItemQuests'][requiredMaterial];
+  if (requiredMaterial) {
+    requiredQuests = [];
+    if (loadedData['ItemQuests'].drop.hasOwnProperty(requiredMaterial)) {
+      requiredQuests = requiredQuests.concat(loadedData['ItemQuests'].drop[requiredMaterial]);
+    }
+
+    if (showStealable && loadedData['ItemQuests'].steal.hasOwnProperty(requiredMaterial)) {
+      requiredQuests = requiredQuests.concat(loadedData['ItemQuests'].steal[requiredMaterial]);
+    }
+
+    // Remove duplicates.
+    requiredQuests = requiredQuests.filter((value, index, self) => {
+      return self.indexOf(value) === index;
+    });
   }
 
   // First, get all quest inames for all item inames (taking counts for in-common materials)
-  var inCommon = {};
+  var inCommonQuestItems = {};
   materialsList.forEach(function (materialListItem) {
-    if (!loadedData['ItemQuests'].hasOwnProperty(materialListItem)) {
+    if (!loadedData['ItemQuests'].drop.hasOwnProperty(materialListItem) && !loadedData['ItemQuests'].steal.hasOwnProperty(materialListItem)) {
       console.warn("Missing itemQuests for material: ", materialListItem);
       return;
     }
 
-    var itemQuests = loadedData['ItemQuests'][materialListItem];
+    var itemDropQuests = loadedData['ItemQuests'].drop[materialListItem];
 
-    itemQuests.forEach(function (itemQuestIName) {
+    itemDropQuests.forEach(function (itemQuestIName) {
       // Filter out any quest that doesn't have the required material.
       if (requiredQuests && !requiredQuests.includes(itemQuestIName)) {
         return;
       }
 
-      if (!inCommon.hasOwnProperty(itemQuestIName)) {
-        inCommon[itemQuestIName] = {};
+      if (!inCommonQuestItems.hasOwnProperty(itemQuestIName)) {
+        inCommonQuestItems[itemQuestIName] = {};
       }
 
-      if (inCommon[itemQuestIName].hasOwnProperty(materialListItem)) {
-        console.warn('inCommon Quest already has registered item: ', itemQuestIName, materialListItem);
+      if (inCommonQuestItems[itemQuestIName].hasOwnProperty(materialListItem)) {
+        console.warn('inCommonQuestItems Quest already has registered item: ', itemQuestIName, materialListItem);
       }
 
       var min = getTopLevelQuestItemParam(itemQuestIName, materialListItem, 'min');
       var max = getTopLevelQuestItemParam(itemQuestIName, materialListItem, 'max');
       var median = (min + max) / 2;
 
-      inCommon[itemQuestIName][materialListItem] = {
+      inCommonQuestItems[itemQuestIName][materialListItem] = {
         'dropChance': getTopLevelQuestItemParam(itemQuestIName, materialListItem, 'dropChance'),
         'num': median,
+        'type': 'drop',
+      };
+    });
+
+    if (!showStealable) {
+      return;
+    }
+
+    var itemStealQuests = [];
+    if (showStealable && loadedData['ItemQuests'].steal.hasOwnProperty(materialListItem)) {
+      itemStealQuests = loadedData['ItemQuests'].steal[materialListItem];
+    }
+    itemStealQuests.forEach(function (itemQuestIName) {
+      // Filter out any quest that doesn't have the required material.
+      if (requiredQuests && !requiredQuests.includes(itemQuestIName)) {
+        return;
+      }
+
+      if (!inCommonQuestItems.hasOwnProperty(itemQuestIName)) {
+        inCommonQuestItems[itemQuestIName] = {};
+      }
+
+      var materialStealKey = "steal_" + materialListItem;
+      if (inCommonQuestItems[itemQuestIName].hasOwnProperty(materialStealKey)) {
+        console.warn('inCommonQuestItems Quest already has registered stealable item: ', itemQuestIName, materialStealKey);
+      }
+
+      var min = getTopLevelQuestItemParam(itemQuestIName, materialStealKey, 'min');
+      var max = getTopLevelQuestItemParam(itemQuestIName, materialStealKey, 'max');
+      var median = (min + max) / 2;
+
+      inCommonQuestItems[itemQuestIName][materialStealKey] = {
+        'dropChance': getTopLevelQuestItemParam(itemQuestIName, materialStealKey, 'dropChance'),
+        'num': median,
+        'type': 'steal',
       };
     });
   });
 
   var inCommonSorted = {};
-  let sortedKeys = Object.keys(inCommon).sort(function (a, b) {
-    var commonSort = Object.keys(inCommon[b]).length - Object.keys(inCommon[a]).length;
+  let sortedKeys = Object.keys(inCommonQuestItems).sort(function (a, b) {
+    var commonSort = Object.keys(inCommonQuestItems[b]).length - Object.keys(inCommonQuestItems[a]).length;
     if (!requiredMaterial || commonSort !== 0) {
       return commonSort;
     }
 
-    var dropSort = inCommon[b][requiredMaterial].dropChance - inCommon[a][requiredMaterial].dropChance;
-    if (dropSort !== 0) {
-      return dropSort;
-    }
+    if (inCommonQuestItems[b].hasOwnProperty(requiredMaterial) && inCommonQuestItems[a].hasOwnProperty(requiredMaterial)) {
+      var dropSort = inCommonQuestItems[b][requiredMaterial].dropChance - inCommonQuestItems[a][requiredMaterial].dropChance;
+      if (dropSort !== 0) {
+        return dropSort;
+      }
 
-    var numSort = inCommon[b][requiredMaterial].num - inCommon[a][requiredMaterial].num;
-    if (numSort !== 0) {
-      return numSort;
+      var numSort = inCommonQuestItems[b][requiredMaterial].num - inCommonQuestItems[a][requiredMaterial].num;
+      if (numSort !== 0) {
+        return numSort;
+      }
     }
 
     return 0;
   });
   sortedKeys.forEach(function (key) {
-    inCommonSorted[key] = inCommon[key];
+    inCommonSorted[key] = inCommonQuestItems[key];
   });
-  inCommon = inCommonSorted;
+  inCommonQuestItems = inCommonSorted;
 
   var $tbody = $('.quest-list tbody');
   $tbody.html('');
 
-  for (let [questIName, matchedItems] of Object.entries(inCommon)) {
+  for (let [questIName, matchedItems] of Object.entries(inCommonQuestItems)) {
     var questRowVM = {};
 
     var quest = loadedData['QuestsByIName'][questIName];
@@ -492,28 +550,41 @@ function calculate() {
       var matchedItemVM = {};
       matchedItemVM.dropChance = quest.topLevelDrop[matchedItem].dropChance;
       matchedItemVM.dropboxClass = '';
+      var isSteal = false;
 
-      if (requiredMaterial && requiredMaterial === matchedItem) {
-        matchedItemVM.dropboxClass = 'material-icon-drop-box-required';
+      var matchedItemKey = matchedItem;
+      if (quest.topLevelDrop[matchedItem].type === 'steal') {
+        matchedItemKey = matchedItem.replace('steal_', '');
+        matchedItemVM.dropboxClass += ' material-icon-drop-box-steal';
+        isSteal = true;
+      }
+
+      if (requiredMaterial && (requiredMaterial === matchedItem || requiredMaterial === matchedItemKey)) {
+        matchedItemVM.dropboxClass += ' material-icon-drop-box-required';
       }
 
       var entry = {
-        'iname': matchedItem,
-        'value': translation['ItemName'][matchedItem],
+        'iname': matchedItemKey,
+        'value': translation['ItemName'][matchedItemKey],
         'type': 'item',
         'min': quest.topLevelDrop[matchedItem].min,
         'max': quest.topLevelDrop[matchedItem].max,
       };
-      matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true);
+      matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true, isSteal);
       questRowVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
     }
 
     $tbody.append(applyTemplate('QuestRow', questRowVM));
 
     for (let [dropTableKey, setData] of Object.entries(quest.drop)) {
+      if (!showStealable && setData.type === 'steal') {
+        continue;
+      }
+
       var questRowExpandedVM = {};
       questRowExpandedVM.iname = questIName;
-
+      questRowExpandedVM.type = setData.type;
+      questRowExpandedVM.isSteal = (setData.type === 'steal');
       questRowExpandedVM.enemies = [];
 
       // Don't show tables without anything that can drop it.
@@ -550,7 +621,7 @@ function calculate() {
           'type': 'item',
         };
 
-        matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true);
+        matchedItemVM.materialLabel = getMaterialImageOrLabel(entry, false, true, questRowExpandedVM.isSteal);
         questRowExpandedVM.materialDropBoxes += applyTemplate('MaterialDropBox', matchedItemVM);
       });
 
@@ -589,6 +660,7 @@ function updateLocalStorage() {
   localStorage.setItem(version + '.selectedMaterials', JSON.stringify(materialsList));
   localStorage.setItem(version + '.filterOptions', JSON.stringify($('.quest-filters-form').serializeArray()));
   localStorage.setItem(version + '.requiredMaterial', requiredMaterial);
+  localStorage.setItem(version + '.showStealable', showStealable);
 }
 
 /**
@@ -611,6 +683,7 @@ function loadFromLocalStorage() {
   }
 
   requiredMaterial = localStorage.getItem(version + '.requiredMaterial');
+  showStealable = (localStorage.getItem(version + '.showStealable') === 'true');
 }
 
 /**
@@ -698,14 +771,17 @@ function applyTemplate(template, data) {
  * Initialize the autocomplete functionality.
  */
 function initTypeAhead() {
+  var itemQuestKeys = Object.keys(loadedData["ItemQuests"].drop);
+  itemQuestKeys = itemQuestKeys.concat(loadedData["ItemQuests"].steal);
+
   // Build the structure for the autocomplete.
-  Object.keys(loadedData["ItemQuests"]).forEach(function (itemCode) {
+  itemQuestKeys.forEach(function (itemCode) {
     var entry = {
       'iname': itemCode,
       'value': translation['ItemName'][itemCode],
       'type': 'item',
     };
-    entry.materialLabel = getMaterialImageOrLabel(entry, true);
+    entry.materialLabel = getMaterialImageOrLabel(entry, true, false, false);
     autocompleteData.push(entry);
   });
 
@@ -787,6 +863,7 @@ function initTemplates() {
     'QuestRowExpanded': '.template-quest-row-expanded',
     'NoDrop': '.template-no-drop',
     'MaterialQuantityLayer': '.template-material-quantity-layer',
+    'MaterialStealLayer': '.template-material-steal-layer',
     'QuestFiltersInfo': '.template-quest-filters-info',
   };
 
@@ -949,6 +1026,13 @@ function initUI() {
     calculateStart();
   });
 
+  // Handle toggling showing stealable items.
+  $body.on('click', '#questStealShow', function (e) {
+    showStealable = document.getElementById('questStealShow').checked;
+    updateLocalStorage();
+    calculateStart();
+  });
+
   // Init calculating modal, but don't show yet.
   $('#calculatingModal').modal({
     'show': false
@@ -1100,18 +1184,25 @@ function updateQuestFilterInfo() {
     sorted = ', then by the required material\'s at-least-one drop chance, then by the required material\'s median drop quantity.';
   }
 
+  var filteredSteal = '';
+  var stealChecked = document.getElementById('questStealShow').checked;
+  if (stealChecked) {
+    filteredSteal = 'Showing stealable items.';
+  }
+
   var html = applyTemplate('QuestFiltersInfo', {
     'filteredTypes': filteredTypes,
     'filteredRequired': filteredRequired,
     'sorted': sorted,
     'dateTypesHide': dateTypesHide,
     'dateTypesShow': dateTypesShow,
+    'filteredSteal': filteredSteal
   });
   $questFiltersInfoContainer.html(html);
 }
 
 /**
- * Utility function to get a top level parameter than may/may not exist.
+ * Utility function to get a top level parameter that may/may not exist.
  *
  * @param itemQuestIName
  * @param materialListItem
