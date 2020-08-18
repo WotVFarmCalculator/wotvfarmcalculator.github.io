@@ -345,7 +345,7 @@ body {
 .nav-pills .nav-link {
   border-style: solid;
   border-width: 13px 17px 17px 16px;
-  border-image: url("img/ui/cmn_tab_off_02_02_no_trans.png") 25 33 33 35 fill stretch;
+  border-image: url("img/UI/CMN_TAB_OFF_02_02_NO_TRANS.PNG") 25 33 33 35 fill stretch;
   height: 29px;
   background: none;
   padding: 0;
@@ -359,14 +359,14 @@ body {
 .nav-pills .nav-link:hover,
 .nav-pills .show > .nav-link {
   background: none;
-  border-image: url("img/ui/cmn_tab_on_02_02_no_trans.png") 25 33 33 35 fill stretch;
+  border-image: url("img/UI/CMN_TAB_ON_02_02_NO_TRANS.PNG") 25 33 33 35 fill stretch;
   color: #000;
 }
 
 .btn-primary {
   border-style: solid;
   border-width: 8px 13px 16px;
-  border-image: url("img/ui/cmn_btn_base_01.png") 13 23 25 fill stretch;
+  border-image: url("img/UI/CMN_BTN_BASE_01.PNG") 13 23 25 fill stretch;
   padding: 5px 7px 4px 7px;
   background: none;
   line-height: 12px;
@@ -381,7 +381,7 @@ body {
 .btn-danger {
   border-style: solid;
   border-width: 7px 12px 14px;
-  border-image: url(img/ui/cmn_btn_base_02.png) 13 23 25 fill stretch;
+  border-image: url(img/UI/CMN_BTN_BASE_02.PNG) 13 23 25 fill stretch;
   padding: 2px 0px 0px 0px;
   background: none;
   line-height: 1rem;
@@ -402,7 +402,7 @@ body {
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
   border-style: solid;
   border-width: 10px 12px 14px;
-  border-image: url("img/ui/cmn_btn_base_06.png") 21 24 26 23 fill stretch;
+  border-image: url("img/UI/CMN_BTN_BASE_06.PNG") 21 24 26 23 fill stretch;
 }
 
 .btn-filter:hover {
@@ -637,7 +637,7 @@ body {
 }
 
 .material-icon-steal {
-  background: url(img/ui/cmn_gauge_front_01_02.png) no-repeat center center;
+  background: url(img/UI/CMN_GAUGE_FRONT_01_02.PNG) no-repeat center center;
   height: .6rem;
   width: 100%;
   background-size: cover;

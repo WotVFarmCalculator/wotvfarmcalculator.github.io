@@ -596,7 +596,7 @@ function calculate() {
         if (!enemyData.name) {
           enemyData.name = enemyData.iname;
         }
-        var elementImage = "element/element_icon_none.png";
+        var elementImage = "ELEMENT/ELEMENT_ICON_NONE.PNG";
         var element = "Element: None";
         if (enemyData.elem) {
           elementImage = "img/ELEMENT/ELEMENT_ICON_" + enemyData.elem.toUpperCase() + ".PNG";

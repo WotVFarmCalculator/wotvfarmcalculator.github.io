@@ -303,6 +303,14 @@
       "Samurai"
     ]
   },
+  "Oldoa": {
+    "element": "Wind",
+    "jobs": [
+      "Soldier",
+      "Viking",
+      "Assassin"
+    ]
+  },
   "Orlandeau": {
     "element": "Lightning",
     "jobs": [
@@ -357,6 +365,14 @@
       "Squire",
       "Spellblade",
       "Ninja"
+    ]
+  },
+  "Raviesse": {
+    "element": "Lightning",
+    "jobs": [
+      "Paladin",
+      "Thief",
+      "Samurai"
     ]
   },
   "Robb Hourne": {
