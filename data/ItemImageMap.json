@@ -1,1140 +1,1140 @@
 {
-  "IT_ACTP_01": "it_actp_01.png",
-  "IT_ACTP_02": "it_actp_02.png",
-  "IT_AF_AW_ACCE": "it_af_aw_acce.png",
-  "IT_AF_AW_ARMOR": "it_af_aw_armor.png",
-  "IT_AF_AW_AXE": "it_af_aw_axe.png",
-  "IT_AF_AW_FIST": "it_af_aw_fist.png",
-  "IT_AF_AW_GUN": "it_af_aw_gun.png",
-  "IT_AF_AW_JSWORD": "it_af_aw_jsword.png",
-  "IT_AF_AW_KUNAI": "it_af_aw_kunai.png",
-  "IT_AF_AW_LSWORD": "it_af_aw_lsword.png",
-  "IT_AF_AW_SPEAR": "it_af_aw_spear.png",
-  "IT_AF_AW_SSWORD": "it_af_aw_ssword.png",
-  "IT_AF_AW_STAFF": "it_af_aw_staff.png",
-  "IT_AF_AW_SWORD": "it_af_aw_sword.png",
-  "IT_AF_EXP_01": "it_af_exp_01.png",
-  "IT_AF_EXP_02": "it_af_exp_02.png",
-  "IT_AF_EXP_03": "it_af_exp_03.png",
+  "IT_ACTP_01": "IT_ACTP_01.PNG",
+  "IT_ACTP_02": "IT_ACTP_02.PNG",
+  "IT_AF_AW_ACCE": "IT_AF_AW_ACCE.PNG",
+  "IT_AF_AW_ARMOR": "IT_AF_AW_ARMOR.PNG",
+  "IT_AF_AW_AXE": "IT_AF_AW_AXE.PNG",
+  "IT_AF_AW_FIST": "IT_AF_AW_FIST.PNG",
+  "IT_AF_AW_GUN": "IT_AF_AW_GUN.PNG",
+  "IT_AF_AW_JSWORD": "IT_AF_AW_JSWORD.PNG",
+  "IT_AF_AW_KUNAI": "IT_AF_AW_KUNAI.PNG",
+  "IT_AF_AW_LSWORD": "IT_AF_AW_LSWORD.PNG",
+  "IT_AF_AW_SPEAR": "IT_AF_AW_SPEAR.PNG",
+  "IT_AF_AW_SSWORD": "IT_AF_AW_SSWORD.PNG",
+  "IT_AF_AW_STAFF": "IT_AF_AW_STAFF.PNG",
+  "IT_AF_AW_SWORD": "IT_AF_AW_SWORD.PNG",
+  "IT_AF_EXP_01": "IT_AF_EXP_01.PNG",
+  "IT_AF_EXP_02": "IT_AF_EXP_02.PNG",
+  "IT_AF_EXP_03": "IT_AF_EXP_03.PNG",
   "IT_AF_FF1_ARM_002": [
-    "itemicon_recipe.png",
-    "gear/ff1wpn_arm_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/FF1WPN_ARM_002.PNG"
   ],
   "IT_AF_FFT_SWO_001": [
-    "itemicon_recipe.png",
-    "gear/fft0wpn_swo_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/FFT0WPN_SWO_001.PNG"
   ],
   "IT_AF_LW_ARM_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_arm_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_ARM_002.PNG"
   ],
   "IT_AF_LW_ARM_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_arm_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_ARM_003.PNG"
   ],
   "IT_AF_LW_ARM_004": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_arm_004.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_ARM_004.PNG"
   ],
   "IT_AF_LW_AXE_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_axe_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_AXE_001.PNG"
   ],
   "IT_AF_LW_AXE_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_axe_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_AXE_002.PNG"
   ],
   "IT_AF_LW_AXE_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_axe_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_AXE_003.PNG"
   ],
   "IT_AF_LW_BOW_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_bow_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_BOW_001.PNG"
   ],
   "IT_AF_LW_BOW_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_bow_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_BOW_002.PNG"
   ],
   "IT_AF_LW_BSW_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_bsw_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_BSW_001.PNG"
   ],
   "IT_AF_LW_BSW_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_bsw_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_BSW_002.PNG"
   ],
   "IT_AF_LW_BSW_004": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_bsw_004.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_BSW_004.PNG"
   ],
   "IT_AF_LW_CLT_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_clt_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_CLT_002.PNG"
   ],
   "IT_AF_LW_CLT_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_clt_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_CLT_003.PNG"
   ],
   "IT_AF_LW_CLT_004": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_clt_004.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_CLT_004.PNG"
   ],
   "IT_AF_LW_DAG_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_dag_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_DAG_001.PNG"
   ],
   "IT_AF_LW_DAG_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_dag_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_DAG_002.PNG"
   ],
   "IT_AF_LW_DAG_006": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_dag_006.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_DAG_006.PNG"
   ],
   "IT_AF_LW_FIS_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_fis_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_FIS_001.PNG"
   ],
   "IT_AF_LW_FIS_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_fis_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_FIS_002.PNG"
   ],
   "IT_AF_LW_FIS_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_fis_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_FIS_003.PNG"
   ],
   "IT_AF_LW_GUN_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_gun_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_GUN_001.PNG"
   ],
   "IT_AF_LW_GUN_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_gun_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_GUN_002.PNG"
   ],
   "IT_AF_LW_GUN_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_gun_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_GUN_003.PNG"
   ],
   "IT_AF_LW_HAT_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_hat_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_HAT_002.PNG"
   ],
   "IT_AF_LW_HAT_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_hat_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_HAT_003.PNG"
   ],
   "IT_AF_LW_HAT_004": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_hat_004.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_HAT_004.PNG"
   ],
   "IT_AF_LW_HLM_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_hlm_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_HLM_002.PNG"
   ],
   "IT_AF_LW_HLM_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_hlm_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_HLM_003.PNG"
   ],
   "IT_AF_LW_HLM_004": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_hlm_004.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_HLM_004.PNG"
   ],
   "IT_AF_LW_KAT_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_kat_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_KAT_001.PNG"
   ],
   "IT_AF_LW_KAT_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_kat_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_KAT_002.PNG"
   ],
   "IT_AF_LW_KAT_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_kat_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_KAT_003.PNG"
   ],
   "IT_AF_LW_MAC_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_mac_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_MAC_001.PNG"
   ],
   "IT_AF_LW_MAC_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_mac_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_MAC_002.PNG"
   ],
   "IT_AF_LW_NKN_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_nkn_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_NKN_001.PNG"
   ],
   "IT_AF_LW_NKN_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_nkn_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_NKN_002.PNG"
   ],
   "IT_AF_LW_NKN_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_nkn_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_NKN_003.PNG"
   ],
   "IT_AF_LW_RNG_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_rng_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_RNG_002.PNG"
   ],
   "IT_AF_LW_RNG_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_rng_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_RNG_003.PNG"
   ],
   "IT_AF_LW_ROD_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_rod_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_ROD_002.PNG"
   ],
   "IT_AF_LW_ROD_004": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_rod_004.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_ROD_004.PNG"
   ],
   "IT_AF_LW_ROD_005": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_rod_005.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_ROD_005.PNG"
   ],
   "IT_AF_LW_SPE_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_spe_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_SPE_001.PNG"
   ],
   "IT_AF_LW_SPE_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_spe_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_SPE_002.PNG"
   ],
   "IT_AF_LW_SPE_004": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_spe_004.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_SPE_004.PNG"
   ],
   "IT_AF_LW_SPE_006": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_spe_006.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_SPE_006.PNG"
   ],
   "IT_AF_LW_SWO_001": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_swo_001.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_SWO_001.PNG"
   ],
   "IT_AF_LW_SWO_002": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_swo_002.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_SWO_002.PNG"
   ],
   "IT_AF_LW_SWO_003": [
-    "itemicon_recipe.png",
-    "gear/lapswpn_swo_003.png"
+    "ITEMICON_RECIPE.PNG",
+    "GEAR/LAPSWPN_SWO_003.PNG"
   ],
-  "IT_AF_MAT_ARMN": "it_af_mat_armn.png",
-  "IT_AF_MAT_BOMB": "it_af_mat_bomb.png",
-  "IT_AF_MAT_BONE": "it_af_mat_bone.png",
-  "IT_AF_MAT_HEART_01": "it_af_mat_heart_01.png",
-  "IT_AF_MAT_HEART_02": "it_af_mat_heart_02.png",
-  "IT_AF_MAT_HEART_03": "it_af_mat_heart_03.png",
-  "IT_AF_MAT_ICE_01": "it_af_mat_ice_01.png",
-  "IT_AF_MAT_LESS_01": "it_af_mat_less_01.png",
-  "IT_AF_MAT_LIQUID_01": "it_af_mat_liquid_01.png",
-  "IT_AF_MAT_LIQUID_02": "it_af_mat_liquid_02.png",
-  "IT_AF_MAT_LIQUID_03": "it_af_mat_liquid_03.png",
-  "IT_AF_MAT_LIQUID_04": "it_af_mat_liquid_04.png",
-  "IT_AF_MAT_MABR": "it_af_mat_mabr.png",
-  "IT_AF_MAT_MYTHRIL": "it_af_mat_mythril.png",
-  "IT_AF_MAT_OGRE": "it_af_mat_ogre.png",
-  "IT_AF_MAT_SAND_01": "it_af_mat_sand_01.png",
-  "IT_AF_MAT_SAND_02": "it_af_mat_sand_02.png",
-  "IT_AF_MAT_SAND_03": "it_af_mat_sand_03.png",
-  "IT_AF_MAT_SAP_01": "it_af_mat_sap_01.png",
-  "IT_AF_MAT_SAP_02": "it_af_mat_sap_02.png",
-  "IT_AF_MAT_SAP_03": "it_af_mat_sap_03.png",
-  "IT_AF_MAT_SHINE_01": "it_af_mat_shine_01.png",
-  "IT_AF_MAT_WOLF": "it_af_mat_wolf.png",
-  "IT_AF_MAT_ZUUU": "it_af_mat_zuuu.png",
-  "IT_AF_SUP_ATK": "it_af_sup_atk.png",
-  "IT_AF_SUP_AVO": "it_af_sup_avo.png",
-  "IT_AF_SUP_CRI": "it_af_sup_cri.png",
-  "IT_AF_SUP_DEF": "it_af_sup_def.png",
-  "IT_AF_SUP_HIT": "it_af_sup_hit.png",
-  "IT_AF_SUP_HP": "it_af_sup_hp.png",
-  "IT_AF_SUP_MAG": "it_af_sup_mag.png",
-  "IT_AF_SUP_MND": "it_af_sup_mnd.png",
-  "IT_CG_01": "it_cg_01.png",
-  "IT_CG_02": "it_cg_02.png",
-  "IT_CG_03": "it_cg_03.png",
-  "IT_EC_EV02_1": "it_ec_ev02_1.png",
-  "IT_EC_EV03_1": "it_ec_ev03_1.png",
-  "IT_EC_EV04_1": "it_ec_ev04_1.png",
-  "IT_EC_FF14_1": "it_ec_ff14_1.png",
-  "IT_EC_FF1_1": "it_ec_ff1_1.png",
-  "IT_EC_FFT_1": "it_ec_fft_1.png",
-  "IT_JB_AXE_01": "it_jb_axe_01.png",
-  "IT_JB_AXE_02": "it_jb_axe_02.png",
-  "IT_JB_AXE_03": "it_jb_axe_03.png",
-  "IT_JB_AXE_04": "it_jb_axe_04.png",
-  "IT_JB_AXE_05": "it_jb_axe_05.png",
-  "IT_JB_BOW_01": "it_jb_bow_01.png",
-  "IT_JB_BOW_02": "it_jb_bow_02.png",
-  "IT_JB_BOW_03": "it_jb_bow_03.png",
-  "IT_JB_BOW_04": "it_jb_bow_04.png",
-  "IT_JB_BOW_05": "it_jb_bow_05.png",
-  "IT_JB_EM_DARK_1": "it_jb_em_dark_1.png",
-  "IT_JB_EM_DARK_2": "it_jb_em_dark_2.png",
-  "IT_JB_EM_DARK_3": "it_jb_em_dark_3.png",
-  "IT_JB_EM_DARK_4": "it_jb_em_dark_4.png",
-  "IT_JB_EM_DARK_5": "it_jb_em_dark_5.png",
-  "IT_JB_EM_FIRE_1": "it_jb_em_fire_1.png",
-  "IT_JB_EM_FIRE_2": "it_jb_em_fire_2.png",
-  "IT_JB_EM_FIRE_3": "it_jb_em_fire_3.png",
-  "IT_JB_EM_FIRE_4": "it_jb_em_fire_4.png",
-  "IT_JB_EM_FIRE_5": "it_jb_em_fire_5.png",
-  "IT_JB_EM_ICE_1": "it_jb_em_ice_1.png",
-  "IT_JB_EM_ICE_2": "it_jb_em_ice_2.png",
-  "IT_JB_EM_ICE_3": "it_jb_em_ice_3.png",
-  "IT_JB_EM_ICE_4": "it_jb_em_ice_4.png",
-  "IT_JB_EM_ICE_5": "it_jb_em_ice_5.png",
-  "IT_JB_EM_SHINE_1": "it_jb_em_shine_1.png",
-  "IT_JB_EM_SHINE_2": "it_jb_em_shine_2.png",
-  "IT_JB_EM_SHINE_3": "it_jb_em_shine_3.png",
-  "IT_JB_EM_SHINE_4": "it_jb_em_shine_4.png",
-  "IT_JB_EM_SHINE_5": "it_jb_em_shine_5.png",
-  "IT_JB_EM_SOIL_1": "it_jb_em_soil_1.png",
-  "IT_JB_EM_SOIL_2": "it_jb_em_soil_2.png",
-  "IT_JB_EM_SOIL_3": "it_jb_em_soil_3.png",
-  "IT_JB_EM_SOIL_4": "it_jb_em_soil_4.png",
-  "IT_JB_EM_SOIL_5": "it_jb_em_soil_5.png",
-  "IT_JB_EM_THUNDER_1": "it_jb_em_thunder_1.png",
-  "IT_JB_EM_THUNDER_2": "it_jb_em_thunder_2.png",
-  "IT_JB_EM_THUNDER_3": "it_jb_em_thunder_3.png",
-  "IT_JB_EM_THUNDER_4": "it_jb_em_thunder_4.png",
-  "IT_JB_EM_THUNDER_5": "it_jb_em_thunder_5.png",
-  "IT_JB_EM_WATER_1": "it_jb_em_water_1.png",
-  "IT_JB_EM_WATER_2": "it_jb_em_water_2.png",
-  "IT_JB_EM_WATER_3": "it_jb_em_water_3.png",
-  "IT_JB_EM_WATER_4": "it_jb_em_water_4.png",
-  "IT_JB_EM_WATER_5": "it_jb_em_water_5.png",
-  "IT_JB_EM_WIND_1": "it_jb_em_wind_1.png",
-  "IT_JB_EM_WIND_2": "it_jb_em_wind_2.png",
-  "IT_JB_EM_WIND_3": "it_jb_em_wind_3.png",
-  "IT_JB_EM_WIND_4": "it_jb_em_wind_4.png",
-  "IT_JB_EM_WIND_5": "it_jb_em_wind_5.png",
-  "IT_JB_FIST_01": "it_jb_fist_01.png",
-  "IT_JB_FIST_02": "it_jb_fist_02.png",
-  "IT_JB_FIST_03": "it_jb_fist_03.png",
-  "IT_JB_FIST_04": "it_jb_fist_04.png",
-  "IT_JB_FIST_05": "it_jb_fist_05.png",
-  "IT_JB_GUN_01": "it_jb_gun_01.png",
-  "IT_JB_GUN_02": "it_jb_gun_02.png",
-  "IT_JB_GUN_03": "it_jb_gun_03.png",
-  "IT_JB_GUN_04": "it_jb_gun_04.png",
-  "IT_JB_GUN_05": "it_jb_gun_05.png",
-  "IT_JB_IM_ANGEL_1": "it_jb_im_angel_1.png",
-  "IT_JB_IM_ANGEL_2": "it_jb_im_angel_2.png",
-  "IT_JB_IM_ANGEL_3": "it_jb_im_angel_3.png",
-  "IT_JB_IM_ANGEL_4": "it_jb_im_angel_4.png",
-  "IT_JB_IM_ANGEL_5": "it_jb_im_angel_5.png",
-  "IT_JB_IM_DRAGON_1": "it_jb_im_dragon_1.png",
-  "IT_JB_IM_DRAGON_2": "it_jb_im_dragon_2.png",
-  "IT_JB_IM_DRAGON_3": "it_jb_im_dragon_3.png",
-  "IT_JB_IM_DRAGON_4": "it_jb_im_dragon_4.png",
-  "IT_JB_IM_DRAGON_5": "it_jb_im_dragon_5.png",
-  "IT_JB_JSWORD_01": "it_jb_jsword_01.png",
-  "IT_JB_JSWORD_02": "it_jb_jsword_02.png",
-  "IT_JB_JSWORD_03": "it_jb_jsword_03.png",
-  "IT_JB_JSWORD_04": "it_jb_jsword_04.png",
-  "IT_JB_JSWORD_05": "it_jb_jsword_05.png",
-  "IT_JB_KUNAI_01": "it_jb_kunai_01.png",
-  "IT_JB_KUNAI_02": "it_jb_kunai_02.png",
-  "IT_JB_KUNAI_03": "it_jb_kunai_03.png",
-  "IT_JB_KUNAI_04": "it_jb_kunai_04.png",
-  "IT_JB_KUNAI_05": "it_jb_kunai_05.png",
-  "IT_JB_LSWORD_01": "it_jb_lsword_01.png",
-  "IT_JB_LSWORD_02": "it_jb_lsword_02.png",
-  "IT_JB_LSWORD_03": "it_jb_lsword_03.png",
-  "IT_JB_LSWORD_04": "it_jb_lsword_04.png",
-  "IT_JB_LSWORD_05": "it_jb_lsword_05.png",
-  "IT_JB_MACE_01": "it_jb_mace_01.png",
-  "IT_JB_MACE_02": "it_jb_mace_02.png",
-  "IT_JB_MACE_03": "it_jb_mace_03.png",
-  "IT_JB_MACE_04": "it_jb_mace_04.png",
-  "IT_JB_MACE_05": "it_jb_mace_05.png",
-  "IT_JB_MM_ALL": "it_jb_mm_all.png",
-  "IT_JB_MM_ALL_2": "it_jb_mm_all_2.png",
-  "IT_JB_MM_ALL_3": "it_jb_mm_all_3.png",
-  "IT_JB_MM_ALL_4": "it_jb_mm_all_4.png",
-  "IT_JB_MM_ALL_5": "it_jb_mm_all_5.png",
+  "IT_AF_MAT_ARMN": "IT_AF_MAT_ARMN.PNG",
+  "IT_AF_MAT_BOMB": "IT_AF_MAT_BOMB.PNG",
+  "IT_AF_MAT_BONE": "IT_AF_MAT_BONE.PNG",
+  "IT_AF_MAT_HEART_01": "IT_AF_MAT_HEART_01.PNG",
+  "IT_AF_MAT_HEART_02": "IT_AF_MAT_HEART_02.PNG",
+  "IT_AF_MAT_HEART_03": "IT_AF_MAT_HEART_03.PNG",
+  "IT_AF_MAT_ICE_01": "IT_AF_MAT_ICE_01.PNG",
+  "IT_AF_MAT_LESS_01": "IT_AF_MAT_LESS_01.PNG",
+  "IT_AF_MAT_LIQUID_01": "IT_AF_MAT_LIQUID_01.PNG",
+  "IT_AF_MAT_LIQUID_02": "IT_AF_MAT_LIQUID_02.PNG",
+  "IT_AF_MAT_LIQUID_03": "IT_AF_MAT_LIQUID_03.PNG",
+  "IT_AF_MAT_LIQUID_04": "IT_AF_MAT_LIQUID_04.PNG",
+  "IT_AF_MAT_MABR": "IT_AF_MAT_MABR.PNG",
+  "IT_AF_MAT_MYTHRIL": "IT_AF_MAT_MYTHRIL.PNG",
+  "IT_AF_MAT_OGRE": "IT_AF_MAT_OGRE.PNG",
+  "IT_AF_MAT_SAND_01": "IT_AF_MAT_SAND_01.PNG",
+  "IT_AF_MAT_SAND_02": "IT_AF_MAT_SAND_02.PNG",
+  "IT_AF_MAT_SAND_03": "IT_AF_MAT_SAND_03.PNG",
+  "IT_AF_MAT_SAP_01": "IT_AF_MAT_SAP_01.PNG",
+  "IT_AF_MAT_SAP_02": "IT_AF_MAT_SAP_02.PNG",
+  "IT_AF_MAT_SAP_03": "IT_AF_MAT_SAP_03.PNG",
+  "IT_AF_MAT_SHINE_01": "IT_AF_MAT_SHINE_01.PNG",
+  "IT_AF_MAT_WOLF": "IT_AF_MAT_WOLF.PNG",
+  "IT_AF_MAT_ZUUU": "IT_AF_MAT_ZUUU.PNG",
+  "IT_AF_SUP_ATK": "IT_AF_SUP_ATK.PNG",
+  "IT_AF_SUP_AVO": "IT_AF_SUP_AVO.PNG",
+  "IT_AF_SUP_CRI": "IT_AF_SUP_CRI.PNG",
+  "IT_AF_SUP_DEF": "IT_AF_SUP_DEF.PNG",
+  "IT_AF_SUP_HIT": "IT_AF_SUP_HIT.PNG",
+  "IT_AF_SUP_HP": "IT_AF_SUP_HP.PNG",
+  "IT_AF_SUP_MAG": "IT_AF_SUP_MAG.PNG",
+  "IT_AF_SUP_MND": "IT_AF_SUP_MND.PNG",
+  "IT_CG_01": "IT_CG_01.PNG",
+  "IT_CG_02": "IT_CG_02.PNG",
+  "IT_CG_03": "IT_CG_03.PNG",
+  "IT_EC_EV02_1": "IT_EC_EV02_1.PNG",
+  "IT_EC_EV03_1": "IT_EC_EV03_1.PNG",
+  "IT_EC_EV04_1": "IT_EC_EV04_1.PNG",
+  "IT_EC_FF14_1": "IT_EC_FF14_1.PNG",
+  "IT_EC_FF1_1": "IT_EC_FF1_1.PNG",
+  "IT_EC_FFT_1": "IT_EC_FFT_1.PNG",
+  "IT_JB_AXE_01": "IT_JB_AXE_01.PNG",
+  "IT_JB_AXE_02": "IT_JB_AXE_02.PNG",
+  "IT_JB_AXE_03": "IT_JB_AXE_03.PNG",
+  "IT_JB_AXE_04": "IT_JB_AXE_04.PNG",
+  "IT_JB_AXE_05": "IT_JB_AXE_05.PNG",
+  "IT_JB_BOW_01": "IT_JB_BOW_01.PNG",
+  "IT_JB_BOW_02": "IT_JB_BOW_02.PNG",
+  "IT_JB_BOW_03": "IT_JB_BOW_03.PNG",
+  "IT_JB_BOW_04": "IT_JB_BOW_04.PNG",
+  "IT_JB_BOW_05": "IT_JB_BOW_05.PNG",
+  "IT_JB_EM_DARK_1": "IT_JB_EM_DARK_1.PNG",
+  "IT_JB_EM_DARK_2": "IT_JB_EM_DARK_2.PNG",
+  "IT_JB_EM_DARK_3": "IT_JB_EM_DARK_3.PNG",
+  "IT_JB_EM_DARK_4": "IT_JB_EM_DARK_4.PNG",
+  "IT_JB_EM_DARK_5": "IT_JB_EM_DARK_5.PNG",
+  "IT_JB_EM_FIRE_1": "IT_JB_EM_FIRE_1.PNG",
+  "IT_JB_EM_FIRE_2": "IT_JB_EM_FIRE_2.PNG",
+  "IT_JB_EM_FIRE_3": "IT_JB_EM_FIRE_3.PNG",
+  "IT_JB_EM_FIRE_4": "IT_JB_EM_FIRE_4.PNG",
+  "IT_JB_EM_FIRE_5": "IT_JB_EM_FIRE_5.PNG",
+  "IT_JB_EM_ICE_1": "IT_JB_EM_ICE_1.PNG",
+  "IT_JB_EM_ICE_2": "IT_JB_EM_ICE_2.PNG",
+  "IT_JB_EM_ICE_3": "IT_JB_EM_ICE_3.PNG",
+  "IT_JB_EM_ICE_4": "IT_JB_EM_ICE_4.PNG",
+  "IT_JB_EM_ICE_5": "IT_JB_EM_ICE_5.PNG",
+  "IT_JB_EM_SHINE_1": "IT_JB_EM_SHINE_1.PNG",
+  "IT_JB_EM_SHINE_2": "IT_JB_EM_SHINE_2.PNG",
+  "IT_JB_EM_SHINE_3": "IT_JB_EM_SHINE_3.PNG",
+  "IT_JB_EM_SHINE_4": "IT_JB_EM_SHINE_4.PNG",
+  "IT_JB_EM_SHINE_5": "IT_JB_EM_SHINE_5.PNG",
+  "IT_JB_EM_SOIL_1": "IT_JB_EM_SOIL_1.PNG",
+  "IT_JB_EM_SOIL_2": "IT_JB_EM_SOIL_2.PNG",
+  "IT_JB_EM_SOIL_3": "IT_JB_EM_SOIL_3.PNG",
+  "IT_JB_EM_SOIL_4": "IT_JB_EM_SOIL_4.PNG",
+  "IT_JB_EM_SOIL_5": "IT_JB_EM_SOIL_5.PNG",
+  "IT_JB_EM_THUNDER_1": "IT_JB_EM_THUNDER_1.PNG",
+  "IT_JB_EM_THUNDER_2": "IT_JB_EM_THUNDER_2.PNG",
+  "IT_JB_EM_THUNDER_3": "IT_JB_EM_THUNDER_3.PNG",
+  "IT_JB_EM_THUNDER_4": "IT_JB_EM_THUNDER_4.PNG",
+  "IT_JB_EM_THUNDER_5": "IT_JB_EM_THUNDER_5.PNG",
+  "IT_JB_EM_WATER_1": "IT_JB_EM_WATER_1.PNG",
+  "IT_JB_EM_WATER_2": "IT_JB_EM_WATER_2.PNG",
+  "IT_JB_EM_WATER_3": "IT_JB_EM_WATER_3.PNG",
+  "IT_JB_EM_WATER_4": "IT_JB_EM_WATER_4.PNG",
+  "IT_JB_EM_WATER_5": "IT_JB_EM_WATER_5.PNG",
+  "IT_JB_EM_WIND_1": "IT_JB_EM_WIND_1.PNG",
+  "IT_JB_EM_WIND_2": "IT_JB_EM_WIND_2.PNG",
+  "IT_JB_EM_WIND_3": "IT_JB_EM_WIND_3.PNG",
+  "IT_JB_EM_WIND_4": "IT_JB_EM_WIND_4.PNG",
+  "IT_JB_EM_WIND_5": "IT_JB_EM_WIND_5.PNG",
+  "IT_JB_FIST_01": "IT_JB_FIST_01.PNG",
+  "IT_JB_FIST_02": "IT_JB_FIST_02.PNG",
+  "IT_JB_FIST_03": "IT_JB_FIST_03.PNG",
+  "IT_JB_FIST_04": "IT_JB_FIST_04.PNG",
+  "IT_JB_FIST_05": "IT_JB_FIST_05.PNG",
+  "IT_JB_GUN_01": "IT_JB_GUN_01.PNG",
+  "IT_JB_GUN_02": "IT_JB_GUN_02.PNG",
+  "IT_JB_GUN_03": "IT_JB_GUN_03.PNG",
+  "IT_JB_GUN_04": "IT_JB_GUN_04.PNG",
+  "IT_JB_GUN_05": "IT_JB_GUN_05.PNG",
+  "IT_JB_IM_ANGEL_1": "IT_JB_IM_ANGEL_1.PNG",
+  "IT_JB_IM_ANGEL_2": "IT_JB_IM_ANGEL_2.PNG",
+  "IT_JB_IM_ANGEL_3": "IT_JB_IM_ANGEL_3.PNG",
+  "IT_JB_IM_ANGEL_4": "IT_JB_IM_ANGEL_4.PNG",
+  "IT_JB_IM_ANGEL_5": "IT_JB_IM_ANGEL_5.PNG",
+  "IT_JB_IM_DRAGON_1": "IT_JB_IM_DRAGON_1.PNG",
+  "IT_JB_IM_DRAGON_2": "IT_JB_IM_DRAGON_2.PNG",
+  "IT_JB_IM_DRAGON_3": "IT_JB_IM_DRAGON_3.PNG",
+  "IT_JB_IM_DRAGON_4": "IT_JB_IM_DRAGON_4.PNG",
+  "IT_JB_IM_DRAGON_5": "IT_JB_IM_DRAGON_5.PNG",
+  "IT_JB_JSWORD_01": "IT_JB_JSWORD_01.PNG",
+  "IT_JB_JSWORD_02": "IT_JB_JSWORD_02.PNG",
+  "IT_JB_JSWORD_03": "IT_JB_JSWORD_03.PNG",
+  "IT_JB_JSWORD_04": "IT_JB_JSWORD_04.PNG",
+  "IT_JB_JSWORD_05": "IT_JB_JSWORD_05.PNG",
+  "IT_JB_KUNAI_01": "IT_JB_KUNAI_01.PNG",
+  "IT_JB_KUNAI_02": "IT_JB_KUNAI_02.PNG",
+  "IT_JB_KUNAI_03": "IT_JB_KUNAI_03.PNG",
+  "IT_JB_KUNAI_04": "IT_JB_KUNAI_04.PNG",
+  "IT_JB_KUNAI_05": "IT_JB_KUNAI_05.PNG",
+  "IT_JB_LSWORD_01": "IT_JB_LSWORD_01.PNG",
+  "IT_JB_LSWORD_02": "IT_JB_LSWORD_02.PNG",
+  "IT_JB_LSWORD_03": "IT_JB_LSWORD_03.PNG",
+  "IT_JB_LSWORD_04": "IT_JB_LSWORD_04.PNG",
+  "IT_JB_LSWORD_05": "IT_JB_LSWORD_05.PNG",
+  "IT_JB_MACE_01": "IT_JB_MACE_01.PNG",
+  "IT_JB_MACE_02": "IT_JB_MACE_02.PNG",
+  "IT_JB_MACE_03": "IT_JB_MACE_03.PNG",
+  "IT_JB_MACE_04": "IT_JB_MACE_04.PNG",
+  "IT_JB_MACE_05": "IT_JB_MACE_05.PNG",
+  "IT_JB_MM_ALL": "IT_JB_MM_ALL.PNG",
+  "IT_JB_MM_ALL_2": "IT_JB_MM_ALL_2.PNG",
+  "IT_JB_MM_ALL_3": "IT_JB_MM_ALL_3.PNG",
+  "IT_JB_MM_ALL_4": "IT_JB_MM_ALL_4.PNG",
+  "IT_JB_MM_ALL_5": "IT_JB_MM_ALL_5.PNG",
   "IT_JB_MM_ASS": [
-    "itemicon_job_01.png",
-    "job/ass_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/ASS_ITEM.PNG"
   ],
   "IT_JB_MM_ASS_2": [
-    "itemicon_job_02.png",
-    "job/ass_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/ASS_ITEM.PNG"
   ],
   "IT_JB_MM_ASS_3": [
-    "itemicon_job_03.png",
-    "job/ass_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/ASS_ITEM.PNG"
   ],
   "IT_JB_MM_ASS_4": [
-    "itemicon_job_04.png",
-    "job/ass_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/ASS_ITEM.PNG"
   ],
   "IT_JB_MM_ASS_5": [
-    "itemicon_job_05.png",
-    "job/ass_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/ASS_ITEM.PNG"
   ],
   "IT_JB_MM_BLM": [
-    "itemicon_job_01.png",
-    "job/blm_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/BLM_ITEM.PNG"
   ],
   "IT_JB_MM_BLM_2": [
-    "itemicon_job_02.png",
-    "job/blm_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/BLM_ITEM.PNG"
   ],
   "IT_JB_MM_BLM_3": [
-    "itemicon_job_03.png",
-    "job/blm_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/BLM_ITEM.PNG"
   ],
   "IT_JB_MM_BLM_4": [
-    "itemicon_job_04.png",
-    "job/blm_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/BLM_ITEM.PNG"
   ],
   "IT_JB_MM_BLM_5": [
-    "itemicon_job_05.png",
-    "job/blm_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/BLM_ITEM.PNG"
   ],
   "IT_JB_MM_CLR": [
-    "itemicon_job_01.png",
-    "job/clr_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/CLR_ITEM.PNG"
   ],
   "IT_JB_MM_CLR_2": [
-    "itemicon_job_02.png",
-    "job/clr_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/CLR_ITEM.PNG"
   ],
   "IT_JB_MM_CLR_3": [
-    "itemicon_job_03.png",
-    "job/clr_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/CLR_ITEM.PNG"
   ],
   "IT_JB_MM_CLR_4": [
-    "itemicon_job_04.png",
-    "job/clr_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/CLR_ITEM.PNG"
   ],
   "IT_JB_MM_CLR_5": [
-    "itemicon_job_05.png",
-    "job/clr_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/CLR_ITEM.PNG"
   ],
   "IT_JB_MM_DRG": [
-    "itemicon_job_01.png",
-    "job/drg_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/DRG_ITEM.PNG"
   ],
   "IT_JB_MM_DRG_2": [
-    "itemicon_job_02.png",
-    "job/drg_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/DRG_ITEM.PNG"
   ],
   "IT_JB_MM_DRG_3": [
-    "itemicon_job_03.png",
-    "job/drg_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/DRG_ITEM.PNG"
   ],
   "IT_JB_MM_DRG_4": [
-    "itemicon_job_04.png",
-    "job/drg_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/DRG_ITEM.PNG"
   ],
   "IT_JB_MM_DRG_5": [
-    "itemicon_job_05.png",
-    "job/drg_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/DRG_ITEM.PNG"
   ],
   "IT_JB_MM_FF1_WROL": [
-    "itemicon_job_01.png",
-    "job/ff01wrol_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/FF01WROL_ITEM.PNG"
   ],
   "IT_JB_MM_FF1_WROL_2": [
-    "itemicon_job_02.png",
-    "job/ff01wrol_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/FF01WROL_ITEM.PNG"
   ],
   "IT_JB_MM_FF1_WROL_3": [
-    "itemicon_job_03.png",
-    "job/ff01wrol_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/FF01WROL_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_GFGR": [
-    "itemicon_job_01.png",
-    "job/fft0gfgr_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/FFT0GFGR_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_GFGR_2": [
-    "itemicon_job_02.png",
-    "job/fft0gfgr_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/FFT0GFGR_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_GFGR_3": [
-    "itemicon_job_03.png",
-    "job/fft0gfgr_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/FFT0GFGR_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_GFGR_4": [
-    "itemicon_job_04.png",
-    "job/fft0gfgr_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/FFT0GFGR_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_GFGR_5": [
-    "itemicon_job_05.png",
-    "job/fft0gfgr_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/FFT0GFGR_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_ORND": [
-    "itemicon_job_01.png",
-    "job/fft0ornd_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/FFT0ORND_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_ORND_2": [
-    "itemicon_job_02.png",
-    "job/fft0ornd_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/FFT0ORND_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_ORND_3": [
-    "itemicon_job_03.png",
-    "job/fft0ornd_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/FFT0ORND_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_ORND_4": [
-    "itemicon_job_04.png",
-    "job/fft0ornd_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/FFT0ORND_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_ORND_5": [
-    "itemicon_job_05.png",
-    "job/fft0ornd_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/FFT0ORND_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_RAMZ": [
-    "itemicon_job_01.png",
-    "job/fft0ramz_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/FFT0RAMZ_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_RAMZ_2": [
-    "itemicon_job_02.png",
-    "job/fft0ramz_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/FFT0RAMZ_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_RAMZ_3": [
-    "itemicon_job_03.png",
-    "job/fft0ramz_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/FFT0RAMZ_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_RAMZ_4": [
-    "itemicon_job_04.png",
-    "job/fft0ramz_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/FFT0RAMZ_ITEM.PNG"
   ],
   "IT_JB_MM_FFT_RAMZ_5": [
-    "itemicon_job_05.png",
-    "job/fft0ramz_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/FFT0RAMZ_ITEM.PNG"
   ],
   "IT_JB_MM_GRM": [
-    "itemicon_job_01.png",
-    "job/grm_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/GRM_ITEM.PNG"
   ],
   "IT_JB_MM_GRM_2": [
-    "itemicon_job_02.png",
-    "job/grm_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/GRM_ITEM.PNG"
   ],
   "IT_JB_MM_GRM_3": [
-    "itemicon_job_03.png",
-    "job/grm_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/GRM_ITEM.PNG"
   ],
   "IT_JB_MM_GRM_4": [
-    "itemicon_job_04.png",
-    "job/grm_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/GRM_ITEM.PNG"
   ],
   "IT_JB_MM_GRM_5": [
-    "itemicon_job_05.png",
-    "job/grm_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/GRM_ITEM.PNG"
   ],
   "IT_JB_MM_GUN": [
-    "itemicon_job_01.png",
-    "job/gun_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/GUN_ITEM.PNG"
   ],
   "IT_JB_MM_GUN_2": [
-    "itemicon_job_02.png",
-    "job/gun_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/GUN_ITEM.PNG"
   ],
   "IT_JB_MM_GUN_3": [
-    "itemicon_job_03.png",
-    "job/gun_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/GUN_ITEM.PNG"
   ],
   "IT_JB_MM_GUN_4": [
-    "itemicon_job_04.png",
-    "job/gun_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/GUN_ITEM.PNG"
   ],
   "IT_JB_MM_GUN_5": [
-    "itemicon_job_05.png",
-    "job/gun_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/GUN_ITEM.PNG"
   ],
   "IT_JB_MM_HUN": [
-    "itemicon_job_01.png",
-    "job/hun_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/HUN_ITEM.PNG"
   ],
   "IT_JB_MM_HUN_2": [
-    "itemicon_job_02.png",
-    "job/hun_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/HUN_ITEM.PNG"
   ],
   "IT_JB_MM_HUN_3": [
-    "itemicon_job_03.png",
-    "job/hun_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/HUN_ITEM.PNG"
   ],
   "IT_JB_MM_HUN_4": [
-    "itemicon_job_04.png",
-    "job/hun_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/HUN_ITEM.PNG"
   ],
   "IT_JB_MM_HUN_5": [
-    "itemicon_job_05.png",
-    "job/hun_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/HUN_ITEM.PNG"
   ],
   "IT_JB_MM_KNT": [
-    "itemicon_job_01.png",
-    "job/knt_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/KNT_ITEM.PNG"
   ],
   "IT_JB_MM_KNT_2": [
-    "itemicon_job_02.png",
-    "job/knt_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/KNT_ITEM.PNG"
   ],
   "IT_JB_MM_KNT_3": [
-    "itemicon_job_03.png",
-    "job/knt_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/KNT_ITEM.PNG"
   ],
   "IT_JB_MM_KNT_4": [
-    "itemicon_job_04.png",
-    "job/knt_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/KNT_ITEM.PNG"
   ],
   "IT_JB_MM_KNT_5": [
-    "itemicon_job_05.png",
-    "job/knt_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/KNT_ITEM.PNG"
   ],
   "IT_JB_MM_LAN": [
-    "itemicon_job_01.png",
-    "job/lan_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/LAN_ITEM.PNG"
   ],
   "IT_JB_MM_LAN_2": [
-    "itemicon_job_02.png",
-    "job/lan_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/LAN_ITEM.PNG"
   ],
   "IT_JB_MM_LAN_3": [
-    "itemicon_job_03.png",
-    "job/lan_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/LAN_ITEM.PNG"
   ],
   "IT_JB_MM_LAN_4": [
-    "itemicon_job_04.png",
-    "job/lan_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/LAN_ITEM.PNG"
   ],
   "IT_JB_MM_LAN_5": [
-    "itemicon_job_05.png",
-    "job/lan_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/LAN_ITEM.PNG"
   ],
   "IT_JB_MM_LW_GLMS": [
-    "itemicon_job_01.png",
-    "job/lapsglms_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/LAPSGLMS_ITEM.PNG"
   ],
   "IT_JB_MM_LW_GLMS_2": [
-    "itemicon_job_02.png",
-    "job/lapsglms_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/LAPSGLMS_ITEM.PNG"
   ],
   "IT_JB_MM_LW_GLMS_3": [
-    "itemicon_job_03.png",
-    "job/lapsglms_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/LAPSGLMS_ITEM.PNG"
   ],
   "IT_JB_MM_LW_GLMS_4": [
-    "itemicon_job_04.png",
-    "job/lapsglms_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/LAPSGLMS_ITEM.PNG"
   ],
   "IT_JB_MM_LW_GLMS_5": [
-    "itemicon_job_05.png",
-    "job/lapsglms_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/LAPSGLMS_ITEM.PNG"
   ],
   "IT_JB_MM_LW_RAIN": [
-    "itemicon_job_01.png",
-    "job/lapsrain_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/LAPSRAIN_ITEM.PNG"
   ],
   "IT_JB_MM_LW_RAIN_2": [
-    "itemicon_job_02.png",
-    "job/lapsrain_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/LAPSRAIN_ITEM.PNG"
   ],
   "IT_JB_MM_LW_RAIN_3": [
-    "itemicon_job_03.png",
-    "job/lapsrain_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/LAPSRAIN_ITEM.PNG"
   ],
   "IT_JB_MM_LW_RAIN_4": [
-    "itemicon_job_04.png",
-    "job/lapsrain_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/LAPSRAIN_ITEM.PNG"
   ],
   "IT_JB_MM_LW_RAIN_5": [
-    "itemicon_job_05.png",
-    "job/lapsrain_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/LAPSRAIN_ITEM.PNG"
   ],
   "IT_JB_MM_MGK": [
-    "itemicon_job_01.png",
-    "job/mgk_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/MGK_ITEM.PNG"
   ],
   "IT_JB_MM_MGK_2": [
-    "itemicon_job_02.png",
-    "job/mgk_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/MGK_ITEM.PNG"
   ],
   "IT_JB_MM_MGK_3": [
-    "itemicon_job_03.png",
-    "job/mgk_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/MGK_ITEM.PNG"
   ],
   "IT_JB_MM_MGK_4": [
-    "itemicon_job_04.png",
-    "job/mgk_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/MGK_ITEM.PNG"
   ],
   "IT_JB_MM_MGK_5": [
-    "itemicon_job_05.png",
-    "job/mgk_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/MGK_ITEM.PNG"
   ],
   "IT_JB_MM_MNK": [
-    "itemicon_job_01.png",
-    "job/mnk_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/MNK_ITEM.PNG"
   ],
   "IT_JB_MM_MNK_2": [
-    "itemicon_job_02.png",
-    "job/mnk_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/MNK_ITEM.PNG"
   ],
   "IT_JB_MM_MNK_3": [
-    "itemicon_job_03.png",
-    "job/mnk_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/MNK_ITEM.PNG"
   ],
   "IT_JB_MM_MNK_4": [
-    "itemicon_job_04.png",
-    "job/mnk_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/MNK_ITEM.PNG"
   ],
   "IT_JB_MM_MNK_5": [
-    "itemicon_job_05.png",
-    "job/mnk_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/MNK_ITEM.PNG"
   ],
   "IT_JB_MM_MST": [
-    "itemicon_job_01.png",
-    "job/mst_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/MST_ITEM.PNG"
   ],
   "IT_JB_MM_MST_2": [
-    "itemicon_job_02.png",
-    "job/mst_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/MST_ITEM.PNG"
   ],
   "IT_JB_MM_MST_3": [
-    "itemicon_job_03.png",
-    "job/mst_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/MST_ITEM.PNG"
   ],
   "IT_JB_MM_MST_4": [
-    "itemicon_job_04.png",
-    "job/mst_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/MST_ITEM.PNG"
   ],
   "IT_JB_MM_MST_5": [
-    "itemicon_job_05.png",
-    "job/mst_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/MST_ITEM.PNG"
   ],
   "IT_JB_MM_NIN": [
-    "itemicon_job_01.png",
-    "job/nin_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/NIN_ITEM.PNG"
   ],
   "IT_JB_MM_NIN_2": [
-    "itemicon_job_02.png",
-    "job/nin_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/NIN_ITEM.PNG"
   ],
   "IT_JB_MM_NIN_3": [
-    "itemicon_job_03.png",
-    "job/nin_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/NIN_ITEM.PNG"
   ],
   "IT_JB_MM_NIN_4": [
-    "itemicon_job_04.png",
-    "job/nin_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/NIN_ITEM.PNG"
   ],
   "IT_JB_MM_NIN_5": [
-    "itemicon_job_05.png",
-    "job/nin_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/NIN_ITEM.PNG"
   ],
   "IT_JB_MM_PLD": [
-    "itemicon_job_01.png",
-    "job/pld_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/PLD_ITEM.PNG"
   ],
   "IT_JB_MM_PLD_2": [
-    "itemicon_job_02.png",
-    "job/pld_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/PLD_ITEM.PNG"
   ],
   "IT_JB_MM_PLD_3": [
-    "itemicon_job_03.png",
-    "job/pld_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/PLD_ITEM.PNG"
   ],
   "IT_JB_MM_PLD_4": [
-    "itemicon_job_04.png",
-    "job/pld_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/PLD_ITEM.PNG"
   ],
   "IT_JB_MM_PLD_5": [
-    "itemicon_job_05.png",
-    "job/pld_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/PLD_ITEM.PNG"
   ],
   "IT_JB_MM_RDM": [
-    "itemicon_job_01.png",
-    "job/rdm_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/RDM_ITEM.PNG"
   ],
   "IT_JB_MM_RDM_2": [
-    "itemicon_job_02.png",
-    "job/rdm_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/RDM_ITEM.PNG"
   ],
   "IT_JB_MM_RDM_3": [
-    "itemicon_job_03.png",
-    "job/rdm_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/RDM_ITEM.PNG"
   ],
   "IT_JB_MM_RDM_4": [
-    "itemicon_job_04.png",
-    "job/rdm_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/RDM_ITEM.PNG"
   ],
   "IT_JB_MM_RDM_5": [
-    "itemicon_job_05.png",
-    "job/rdm_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/RDM_ITEM.PNG"
   ],
   "IT_JB_MM_SAM": [
-    "itemicon_job_01.png",
-    "job/sam_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/SAM_ITEM.PNG"
   ],
   "IT_JB_MM_SAM_2": [
-    "itemicon_job_02.png",
-    "job/sam_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/SAM_ITEM.PNG"
   ],
   "IT_JB_MM_SAM_3": [
-    "itemicon_job_03.png",
-    "job/sam_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/SAM_ITEM.PNG"
   ],
   "IT_JB_MM_SAM_4": [
-    "itemicon_job_04.png",
-    "job/sam_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/SAM_ITEM.PNG"
   ],
   "IT_JB_MM_SAM_5": [
-    "itemicon_job_05.png",
-    "job/sam_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/SAM_ITEM.PNG"
   ],
   "IT_JB_MM_SWN": [
-    "itemicon_job_01.png",
-    "job/swn_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/SWN_ITEM.PNG"
   ],
   "IT_JB_MM_SWN_2": [
-    "itemicon_job_02.png",
-    "job/swn_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/SWN_ITEM.PNG"
   ],
   "IT_JB_MM_SWN_3": [
-    "itemicon_job_03.png",
-    "job/swn_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/SWN_ITEM.PNG"
   ],
   "IT_JB_MM_SWN_4": [
-    "itemicon_job_04.png",
-    "job/swn_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/SWN_ITEM.PNG"
   ],
   "IT_JB_MM_SWN_5": [
-    "itemicon_job_05.png",
-    "job/swn_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/SWN_ITEM.PNG"
   ],
   "IT_JB_MM_THI": [
-    "itemicon_job_01.png",
-    "job/thi_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/THI_ITEM.PNG"
   ],
   "IT_JB_MM_THI_2": [
-    "itemicon_job_02.png",
-    "job/thi_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/THI_ITEM.PNG"
   ],
   "IT_JB_MM_THI_3": [
-    "itemicon_job_03.png",
-    "job/thi_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/THI_ITEM.PNG"
   ],
   "IT_JB_MM_THI_4": [
-    "itemicon_job_04.png",
-    "job/thi_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/THI_ITEM.PNG"
   ],
   "IT_JB_MM_THI_5": [
-    "itemicon_job_05.png",
-    "job/thi_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/THI_ITEM.PNG"
   ],
   "IT_JB_MM_TIM": [
-    "itemicon_job_01.png",
-    "job/tim_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/TIM_ITEM.PNG"
   ],
   "IT_JB_MM_TIM_2": [
-    "itemicon_job_02.png",
-    "job/tim_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/TIM_ITEM.PNG"
   ],
   "IT_JB_MM_TIM_3": [
-    "itemicon_job_03.png",
-    "job/tim_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/TIM_ITEM.PNG"
   ],
   "IT_JB_MM_TIM_4": [
-    "itemicon_job_04.png",
-    "job/tim_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/TIM_ITEM.PNG"
   ],
   "IT_JB_MM_TIM_5": [
-    "itemicon_job_05.png",
-    "job/tim_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/TIM_ITEM.PNG"
   ],
   "IT_JB_MM_VIK": [
-    "itemicon_job_01.png",
-    "job/vik_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/VIK_ITEM.PNG"
   ],
   "IT_JB_MM_VIK_2": [
-    "itemicon_job_02.png",
-    "job/vik_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/VIK_ITEM.PNG"
   ],
   "IT_JB_MM_VIK_3": [
-    "itemicon_job_03.png",
-    "job/vik_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/VIK_ITEM.PNG"
   ],
   "IT_JB_MM_VIK_4": [
-    "itemicon_job_04.png",
-    "job/vik_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/VIK_ITEM.PNG"
   ],
   "IT_JB_MM_VIK_5": [
-    "itemicon_job_05.png",
-    "job/vik_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/VIK_ITEM.PNG"
   ],
   "IT_JB_MM_WAR": [
-    "itemicon_job_01.png",
-    "job/war_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/WAR_ITEM.PNG"
   ],
   "IT_JB_MM_WAR_2": [
-    "itemicon_job_02.png",
-    "job/war_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/WAR_ITEM.PNG"
   ],
   "IT_JB_MM_WAR_3": [
-    "itemicon_job_03.png",
-    "job/war_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/WAR_ITEM.PNG"
   ],
   "IT_JB_MM_WAR_4": [
-    "itemicon_job_04.png",
-    "job/war_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/WAR_ITEM.PNG"
   ],
   "IT_JB_MM_WAR_5": [
-    "itemicon_job_05.png",
-    "job/war_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/WAR_ITEM.PNG"
   ],
   "IT_JB_MM_WGN": [
-    "itemicon_job_01.png",
-    "job/wgn_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/WGN_ITEM.PNG"
   ],
   "IT_JB_MM_WGN_2": [
-    "itemicon_job_02.png",
-    "job/wgn_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/WGN_ITEM.PNG"
   ],
   "IT_JB_MM_WGN_3": [
-    "itemicon_job_03.png",
-    "job/wgn_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/WGN_ITEM.PNG"
   ],
   "IT_JB_MM_WGN_4": [
-    "itemicon_job_04.png",
-    "job/wgn_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/WGN_ITEM.PNG"
   ],
   "IT_JB_MM_WGN_5": [
-    "itemicon_job_05.png",
-    "job/wgn_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/WGN_ITEM.PNG"
   ],
   "IT_JB_MM_WHM": [
-    "itemicon_job_01.png",
-    "job/whm_item.png"
+    "ITEMICON_JOB_01.PNG",
+    "JOB/WHM_ITEM.PNG"
   ],
   "IT_JB_MM_WHM_2": [
-    "itemicon_job_02.png",
-    "job/whm_item.png"
+    "ITEMICON_JOB_02.PNG",
+    "JOB/WHM_ITEM.PNG"
   ],
   "IT_JB_MM_WHM_3": [
-    "itemicon_job_03.png",
-    "job/whm_item.png"
+    "ITEMICON_JOB_03.PNG",
+    "JOB/WHM_ITEM.PNG"
   ],
   "IT_JB_MM_WHM_4": [
-    "itemicon_job_04.png",
-    "job/whm_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/WHM_ITEM.PNG"
   ],
   "IT_JB_MM_WHM_5": [
-    "itemicon_job_05.png",
-    "job/whm_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/WHM_ITEM.PNG"
   ],
-  "IT_JB_SPEAR_01": "it_jb_spear_01.png",
-  "IT_JB_SPEAR_02": "it_jb_spear_02.png",
-  "IT_JB_SPEAR_03": "it_jb_spear_03.png",
-  "IT_JB_SPEAR_04": "it_jb_spear_04.png",
-  "IT_JB_SPEAR_05": "it_jb_spear_05.png",
-  "IT_JB_SSWORD_01": "it_jb_ssword_01.png",
-  "IT_JB_SSWORD_02": "it_jb_ssword_02.png",
-  "IT_JB_SSWORD_03": "it_jb_ssword_03.png",
-  "IT_JB_SSWORD_04": "it_jb_ssword_04.png",
-  "IT_JB_SSWORD_05": "it_jb_ssword_05.png",
-  "IT_JB_STAFF_01": "it_jb_staff_01.png",
-  "IT_JB_STAFF_02": "it_jb_staff_02.png",
-  "IT_JB_STAFF_03": "it_jb_staff_03.png",
-  "IT_JB_STAFF_04": "it_jb_staff_04.png",
-  "IT_JB_STAFF_05": "it_jb_staff_05.png",
-  "IT_JB_SWORD_01": "it_jb_sword_01.png",
-  "IT_JB_SWORD_02": "it_jb_sword_02.png",
-  "IT_JB_SWORD_03": "it_jb_sword_03.png",
-  "IT_JB_SWORD_04": "it_jb_sword_04.png",
-  "IT_JB_SWORD_05": "it_jb_sword_05.png",
-  "IT_LB_EXP_01": "it_lb_exp_01.png",
-  "IT_LB_EXP_02": "it_lb_exp_02.png",
-  "IT_PI_COM_DARK": "it_pi_com_dark.png",
-  "IT_PI_COM_FIRE": "it_pi_com_fire.png",
-  "IT_PI_COM_ICE": "it_pi_com_ice.png",
-  "IT_PI_COM_SHINE": "it_pi_com_shine.png",
-  "IT_PI_COM_SOIL": "it_pi_com_soil.png",
-  "IT_PI_COM_THUNDER": "it_pi_com_thunder.png",
-  "IT_PI_COM_WATER": "it_pi_com_water.png",
-  "IT_PI_COM_WIND": "it_pi_com_wind.png",
-  "IT_PI_FF1_WROL": "it_pi_ff1_wrol.png",
-  "IT_PI_FFT_GFGR": "it_pi_fft_gfgr.png",
-  "IT_PI_LW_ADLD": "it_pi_lw_adld.png",
-  "IT_PI_LW_AILN": "it_pi_lw_ailn.png",
-  "IT_PI_LW_AYKA": "it_pi_lw_ayka.png",
-  "IT_PI_LW_BYLO": "it_pi_lw_bylo.png",
-  "IT_PI_LW_CLEY": "it_pi_lw_cley.png",
-  "IT_PI_LW_DRIO": "it_pi_lw_drio.png",
-  "IT_PI_LW_DRND": "it_pi_lw_drnd.png",
-  "IT_PI_LW_ELDE": "it_pi_lw_elde.png",
-  "IT_PI_LW_ENBT": "it_pi_lw_enbt.png",
-  "IT_PI_LW_ETRE": "it_pi_lw_etre.png",
-  "IT_PI_LW_FDRC": "it_pi_lw_fdrc.png",
-  "IT_PI_LW_FINA": "it_pi_lw_fina.png",
-  "IT_PI_LW_GLMS": "it_pi_lw_glms.png",
-  "IT_PI_LW_HLNA": "it_pi_lw_hlna.png",
-  "IT_PI_LW_KADI": "it_pi_lw_kadi.png",
-  "IT_PI_LW_KTON": "it_pi_lw_kton.png",
-  "IT_PI_LW_LILS": "it_pi_lw_lils.png",
-  "IT_PI_LW_LRNZ": "it_pi_lw_lrnz.png",
-  "IT_PI_LW_LUCA": "it_pi_lw_luca.png",
-  "IT_PI_LW_MACR": "it_pi_lw_macr.png",
-  "IT_PI_LW_MDNA": "it_pi_lw_mdna.png",
-  "IT_PI_LW_MGRT": "it_pi_lw_mgrt.png",
-  "IT_PI_LW_MICE": "it_pi_lw_mice.png",
-  "IT_PI_LW_MIIA": "it_pi_lw_miia.png",
-  "IT_PI_LW_MONT": "it_pi_lw_mont.png",
-  "IT_PI_LW_MRLK": "it_pi_lw_mrlk.png",
-  "IT_PI_LW_MRND": "it_pi_lw_mrnd.png",
-  "IT_PI_LW_MURM": "it_pi_lw_murm.png",
-  "IT_PI_LW_NAIA": "it_pi_lw_naia.png",
-  "IT_PI_LW_NASR": "it_pi_lw_nasr.png",
-  "IT_PI_LW_OOOO": "it_pi_lw_oooo.png",
-  "IT_PI_LW_PHBE": "it_pi_lw_phbe.png",
-  "IT_PI_LW_PRAY": "it_pi_lw_pray.png",
-  "IT_PI_LW_QILF": "it_pi_lw_qilf.png",
-  "IT_PI_LW_RAIN": "it_pi_lw_rain.png",
-  "IT_PI_LW_RAMD": "it_pi_lw_ramd.png",
-  "IT_PI_LW_RART": "it_pi_lw_rart.png",
-  "IT_PI_LW_RIRY": "it_pi_lw_riry.png",
-  "IT_PI_LW_ROBB": "it_pi_lw_robb.png",
-  "IT_PI_LW_RYER": "it_pi_lw_ryer.png",
-  "IT_PI_LW_SCIA": "it_pi_lw_scia.png",
-  "IT_PI_LW_SDLX": "it_pi_lw_sdlx.png",
-  "IT_PI_LW_SEVR": "it_pi_lw_sevr.png",
-  "IT_PI_LW_SIMR": "it_pi_lw_simr.png",
-  "IT_PI_LW_SRJS": "it_pi_lw_srjs.png",
-  "IT_PI_LW_STRN": "it_pi_lw_strn.png",
-  "IT_PI_LW_SZRT": "it_pi_lw_szrt.png",
-  "IT_PI_LW_THLA": "it_pi_lw_thla.png",
-  "IT_PI_LW_TREL": "it_pi_lw_trel.png",
-  "IT_PI_LW_UNII": "it_pi_lw_unii.png",
-  "IT_PI_LW_VADM": "it_pi_lw_vadm.png",
-  "IT_PI_LW_VKTR": "it_pi_lw_vktr.png",
-  "IT_PI_LW_VNLA": "it_pi_lw_vnla.png",
-  "IT_PI_LW_VRID": "it_pi_lw_vrid.png",
-  "IT_PI_LW_VSTR": "it_pi_lw_vstr.png",
-  "IT_PI_LW_WHIS": "it_pi_lw_whis.png",
-  "IT_PI_LW_YERM": "it_pi_lw_yerm.png",
-  "IT_PI_LW_ZIZA": "it_pi_lw_ziza.png",
-  "IT_PI_LW_ZZAN": "it_pi_lw_zzan.png",
-  "IT_SB_AW_DARK": "it_sb_aw_dark.png",
-  "IT_SB_AW_FIRE": "it_sb_aw_fire.png",
-  "IT_SB_AW_ICE": "it_sb_aw_ice.png",
-  "IT_SB_AW_SHINE": "it_sb_aw_shine.png",
-  "IT_SB_AW_SOIL": "it_sb_aw_soil.png",
-  "IT_SB_AW_THUNDER": "it_sb_aw_thunder.png",
-  "IT_SB_AW_WATER": "it_sb_aw_water.png",
-  "IT_SB_AW_WIND": "it_sb_aw_wind.png",
-  "IT_SB_EXP_DARK_01": "it_sb_exp_dark_01.png",
-  "IT_SB_EXP_DARK_02": "it_sb_exp_dark_02.png",
-  "IT_SB_EXP_DARK_03": "it_sb_exp_dark_03.png",
-  "IT_SB_EXP_DARK_04": "it_sb_exp_dark_04.png",
-  "IT_SB_EXP_FIRE_01": "it_sb_exp_fire_01.png",
-  "IT_SB_EXP_FIRE_02": "it_sb_exp_fire_02.png",
-  "IT_SB_EXP_FIRE_03": "it_sb_exp_fire_03.png",
-  "IT_SB_EXP_FIRE_04": "it_sb_exp_fire_04.png",
-  "IT_SB_EXP_ICE_01": "it_sb_exp_ice_01.png",
-  "IT_SB_EXP_ICE_02": "it_sb_exp_ice_02.png",
-  "IT_SB_EXP_ICE_03": "it_sb_exp_ice_03.png",
-  "IT_SB_EXP_ICE_04": "it_sb_exp_ice_04.png",
-  "IT_SB_EXP_SHINE_01": "it_sb_exp_shine_01.png",
-  "IT_SB_EXP_SHINE_02": "it_sb_exp_shine_02.png",
-  "IT_SB_EXP_SHINE_03": "it_sb_exp_shine_03.png",
-  "IT_SB_EXP_SHINE_04": "it_sb_exp_shine_04.png",
-  "IT_SB_EXP_SOIL_01": "it_sb_exp_soil_01.png",
-  "IT_SB_EXP_SOIL_02": "it_sb_exp_soil_02.png",
-  "IT_SB_EXP_SOIL_03": "it_sb_exp_soil_03.png",
-  "IT_SB_EXP_SOIL_04": "it_sb_exp_soil_04.png",
-  "IT_SB_EXP_THUNDER_01": "it_sb_exp_thunder_01.png",
-  "IT_SB_EXP_THUNDER_02": "it_sb_exp_thunder_02.png",
-  "IT_SB_EXP_THUNDER_03": "it_sb_exp_thunder_03.png",
-  "IT_SB_EXP_THUNDER_04": "it_sb_exp_thunder_04.png",
-  "IT_SB_EXP_WATER_01": "it_sb_exp_water_01.png",
-  "IT_SB_EXP_WATER_02": "it_sb_exp_water_02.png",
-  "IT_SB_EXP_WATER_03": "it_sb_exp_water_03.png",
-  "IT_SB_EXP_WATER_04": "it_sb_exp_water_04.png",
-  "IT_SB_EXP_WIND_01": "it_sb_exp_wind_01.png",
-  "IT_SB_EXP_WIND_02": "it_sb_exp_wind_02.png",
-  "IT_SB_EXP_WIND_03": "it_sb_exp_wind_03.png",
-  "IT_SB_EXP_WIND_04": "it_sb_exp_wind_04.png",
-  "IT_TICKET_STORY": "it_ticket_story.png",
-  "IT_UN_AW_DARK": "it_un_aw_dark.png",
-  "IT_UN_AW_DARK_R2": "it_un_aw_dark_r2.png",
-  "IT_UN_AW_DARK_R3": "it_un_aw_dark_r3.png",
-  "IT_UN_AW_DARK_R4": "it_un_aw_dark_r4.png",
-  "IT_UN_AW_DARK_R5": "it_un_aw_dark_r5.png",
-  "IT_UN_AW_DARK_R6": "it_un_aw_dark_r6.png",
-  "IT_UN_AW_FIRE": "it_un_aw_fire.png",
-  "IT_UN_AW_FIRE_R2": "it_un_aw_fire_r2.png",
-  "IT_UN_AW_FIRE_R3": "it_un_aw_fire_r3.png",
-  "IT_UN_AW_FIRE_R4": "it_un_aw_fire_r4.png",
-  "IT_UN_AW_FIRE_R5": "it_un_aw_fire_r5.png",
-  "IT_UN_AW_FIRE_R6": "it_un_aw_fire_r6.png",
-  "IT_UN_AW_ICE": "it_un_aw_ice.png",
-  "IT_UN_AW_ICE_R2": "it_un_aw_ice_r2.png",
-  "IT_UN_AW_ICE_R3": "it_un_aw_ice_r3.png",
-  "IT_UN_AW_ICE_R4": "it_un_aw_ice_r4.png",
-  "IT_UN_AW_ICE_R5": "it_un_aw_ice_r5.png",
-  "IT_UN_AW_ICE_R6": "it_un_aw_ice_r6.png",
-  "IT_UN_AW_SHINE": "it_un_aw_shine.png",
-  "IT_UN_AW_SHINE_R2": "it_un_aw_shine_r2.png",
-  "IT_UN_AW_SHINE_R3": "it_un_aw_shine_r3.png",
-  "IT_UN_AW_SHINE_R4": "it_un_aw_shine_r4.png",
-  "IT_UN_AW_SHINE_R5": "it_un_aw_shine_r5.png",
-  "IT_UN_AW_SHINE_R6": "it_un_aw_shine_r6.png",
-  "IT_UN_AW_SOIL": "it_un_aw_soil.png",
-  "IT_UN_AW_SOIL_R2": "it_un_aw_soil_r2.png",
-  "IT_UN_AW_SOIL_R3": "it_un_aw_soil_r3.png",
-  "IT_UN_AW_SOIL_R4": "it_un_aw_soil_r4.png",
-  "IT_UN_AW_SOIL_R5": "it_un_aw_soil_r5.png",
-  "IT_UN_AW_SOIL_R6": "it_un_aw_soil_r6.png",
-  "IT_UN_AW_THUNDER": "it_un_aw_thunder.png",
-  "IT_UN_AW_THUNDER_R2": "it_un_aw_thunder_r2.png",
-  "IT_UN_AW_THUNDER_R3": "it_un_aw_thunder_r3.png",
-  "IT_UN_AW_THUNDER_R4": "it_un_aw_thunder_r4.png",
-  "IT_UN_AW_THUNDER_R5": "it_un_aw_thunder_r5.png",
-  "IT_UN_AW_THUNDER_R6": "it_un_aw_thunder_r6.png",
-  "IT_UN_AW_WATER": "it_un_aw_water.png",
-  "IT_UN_AW_WATER_R2": "it_un_aw_water_r2.png",
-  "IT_UN_AW_WATER_R3": "it_un_aw_water_r3.png",
-  "IT_UN_AW_WATER_R4": "it_un_aw_water_r4.png",
-  "IT_UN_AW_WATER_R5": "it_un_aw_water_r5.png",
-  "IT_UN_AW_WATER_R6": "it_un_aw_water_r6.png",
-  "IT_UN_AW_WIND": "it_un_aw_wind.png",
-  "IT_UN_AW_WIND_R2": "it_un_aw_wind_r2.png",
-  "IT_UN_AW_WIND_R3": "it_un_aw_wind_r3.png",
-  "IT_UN_AW_WIND_R4": "it_un_aw_wind_r4.png",
-  "IT_UN_AW_WIND_R5": "it_un_aw_wind_r5.png",
-  "IT_UN_AW_WIND_R6": "it_un_aw_wind_r6.png",
-  "IT_US_ATKPOTION": "it_us_atkpotion.png",
-  "IT_US_BACCHUS": "it_us_bacchus.png",
-  "IT_US_ECHODROP": "it_us_echodrop.png",
-  "IT_US_ENCHANTDRAG": "it_us_enchantdrag.png",
-  "IT_US_EXP_01": "it_us_exp_01.png",
-  "IT_US_EXP_02": "it_us_exp_02.png",
-  "IT_US_EXP_03": "it_us_exp_03.png",
-  "IT_US_GOLDNEEDLE": "it_us_goldneedle.png",
-  "IT_US_HERODRINK": "it_us_herodrink.png",
-  "IT_US_HIPOTION": "it_us_hipotion.png",
-  "IT_US_HOLYTORCH": "it_us_holytorch.png",
-  "IT_US_MAGPOTION": "it_us_magpotion.png",
-  "IT_US_MAIDENKISS": "it_us_maidenkiss.png",
-  "IT_US_POTION": "it_us_potion.png",
-  "IT_US_REMINDER": "it_us_reminder.png",
-  "IT_VC_EXP_01": "it_vc_exp_01.png",
-  "IT_VC_EXP_02": "it_vc_exp_02.png",
-  "IT_VC_EXP_03": "it_vc_exp_03.png",
-  "IT_VC_EXP_04": "it_vc_exp_04.png",
-  "IT_WA_EXP_01": "it_wa_exp_01.png",
-  "IT_WA_EXP_02": "it_wa_exp_02.png",
+  "IT_JB_SPEAR_01": "IT_JB_SPEAR_01.PNG",
+  "IT_JB_SPEAR_02": "IT_JB_SPEAR_02.PNG",
+  "IT_JB_SPEAR_03": "IT_JB_SPEAR_03.PNG",
+  "IT_JB_SPEAR_04": "IT_JB_SPEAR_04.PNG",
+  "IT_JB_SPEAR_05": "IT_JB_SPEAR_05.PNG",
+  "IT_JB_SSWORD_01": "IT_JB_SSWORD_01.PNG",
+  "IT_JB_SSWORD_02": "IT_JB_SSWORD_02.PNG",
+  "IT_JB_SSWORD_03": "IT_JB_SSWORD_03.PNG",
+  "IT_JB_SSWORD_04": "IT_JB_SSWORD_04.PNG",
+  "IT_JB_SSWORD_05": "IT_JB_SSWORD_05.PNG",
+  "IT_JB_STAFF_01": "IT_JB_STAFF_01.PNG",
+  "IT_JB_STAFF_02": "IT_JB_STAFF_02.PNG",
+  "IT_JB_STAFF_03": "IT_JB_STAFF_03.PNG",
+  "IT_JB_STAFF_04": "IT_JB_STAFF_04.PNG",
+  "IT_JB_STAFF_05": "IT_JB_STAFF_05.PNG",
+  "IT_JB_SWORD_01": "IT_JB_SWORD_01.PNG",
+  "IT_JB_SWORD_02": "IT_JB_SWORD_02.PNG",
+  "IT_JB_SWORD_03": "IT_JB_SWORD_03.PNG",
+  "IT_JB_SWORD_04": "IT_JB_SWORD_04.PNG",
+  "IT_JB_SWORD_05": "IT_JB_SWORD_05.PNG",
+  "IT_LB_EXP_01": "IT_LB_EXP_01.PNG",
+  "IT_LB_EXP_02": "IT_LB_EXP_02.PNG",
+  "IT_PI_COM_DARK": "IT_PI_COM_DARK.PNG",
+  "IT_PI_COM_FIRE": "IT_PI_COM_FIRE.PNG",
+  "IT_PI_COM_ICE": "IT_PI_COM_ICE.PNG",
+  "IT_PI_COM_SHINE": "IT_PI_COM_SHINE.PNG",
+  "IT_PI_COM_SOIL": "IT_PI_COM_SOIL.PNG",
+  "IT_PI_COM_THUNDER": "IT_PI_COM_THUNDER.PNG",
+  "IT_PI_COM_WATER": "IT_PI_COM_WATER.PNG",
+  "IT_PI_COM_WIND": "IT_PI_COM_WIND.PNG",
+  "IT_PI_FF1_WROL": "IT_PI_FF1_WROL.PNG",
+  "IT_PI_FFT_GFGR": "IT_PI_FFT_GFGR.PNG",
+  "IT_PI_LW_ADLD": "IT_PI_LW_ADLD.PNG",
+  "IT_PI_LW_AILN": "IT_PI_LW_AILN.PNG",
+  "IT_PI_LW_AYKA": "IT_PI_LW_AYKA.PNG",
+  "IT_PI_LW_BYLO": "IT_PI_LW_BYLO.PNG",
+  "IT_PI_LW_CLEY": "IT_PI_LW_CLEY.PNG",
+  "IT_PI_LW_DRIO": "IT_PI_LW_DRIO.PNG",
+  "IT_PI_LW_DRND": "IT_PI_LW_DRND.PNG",
+  "IT_PI_LW_ELDE": "IT_PI_LW_ELDE.PNG",
+  "IT_PI_LW_ENBT": "IT_PI_LW_ENBT.PNG",
+  "IT_PI_LW_ETRE": "IT_PI_LW_ETRE.PNG",
+  "IT_PI_LW_FDRC": "IT_PI_LW_FDRC.PNG",
+  "IT_PI_LW_FINA": "IT_PI_LW_FINA.PNG",
+  "IT_PI_LW_GLMS": "IT_PI_LW_GLMS.PNG",
+  "IT_PI_LW_HLNA": "IT_PI_LW_HLNA.PNG",
+  "IT_PI_LW_KADI": "IT_PI_LW_KADI.PNG",
+  "IT_PI_LW_KTON": "IT_PI_LW_KTON.PNG",
+  "IT_PI_LW_LILS": "IT_PI_LW_LILS.PNG",
+  "IT_PI_LW_LRNZ": "IT_PI_LW_LRNZ.PNG",
+  "IT_PI_LW_LUCA": "IT_PI_LW_LUCA.PNG",
+  "IT_PI_LW_MACR": "IT_PI_LW_MACR.PNG",
+  "IT_PI_LW_MDNA": "IT_PI_LW_MDNA.PNG",
+  "IT_PI_LW_MGRT": "IT_PI_LW_MGRT.PNG",
+  "IT_PI_LW_MICE": "IT_PI_LW_MICE.PNG",
+  "IT_PI_LW_MIIA": "IT_PI_LW_MIIA.PNG",
+  "IT_PI_LW_MONT": "IT_PI_LW_MONT.PNG",
+  "IT_PI_LW_MRLK": "IT_PI_LW_MRLK.PNG",
+  "IT_PI_LW_MRND": "IT_PI_LW_MRND.PNG",
+  "IT_PI_LW_MURM": "IT_PI_LW_MURM.PNG",
+  "IT_PI_LW_NAIA": "IT_PI_LW_NAIA.PNG",
+  "IT_PI_LW_NASR": "IT_PI_LW_NASR.PNG",
+  "IT_PI_LW_OOOO": "IT_PI_LW_OOOO.PNG",
+  "IT_PI_LW_PHBE": "IT_PI_LW_PHBE.PNG",
+  "IT_PI_LW_PRAY": "IT_PI_LW_PRAY.PNG",
+  "IT_PI_LW_QILF": "IT_PI_LW_QILF.PNG",
+  "IT_PI_LW_RAIN": "IT_PI_LW_RAIN.PNG",
+  "IT_PI_LW_RAMD": "IT_PI_LW_RAMD.PNG",
+  "IT_PI_LW_RART": "IT_PI_LW_RART.PNG",
+  "IT_PI_LW_RIRY": "IT_PI_LW_RIRY.PNG",
+  "IT_PI_LW_ROBB": "IT_PI_LW_ROBB.PNG",
+  "IT_PI_LW_RYER": "IT_PI_LW_RYER.PNG",
+  "IT_PI_LW_SCIA": "IT_PI_LW_SCIA.PNG",
+  "IT_PI_LW_SDLX": "IT_PI_LW_SDLX.PNG",
+  "IT_PI_LW_SEVR": "IT_PI_LW_SEVR.PNG",
+  "IT_PI_LW_SIMR": "IT_PI_LW_SIMR.PNG",
+  "IT_PI_LW_SRJS": "IT_PI_LW_SRJS.PNG",
+  "IT_PI_LW_STRN": "IT_PI_LW_STRN.PNG",
+  "IT_PI_LW_SZRT": "IT_PI_LW_SZRT.PNG",
+  "IT_PI_LW_THLA": "IT_PI_LW_THLA.PNG",
+  "IT_PI_LW_TREL": "IT_PI_LW_TREL.PNG",
+  "IT_PI_LW_UNII": "IT_PI_LW_UNII.PNG",
+  "IT_PI_LW_VADM": "IT_PI_LW_VADM.PNG",
+  "IT_PI_LW_VKTR": "IT_PI_LW_VKTR.PNG",
+  "IT_PI_LW_VNLA": "IT_PI_LW_VNLA.PNG",
+  "IT_PI_LW_VRID": "IT_PI_LW_VRID.PNG",
+  "IT_PI_LW_VSTR": "IT_PI_LW_VSTR.PNG",
+  "IT_PI_LW_WHIS": "IT_PI_LW_WHIS.PNG",
+  "IT_PI_LW_YERM": "IT_PI_LW_YERM.PNG",
+  "IT_PI_LW_ZIZA": "IT_PI_LW_ZIZA.PNG",
+  "IT_PI_LW_ZZAN": "IT_PI_LW_ZZAN.PNG",
+  "IT_SB_AW_DARK": "IT_SB_AW_DARK.PNG",
+  "IT_SB_AW_FIRE": "IT_SB_AW_FIRE.PNG",
+  "IT_SB_AW_ICE": "IT_SB_AW_ICE.PNG",
+  "IT_SB_AW_SHINE": "IT_SB_AW_SHINE.PNG",
+  "IT_SB_AW_SOIL": "IT_SB_AW_SOIL.PNG",
+  "IT_SB_AW_THUNDER": "IT_SB_AW_THUNDER.PNG",
+  "IT_SB_AW_WATER": "IT_SB_AW_WATER.PNG",
+  "IT_SB_AW_WIND": "IT_SB_AW_WIND.PNG",
+  "IT_SB_EXP_DARK_01": "IT_SB_EXP_DARK_01.PNG",
+  "IT_SB_EXP_DARK_02": "IT_SB_EXP_DARK_02.PNG",
+  "IT_SB_EXP_DARK_03": "IT_SB_EXP_DARK_03.PNG",
+  "IT_SB_EXP_DARK_04": "IT_SB_EXP_DARK_04.PNG",
+  "IT_SB_EXP_FIRE_01": "IT_SB_EXP_FIRE_01.PNG",
+  "IT_SB_EXP_FIRE_02": "IT_SB_EXP_FIRE_02.PNG",
+  "IT_SB_EXP_FIRE_03": "IT_SB_EXP_FIRE_03.PNG",
+  "IT_SB_EXP_FIRE_04": "IT_SB_EXP_FIRE_04.PNG",
+  "IT_SB_EXP_ICE_01": "IT_SB_EXP_ICE_01.PNG",
+  "IT_SB_EXP_ICE_02": "IT_SB_EXP_ICE_02.PNG",
+  "IT_SB_EXP_ICE_03": "IT_SB_EXP_ICE_03.PNG",
+  "IT_SB_EXP_ICE_04": "IT_SB_EXP_ICE_04.PNG",
+  "IT_SB_EXP_SHINE_01": "IT_SB_EXP_SHINE_01.PNG",
+  "IT_SB_EXP_SHINE_02": "IT_SB_EXP_SHINE_02.PNG",
+  "IT_SB_EXP_SHINE_03": "IT_SB_EXP_SHINE_03.PNG",
+  "IT_SB_EXP_SHINE_04": "IT_SB_EXP_SHINE_04.PNG",
+  "IT_SB_EXP_SOIL_01": "IT_SB_EXP_SOIL_01.PNG",
+  "IT_SB_EXP_SOIL_02": "IT_SB_EXP_SOIL_02.PNG",
+  "IT_SB_EXP_SOIL_03": "IT_SB_EXP_SOIL_03.PNG",
+  "IT_SB_EXP_SOIL_04": "IT_SB_EXP_SOIL_04.PNG",
+  "IT_SB_EXP_THUNDER_01": "IT_SB_EXP_THUNDER_01.PNG",
+  "IT_SB_EXP_THUNDER_02": "IT_SB_EXP_THUNDER_02.PNG",
+  "IT_SB_EXP_THUNDER_03": "IT_SB_EXP_THUNDER_03.PNG",
+  "IT_SB_EXP_THUNDER_04": "IT_SB_EXP_THUNDER_04.PNG",
+  "IT_SB_EXP_WATER_01": "IT_SB_EXP_WATER_01.PNG",
+  "IT_SB_EXP_WATER_02": "IT_SB_EXP_WATER_02.PNG",
+  "IT_SB_EXP_WATER_03": "IT_SB_EXP_WATER_03.PNG",
+  "IT_SB_EXP_WATER_04": "IT_SB_EXP_WATER_04.PNG",
+  "IT_SB_EXP_WIND_01": "IT_SB_EXP_WIND_01.PNG",
+  "IT_SB_EXP_WIND_02": "IT_SB_EXP_WIND_02.PNG",
+  "IT_SB_EXP_WIND_03": "IT_SB_EXP_WIND_03.PNG",
+  "IT_SB_EXP_WIND_04": "IT_SB_EXP_WIND_04.PNG",
+  "IT_TICKET_STORY": "IT_TICKET_STORY.PNG",
+  "IT_UN_AW_DARK": "IT_UN_AW_DARK.PNG",
+  "IT_UN_AW_DARK_R2": "IT_UN_AW_DARK_R2.PNG",
+  "IT_UN_AW_DARK_R3": "IT_UN_AW_DARK_R3.PNG",
+  "IT_UN_AW_DARK_R4": "IT_UN_AW_DARK_R4.PNG",
+  "IT_UN_AW_DARK_R5": "IT_UN_AW_DARK_R5.PNG",
+  "IT_UN_AW_DARK_R6": "IT_UN_AW_DARK_R6.PNG",
+  "IT_UN_AW_FIRE": "IT_UN_AW_FIRE.PNG",
+  "IT_UN_AW_FIRE_R2": "IT_UN_AW_FIRE_R2.PNG",
+  "IT_UN_AW_FIRE_R3": "IT_UN_AW_FIRE_R3.PNG",
+  "IT_UN_AW_FIRE_R4": "IT_UN_AW_FIRE_R4.PNG",
+  "IT_UN_AW_FIRE_R5": "IT_UN_AW_FIRE_R5.PNG",
+  "IT_UN_AW_FIRE_R6": "IT_UN_AW_FIRE_R6.PNG",
+  "IT_UN_AW_ICE": "IT_UN_AW_ICE.PNG",
+  "IT_UN_AW_ICE_R2": "IT_UN_AW_ICE_R2.PNG",
+  "IT_UN_AW_ICE_R3": "IT_UN_AW_ICE_R3.PNG",
+  "IT_UN_AW_ICE_R4": "IT_UN_AW_ICE_R4.PNG",
+  "IT_UN_AW_ICE_R5": "IT_UN_AW_ICE_R5.PNG",
+  "IT_UN_AW_ICE_R6": "IT_UN_AW_ICE_R6.PNG",
+  "IT_UN_AW_SHINE": "IT_UN_AW_SHINE.PNG",
+  "IT_UN_AW_SHINE_R2": "IT_UN_AW_SHINE_R2.PNG",
+  "IT_UN_AW_SHINE_R3": "IT_UN_AW_SHINE_R3.PNG",
+  "IT_UN_AW_SHINE_R4": "IT_UN_AW_SHINE_R4.PNG",
+  "IT_UN_AW_SHINE_R5": "IT_UN_AW_SHINE_R5.PNG",
+  "IT_UN_AW_SHINE_R6": "IT_UN_AW_SHINE_R6.PNG",
+  "IT_UN_AW_SOIL": "IT_UN_AW_SOIL.PNG",
+  "IT_UN_AW_SOIL_R2": "IT_UN_AW_SOIL_R2.PNG",
+  "IT_UN_AW_SOIL_R3": "IT_UN_AW_SOIL_R3.PNG",
+  "IT_UN_AW_SOIL_R4": "IT_UN_AW_SOIL_R4.PNG",
+  "IT_UN_AW_SOIL_R5": "IT_UN_AW_SOIL_R5.PNG",
+  "IT_UN_AW_SOIL_R6": "IT_UN_AW_SOIL_R6.PNG",
+  "IT_UN_AW_THUNDER": "IT_UN_AW_THUNDER.PNG",
+  "IT_UN_AW_THUNDER_R2": "IT_UN_AW_THUNDER_R2.PNG",
+  "IT_UN_AW_THUNDER_R3": "IT_UN_AW_THUNDER_R3.PNG",
+  "IT_UN_AW_THUNDER_R4": "IT_UN_AW_THUNDER_R4.PNG",
+  "IT_UN_AW_THUNDER_R5": "IT_UN_AW_THUNDER_R5.PNG",
+  "IT_UN_AW_THUNDER_R6": "IT_UN_AW_THUNDER_R6.PNG",
+  "IT_UN_AW_WATER": "IT_UN_AW_WATER.PNG",
+  "IT_UN_AW_WATER_R2": "IT_UN_AW_WATER_R2.PNG",
+  "IT_UN_AW_WATER_R3": "IT_UN_AW_WATER_R3.PNG",
+  "IT_UN_AW_WATER_R4": "IT_UN_AW_WATER_R4.PNG",
+  "IT_UN_AW_WATER_R5": "IT_UN_AW_WATER_R5.PNG",
+  "IT_UN_AW_WATER_R6": "IT_UN_AW_WATER_R6.PNG",
+  "IT_UN_AW_WIND": "IT_UN_AW_WIND.PNG",
+  "IT_UN_AW_WIND_R2": "IT_UN_AW_WIND_R2.PNG",
+  "IT_UN_AW_WIND_R3": "IT_UN_AW_WIND_R3.PNG",
+  "IT_UN_AW_WIND_R4": "IT_UN_AW_WIND_R4.PNG",
+  "IT_UN_AW_WIND_R5": "IT_UN_AW_WIND_R5.PNG",
+  "IT_UN_AW_WIND_R6": "IT_UN_AW_WIND_R6.PNG",
+  "IT_US_ATKPOTION": "IT_US_ATKPOTION.PNG",
+  "IT_US_BACCHUS": "IT_US_BACCHUS.PNG",
+  "IT_US_ECHODROP": "IT_US_ECHODROP.PNG",
+  "IT_US_ENCHANTDRAG": "IT_US_ENCHANTDRAG.PNG",
+  "IT_US_EXP_01": "IT_US_EXP_01.PNG",
+  "IT_US_EXP_02": "IT_US_EXP_02.PNG",
+  "IT_US_EXP_03": "IT_US_EXP_03.PNG",
+  "IT_US_GOLDNEEDLE": "IT_US_GOLDNEEDLE.PNG",
+  "IT_US_HERODRINK": "IT_US_HERODRINK.PNG",
+  "IT_US_HIPOTION": "IT_US_HIPOTION.PNG",
+  "IT_US_HOLYTORCH": "IT_US_HOLYTORCH.PNG",
+  "IT_US_MAGPOTION": "IT_US_MAGPOTION.PNG",
+  "IT_US_MAIDENKISS": "IT_US_MAIDENKISS.PNG",
+  "IT_US_POTION": "IT_US_POTION.PNG",
+  "IT_US_REMINDER": "IT_US_REMINDER.PNG",
+  "IT_VC_EXP_01": "IT_VC_EXP_01.PNG",
+  "IT_VC_EXP_02": "IT_VC_EXP_02.PNG",
+  "IT_VC_EXP_03": "IT_VC_EXP_03.PNG",
+  "IT_VC_EXP_04": "IT_VC_EXP_04.PNG",
+  "IT_WA_EXP_01": "IT_WA_EXP_01.PNG",
+  "IT_WA_EXP_02": "IT_WA_EXP_02.PNG",
   "IT_JB_MM_FF1_WROL_4": [
-    "itemicon_job_04.png",
-    "job/ff01wrol_item.png"
+    "ITEMICON_JOB_04.PNG",
+    "JOB/FF01WROL_ITEM.PNG"
   ],
   "IT_JB_MM_FF1_WROL_5": [
-    "itemicon_job_05.png",
-    "job/ff01wrol_item.png"
+    "ITEMICON_JOB_05.PNG",
+    "JOB/FF01WROL_ITEM.PNG"
   ]
 }

@@ -162,7 +162,7 @@ function rebuildMaterialsDom() {
     if (materialsList.includes(requiredMaterial)) {
       var $requiredMaterial = $('.material-item-input[data-material=' + requiredMaterial + '] .required-material');
       if ($requiredMaterial.length > 0) {
-        $requiredMaterial.attr('src', 'img/ui/summonquest_icon_rarelity_on.png');
+        $requiredMaterial.attr('src', 'img/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
         $requiredMaterial.parent().addClass('input-group-text-required');
       }
     }
@@ -310,19 +310,19 @@ function getMaterialImageOrLabel(material, includeText, includeRange, isSteal) {
  */
 function getMaterialLayerImageHtml(material, image) {
   var typeClass = '';
-  if (image.indexOf('job/') >= 0) {
+  if (image.indexOf('JOB/') >= 0) {
     typeClass = 'material-icon-job';
   }
-  if (image.indexOf('gear/') >= 0) {
+  if (image.indexOf('GEAR/') >= 0) {
     typeClass = 'material-icon-gear';
   }
-  if (image.indexOf('_recipe') >= 0) {
+  if (image.indexOf('_RECIPE') >= 0) {
     typeClass = 'material-icon-recipe';
   }
-  if (image.indexOf('itemicon_job_') >= 0) {
+  if (image.indexOf('ITEMICON_JOB_') >= 0) {
     typeClass = 'material-icon-memory';
   }
-  if (image.indexOf('it_pi_lw_') >= 0) {
+  if (image.indexOf('IT_PI_LW_') >= 0) {
     typeClass = 'material-icon-shard';
   }
 
@@ -599,7 +599,7 @@ function calculate() {
         var elementImage = "element/element_icon_none.png";
         var element = "Element: None";
         if (enemyData.elem) {
-          elementImage = "img/element/element_icon_" + enemyData.elem.toLowerCase() + ".png";
+          elementImage = "img/ELEMENT/ELEMENT_ICON_" + enemyData.elem.toUpperCase() + ".PNG";
           element = "Element: " + enemyData.elem;
         }
         questRowExpandedVM.enemies.push({
@@ -936,22 +936,22 @@ function initUI() {
   // Toggle showing drop tables.
   $body.on('click', '.accordion-toggle-quest-name', function () {
     var questIName = $(this).data('quest');
-    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
+    if ($(this).attr('src') === 'img/UI/CMN_BTN_ACORDION_OFF.PNG') {
+      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_ON.PNG');
       $('.quest-row-expanded-' + questIName).show();
     } else {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
+      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_OFF.PNG');
       $('.quest-row-expanded-' + questIName).hide();
     }
   });
 
   // Toggle showing individual drop table.
   $body.on('click', '.accordion-toggle-drop-table', function () {
-    if ($(this).attr('src') === 'img/ui/cmn_btn_acordion_off.png') {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_on.png');
+    if ($(this).attr('src') === 'img/UI/CMN_BTN_ACORDION_OFF.PNG') {
+      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_ON.PNG');
       $(this).parent().siblings('.drop-table-data').show();
     } else {
-      $(this).attr('src', 'img/ui/cmn_btn_acordion_off.png');
+      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_OFF.PNG');
       $(this).parent().siblings('.drop-table-data').hide();
     }
   });
@@ -1010,15 +1010,15 @@ function initUI() {
     e.preventDefault();
 
     var $this = $(this);
-    var alreadyEnabled = ($this.attr('src') === 'img/ui/summonquest_icon_rarelity_on.png');
+    var alreadyEnabled = ($this.attr('src') === 'img/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
     var $requiredMaterials = $('.required-material');
-    $requiredMaterials.attr('src', 'img/ui/summonquest_icon_rarelity_off.png');
+    $requiredMaterials.attr('src', 'img/UI/SUMMONQUEST_ICON_RARELITY_OFF.PNG');
     $requiredMaterials.parent().removeClass('input-group-text-required');
     requiredMaterial = null;
 
     if (!alreadyEnabled) {
       requiredMaterial = $this.parents('.material-item-input').data('material');
-      $this.attr('src', 'img/ui/summonquest_icon_rarelity_on.png');
+      $this.attr('src', 'img/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
       $this.parent().addClass('input-group-text-required');
     }
 
