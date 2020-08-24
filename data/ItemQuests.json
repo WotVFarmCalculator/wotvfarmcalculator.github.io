@@ -12125,5 +12125,773 @@
       "QE_MU_AW_H13_2",
       "QE_MU_AW_H13_1"
     ]
+  },
+  "host": {
+    "IT_AF_MAT_ARMN": [
+      "QE_MU_IGNT_03",
+      "QE_MU_ART_CRF_05"
+    ],
+    "IT_AF_FF1_ARM_002": [
+      "QE_MU_EV_FF1_EX"
+    ],
+    "IT_JB_MM_ASS_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_ASS_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_JB_AXE_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_AXE_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_BLM_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_BLM_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_AF_MAT_SAND_03": [
+      "QE_MU_EV_ET_EX2",
+      "QE_MU_EV_02_EX1",
+      "QE_MU_ART_CRF_04"
+    ],
+    "IT_AF_MAT_HEART_03": [
+      "QE_MU_EV_FF1_EX",
+      "QE_MU_EV_03_EX",
+      "QE_MU_OCHU_04",
+      "QE_MU_IGNT_03",
+      "QE_MU_ART_CRF_05"
+    ],
+    "IT_AF_MAT_BOMB": [
+      "QE_MU_EV_04_EX1",
+      "QE_MU_ART_CRF_04"
+    ],
+    "IT_AF_MAT_BONE": [
+      "QE_MU_EV_01_EX1",
+      "QE_MU_ART_CRF_04",
+      "QE_MU_ART_CRF_06"
+    ],
+    "IT_JB_BOW_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_BOW_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_AF_LW_FIS_003": [
+      "QE_MU_EV_ET_EX2"
+    ],
+    "IT_JB_MM_CLR_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_CLR_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_AF_MAT_SAP_01": [
+      "QE_MU_FFT_EX_01"
+    ],
+    "IT_JB_SSWORD_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_SSWORD_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_EM_DARK_2": [
+      "QE_MU_AW_DARK_03"
+    ],
+    "IT_JB_EM_DARK_1": [
+      "QE_MU_AW_DARK_01"
+    ],
+    "IT_JB_EM_DARK_3": [
+      "QE_MU_AW_DARK_03"
+    ],
+    "IT_JB_EM_DARK_5": [
+      "QE_MU_AW_DARK_05"
+    ],
+    "IT_JB_EM_DARK_4": [
+      "QE_MU_AW_DARK_05"
+    ],
+    "IT_UN_AW_DARK_R2": [
+      "QE_MU_AW_DARK_01"
+    ],
+    "IT_UN_AW_DARK_R3": [
+      "QE_MU_AW_DARK_03"
+    ],
+    "IT_UN_AW_DARK_R4": [
+      "QE_MU_AW_DARK_03"
+    ],
+    "IT_UN_AW_DARK_R5": [
+      "QE_MU_AW_DARK_05"
+    ],
+    "IT_UN_AW_DARK_R6": [
+      "QE_MU_AW_DARK_05"
+    ],
+    "IT_SB_AW_DARK": [
+      "QE_MU_SM_DARK_01"
+    ],
+    "IT_JB_MM_DRG_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_DRG_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_AF_LW_SPE_006": [
+      "QE_MU_EV_ET_EX1"
+    ],
+    "IT_JB_MM_WGN_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_WGN_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_EM_SOIL_2": [
+      "QE_MU_AW_EAR_03"
+    ],
+    "IT_JB_EM_SOIL_1": [
+      "QE_MU_AW_EAR_01"
+    ],
+    "IT_JB_EM_SOIL_3": [
+      "QE_MU_AW_EAR_03"
+    ],
+    "IT_JB_EM_SOIL_5": [
+      "QE_MU_AW_EAR_05"
+    ],
+    "IT_JB_EM_SOIL_4": [
+      "QE_MU_AW_EAR_05"
+    ],
+    "IT_UN_AW_SOIL_R2": [
+      "QE_MU_AW_EAR_01"
+    ],
+    "IT_UN_AW_SOIL_R3": [
+      "QE_MU_AW_EAR_03"
+    ],
+    "IT_UN_AW_SOIL_R4": [
+      "QE_MU_AW_EAR_03"
+    ],
+    "IT_UN_AW_SOIL_R5": [
+      "QE_MU_AW_EAR_05"
+    ],
+    "IT_UN_AW_SOIL_R6": [
+      "QE_MU_AW_EAR_05"
+    ],
+    "IT_SB_AW_SOIL": [
+      "QE_MU_SM_EAR_01"
+    ],
+    "IT_JB_MM_ALL_5": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_ALL_4": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_EM_FIRE_2": [
+      "QE_MU_AW_FIRE_03"
+    ],
+    "IT_JB_EM_FIRE_1": [
+      "QE_MU_AW_FIRE_01"
+    ],
+    "IT_JB_EM_FIRE_3": [
+      "QE_MU_AW_FIRE_03"
+    ],
+    "IT_JB_EM_FIRE_5": [
+      "QE_MU_AW_FIRE_05"
+    ],
+    "IT_JB_EM_FIRE_4": [
+      "QE_MU_AW_FIRE_05"
+    ],
+    "IT_UN_AW_FIRE_R2": [
+      "QE_MU_AW_FIRE_01"
+    ],
+    "IT_UN_AW_FIRE_R3": [
+      "QE_MU_AW_FIRE_03"
+    ],
+    "IT_UN_AW_FIRE_R4": [
+      "QE_MU_AW_FIRE_03"
+    ],
+    "IT_UN_AW_FIRE_R5": [
+      "QE_MU_AW_FIRE_05"
+    ],
+    "IT_UN_AW_FIRE_R6": [
+      "QE_MU_AW_FIRE_05"
+    ],
+    "IT_SB_AW_FIRE": [
+      "QE_MU_SM_FIRE_01"
+    ],
+    "IT_JB_FIST_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_FIST_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_AF_LW_ARM_004": [
+      "QE_MU_IGNT_03"
+    ],
+    "IT_AF_LW_AXE_003": [
+      "QE_MU_EV_01_EX1",
+      "QE_MU_ART_CRF_06"
+    ],
+    "IT_AF_LW_BSW_004": [
+      "QE_MU_EV_01_EX2"
+    ],
+    "IT_AF_LW_HLM_004": [
+      "QE_MU_ART_CRF_04"
+    ],
+    "IT_JB_LSWORD_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_LSWORD_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_GRM_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_GRM_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_VC_EXP_03": [
+      "QE_MU_EV_SCR_01",
+      "QE_MU_EV_SCR_02",
+      "QE_MU_EV_SCR_03",
+      "QE_MU_EV_SCR_04"
+    ],
+    "IT_JB_GUN_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_GUN_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_GUN_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_GUN_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_JB_EM_ICE_2": [
+      "QE_MU_AW_ICE_03"
+    ],
+    "IT_JB_EM_ICE_1": [
+      "QE_MU_AW_ICE_01"
+    ],
+    "IT_JB_EM_ICE_3": [
+      "QE_MU_AW_ICE_03"
+    ],
+    "IT_JB_EM_ICE_5": [
+      "QE_MU_AW_ICE_05"
+    ],
+    "IT_JB_EM_ICE_4": [
+      "QE_MU_AW_ICE_05"
+    ],
+    "IT_UN_AW_ICE_R2": [
+      "QE_MU_AW_ICE_01"
+    ],
+    "IT_UN_AW_ICE_R3": [
+      "QE_MU_AW_ICE_03"
+    ],
+    "IT_UN_AW_ICE_R4": [
+      "QE_MU_AW_ICE_03"
+    ],
+    "IT_UN_AW_ICE_R5": [
+      "QE_MU_AW_ICE_05"
+    ],
+    "IT_UN_AW_ICE_R6": [
+      "QE_MU_AW_ICE_05"
+    ],
+    "IT_AF_MAT_ICE_01": [
+      "QE_MU_EV_TH_EX2"
+    ],
+    "IT_SB_AW_ICE": [
+      "QE_MU_SM_ICE_01"
+    ],
+    "IT_AF_LW_SPE_004": [
+      "QE_MU_EV_TH_EX2"
+    ],
+    "IT_AF_LW_RNG_004": [
+      "QE_MU_OCHU_04"
+    ],
+    "IT_JB_JSWORD_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_JSWORD_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_LW_RAIN_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_LW_RAIN_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_JB_MM_KNT_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_KNT_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_JB_MM_LAN_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_LAN_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_EM_SHINE_2": [
+      "QE_MU_AW_SHIN_03"
+    ],
+    "IT_JB_EM_SHINE_1": [
+      "QE_MU_AW_SHIN_01"
+    ],
+    "IT_JB_EM_SHINE_3": [
+      "QE_MU_AW_SHIN_03"
+    ],
+    "IT_JB_EM_SHINE_5": [
+      "QE_MU_AW_SHIN_05"
+    ],
+    "IT_JB_EM_SHINE_4": [
+      "QE_MU_AW_SHIN_05"
+    ],
+    "IT_UN_AW_SHINE_R2": [
+      "QE_MU_AW_SHIN_01"
+    ],
+    "IT_UN_AW_SHINE_R3": [
+      "QE_MU_AW_SHIN_03"
+    ],
+    "IT_UN_AW_SHINE_R4": [
+      "QE_MU_AW_SHIN_03"
+    ],
+    "IT_UN_AW_SHINE_R5": [
+      "QE_MU_AW_SHIN_05"
+    ],
+    "IT_UN_AW_SHINE_R6": [
+      "QE_MU_AW_SHIN_05"
+    ],
+    "IT_AF_MAT_SHINE_01": [
+      "QE_MU_EV_FF1_EX",
+      "QE_MU_EV_01_EX1",
+      "QE_MU_ART_CRF_06"
+    ],
+    "IT_SB_AW_SHINE": [
+      "QE_MU_SM_SHIN_01"
+    ],
+    "IT_JB_EM_THUNDER_2": [
+      "QE_MU_AW_THUN_03"
+    ],
+    "IT_JB_EM_THUNDER_1": [
+      "QE_MU_AW_THUN_01"
+    ],
+    "IT_JB_EM_THUNDER_3": [
+      "QE_MU_AW_THUN_03"
+    ],
+    "IT_JB_EM_THUNDER_5": [
+      "QE_MU_AW_THUN_05"
+    ],
+    "IT_JB_EM_THUNDER_4": [
+      "QE_MU_AW_THUN_05"
+    ],
+    "IT_UN_AW_THUNDER_R2": [
+      "QE_MU_AW_THUN_01"
+    ],
+    "IT_UN_AW_THUNDER_R3": [
+      "QE_MU_AW_THUN_03"
+    ],
+    "IT_UN_AW_THUNDER_R4": [
+      "QE_MU_AW_THUN_03"
+    ],
+    "IT_UN_AW_THUNDER_R5": [
+      "QE_MU_AW_THUN_05"
+    ],
+    "IT_UN_AW_THUNDER_R6": [
+      "QE_MU_AW_THUN_05"
+    ],
+    "IT_SB_AW_THUNDER": [
+      "QE_MU_SM_THUN_01"
+    ],
+    "IT_JB_MACE_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_MACE_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_AF_LW_DAG_006": [
+      "QE_MU_EV_03_EX"
+    ],
+    "IT_AF_MAT_MABR": [
+      "QE_MU_EV_04_EX2",
+      "QE_MU_EV_ET_EX2",
+      "QE_MU_EV_TH_EX1"
+    ],
+    "IT_JB_MM_MNK_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_MNK_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_AF_MAT_MYTHRIL": [
+      "QE_MU_EV_FF1_EX"
+    ],
+    "IT_AF_FFT_SWO_001": [
+      "QE_MU_FFT_EX_01"
+    ],
+    "IT_JB_KUNAI_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_KUNAI_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_NIN_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_NIN_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_AF_MAT_OGRE": [
+      "QE_MU_EV_01_EX2",
+      "QE_MU_CSLI_03",
+      "QE_MU_EV_02_EX1"
+    ],
+    "IT_AF_LW_KAT_003": [
+      "QE_MU_EV_04_EX1"
+    ],
+    "IT_JB_MM_PLD_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_PLD_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_AF_LW_ROD_005": [
+      "QE_MU_EV_04_EX2",
+      "QE_MU_EV_TH_EX1"
+    ],
+    "IT_JB_IM_ANGEL_5": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_IM_ANGEL_4": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_IM_DRAGON_5": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_IM_DRAGON_4": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_MM_HUN_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_HUN_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_AF_LW_GUN_003": [
+      "QE_MU_EV_02_EX1"
+    ],
+    "IT_JB_MM_RDM_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_RDM_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_AF_LW_HAT_004": [
+      "QE_MU_CSLI_03"
+    ],
+    "IT_JB_MM_SAM_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_SAM_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_AF_AW_ACCE": [
+      "QE_MU_OCHU_04",
+      "QE_MU_EV_SCR_03"
+    ],
+    "IT_AF_AW_ARMOR": [
+      "QE_MU_EV_FF1_EX",
+      "QE_MU_CSLI_03",
+      "QE_MU_IGNT_03",
+      "QE_MU_EV_SCR_03",
+      "QE_MU_ART_CRF_04"
+    ],
+    "IT_AF_AW_AXE": [
+      "QE_MU_EV_01_EX1",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_ART_CRF_06"
+    ],
+    "IT_AF_AW_SSWORD": [
+      "QE_MU_EV_03_EX",
+      "QE_MU_EV_SCR_04"
+    ],
+    "IT_AF_AW_FIST": [
+      "QE_MU_EV_SCR_02",
+      "QE_MU_EV_ET_EX2"
+    ],
+    "IT_AF_AW_LSWORD": [
+      "QE_MU_EV_01_EX2",
+      "QE_MU_EV_SCR_01"
+    ],
+    "IT_AF_AW_GUN": [
+      "QE_MU_EV_SCR_02",
+      "QE_MU_EV_02_EX1"
+    ],
+    "IT_AF_AW_JSWORD": [
+      "QE_MU_EV_04_EX1",
+      "QE_MU_EV_SCR_04"
+    ],
+    "IT_AF_AW_KUNAI": [
+      "QE_MU_EV_SCR_03"
+    ],
+    "IT_AF_AW_SPEAR": [
+      "QE_MU_EV_SCR_02",
+      "QE_MU_EV_ET_EX1",
+      "QE_MU_EV_TH_EX2"
+    ],
+    "IT_AF_AW_STAFF": [
+      "QE_MU_EV_04_EX2",
+      "QE_MU_EV_SCR_04",
+      "QE_MU_EV_TH_EX1"
+    ],
+    "IT_AF_AW_SWORD": [
+      "QE_MU_FFT_EX_01",
+      "QE_MU_EV_SCR_01",
+      "QE_MU_ART_CRF_05"
+    ],
+    "IT_AF_LW_SWO_003": [
+      "QE_MU_ART_CRF_05"
+    ],
+    "IT_AF_LW_CLT_004": [
+      "QE_MU_ART_CRF_04"
+    ],
+    "IT_JB_MM_SWN_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_SWN_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_AF_MAT_HEART_01": [
+      "QE_MU_FFT_EX_01"
+    ],
+    "IT_JB_SPEAR_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_SPEAR_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_MGK_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_MGK_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_JB_STAFF_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_MM_MST_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_MST_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_STAFF_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_SWORD_04": [
+      "QE_MU_AW_H09_3",
+      "QE_MU_AW_H09_2",
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_SWORD_05": [
+      "QE_MU_AW_H13_3",
+      "QE_MU_AW_H13_2",
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_THI_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_THI_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_JB_MM_TIM_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_TIM_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_AF_MAT_SAP_03": [
+      "QE_MU_EV_01_EX1",
+      "QE_MU_EV_01_EX2",
+      "QE_MU_EV_04_EX1",
+      "QE_MU_ART_CRF_06"
+    ],
+    "IT_AF_MAT_LIQUID_03": [
+      "QE_MU_EV_04_EX2",
+      "QE_MU_CSLI_03",
+      "QE_MU_EV_ET_EX1",
+      "QE_MU_EV_TH_EX1",
+      "QE_MU_EV_TH_EX2",
+      "QE_MU_ART_CRF_04"
+    ],
+    "IT_JB_MM_VIK_5": [
+      "QE_MU_AW_H13_3"
+    ],
+    "IT_JB_MM_VIK_4": [
+      "QE_MU_AW_H09_3"
+    ],
+    "IT_AF_MAT_LESS_01": [
+      "QE_MU_EV_01_EX2",
+      "QE_MU_EV_03_EX",
+      "QE_MU_EV_04_EX1",
+      "QE_MU_EV_04_EX2",
+      "QE_MU_OCHU_04",
+      "QE_MU_CSLI_03",
+      "QE_MU_IGNT_03",
+      "QE_MU_EV_ET_EX1",
+      "QE_MU_EV_ET_EX2",
+      "QE_MU_EV_02_EX1",
+      "QE_MU_EV_TH_EX1",
+      "QE_MU_ART_CRF_04",
+      "QE_MU_ART_CRF_05"
+    ],
+    "IT_JB_MM_WAR_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_WAR_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_EM_WATER_2": [
+      "QE_MU_AW_WTR_03"
+    ],
+    "IT_JB_EM_WATER_1": [
+      "QE_MU_AW_WTR_01"
+    ],
+    "IT_JB_EM_WATER_3": [
+      "QE_MU_AW_WTR_03"
+    ],
+    "IT_JB_EM_WATER_5": [
+      "QE_MU_AW_WTR_05"
+    ],
+    "IT_JB_EM_WATER_4": [
+      "QE_MU_AW_WTR_05"
+    ],
+    "IT_UN_AW_WATER_R2": [
+      "QE_MU_AW_WTR_01"
+    ],
+    "IT_UN_AW_WATER_R3": [
+      "QE_MU_AW_WTR_03"
+    ],
+    "IT_UN_AW_WATER_R4": [
+      "QE_MU_AW_WTR_03"
+    ],
+    "IT_UN_AW_WATER_R5": [
+      "QE_MU_AW_WTR_05"
+    ],
+    "IT_UN_AW_WATER_R6": [
+      "QE_MU_AW_WTR_05"
+    ],
+    "IT_SB_AW_WATER": [
+      "QE_MU_SM_WTR_01"
+    ],
+    "IT_JB_MM_WHM_5": [
+      "QE_MU_AW_H13_1"
+    ],
+    "IT_JB_MM_WHM_4": [
+      "QE_MU_AW_H09_1"
+    ],
+    "IT_JB_EM_WIND_2": [
+      "QE_MU_AW_WIND_03"
+    ],
+    "IT_JB_EM_WIND_1": [
+      "QE_MU_AW_WIND_01"
+    ],
+    "IT_JB_EM_WIND_3": [
+      "QE_MU_AW_WIND_03"
+    ],
+    "IT_JB_EM_WIND_5": [
+      "QE_MU_AW_WIND_05"
+    ],
+    "IT_JB_EM_WIND_4": [
+      "QE_MU_AW_WIND_05"
+    ],
+    "IT_UN_AW_WIND_R2": [
+      "QE_MU_AW_WIND_01"
+    ],
+    "IT_UN_AW_WIND_R3": [
+      "QE_MU_AW_WIND_03"
+    ],
+    "IT_UN_AW_WIND_R4": [
+      "QE_MU_AW_WIND_03"
+    ],
+    "IT_UN_AW_WIND_R5": [
+      "QE_MU_AW_WIND_05"
+    ],
+    "IT_UN_AW_WIND_R6": [
+      "QE_MU_AW_WIND_05"
+    ],
+    "IT_SB_AW_WIND": [
+      "QE_MU_SM_WIND_01"
+    ],
+    "IT_JB_MM_LW_GLMS_5": [
+      "QE_MU_AW_H13_2"
+    ],
+    "IT_JB_MM_LW_GLMS_4": [
+      "QE_MU_AW_H09_2"
+    ],
+    "IT_AF_MAT_WOLF": [
+      "QE_MU_EV_ET_EX1"
+    ],
+    "IT_AF_MAT_ZUUU": [
+      "QE_MU_EV_03_EX",
+      "QE_MU_OCHU_04",
+      "QE_MU_EV_TH_EX2"
+    ]
   }
 }

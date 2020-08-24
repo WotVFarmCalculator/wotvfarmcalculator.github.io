@@ -72,23 +72,22 @@
     <main role="main" class="main container">
       <div class="jumbotron">
         <h2>Latest:</h2>
+        <h3>August 24th:</h3>
+        <ul>
+          <li>
+            You can now include multiplayer host reward items!
+            <ul>
+              <li>To enable it, Click "Show Quest Filtering Options" and then click "Show matching host reward items"</li>
+            </ul>
+          </li>
+        </ul>
         <h3>August 18th (for Aug 19th game update):</h3>
         <ul>
           <li>Raviesse and Oldoa character and shard quests added</li>
           <li>Oldoa Limited Hard Quest added</li>
           <li>High Difficulty and Brutal Difficulty Ochu Challenge quests added</li>
-          <li>Known Issues: Multiplayer Host reward drop tables exist but don't currently appear in the tool</li>
-        </ul>
-        <h3>August 12th:</h3>
-        <ul>
-          <li>New High Difficulty Training Chambers added</li>
-          <li>
-            New Chapter 8 Story Quests added
-            <ul>
-              <li>
-                Note: This is the first time Black Spiritsand, Velvety Fluid, Blissful Heart, and Unidentifiable Sap has been available from story quests
-              </li>
-            </ul>
+          <li>Known Issues:
+            <strike>Multiplayer Host reward drop tables exist but don't currently appear in the tool</strike> *Fixed!
           </li>
         </ul>
         <p>
@@ -261,12 +260,17 @@
 
           <div class="card">
             <div class="card-header">
-              Steal Table Options:
+              Extra Drop Table Options:
             </div>
-            <div class="card-body quest-steal-checkboxes">
+            <div class="card-body quest-extra-checkboxes">
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="questStealShow" name="questStealShow" value="show">
-                <label class="form-check-label" for="questStealShow">Include quests with stealable matching items</label>
+                <label class="form-check-label" for="questStealShow">Show matching stealable items</label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="questHostShow" name="questHostShow" value="show">
+                <label class="form-check-label" for="questHostShow">Show matching host reward items</label>
               </div>
             </div>
           </div>
@@ -318,14 +322,18 @@
       <div class="alert alert-info mt-4" role="alert">
         {{filteredTypes}}
         {{#if filteredRequired}}
-          <br>
-          {{filteredRequired}}
+        <br>
+        {{filteredRequired}}
         {{/if}}
         <br>
         {{dateTypesShow}} {{dateTypesHide}}
         {{#if filteredSteal}}
         <br>
         {{filteredSteal}}
+        {{/if}}
+        {{#if filteredHost}}
+        <br>
+        {{filteredHost}}
         {{/if}}
         <br>
         Results are sorted by number of matched materials{{sorted}}
@@ -380,6 +388,12 @@
       <div class="material-icon material-icon-steal" title="Stolen Item">
         <img src="img/UI/CMN_CURSOR.PNG" alt="Stolen Item">
         STEAL
+      </div>
+    </template>
+
+    <template class="template template-material-host-layer">
+      <div class="material-icon material-icon-host" title="Multiplayer Host Reward">
+        <img src="img/UI/CMN_ICON_BONUS_HOST.PNG" alt="Multiplayer Host Reward">
       </div>
     </template>
 
@@ -443,6 +457,9 @@
                   {{#if isSteal}}
                   <span class="quest-substat quest-substat-steal">STEAL:</span>
                   {{/if}}
+                  {{#if isHost}}
+                  <span class="quest-substat quest-substat-host">HOST:</span>
+                  {{/if}}
                   {{#each enemies}}
                   <span class="quest-substat">
                     <img class="enemy-element" src="{{elementImage}}" alt="{{element}}" title="{{element}}">
@@ -456,6 +473,8 @@
               <div class="col">
                 {{#if isSteal}}
                 <h6>Chance to steal:</h6>
+                {{else if isHost}}
+                <h6>Chance to obtain as multiplayer host reward:</h6>
                 {{else}}
                 <h6>Chance per enemy killed/chest opened:</h6>
                 {{/if}}
