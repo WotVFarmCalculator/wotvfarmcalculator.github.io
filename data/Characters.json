@@ -159,6 +159,14 @@
       "White Mage"
     ]
   },
+  "Ildyra": {
+    "element": "Water",
+    "jobs": [
+      "Arithmetician",
+      "Spellblade",
+      "Black Mage"
+    ]
+  },
   "Khury Wezette": {
     "element": "Ice",
     "jobs": [
