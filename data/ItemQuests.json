@@ -12808,7 +12808,8 @@
   "host": {
     "IT_AF_MAT_ARMN": [
       "QE_MU_IGNT_03",
-      "QE_MU_ART_CRF_05"
+      "QE_MU_ART_CRF_05",
+      "QE_MU_ART_CRF_08"
     ],
     "IT_AF_FF1_ARM_002": [
       "QE_MU_EV_FF1_EX"
@@ -12845,7 +12846,8 @@
       "QE_MU_EV_03_EX",
       "QE_MU_OCHU_04",
       "QE_MU_IGNT_03",
-      "QE_MU_ART_CRF_05"
+      "QE_MU_ART_CRF_05",
+      "QE_MU_ART_CRF_08"
     ],
     "IT_AF_MAT_BOMB": [
       "QE_MU_FFT_EX_02",
@@ -12878,6 +12880,9 @@
     ],
     "IT_AF_MAT_SAP_01": [
       "QE_MU_FFT_EX_01"
+    ],
+    "IT_AF_LW_SWO_006": [
+      "QE_MU_ART_CRF_08"
     ],
     "IT_JB_SSWORD_04": [
       "QE_MU_AW_H09_3",
@@ -13213,6 +13218,9 @@
     "IT_UN_AW_THUNDER_R6": [
       "QE_MU_AW_THUN_05"
     ],
+    "IT_AF_MAT_THUNDER_01": [
+      "QE_MU_ART_CRF_08"
+    ],
     "IT_SB_AW_THUNDER": [
       "QE_MU_SM_THUN_01"
     ],
@@ -13265,7 +13273,8 @@
     "IT_AF_MAT_OGRE": [
       "QE_MU_EV_01_EX2",
       "QE_MU_CSLI_03",
-      "QE_MU_EV_02_EX1"
+      "QE_MU_EV_02_EX1",
+      "QE_MU_ART_CRF_07"
     ],
     "IT_AF_LW_KAT_003": [
       "QE_MU_EV_04_EX1"
@@ -13275,6 +13284,9 @@
     ],
     "IT_JB_MM_PLD_4": [
       "QE_MU_AW_H09_3"
+    ],
+    "IT_AF_LW_MAC_003": [
+      "QE_MU_ART_CRF_07"
     ],
     "IT_AF_LW_ROD_005": [
       "QE_MU_EV_04_EX2",
@@ -13366,7 +13378,8 @@
       "QE_MU_EV_SCR_04"
     ],
     "IT_AF_AW_MACE": [
-      "QE_MU_EV_SCR_05"
+      "QE_MU_EV_SCR_05",
+      "QE_MU_ART_CRF_07"
     ],
     "IT_AF_AW_KUNAI": [
       "QE_MU_EV_SCR_03"
@@ -13384,7 +13397,8 @@
     "IT_AF_AW_SWORD": [
       "QE_MU_FFT_EX_01",
       "QE_MU_EV_SCR_01",
-      "QE_MU_ART_CRF_05"
+      "QE_MU_ART_CRF_05",
+      "QE_MU_ART_CRF_08"
     ],
     "IT_AF_LW_SWO_003": [
       "QE_MU_ART_CRF_05"
@@ -13463,7 +13477,8 @@
       "QE_MU_EV_01_EX1",
       "QE_MU_EV_01_EX2",
       "QE_MU_EV_04_EX1",
-      "QE_MU_ART_CRF_06"
+      "QE_MU_ART_CRF_06",
+      "QE_MU_ART_CRF_07"
     ],
     "IT_AF_MAT_LIQUID_03": [
       "QE_MU_EV_04_EX2",
@@ -13492,7 +13507,8 @@
       "QE_MU_EV_02_EX1",
       "QE_MU_EV_TH_EX1",
       "QE_MU_ART_CRF_04",
-      "QE_MU_ART_CRF_05"
+      "QE_MU_ART_CRF_05",
+      "QE_MU_ART_CRF_07"
     ],
     "IT_JB_MM_WAR_5": [
       "QE_MU_AW_H13_1"
