@@ -471,6 +471,14 @@
       "Ranger"
     ]
   },
+  "Sterne (Knight of Ruin)": {
+    "element": "Dark",
+    "jobs": [
+      "Knight of Ruin",
+      "Samurai",
+      "Assassin"
+    ]
+  },
   "Sterne Leonis": {
     "element": "Dark",
     "jobs": [
