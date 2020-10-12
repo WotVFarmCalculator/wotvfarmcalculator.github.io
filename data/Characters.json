@@ -151,6 +151,14 @@
       "Soldier"
     ]
   },
+  "Glaciela Wezette": {
+    "element": "Water",
+    "jobs": [
+      "Valkyrie",
+      "Monk",
+      "Ninja"
+    ]
+  },
   "Helena Leonis": {
     "element": "Wind",
     "jobs": [
@@ -191,6 +199,14 @@
       "Time Mage"
     ]
   },
+  "Lasswell": {
+    "element": "Ice",
+    "jobs": [
+      "Knight of Grandshelt",
+      "Samurai",
+      "Dragoon"
+    ]
+  },
   "Learte": {
     "element": "Lightning",
     "jobs": [
@@ -213,6 +229,14 @@
       "Spellblade",
       "Knight",
       "White Mage"
+    ]
+  },
+  "Loreila": {
+    "element": "Wind",
+    "jobs": [
+      "Ranger",
+      "Viking",
+      "Knight"
     ]
   },
   "Lorenzo": {

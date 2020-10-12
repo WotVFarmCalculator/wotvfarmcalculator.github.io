@@ -2021,12 +2021,32 @@
       "value": "Accursed Armor"
     },
     {
+      "key": "AF_ARM_LW_GRSR_1",
+      "value": "White Wolf's Armor"
+    },
+    {
+      "key": "AF_BOW_LW_RRIR_1",
+      "value": "Assassin's Bow of Unfeeling"
+    },
+    {
+      "key": "AF_CLT_LW_LSWL_1",
+      "value": "Lasswell's Clothes"
+    },
+    {
+      "key": "AF_SPE_LW_GRSR_2",
+      "value": "For Glaciela"
+    },
+    {
       "key": "AF_BSW_LW_STRN_01_2",
       "value": "Sterne (Knight of Ruin) Specific Weapon"
     },
     {
       "key": "AF_MAC_LW_IRDL_2",
       "value": "For Ildyra"
+    },
+    {
+      "key": "AF_KAT_LW_LSWL_2",
+      "value": "For Lasswell"
     },
     {
       "key": "AF_SWO_LW_MONT_2",
