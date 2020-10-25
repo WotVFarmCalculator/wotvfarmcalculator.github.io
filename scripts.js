@@ -163,7 +163,7 @@ function rebuildMaterialsDom() {
     if (materialsList.includes(requiredMaterial)) {
       var $requiredMaterial = $('.material-item-input[data-material=' + requiredMaterial + '] .required-material');
       if ($requiredMaterial.length > 0) {
-        $requiredMaterial.attr('src', 'img/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
+        $requiredMaterial.attr('src', 'images/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
         $requiredMaterial.parent().addClass('input-group-text-required');
       }
     }
@@ -249,7 +249,7 @@ function addRecipeMaterials(recipe) {
 }
 
 /**
- * Gets the material's img element or a text label if no image available.
+ * Gets the material's images element or a text label if no image available.
  *
  * @param material
  * @param includeText
@@ -668,7 +668,7 @@ function calculate() {
         var elementImage = "ELEMENT/ELEMENT_ICON_NONE.PNG";
         var element = "Element: None";
         if (enemyData.elem) {
-          elementImage = "img/ELEMENT/ELEMENT_ICON_" + enemyData.elem.toUpperCase() + ".PNG";
+          elementImage = "images/ELEMENT/ELEMENT_ICON_" + enemyData.elem.toUpperCase() + ".PNG";
           element = "Element: " + enemyData.elem;
         }
         questRowExpandedVM.enemies.push({
@@ -1009,22 +1009,22 @@ function initUI() {
   // Toggle showing drop tables.
   $body.on('click', '.accordion-toggle-quest-name', function () {
     var questIName = $(this).data('quest');
-    if ($(this).attr('src') === 'img/UI/CMN_BTN_ACORDION_OFF.PNG') {
-      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_ON.PNG');
+    if ($(this).attr('src') === 'images/UI/CMN_BTN_ACORDION_OFF.PNG') {
+      $(this).attr('src', 'images/UI/CMN_BTN_ACORDION_ON.PNG');
       $('.quest-row-expanded-' + questIName).show();
     } else {
-      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_OFF.PNG');
+      $(this).attr('src', 'images/UI/CMN_BTN_ACORDION_OFF.PNG');
       $('.quest-row-expanded-' + questIName).hide();
     }
   });
 
   // Toggle showing individual drop table.
   $body.on('click', '.accordion-toggle-drop-table', function () {
-    if ($(this).attr('src') === 'img/UI/CMN_BTN_ACORDION_OFF.PNG') {
-      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_ON.PNG');
+    if ($(this).attr('src') === 'images/UI/CMN_BTN_ACORDION_OFF.PNG') {
+      $(this).attr('src', 'images/UI/CMN_BTN_ACORDION_ON.PNG');
       $(this).parent().siblings('.drop-table-data').show();
     } else {
-      $(this).attr('src', 'img/UI/CMN_BTN_ACORDION_OFF.PNG');
+      $(this).attr('src', 'images/UI/CMN_BTN_ACORDION_OFF.PNG');
       $(this).parent().siblings('.drop-table-data').hide();
     }
   });
@@ -1083,15 +1083,15 @@ function initUI() {
     e.preventDefault();
 
     var $this = $(this);
-    var alreadyEnabled = ($this.attr('src') === 'img/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
+    var alreadyEnabled = ($this.attr('src') === 'images/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
     var $requiredMaterials = $('.required-material');
-    $requiredMaterials.attr('src', 'img/UI/SUMMONQUEST_ICON_RARELITY_OFF.PNG');
+    $requiredMaterials.attr('src', 'images/UI/SUMMONQUEST_ICON_RARELITY_OFF.PNG');
     $requiredMaterials.parent().removeClass('input-group-text-required');
     requiredMaterial = null;
 
     if (!alreadyEnabled) {
       requiredMaterial = $this.parents('.material-item-input').data('material');
-      $this.attr('src', 'img/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
+      $this.attr('src', 'images/UI/SUMMONQUEST_ICON_RARELITY_ON.PNG');
       $this.parent().addClass('input-group-text-required');
     }
 
