@@ -288,6 +288,7 @@
   "IT_EC_EV04_1": "IT_EC_EV04_1.PNG",
   "IT_EC_EV05_1": "IT_EC_EV05_1.PNG",
   "IT_EC_FF14_1": "IT_EC_FF14_1.PNG",
+  "IT_EC_FF14_1_R": "IT_EC_FF14_1_R.PNG",
   "IT_EC_FF1_1": "IT_EC_FF1_1.PNG",
   "IT_EC_FFT_3": "IT_EC_FFT_3.PNG",
   "IT_JB_AXE_01": "IT_JB_AXE_01.PNG",
@@ -836,6 +837,26 @@
   "IT_JB_MM_MGK_5": [
     "ITEMICON_JOB_05.PNG",
     "JOB/MGK_ITEM.PNG"
+  ],
+  "IT_JB_MM_MKN": [
+    "ITEMICON_JOB_01.PNG",
+    "JOB/MKN_ITEM.PNG"
+  ],
+  "IT_JB_MM_MKN_2": [
+    "ITEMICON_JOB_02.PNG",
+    "JOB/MKN_ITEM.PNG"
+  ],
+  "IT_JB_MM_MKN_3": [
+    "ITEMICON_JOB_03.PNG",
+    "JOB/MKN_ITEM.PNG"
+  ],
+  "IT_JB_MM_MKN_4": [
+    "ITEMICON_JOB_04.PNG",
+    "JOB/MKN_ITEM.PNG"
+  ],
+  "IT_JB_MM_MKN_5": [
+    "ITEMICON_JOB_05.PNG",
+    "JOB/MKN_ITEM.PNG"
   ],
   "IT_JB_MM_MNK": [
     "ITEMICON_JOB_01.PNG",

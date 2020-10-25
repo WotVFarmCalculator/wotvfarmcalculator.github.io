@@ -202,7 +202,7 @@
   "Lasswell": {
     "element": "Ice",
     "jobs": [
-      "Knight of Grandshelt",
+      "Knight of Grandshelt (Ice)",
       "Samurai",
       "Dragoon"
     ]
@@ -229,6 +229,14 @@
       "Spellblade",
       "Knight",
       "White Mage"
+    ]
+  },
+  "Little Leela (Halloween)": {
+    "element": "Wind",
+    "jobs": [
+      "Arithmetician",
+      "White Mage",
+      "Ninja"
     ]
   },
   "Loreila": {
@@ -394,7 +402,7 @@
   "Rain": {
     "element": "Fire",
     "jobs": [
-      "Knight of Grandshelt",
+      "Knight of Grandshelt (Flame)",
       "Red Mage",
       "Knight"
     ]
@@ -405,6 +413,14 @@
       "Gunner",
       "Thief",
       "Red Mage"
+    ]
+  },
+  "Rairyuu (Halloween)": {
+    "element": "Earth",
+    "jobs": [
+      "Rune Knight",
+      "Black Mage",
+      "Paladin"
     ]
   },
   "Ramada": {
