@@ -167,6 +167,14 @@
       "White Mage"
     ]
   },
+  "Howlet": {
+    "element": "Wind",
+    "jobs": [
+      "Rune Knight",
+      "Red Mage",
+      "White Mage"
+    ]
+  },
   "Ildyra": {
     "element": "Water",
     "jobs": [
