@@ -71,6 +71,14 @@
       "Spellblade"
     ]
   },
+  "Chel": {
+    "element": "Ice",
+    "jobs": [
+      "Green Mage",
+      "Time Mage",
+      "Thief"
+    ]
+  },
   "Dario Hourne": {
     "element": "Wind",
     "jobs": [
@@ -285,6 +293,14 @@
       "Time Mage",
       "Black Mage",
       "Red Mage"
+    ]
+  },
+  "Mariale": {
+    "element": "Light",
+    "jobs": [
+      "Spellblade",
+      "Arithmetician",
+      "Thief"
     ]
   },
   "Mediena": {
@@ -509,6 +525,14 @@
       "Ninja",
       "Dragoon",
       "Samurai"
+    ]
+  },
+  "Skahal": {
+    "element": "Lightning",
+    "jobs": [
+      "Black Mage",
+      "Staff Mage",
+      "Time Mage"
     ]
   },
   "Sosha": {
