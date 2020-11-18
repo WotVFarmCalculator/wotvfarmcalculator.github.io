@@ -71,6 +71,14 @@
       "Spellblade"
     ]
   },
+  "Cecil": {
+    "element": "Light",
+    "jobs": [
+      "Lunar Paladin",
+      "Soldier",
+      "Monk"
+    ]
+  },
   "Chel": {
     "element": "Ice",
     "jobs": [
