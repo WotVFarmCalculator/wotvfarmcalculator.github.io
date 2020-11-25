@@ -199,6 +199,14 @@
       "Black Mage"
     ]
   },
+  "Kain": {
+    "element": "Dark",
+    "jobs": [
+      "Dragoon of Baron",
+      "Viking",
+      "Paladin"
+    ]
+  },
   "Khury Wezette": {
     "element": "Ice",
     "jobs": [
@@ -485,6 +493,14 @@
       "Samurai",
       "Lancer",
       "Soldier"
+    ]
+  },
+  "Rosa": {
+    "element": "Ice",
+    "jobs": [
+      "White Mage of Baron",
+      "White Mage",
+      "Black Mage"
     ]
   },
   "Salire": {
