@@ -295,6 +295,14 @@
       "Monk"
     ]
   },
+  "Machérie (Winter)": {
+    "element": "Fire",
+    "jobs": [
+      "Dragoon",
+      "Viking",
+      "Ranger"
+    ]
+  },
   "Machérie Hourne": {
     "element": "Light",
     "jobs": [
@@ -469,6 +477,14 @@
       "Lancer",
       "Spellblade",
       "Thief"
+    ]
+  },
+  "Ramada (Winter)": {
+    "element": "Water",
+    "jobs": [
+      "Soldier",
+      "Ninja",
+      "Monk"
     ]
   },
   "Ramza": {

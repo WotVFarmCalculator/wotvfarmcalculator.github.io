@@ -410,6 +410,14 @@
   "IT_JB_MM_ALL_3": "IT_JB_MM_ALL_3.PNG",
   "IT_JB_MM_ALL_4": "IT_JB_MM_ALL_4.PNG",
   "IT_JB_MM_ALL_5": "IT_JB_MM_ALL_5.PNG",
+  "IT_JB_MM_ARC_4": [
+    "ITEMICON_JOB_04.PNG",
+    "JOB/ARC_ITEM.PNG"
+  ],
+  "IT_JB_MM_ARC_5": [
+    "ITEMICON_JOB_05.PNG",
+    "JOB/ARC_ITEM.PNG"
+  ],
   "IT_JB_MM_ASS": [
     "ITEMICON_JOB_01.PNG",
     "JOB/ASS_ITEM.PNG"
@@ -917,6 +925,14 @@
   "IT_JB_MM_MKN_5": [
     "ITEMICON_JOB_05.PNG",
     "JOB/MKN_ITEM.PNG"
+  ],
+  "IT_JB_MM_MMC_4": [
+    "ITEMICON_JOB_04.PNG",
+    "JOB/MMC_ITEM.PNG"
+  ],
+  "IT_JB_MM_MMC_5": [
+    "ITEMICON_JOB_05.PNG",
+    "JOB/MMC_ITEM.PNG"
   ],
   "IT_JB_MM_MNK": [
     "ITEMICON_JOB_01.PNG",
