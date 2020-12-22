@@ -111,6 +111,14 @@
       "Gunner"
     ]
   },
+  "Duane": {
+    "element": "Dark",
+    "jobs": [
+      "Dark Knight of Remorse",
+      "Viking",
+      "Dragoon"
+    ]
+  },
   "Engelbert": {
     "element": "Light",
     "jobs": [
@@ -295,6 +303,14 @@
       "Monk"
     ]
   },
+  "Luartha": {
+    "element": "Fire",
+    "jobs": [
+      "Dual Gunner",
+      "Gunner",
+      "Soldier"
+    ]
+  },
   "Machérie (Winter)": {
     "element": "Fire",
     "jobs": [
@@ -405,6 +421,14 @@
       "Paladin",
       "White Mage",
       "Dragoon"
+    ]
+  },
+  "Niv'Lu": {
+    "element": "Lightning",
+    "jobs": [
+      "Sniper",
+      "Gunner",
+      "Time Mage"
     ]
   },
   "Oelde Leonis": {
@@ -613,6 +637,14 @@
       "Knight",
       "Viking",
       "Lancer"
+    ]
+  },
+  "Tyytas": {
+    "element": "Dark",
+    "jobs": [
+      "Paladin",
+      "Red Mage",
+      "Viking"
     ]
   },
   "Vadim": {
