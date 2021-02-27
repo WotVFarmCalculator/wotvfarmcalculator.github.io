@@ -95,6 +95,14 @@
       "Thief"
     ]
   },
+  "Creysse": {
+    "element": "Water",
+    "jobs": [
+      "Gunner",
+      "Viking",
+      "Sniper"
+    ]
+  },
   "Dario Hourne": {
     "element": "Wind",
     "jobs": [
@@ -133,6 +141,14 @@
       "Time Mage",
       "Rune Knight",
       "White Mage"
+    ]
+  },
+  "Elsirelle": {
+    "element": "Light",
+    "jobs": [
+      "Nightblade",
+      "Spellblade",
+      "Dual Gunner"
     ]
   },
   "Engelbert": {
@@ -181,6 +197,14 @@
       "Fell Knight",
       "Warrior",
       "Monk"
+    ]
+  },
+  "Garvall": {
+    "element": "Dark",
+    "jobs": [
+      "Energist",
+      "Kotodama Wielder",
+      "Red Mage"
     ]
   },
   "Gilgamesh": {
