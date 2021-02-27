@@ -57,6 +57,10 @@
       "value": "Apprentice's Gunblade"
     },
     {
+      "key": "AF_LW_GLO_INIT",
+      "value": "Apprentice's Gloves"
+    },
+    {
       "key": "AF_LW_SWO_000",
       "value": "Broadsword"
     },
@@ -497,6 +501,30 @@
       "value": "Cat Claws +5"
     },
     {
+      "key": "AF_LW_FIS_004",
+      "value": "Kaiser Knuckles"
+    },
+    {
+      "key": "AF_LW_FIS_004_1",
+      "value": "Kaiser Knuckles +1"
+    },
+    {
+      "key": "AF_LW_FIS_004_2",
+      "value": "Kaiser Knuckles +2"
+    },
+    {
+      "key": "AF_LW_FIS_004_3",
+      "value": "Kaiser Knuckles +3"
+    },
+    {
+      "key": "AF_LW_FIS_004_4",
+      "value": "Kaiser Knuckles +4"
+    },
+    {
+      "key": "AF_LW_FIS_004_5",
+      "value": "Kaiser Knuckles +5"
+    },
+    {
       "key": "AF_LW_SPE_000",
       "value": "Javelin"
     },
@@ -871,6 +899,30 @@
     {
       "key": "AF_LW_BOW_003_5",
       "value": "Rune Bow +5"
+    },
+    {
+      "key": "AF_LW_BOW_012",
+      "value": "Platinum Bow"
+    },
+    {
+      "key": "AF_LW_BOW_012_1",
+      "value": "Platinum Bow +1"
+    },
+    {
+      "key": "AF_LW_BOW_012_2",
+      "value": "Platinum Bow +2"
+    },
+    {
+      "key": "AF_LW_BOW_012_3",
+      "value": "Platinum Bow +3"
+    },
+    {
+      "key": "AF_LW_BOW_012_4",
+      "value": "Platinum Bow +4"
+    },
+    {
+      "key": "AF_LW_BOW_012_5",
+      "value": "Platinum Bow +5"
     },
     {
       "key": "AF_LW_GUN_000",
@@ -1689,10 +1741,6 @@
       "value": "Three Stars"
     },
     {
-      "key": "AF_LW_ARW_001",
-      "value": "Defense Bracer"
-    },
-    {
       "key": "AF_LW_ARW_003",
       "value": "Thief Bracer"
     },
@@ -2085,6 +2133,34 @@
       "value": "V Clan Mask"
     },
     {
+      "key": "AF_ROD_LW_RVAL_1",
+      "value": "Staff of Saiga"
+    },
+    {
+      "key": "AF_CLT_LW_SAKR_1",
+      "value": "Sakura's Clothes"
+    },
+    {
+      "key": "AF_SPE_LW_ALIM_1",
+      "value": "Antique Naginata"
+    },
+    {
+      "key": "AF_ACC_LW_RARD_1",
+      "value": "Adamantine Ornament"
+    },
+    {
+      "key": "AF_ROD_LW_ELSI_1",
+      "value": "Timespire"
+    },
+    {
+      "key": "AF_HAT_LW_VNLA_01_1",
+      "value": "Kitty Hood"
+    },
+    {
+      "key": "AF_ACC_LW_VKTR_01_1",
+      "value": "Bell-Adorned Ribbon"
+    },
+    {
       "key": "AF_SWO_LW_MONT_2",
       "value": "Lion Sword"
     },
@@ -2265,6 +2341,14 @@
       "value": "V Clan Compound Bow"
     },
     {
+      "key": "AF_ROD_LW_SAKR_2",
+      "value": "Sakura's Staff"
+    },
+    {
+      "key": "AF_FIS_LW_RARD_2",
+      "value": "Caestus"
+    },
+    {
       "key": "AF_LW_RNG_005",
       "value": "Alexandrite Ring"
     },
@@ -2291,6 +2375,10 @@
     {
       "key": "AF_LW_RNG_007",
       "value": "Tide Ring"
+    },
+    {
+      "key": "AF_LW_ARW_005",
+      "value": "Luminous Armlet"
     },
     {
       "key": "AF_LW_BSW_011",
@@ -2559,6 +2647,134 @@
     {
       "key": "AF_LW_MAC_009_5",
       "value": "Healing Mace +5"
+    },
+    {
+      "key": "AF_LW_BOW_004",
+      "value": "Killer Bow"
+    },
+    {
+      "key": "AF_LW_BOW_004_1",
+      "value": "Killer Bow +1"
+    },
+    {
+      "key": "AF_LW_BOW_004_2",
+      "value": "Killer Bow +2"
+    },
+    {
+      "key": "AF_LW_BOW_004_3",
+      "value": "Killer Bow +3"
+    },
+    {
+      "key": "AF_LW_BOW_004_4",
+      "value": "Killer Bow +4"
+    },
+    {
+      "key": "AF_LW_BOW_004_5",
+      "value": "Killer Bow +5"
+    },
+    {
+      "key": "AF_FF14_ARW_001",
+      "value": "Bale Gauntlet"
+    },
+    {
+      "key": "AF_FF14_ARW_001_1",
+      "value": "Bale Gauntlet +1"
+    },
+    {
+      "key": "AF_FF14_ARW_001_2",
+      "value": "Bale Gauntlet +2"
+    },
+    {
+      "key": "AF_FF14_ARW_001_3",
+      "value": "Bale Gauntlet +3"
+    },
+    {
+      "key": "AF_FF14_ARW_001_4",
+      "value": "Bale Gauntlet +4"
+    },
+    {
+      "key": "AF_FF14_ARW_001_5",
+      "value": "Bale Gauntlet +5"
+    },
+    {
+      "key": "AF_FF14_HLM_001",
+      "value": "Bale Burgeonet"
+    },
+    {
+      "key": "AF_FF14_HLM_001_1",
+      "value": "Bale Burgeonet +1"
+    },
+    {
+      "key": "AF_FF14_HLM_001_2",
+      "value": "Bale Burgeonet +2"
+    },
+    {
+      "key": "AF_FF14_HLM_001_3",
+      "value": "Bale Burgeonet +3"
+    },
+    {
+      "key": "AF_FF14_HLM_001_4",
+      "value": "Bale Burgeonet +4"
+    },
+    {
+      "key": "AF_FF14_HLM_001_5",
+      "value": "Bale Burgeonet +5"
+    },
+    {
+      "key": "AF_LW_ROD_019",
+      "value": "Prunus Lamina"
+    },
+    {
+      "key": "AF_LW_ROD_019_1",
+      "value": "Prunus Lamina +1"
+    },
+    {
+      "key": "AF_LW_ROD_019_2",
+      "value": "Prunus Lamina +2"
+    },
+    {
+      "key": "AF_LW_ROD_019_3",
+      "value": "Prunus Lamina +3"
+    },
+    {
+      "key": "AF_LW_ROD_019_4",
+      "value": "Prunus Lamina +4"
+    },
+    {
+      "key": "AF_LW_ROD_019_5",
+      "value": "Prunus Lamina +5"
+    },
+    {
+      "key": "AF_LW_CLK_001",
+      "value": "Elf's Cloak"
+    },
+    {
+      "key": "AF_LW_CLK_001_1",
+      "value": "Elf's Cloak +1"
+    },
+    {
+      "key": "AF_LW_CLK_001_2",
+      "value": "Elf's Cloak +2"
+    },
+    {
+      "key": "AF_LW_CLK_001_3",
+      "value": "Elf's Cloak +3"
+    },
+    {
+      "key": "AF_LW_CLK_001_4",
+      "value": "Elf's Cloak +4"
+    },
+    {
+      "key": "AF_LW_CLK_001_5",
+      "value": "Elf's Cloak +5"
+    },
+    {
+      "key": "AF_FIS_LW_VNLA_01_2",
+      "value": "Kitty Claws"
+    },
+    {
+      "key": "AF_BOW_LW_VKTR_01_2",
+      "value": "Bedeviled Bow"
     }
   ]
 }

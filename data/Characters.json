@@ -39,6 +39,14 @@
       "Cleric"
     ]
   },
+  "Ahlim": {
+    "element": "Lightning",
+    "jobs": [
+      "Dragoon",
+      "Assassin",
+      "Dual Gunner"
+    ]
+  },
   "Aileen": {
     "element": "Earth",
     "jobs": [
@@ -117,6 +125,14 @@
       "Dark Knight of Remorse",
       "Viking",
       "Dragoon"
+    ]
+  },
+  "Ellshra": {
+    "element": "Light",
+    "jobs": [
+      "Time Mage",
+      "Rune Knight",
+      "White Mage"
     ]
   },
   "Engelbert": {
@@ -277,6 +293,14 @@
       "Arithmetician",
       "White Mage",
       "Ninja"
+    ]
+  },
+  "Livialle": {
+    "element": "Earth",
+    "jobs": [
+      "Black Mage",
+      "Cleric",
+      "Arithmetician"
     ]
   },
   "Loreila": {
@@ -527,6 +551,14 @@
       "Samurai"
     ]
   },
+  "Rhaldor": {
+    "element": "Fire",
+    "jobs": [
+      "Pugilist",
+      "Paladin",
+      "Thief"
+    ]
+  },
   "Robb Hourne": {
     "element": "Light",
     "jobs": [
@@ -541,6 +573,14 @@
       "White Mage of Baron",
       "White Mage",
       "Black Mage"
+    ]
+  },
+  "Sakura": {
+    "element": "Light",
+    "jobs": [
+      "Sage of Mysidia",
+      "Red Mage",
+      "Kotodama Wielder"
     ]
   },
   "Salire": {
@@ -669,6 +709,22 @@
       "Dragoon",
       "Soldier",
       "Thief"
+    ]
+  },
+  "Viktora (Winter)": {
+    "element": "Water",
+    "jobs": [
+      "Sniper",
+      "Dual Gunner",
+      "Paladin"
+    ]
+  },
+  "Vinera (Winter)": {
+    "element": "Earth",
+    "jobs": [
+      "Pugilist",
+      "Ninja",
+      "Spellblade"
     ]
   },
   "Vinera Fennes": {
